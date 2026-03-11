@@ -1,7 +1,10 @@
 # Clear Communication Protocol: 1.0
 
-**Status:** Finalized **Base Language:** UK English **Rules:** Strict, clear
-definitions
+```text
+**Status:** Finalized
+**Base Language:** UK English
+**Rules:** Strict, clear definitions
+```
 
 ______________________________________________________________________
 
