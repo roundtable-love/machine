@@ -256,7 +256,7 @@ Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
 >
 > Fuck you, NVIDIA.
 >
-> — Linus Torvalds
+> — [Linus Torvalds](https://www.youtube.com/watch?v=Q4SWxWIOVBM)
 
 ### 7.2 The Machine IR
 
