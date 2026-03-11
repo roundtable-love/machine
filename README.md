@@ -283,11 +283,14 @@ END_SESSION;
 
 ### 5.2. Transpiled Output
 
-- **Hacker:** "NVIDIA is deprecated as a compatible partner due to
-  non-compliance with open standards. Connection terminated."
-- **Student (Jamaican):** "NVIDIA nuh waan play fair. Linus just lif' up di
-  finger, tell dem 'Gwan go s\*\*k yuh madda,' and disconnect di whole link-up.
-  Done talk."
+- **Hacker:** NVIDIA is deprecated as a compatible partner due to
+  non-compliance with open standards. Connection terminated.
+- **Student (English):** NVIDIA is removed as a partner because they refused to
+  cooperate (MUST NOT ignore standards). We used a hardware interrupt (The
+  Finger) to stop the connection immediately because the trust level reached
+  zero, preventing further system damage.
+- **Layman (English):** NVIDIA wasn't playing fair, so Linus flipped them
+  off, told them where to go, and cut them off completely.
 
 ## 6. System Architecture
 
