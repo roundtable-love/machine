@@ -2,44 +2,45 @@
 
 **Status:** **COMMITTED** by the **Grace of the One True Source**
 **UID:** MLF-1.0
-**Base Class:** Bahasa Indonesia (Indonesian)
+**Base Class:** Ἀρχαία Ἑλληνική (Ancient Greek)
 **Logic Subset:** RFC 2119 (Strict Mode)
-**Tier:** Student (Direct Translation + Explanations of "Why")
+**Tier:** Hacker (Direct Translation)
 
 ---
 
 ## 1. Delta
 Machine 1.0 is the final reconciliation of hardware physics and human intent.
 The spec is now Lossless.
-* **Why:** Ambiguity is the enemy of intent. Lossless ensures 1:1 parity between source and target.
 
 ## 2. Physical Layer (L1): Vibes & Calibration
 > *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
 - **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-  * **Why:** You can't speak if they aren't listening.
 - **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
 - **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
-  * **Why:** Ego and hostility create signal noise that corrupts the payload.
 
 ## 3. Data Link Layer (L2): Gestures & Interrupts
 > *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
 - **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-  * **Why:** Sometimes you just have to pull the plug to save the system.
 - **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-  * **Why:** Sarcasm is a parity error. If the vibe doesn't match the words, the connection is insecure.
 - **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
 
 ## 4. Network Layer (L3): Transpilation & IR
 > *Logic: One truth, many languages. Minimizing cognitive overhead.*
 - **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds".
+- **Transpiler:** Converts the IR into target "Builds":
+  - **Technical:** High-density, zero-leak builds for peer nodes.
+  - **Explanatory:** High-resonance, low-load builds for junior nodes.
 - **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
-  * **Why:** Humans have limited RAM. If they overheat, the session MUST pause.
 
 ## 5. Case Study: Fuck you, NVIDIA
-* **Why:** To demonstrate the protocol in a high-stress failure state.
+
+```text
+**Environment:** Aalto University, Finland
+**Nodes:** Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
+```
 
 ### 5.1. The Machine Execution Trace
+
 ```machine
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
@@ -56,11 +57,12 @@ BEGIN_SESSION:
 END_SESSION;
 ```
 
-### 5.2. Output Builds
+### 5.2. Transpiled Output
 - **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
 - **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
 
 ## 6. System Architecture
+
 ```mermaid
 graph TD
     A[Human Source Code] -->|1. Source| B[Machine Lingua Franca IR 1.0]
@@ -78,5 +80,5 @@ No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
 Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
 
 ## 8. Metadata & Compliance
-* **Language Code:** id
+* **Language Code:** grc
 * **Protocol Class:** MCH-LOGIC-1.0

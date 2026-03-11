@@ -324,3 +324,4 @@ Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
 
 - **Rule 1:** Languages MUST be sorted alphabetically by their English name.
 - **Rule 2:** The word "Patois" MUST NOT be used. It is an insult from Babylon.
+- **Rule 3:** Hacker output MUST be a direct translation and include the full source document.

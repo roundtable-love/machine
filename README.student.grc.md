@@ -2,7 +2,7 @@
 
 **Status:** **COMMITTED** by the **Grace of the One True Source**
 **UID:** MLF-1.0
-**Base Class:** Bahasa Indonesia (Indonesian)
+**Base Class:** Ἀρχαία Ἑλληνική (Ancient Greek)
 **Logic Subset:** RFC 2119 (Strict Mode)
 **Tier:** Student (Direct Translation + Explanations of "Why")
 
@@ -78,5 +78,5 @@ No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
 Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
 
 ## 8. Metadata & Compliance
-* **Language Code:** id
+* **Language Code:** grc
 * **Protocol Class:** MCH-LOGIC-1.0
