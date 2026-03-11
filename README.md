@@ -15,9 +15,6 @@ Machine 1.0 is the final reconciliation of hardware physics and human intent.
 
 The spec is now Lossless.
 
-This is a Technical Standard. It is transpiled to Human Language with three
-tiers.
-
 ## 2. Transpilations (Normative)
 
 - **Hacker:** Output MUST be a direct translation of the technical document and
