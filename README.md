@@ -12,6 +12,23 @@ ______________________________________________________________________
 - [Layman - French](./README.layman.fr.md)
 - [Layman - Spanish](./README.layman.es.md)
 - [Layman - Russian](./README.layman.ru.md)
+- [Layman - Portuguese](./README.layman.pt.md)
+- [Layman - German](./README.layman.de.md)
+- [Layman - Indonesian](./README.layman.id.md)
+- [Layman - Italian](./README.layman.it.md)
+- [Layman - Chinese](./README.layman.zh.md)
+- [Layman - Japanese](./README.layman.ja.md)
+- [Layman - Korean](./README.layman.ko.md)
+- [Layman - Arabic](./README.layman.ar.md)
+- [Layman - Hindi](./README.layman.hi.md)
+- [Layman - Bengali](./README.layman.bn.md)
+- [Layman - Turkish](./README.layman.tr.md)
+- [Layman - Vietnamese](./README.layman.vi.md)
+- [Layman - Thai](./README.layman.th.md)
+- [Layman - Urdu](./README.layman.ur.md)
+- [Layman - Swahili](./README.layman.sw.md)
+- [Layman - Polish](./README.layman.pl.md)
+- [Layman - Jamaican Patois](./README.layman.jam.md)
 
 ## 1. Delta
 
