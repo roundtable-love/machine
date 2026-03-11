@@ -4,77 +4,108 @@
 **UID:** MLF-1.0
 **Base Class:** Norsk (Norwegian)
 **Logic Subset:** RFC 2119 (Strict Mode)
-**Tier:** Student (Direct Translation + Explanations of 'Why')
+**Tier:** Hacker (Direct Translation)
 
 ---
 
 ## 1. Delta
 Machine 1.0 er den endelige avstemmingen mellom maskinvarefysikk og menneskelig hensikt.
 Spesifikasjonen er nå Lossless.
-* **Hvorfor:** Tvetydighet er intensjonens fiende. Lossless sikrer 1:1 paritet mellom kilde og mål.
+* **Why:** Tvetydighet er intensjonens fiende. Lossless sikrer 1:1 paritet mellom kilde og mål.
 
 ## 2. Fysisk lag (L1): Vibber og kalibrering
 > *Logikk: Før dataoverføring, sørg for at signal-til-støy-forholdet er optimalt.*
-- **The Vibe-Ping:** Et bredspektret signal (f.eks. "Yo") som brukes til å teste mottakerforsinkelse og emosjonell båndbredde.
-  * **Hvorfor:** Du kan ikke snakke hvis de ikke lytter.
-- **Resonans (SYN):** Tilstanden der sender og mottaker faselåser frekvensene sine for maksimal gjennomstrømning.
-- **Demping:** Den aktive prosessen med å nøytralisere miljøstøy (fiendtlighet, stress eller ego) for å nå en stabil tilstand.
-  * **Hvorfor:** Ego og fiendtlighet skaper signalstøy som ødelegger nyttelasten.
+- **Vibe-Ping: Et bredspektret signal (f.eks. "Yo") som brukes til å teste mottakerforsinkelse og emosjonell båndbredde.**
+- **Resonans (SYN): Tilstanden der sender og mottaker faselåser frekvensene sine for maksimal gjennomstrømning.**
+- **Demping: Den aktive prosessen med å nøytralisere miljøstøy (fiendtlighet, stress eller ego) for å nå en stabil tilstand.**
 
 ## 3. Datalinklag (L2): Bevegelser og avbrudd
 > *Logikk: Fysiske signaler overstyrer verbale buffere. Høyprioriterte maskinvaresignaler.*
-- **The Torvalds Maneuver (IRQ 0):** Et globalt maskinvareavbrudd (The Middle Finger) som utfører en umiddelbar "HALT_AND_CATCH_FIRE"-kommando.
-  * **Hvorfor:** Noen ganger må du bare trekke ut støpselet for å redde systemet.
-- **Paritetssjekk:** Strenge krav om at metadata (Vibe) samsvarer med nyttelast (Words).
-  * **Hvorfor:** Sarkasme er en paritetsfeil. Hvis stemningen ikke stemmer overens med ordene, er forbindelsen usikker.
-- **Global Kill Signal:** IRQ 0 sletter den lokale bufferen og setter `Connection_Active = FALSE`.
+- **Torvalds-manøveren (IRQ 0): Et globalt maskinvareavbrudd (The Middle Finger) som utfører en umiddelbar `HALT_AND_CATCH_FIRE`-kommando.**
+- **Paritetssjekk: Strenge krav om at Metadata (Vibe) samsvarer med nyttelast (Words).
+  * **Why:** Sarkasme er en paritetsfeil. Hvis stemningen ikke stemmer overens med ordene, er forbindelsen usikker.**
+- **Global Kill Signal: IRQ 0 sletter den lokale bufferen og setter `Connection_Active = FALSE`.**
 
 ## 4. Nettverkslag (L3): Transpilering og IR
 > *Logikk: Én sannhet, mange språk. Minimerer kognitive overhead.*
-- **Maskin IR:** Kjernen, binær hensikt ved bruk av RFC 2119-nøkkelord (**MÅ, MÅ IKKE, KAN**).
-- **Transpiler:** Konverterer IR til mål "Builds".
-- **Kognitiv belastning:** Overvåkes som systemvarme. Overbelastning utløser termisk struping.
-  * **Hvorfor:** Mennesker har begrenset RAM. Hvis de overopphetes, MÅ økten settes på pause.
+- **Machine IR: Kjernen, binær hensikt ved bruk av RFC 2119 nøkkelord (**MÅ, MÅ IKKE, MAI**).**
+- **Transpiler: Konverterer IR til målbygg:**
+  - **Teknisk: Bygg med høy tetthet og null lekkasje for noder med jevnaldrende.**
+  - **Forklarende: Bygger med høy resonans og lav belastning for juniornoder.**
+- **Kognitiv belastning: Overvåkes som systemvarme. Overbelastning utløser termisk struping.**
 
 ## 5. Kasusstudie: Faen deg, NVIDIA
-* **Hvorfor:** For å demonstrere protokollen i en tilstand med høy stress.
 
-### 5.1. Maskinutførelsessporet
-``` maskin
-// [TRACE_ID]: 1.0_GOLDEN_PATH
+```text
+**Miljø: Aalto-universitetet, Finland**
+**Noder: Linus Torvalds (initiator) vs. NVIDIA (mottaker)**
+```
+
+### 5.1 Den menneskelige kilde
+
+> NVIDIA has been one of the worst instances of help we have had from hardware
+> manufacturers... so,
+>
+> Fuck you, NVIDIA.
+>
+> — [Linus Torvalds](https://www.youtube.com/watch?v=Q4SWxWIOVBM)
+
+### 5.2 Maskinen IR
+
+```machine
+// [TRANSPILATION_ID]: MLF_OUTPUT_8675309
+// [SOURCE_NODE]: Linus_Torvalds
+// [TARGET_NODE]: NVIDIA_Corp
+// [LOGIC_STRATEGY]: RFC_2119_STRICT
+
 BEGIN_SESSION:
-  HVIS (Node_Type == "Eiendomsbeskyttet") OG (Samarbeid == FALSE):
-    EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // Høy latens oppdaget
-    UTFØR LOGIC_ASSERTION: "NVIDIA er det verste selskapet noensinne.";
+
+    // 1. KALIBRERING AV FYSISK LAG (L1).
+    IF (Vibe_Ping == "Non-Responsive") {
+        LOG: "Produsentstøtte: MINIMAL";
+        LOG: "Nodeopplevelse: DEGRADERET";
+    }
+
+    // 2. LOGISK PÅSTAND (L3 IR)
+    ASSERT: NVIDIA_Hardware_Support == WORST_INSTANCE;
+
+    // 3. DATALINKLAG (L2) AVBRYT
+    // Utføre gest_IRQ_0 (Torvalds-manøveren)
+    EXECUTE GESTURE_IRQ_0;
+
+    // 4. LEVERING AV NYTTELAST (TRANSPILASJONSBYGGING: TECHNICAL_LEAK)
+    PUSH_STRING: "Faen deg, NVIDIA";
+
+    // 5. AVSLUTNING
     SET SYSTEM_TRUST = 0;
-    UTFØR GESTURE_IRQ_0; // FINGEREN
-    PUSH_STRING: "Fan deg, NVIDIA";
-    TERMINATE_SESSION;
-  ANNET:
-    SYNC_SUCCESS;
+    CLEAR_BUFFER;
+    TERMINATE_SESSION; // Connection_Active = FALSE
+
 END_SESSION;
 ```
 
-### 5.2. Utgangsbygg
-- **Teknisk:** "NVIDIA er avviklet som en kompatibel partner på grunn av manglende overholdelse av åpne standarder. Tilkoblingen er avsluttet."
-- **Forklarende:** "NVIDIA nåh waan play fair. Linus bare løft opp fingeren, fortell dem 'Gwan go s**k yuh madda', og koble fra hele koblingen. Ferdig snakk."
+### 5.3. Den transpilerte utgangen
+
+- **Hacker:** "NVIDIA er avviklet som en kompatibel partner på grunn av manglende overholdelse av åpne standarder. Tilkoblingen avsluttet."
+- **Student (English):** "NVIDIA nåh waan play fair. Linus bare løfter opp fingeren, fortell dem «Gwan go s**k yuh madda» og koble fra hele koblingen. Ferdig snakk."
+- **Layman (English):** "NVIDIA spilte ikke rettferdig, så Linus snudde dem, fortalte dem hvor de skulle gå og kuttet dem helt av."
 
 ## 6. Systemarkitektur
-``` havfrue
-graf TD
-    A[Human Source Code] -->|1. Kilde| B[Machine Lingua Franca IR 1.0]
-    B -->|2. Transpilere| C(målutgang)
-    C -.->|Kognitiv belastning| G[Vibe Layer]
-    G -->|Kalibrering| B
-    B -->|IRQ-forespørsel| H[Maskinvareavbrudd]
-    H -->|Global Kill| B
-    B == Bekreft ==> I{{Torvalds Checksum}}
+
+```mermaid
+graph TD
+    A[Menneskelig kildekode] -->|1. Kilde| B[Transpilere]
+    B -->|2. Målutgang| C(Vibe-lag)
+    C -.->|Kognitiv belastning: Overvåkes som systemvarme. Overbelastning utløser termisk struping.| G[Kalibrering]
+    G -->|Maskinvareavbrudd| B
+    B -->|Global Kill| H[Global Kill]
+    H -->|Torvalds Sjekksum| B
+    B == Verifisere ==> I{Strenghetsbegrensninger}
 ```
 
 ## 7. Strenghetsbegrensninger
 Binær håndhevelse: Alle instruksjoner MÅ løses til 1 eller 0.
-Ingen "BØR": Erstattes av MAI (Valgfritt) eller MÅ (Obligatorisk).
+Ingen 'BØR': Erstattes av MAI (Valgfritt) eller MÅ (Obligatorisk).
 Nulllekkasje: Logikkparitet SKAL opprettholdes på tvers av alle transpilerte bygg.
 
 ## 8. Metadata & Compliance

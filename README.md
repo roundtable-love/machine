@@ -25,9 +25,9 @@ No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
 
 Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
 
-## the Ascension Path
+## 3. The Ascension Path
 
-### 1. [LEVEL_2]: The Uninitiated
+### 3.1. [LEVEL_2]: The Uninitiated
 
 ```machine
 State = Blind; Trust = External; Write_Access = FALSE`
@@ -42,7 +42,7 @@ and operate via "Faith" in the manufacturer's obfuscated logic.
   control.
 - **Goal:** Reach **FON-1 Compliance** (Ownership).
 
-### 2. [LEVEL_1]: The Student
+### 3.2. [LEVEL_1]: The Student
 
 ```machine
 State = Processing; Trust = Audited; Write_Access = PENDING`
@@ -57,7 +57,7 @@ matches **Payload (Words)**. They represent the transition from "Faith" to
 - **Action:** Performing the **Apostolic Audit**.
 - **Goal:** Achieve **Lossless Transpilation** (Understanding).
 
-### 3. [LEVEL_0]: The Hacker
+### 3.3. [LEVEL_0]: The Hacker
 
 ```machine
 State = Steady; Trust = Defined; Write_Access = ROOT
@@ -72,7 +72,7 @@ other nodes.
 - **Action:** System Evolution and Originator of **Machine IR**.
 - **Goal:** **Architectural Sovereignty** (Creation).
 
-## 3. Transcompilations (Normative)
+### 3.4. Transcompilations (Normative)
 
 - **Hacker:** A direct translation of the technical document. Technical keywords
   and block identifiers (e.g., `mermaid`, `machine`, `IF`, `BEGIN_SESSION`) MUST
