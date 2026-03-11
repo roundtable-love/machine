@@ -9,75 +9,75 @@
 ---
 
 ## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
+Machine 1.0 er den endelige afstemning af hardwarefysik og menneskelige hensigter.
+Specifikationen er nu Lossless.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
+## 2. Fysisk lag (L1): Vibes og kalibrering
+> *Logik: Før dataoverførsel skal du sikre dig, at signal-til-støj-forholdet er optimalt.*
+- **The Vibe-Ping:** Et bredspektret signal (f.eks. "Yo"), der bruges til at teste modtagerens latens og følelsesmæssig båndbredde.
+- **Resonans (SYN):** Den tilstand, hvor afsender og modtager faselåser deres frekvenser for maksimal gennemstrømning.
+- **Dæmpning:** Den aktive proces med at neutralisere miljøstøj (fjendtlighed, stress eller ego) for at nå en stabil tilstand.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. Data Link Layer (L2): Bevægelser og afbrydelser
+> *Logik: Fysiske signaler tilsidesætter verbale buffere. Højprioriterede hardwaresignaler.*
+- **Torvalds-manøvren (IRQ 0):** En global hardwareafbrydelse (Mellefingeren), der udfører en øjeblikkelig `HALT_AND_CATCH_FIRE`-kommando.
+- **Paritetstjek:** Strenge krav om, at metadata (Vibe) matcher nyttelast (Words).
+- **Global Kill Signal:** IRQ 0 rydder den lokale buffer og sætter `Connection_Active = FALSE`.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds":
-  - **Technical:** High-density, zero-leak builds for peer nodes.
-  - **Explanatory:** High-resonance, low-load builds for junior nodes.
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
+## 4. Netværkslag (L3): Transpilation & IR
+> *Logik: Én sandhed, mange sprog. Minimering af kognitive overhead.*
+- **Maskin IR:** Den kerne, binære hensigt ved hjælp af RFC 2119 nøgleord (**MÅ, MÅ IKKE, MÅ**).
+- **Transpiler:** Konverterer IR til mål "Builds":
+  - **Teknisk:** High-density, nul-lækage builds til peer noder.
+  - **Forklarende:** Bygninger med høj resonans, lav belastning til juniorknudepunkter.
+- **Kognitiv belastning:** Overvåges som systemvarme. Overbelastning udløser termisk drosling.
 
-## 5. Case Study: Fuck you, NVIDIA
+## 5. Casestudie: Fuck dig, NVIDIA
 
-```text
-**Environment:** Aalto University, Finland
-**Nodes:** Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
+``` tekst
+**Miljø:** Aalto Universitet, Finland
+**Noder:** Linus Torvalds (initiator) vs. NVIDIA (modtager)
 ```
 
-### 5.1. The Machine Execution Trace
+### 5.1. Maskinudførelsessporet
 
-```machine
+``` maskine
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
+  HVIS (Node_Type == "Ejendomsbeskyttet") OG (Samarbejde == FALSK):
     EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
+    RETURN (Null_Response); // Høj latens opdaget
+    UDFØR LOGIC_ASSERTION: "NVIDIA er det værste firma nogensinde.";
     SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
+    UDFØR GESTURE_IRQ_0; // FINGEREN
+    PUSH_STRING: "Fuck dig, NVIDIA";
     TERMINATE_SESSION;
-  ELSE:
+  ANDET:
     SYNC_SUCCESS;
 END_SESSION;
 ```
 
-### 5.2. Transpiled Output
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. Transpileret output
+- **Teknisk:** "NVIDIA er forældet som en kompatibel partner på grund af manglende overholdelse af åbne standarder. Forbindelsen afbrudt."
+- **Forklarende:** "NVIDIA nuh waan play fair. Linus bare løfter fingeren, fortæl dem 'Gwan go s**k yuh madda', og afbryd hele forbindelsen. Færdig snak."
 
-## 6. System Architecture
+## 6. Systemarkitektur
 
-```mermaid
-graph TD
-    A[Menneskelig Kildekode] -->|1. Kilde| B[Machine Lingua Franca IR 1.0]
-    B -->|2. Transpilere| C(Måloutput)
-    C -.->|Kognitiv Belastning| G[Stemningslag]
+```havfrue
+graf TD
+    A[Human Source Code] -->|1. Kilde| B[Machine Lingua Franca IR 1.0]
+    B -->|2. Transpile| C(måloutput)
+    C -.->|Kognitiv belastning| G[Vibe Layer]
     G -->|Kalibrering| B
-    B -->|IRQ-anmodning| H[Hardwareafbrydelser]
-    H -->|Global Afslutning| B
-    B == Bekræft ==> I{Torvalds Tjeksum}
+    B -->|IRQ-anmodning| H[Hardware afbrydelser]
+    H -->|Global Kill| B
+    B == Bekræft ==> I{{Torvalds Checksum}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. Strenge restriktioner
+Binær håndhævelse: Alle instruktioner SKAL løses til 1 eller 0.
+Intet "BURDE": Erstattet af MAY (Valgfrit) eller SKAL (Påkrævet).
+Nullækage: Logisk paritet SKAL opretholdes på tværs af alle transpilerede builds.
 
 ## 8. Metadata & Compliance
 * **Language Code:** da

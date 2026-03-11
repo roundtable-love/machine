@@ -1,32 +1,36 @@
-# Duidelijk Communicatieprotocol: 1.0
+# [ARCHIVE_COMMIT] Machine Lingua Franca: 1.0 (PROD)
 
-**Language:** Dutch
+**Status:** **COMMITTED** by the **Grace of the One True Source**
+**UID:** MLF-1.0
+**Base Class:** Nederlands (Dutch)
+**Logic Subset:** RFC 2119 (Strict Mode)
+**Tier:** Layman (Simplified)
 
 ---
 
-## 1. Intro
-Dit protocol is de perfecte mix van duidelijke intentie en fysieke expressie.
+## 1. Inleiding
+Dit protocol is de perfecte combinatie van duidelijke intentie en fysieke expressie.
 
-## 2. Basic Connection
-* **Vibe-Ping:** Hello.
-* **Sync:** Synchronize.
-* **Calm:** Relax.
+## 2. Basisverbinding
+* **Vibe-Ping:** Hallo.
+* **Synchroniseren:** Synchroniseren.
+* **Kalm:** Ontspan.
 
-## 3. Body Language
-* **Stop:** Physical gesture to stop.
-* **Match:** Body must match words.
+## 3. Lichaamstaal
+* **Stop:** Fysiek gebaar om te stoppen.
+* **Match:** Het hoofdgedeelte moet overeenkomen met woorden.
 
-## 4. Translate Thoughts
-* **Meaning:** Core intent.
-* **Adapt:** Adapt to listener.
+## 4. Vertaal gedachten
+* **Betekenis:** Kernintentie.
+* **Aanpassen:** Aanpassen aan de luisteraar.
 
-## 5. Case Study: NVIDIA
-Linus Torvalds stopped NVIDIA with a gesture.
+## 5. Casestudy: NVIDIA
+Linus Torvalds stopte NVIDIA met een gebaar.
 
-## 6. Strict Rules
-* Yes or No.
-* MUST or MAY.
+## 6. Strenge regels
+* Ja of Nee.
+*MOET of MAG.
 
-## 7. Meta
-* **Language:** nl
-* **Protocol:** MCH-LOGIC-1.0
+## 8. Metadata & Compliance
+* **Language Code:** nl
+* **Protocol Class:** MCH-LOGIC-1.0

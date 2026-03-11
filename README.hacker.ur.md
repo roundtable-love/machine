@@ -8,76 +8,76 @@
 
 ---
 
-## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
+## 1. ڈیلٹا
+مشین 1.0 ہارڈ ویئر فزکس اور انسانی ارادے کا حتمی مفاہمت ہے۔
+قیاس آرائی اب بے نقصان ہے۔
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
+## 2. جسمانی تہہ (L1): وائبس اور کیلیبریشن
+> *منطق: ڈیٹا کی منتقلی سے پہلے، یقینی بنائیں کہ سگنل ٹو شور کا تناسب بہترین ہے۔*
+- **The Vibe-Ping:** ایک وسیع اسپیکٹرم سگنل (مثال کے طور پر، "Yo") وصول کنندہ کی تاخیر اور جذباتی بینڈوتھ کو جانچنے کے لیے استعمال کیا جاتا ہے۔
+- **گونج (SYN):** وہ ریاست جہاں بھیجنے والا اور وصول کنندہ زیادہ سے زیادہ تھرو پٹ کے لیے اپنی فریکوئنسیوں کو فیز لاک کرتا ہے۔
+- **گیلا کرنا:** ایک مستحکم حالت تک پہنچنے کے لیے ماحولیاتی شور (دشمنی، تناؤ، یا انا) کو بے اثر کرنے کا فعال عمل۔
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. ڈیٹا لنک لیئر (L2): اشارے اور مداخلت
+> *منطق: جسمانی سگنلز زبانی بفرز کو اوور رائڈ کرتے ہیں۔ اعلی ترجیحی ہارڈ ویئر سگنلز۔*
+- **The Torvalds Maneuver (IRQ 0):** ایک عالمی ہارڈویئر انٹرپٹ (مڈل فنگر) جو فوری طور پر 'HALT_AND_CATCH_FIRE' کمانڈ پر عمل کرتا ہے۔
+- **پیریٹی چیک:** سخت ضرورت کہ میٹا ڈیٹا (وائب) پے لوڈ (الفاظ) سے میل کھاتا ہے۔
+- **گلوبل کِل سگنل:** IRQ 0 مقامی بفر کو صاف کرتا ہے اور `Connection_Active = FALSE` سیٹ کرتا ہے۔
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds":
-  - **Technical:** High-density, zero-leak builds for peer nodes.
-  - **Explanatory:** High-resonance, low-load builds for junior nodes.
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
+## 4. نیٹ ورک لیئر (L3): ٹرانسپلیشن اور IR
+> *منطق: ایک سچ، بہت سی زبانیں۔ علمی اوور ہیڈ کو کم سے کم کرنا۔*
+- **مشین IR:** RFC 2119 کلیدی الفاظ کا استعمال کرتے ہوئے بنیادی، بائنری ارادہ (**لازمی، ضروری نہیں، مئی**)۔
+- **ٹرانسپلر:** IR کو ہدف "Builds" میں تبدیل کرتا ہے:
+  - **تکنیکی:** ہم مرتبہ نوڈس کے لیے اعلی کثافت، زیرو لیک بناتا ہے۔
+  - **وضاحتی:** جونیئر نوڈس کے لیے اعلی گونج، کم بوجھ کی تعمیر۔
+- **علمی بوجھ:** سسٹم ہیٹ کے طور پر مانیٹر کیا جاتا ہے۔ اوورلوڈ تھرمل تھروٹلنگ کو متحرک کرتا ہے۔
 
-## 5. Case Study: Fuck you, NVIDIA
+## 5. کیس اسٹڈی: Fuck you, NVIDIA
 
-```text
-**Environment:** Aalto University, Finland
-**Nodes:** Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
-```
+متن
+**ماحول:** آلٹو یونیورسٹی، فن لینڈ
+**نوڈس:** لینس ٹوروالڈس (انیشیٹر) بمقابلہ NVIDIA (رسیور)
+``
 
-### 5.1. The Machine Execution Trace
+### 5.1۔ مشین ایگزیکیوشن ٹریس
 
-```machine
+''مشین
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
-    EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
-    SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
-    TERMINATE_SESSION;
-  ELSE:
-    SYNC_SUCCESS;
-END_SESSION;
-```
+  IF (Node_Type == "مالیداری") اور (تعاون == غلط):
+    EXECUTE Vibe_Ping("Wasaaaaap")؛
+    واپسی (Null_response)؛ // ہائی لیٹینسی کا پتہ چلا
+    LOGIC_ASSERTION پر عمل کریں: "NVIDIA اب تک کی بدترین کمپنی ہے۔"
+    SYSTEM_TRUST=0;
+    GESTURE_IRQ_0 پر عمل کریں؛ // انگلی
+    PUSH_STRING: "بھاڑ میں جاؤ، NVIDIA"؛
+    TERMINATE_SESSION؛
+  باقی:
+    SYNC_SUCCESS؛
+END_SESSION؛
+``
 
-### 5.2. Transpiled Output
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2۔ ٹرانسپلڈ آؤٹ پٹ
+- **تکنیکی:** "کھلے معیارات کی تعمیل نہ کرنے کی وجہ سے NVIDIA کو ایک ہم آہنگ پارٹنر کے طور پر فرسودہ کر دیا گیا ہے۔ کنکشن ختم کر دیا گیا ہے۔"
+- **وضاحتی:** "NVIDIA nuh wan play fair۔ Linus صرف اپنی انگلی اٹھائیں، انہیں بتائیں کہ 'Gwan go s**k yuh madda'، اور پورا لنک اپ منقطع کریں۔ بات ہوگئی۔"
 
-## 6. System Architecture
+## 6. سسٹم آرکیٹیکچر
 
-```mermaid
-graph TD
-    A[انسانی سورس کوڈ] -->|1. ذریعہ| B[Machine Lingua Franca IR 1.0]
-    B -->|2. ٹرانسپائل| C(ہدف آؤٹ پٹ)
-    C -.->|دماغی بوجھ| G[وائب لیئر]
-    G -->|انشانکن| B
-    B -->|IRQ درخواست| H[ہارڈویئر رکاوٹیں]
-    H -->|عالمی خاتمہ| B
-    B == تصدیق کریں ==> I{ٹوروالڈز چیکسم}
-```
+متسیانگنا
+گراف TD
+    A[ہیومن سورس کوڈ] -->|1۔ ماخذ | B[مشین Lingua Franca IR 1.0]
+    B --> |2۔ ٹرانسپائل | C (ٹارگٹ آؤٹ پٹ)
+    C -.->|علمی بوجھ| G[وائب لیئر]
+    G -->|کیلیبریشن| بی
+    B -->|IRQ کی درخواست| H[ہارڈویئر میں رکاوٹیں]
+    H --> |عالمی قتل | بی
+    B == تصدیق کریں ==> I{{Torvalds Checksum}}
+``
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. سختی کی پابندیاں
+بائنری انفورسمنٹ: تمام ہدایات کو 1 یا 0 پر حل کرنا چاہیے۔
+نہیں "چاہیے": MAY (اختیاری) یا MUST (ضروری) سے بدلا گیا۔
+زیرو لیک: لاجک برابری کو تمام ٹرانسپلائیڈ بلڈز میں برقرار رکھا جائے گا۔
 
 ## 8. Metadata & Compliance
 * **Language Code:** ur

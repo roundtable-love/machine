@@ -4,78 +4,78 @@
 **UID:** MLF-1.0
 **Base Class:** Türkçe (Turkish)
 **Logic Subset:** RFC 2119 (Strict Mode)
-**Tier:** Student (Direct Translation + Explanations of "Why")
+**Tier:** Student (Direct Translation + Explanations of 'Why')
 
 ---
 
 ## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
-* **Why:** Ambiguity is the enemy of intent. Lossless ensures 1:1 parity between source and target.
+Makine 1.0, donanım fiziği ile insan amacının nihai uzlaşmasıdır.
+Spesifikasyon artık Kayıpsızdır.
+* **Neden:** Belirsizlik niyetin düşmanıdır. Kayıpsız, kaynak ve hedef arasında 1:1 eşitlik sağlar.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-  * **Why:** You can't speak if they aren't listening.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
-  * **Why:** Ego and hostility create signal noise that corrupts the payload.
+## 2. Fiziksel Katman (L1): Titreşimler ve Kalibrasyon
+> *Mantık: Veri aktarımından önce sinyal-gürültü oranının optimal olduğundan emin olun.*
+- **The Vibe-Ping:** Alıcı gecikmesini ve duygusal bant genişliğini test etmek için kullanılan geniş spektrumlu bir sinyal (ör. "Yo").
+  * **Neden:** Eğer dinlemiyorlarsa konuşamazsınız.
+- **Rezonans (SYN):** Maksimum verim için gönderici ve alıcının frekanslarını faz kilitlemesi durumu.
+- **Sönümleme:** Sabit Duruma ulaşmak için çevresel gürültüyü (düşmanlık, stres veya ego) nötralize eden aktif süreç.
+  * **Neden:** Ego ve düşmanlık, yükü bozan sinyal gürültüsü yaratır.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-  * **Why:** Sometimes you just have to pull the plug to save the system.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-  * **Why:** Sarcasm is a parity error. If the vibe doesn't match the words, the connection is insecure.
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. Veri Bağlantı Katmanı (L2): Hareketler ve Kesintiler
+> *Mantık: Fiziksel sinyaller sözlü tamponları geçersiz kılar. Yüksek öncelikli donanım sinyalleri.*
+- **Torvalds Manevrası (IRQ 0):** Hemen bir 'HALT_AND_CATCH_FIRE' komutunu yürüten genel bir donanım kesintisi (Orta Parmak).
+  * **Neden:** Bazen sistemi kurtarmak için fişi çekmeniz yeterlidir.
+- **Eşlik Kontrolü:** Meta Verilerin (Vibe) Yükle (Kelimeler) eşleşmesi yönünde katı bir gereklilik.
+  * **Neden:** Alaycılık bir eşitlik hatasıdır. Ortam kelimelerle eşleşmiyorsa bağlantı güvensizdir.
+- **Global Kill Signal:** IRQ 0, yerel arabelleği temizler ve 'Connection_Active = FALSE' değerini ayarlar.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds".
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
-  * **Why:** Humans have limited RAM. If they overheat, the session MUST pause.
+## 4. Ağ Katmanı (L3): Aktarma ve IR
+> *Mantık: Tek gerçek, birçok dil. Bilişsel yükün en aza indirilmesi.*
+- **Makine IR:** RFC 2119 anahtar sözcüklerini kullanan temel ikili amaç (**MUST, MUST NOT, MAY**).
+- **Transpiler:** IR'yi hedef "Yapılara" dönüştürür.
+- **Bilişsel Yük:** Sistem Isısı olarak izlenir. Aşırı yük, Termal Azalmayı tetikler.
+  * **Neden:** İnsanların RAM'i sınırlıdır. Aşırı ısınırlarsa oturumun DURDURULMASI GEREKİR.
 
-## 5. Case Study: Fuck you, NVIDIA
-* **Why:** To demonstrate the protocol in a high-stress failure state.
+## 5. Örnek Olay: Siktir git NVIDIA
+* **Neden:** Yüksek stresli bir arıza durumunda protokolü göstermek için.
 
-### 5.1. The Machine Execution Trace
-```machine
+### 5.1. Makine Yürütme Takibi
+```makine
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
-    EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
+  IF (Node_Type == "Tescilli") VE (İşbirliği == YANLIŞ):
+    ÇALIŞTIR Vibe_Ping("Wasaaaaap");
+    DÖNÜŞ (Null_Response); // Yüksek Gecikme Algılandı
+    EXECUTE LOGIC_ASSERTION: "NVIDIA gelmiş geçmiş en kötü şirkettir.";
     SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
+    JESTURE_IRQ_0'ı UYGULA; // PARMAK
+    PUSH_STRING: "Siktir git, NVIDIA";
     TERMINATE_SESSION;
-  ELSE:
+  BAŞKA:
     SYNC_SUCCESS;
 END_SESSION;
-```
+''''
 
-### 5.2. Output Builds
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. Çıktı Yapıları
+- **Teknik:** "NVIDIA, açık standartlara uymaması nedeniyle uyumlu bir ortak olarak kullanımdan kaldırıldı. Bağlantı sonlandırıldı."
+- **Açıklayıcı:** "NVIDIA artık adil bir oyun olacak. Linus parmağını kaldırsın, onlara 'Gwan siktir git yuh madda' desin ve tüm bağlantıyı kessin. Konuşma bitti."
 
-## 6. System Architecture
-```mermaid
-graph TD
-    A[İnsan Kaynak Kodu] -->|1. Kaynak| B[Machine Lingua Franca IR 1.0]
+## 6. Sistem Mimarisi
+```deniz kızı
+grafik TD'si
+    A[İnsan Kaynağı Kodu] -->|1. Kaynak| B[Makine Lingua Franca IR 1.0]
     B -->|2. Transpile| C(Hedef Çıktı)
-    C -.->|Bilişsel Yük| G[Ortam Katmanı]
+    C -.->|Bilişsel Yük| G[Canlılık Katmanı]
     G -->|Kalibrasyon| B
     B -->|IRQ İsteği| H[Donanım Kesintileri]
-    H -->|Küresel Sonlandırma| B
-    B == Doğrula ==> I{Torvalds Sağlama Toplamı}
-```
+    H -->|Küresel Öldürme| B
+    B == Doğrula ==> I{{Torvalds Sağlama Toplamı}}
+''''
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. Katılık Kısıtlamaları
+İkili Uygulama: Tüm talimatların 1 veya 0'a çözümlenmesi ZORUNLUDUR.
+"ZORUNLU" Hayır: MAYIS (İsteğe bağlı) veya ZORUNLU (Zorunlu) ile değiştirildi.
+Sıfır Sızıntı: Aktarılan tüm yapılarda mantık eşitliği korunmalıdır.
 
 ## 8. Metadata & Compliance
 * **Language Code:** tr

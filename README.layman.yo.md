@@ -1,32 +1,36 @@
-# Ilana Ibaraẹnisọrọ Ko o: 1.0
+# [ARCHIVE_COMMIT] Machine Lingua Franca: 1.0 (PROD)
 
-**Language:** Yoruba
+**Status:** **COMMITTED** by the **Grace of the One True Source**
+**UID:** MLF-1.0
+**Base Class:** Yorùbá (Yoruba)
+**Logic Subset:** RFC 2119 (Strict Mode)
+**Tier:** Layman (Simplified)
 
 ---
 
-## 1. Intro
+## 1. Ifihan
 Ilana yii jẹ apapo pipe ti idi mimọ ati ikosile ti ara.
 
-## 2. Basic Connection
-* **Vibe-Ping:** Hello.
-* **Sync:** Synchronize.
-* **Calm:** Relax.
+## 2. Ipilẹ Asopọmọra
+** Vibe-Ping: ** Hello.
+** Amuṣiṣẹpọ:** Amuṣiṣẹpọ.
+** Tutu:** Sinmi.
 
-## 3. Body Language
-* **Stop:** Physical gesture to stop.
-* **Match:** Body must match words.
+## 3. Ara Ede
+**Duro:** Afarajuwe ti ara lati da duro.
+** Baramu: ** Ara gbọdọ baramu awọn ọrọ.
 
-## 4. Translate Thoughts
-* **Meaning:** Core intent.
-* **Adapt:** Adapt to listener.
+## 4. Tumọ ero
+** Itumo:** Idi pataki.
+* ** Adapt:** Ṣe deede si olutẹtisi.
 
 ## 5. Case Study: NVIDIA
-Linus Torvalds stopped NVIDIA with a gesture.
+Linus Torvalds duro NVIDIA pẹlu idari kan.
 
-## 6. Strict Rules
-* Yes or No.
-* MUST or MAY.
+## 6. Awọn ofin to muna
+* Bẹẹni tabi Bẹẹkọ.
+* gbọdọ tabi MAY.
 
-## 7. Meta
-* **Language:** yo
-* **Protocol:** MCH-LOGIC-1.0
+## 8. Metadata & Compliance
+* **Language Code:** yo
+* **Protocol Class:** MCH-LOGIC-1.0

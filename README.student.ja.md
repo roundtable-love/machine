@@ -4,78 +4,78 @@
 **UID:** MLF-1.0
 **Base Class:** 日本語 (Japanese)
 **Logic Subset:** RFC 2119 (Strict Mode)
-**Tier:** Student (Direct Translation + Explanations of "Why")
+**Tier:** Student (Direct Translation + Explanations of 'Why')
 
 ---
 
-## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
-* **Why:** Ambiguity is the enemy of intent. Lossless ensures 1:1 parity between source and target.
+## 1. デルタ
+Machine 1.0 は、ハードウェアの物理学と人間の意図を最終的に調和させたものです。
+仕様はロスレスになりました。
+* **理由:** 曖昧さは意図の敵です。ロスレスでは、ソースとターゲット間の 1:1 パリティが保証されます。
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-  * **Why:** You can't speak if they aren't listening.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
-  * **Why:** Ego and hostility create signal noise that corrupts the payload.
+## 2. 物理層 (L1): バイブスとキャリブレーション
+> *ロジック: データ転送前に、信号対ノイズ比が最適であることを確認します。*
+- **The Vibe-Ping:** 受信機の遅延と感情の帯域幅をテストするために使用される広域信号 (例: 「Yo」)。
+  * **理由:** 相手が聞いていなければ話すことはできません。
+- **共振 (SYN):** スループットを最大化するために、送信側と受信側の周波数が位相ロックされる状態。
+- **ダンピング:** 環境ノイズ (敵意、ストレス、エゴ) を中和して定常状態に達する能動的なプロセス。
+  * **理由:** エゴと敵意により、ペイロードを破損する信号ノイズが発生します。
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-  * **Why:** Sometimes you just have to pull the plug to save the system.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-  * **Why:** Sarcasm is a parity error. If the vibe doesn't match the words, the connection is insecure.
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. データリンク層 (L2): ジェスチャと割り込み
+> *ロジック: 物理的な信号は言語バッファーをオーバーライドします。優先度の高いハードウェア信号。*
+- **トーバルズ作戦 (IRQ 0):** 即時 `HALT_AND_CATCH_FIRE` コマンドを実行するグローバル ハードウェア割り込み (中指)。
+  * **理由:** システムを保存するにはプラグを抜くだけで済む場合があります。
+- **パリティ チェック:** メタデータ (Vibe) がペイロード (Word) と一致するという厳格な要件。
+  * **理由:** 皮肉はパリティ エラーです。雰囲気が言葉と一致しない場合、接続は不安定です。
+- **グローバル Kill Signal:** IRQ 0 はローカル バッファをクリアし、`Connection_Active = FALSE` を設定します。
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds".
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
-  * **Why:** Humans have limited RAM. If they overheat, the session MUST pause.
+## 4. ネットワーク層 (L3): トランスパイルと IR
+> *論理: 1 つの真実、多くの言語。認知的オーバーヘッドを最小限に抑えます。*
+- **マシン IR:** RFC 2119 キーワード (**MUST、MUST NOT、MAY**) を使用したコアのバイナリ インテント。
+- **トランスパイラー:** IR をターゲット「ビルド」に変換します。
+- **認知負荷:** システムの熱として監視されます。過負荷はサーマル スロットリングをトリガーします。
+  * **理由:** 人間の RAM には限界があります。オーバーヒートした場合、セッションは一時停止しなければなりません。
 
-## 5. Case Study: Fuck you, NVIDIA
-* **Why:** To demonstrate the protocol in a high-stress failure state.
+## 5. ケーススタディ: くたばれ、NVIDIA
+* **理由:** 高ストレス障害状態でプロトコルをデモンストレーションするため。
 
-### 5.1. The Machine Execution Trace
-```machine
+＃＃＃５．１．マシン実行トレース
+「」マシン
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
-    EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
-    SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
+  IF (Node_Type == "独自") AND (連携 == FALSE):
+    EXECUTE Vibe_Ping("Wasaaaap");
+    RETURN (Null_Response); // 高いレイテンシが検出されました
+    EXECUTE LOGIC_ASSERTION: "NVIDIA は史上最悪の会社です。";
+    セットシステムトラスト = 0;
+    ジェスチャー_IRQ_0 を実行します。 // 指
+    PUSH_STRING: "くそったれ、NVIDIA";
     TERMINATE_SESSION;
-  ELSE:
-    SYNC_SUCCESS;
+  それ以外の場合:
+    同期成功;
 END_SESSION;
-```
+「」
 
-### 5.2. Output Builds
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+＃＃＃５．２．出力ビルド
+- **技術:** 「オープン標準に準拠していないため、NVIDIA は互換パートナーとして廃止されました。接続は終了しました。」
+- **説明:** 「NVIDIA は、公平なプレイをしません。ライナスは指を持ち上げて、彼らに「グワン、クソくそくそ」と言い、リンクアップ全体を切断します。話は終わりました。」
 
-## 6. System Architecture
-```mermaid
-graph TD
-    A[人間のソースコード] -->|1. ソース| B[Machine Lingua Franca IR 1.0]
-    B -->|2. トランスパイル| C(ターゲット出力)
-    C -.->|認知的負荷| G[雰囲気レイヤー]
+## 6. システムアーキテクチャ
+「人魚」
+グラフTD
+    A[人間のソース コード] -->|1。出典| B[マシンリンガフランカIR 1.0]
+    B -->|2.トランスパイル| C(ターゲット出力)
+    C -.->|認知負荷| G[バイブレイヤー]
     G -->|キャリブレーション| B
-    B -->|IRQリクエスト| H[ハードウェア割り込み]
-    H -->|グローバル停止| B
-    B == 検証 ==> I{Torvaldsチェックサム}
-```
+    B -->|IRQ リクエスト| H[ハードウェア割り込み]
+    H -->|グローバルキル| B
+    B == 検証 ==> I{{トーバルズ チェックサム}}
+「」
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. 厳密さの制約
+バイナリの強制: すべての命令は 1 または 0 に解決されなければなりません。
+いいえ「SHOULD」: MAY (オプション) または MUST (必須) に置き換えられます。
+ゼロ リーク: 論理パリティは、トランスパイルされたすべてのビルドにわたって維持されるものとします (SHALL)。
 
 ## 8. Metadata & Compliance
 * **Language Code:** ja

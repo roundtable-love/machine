@@ -1,40 +1,36 @@
-# Net İletişim Protokolü: 1.0
+# [ARCHIVE_COMMIT] Machine Lingua Franca: 1.0 (PROD)
 
-**Durum:** Tamamlandı
-**Temel Dil:** Türkçe
-**Kurallar:** Kesin ve net tanımlar
+**Status:** **COMMITTED** by the **Grace of the One True Source**
+**UID:** MLF-1.0
+**Base Class:** Türkçe (Turkish)
+**Logic Subset:** RFC 2119 (Strict Mode)
+**Tier:** Layman (Simplified)
 
 ---
 
 ## 1. Giriş
-Bu protokol, net niyet ile fiziksel ifadenin mükemmel birleşimidir ve bilgi kaybı yaşanmamasını sağlar.
+Bu protokol, açık niyet ve fiziksel ifadenin mükemmel birleşimidir.
 
-## 2. Temel Bağlantı: Ortamı Hazırlamak
-* **Vibe-Ping:** Dikkati ölçmek için basit bir selamlama (örn. "Selam").
-* **Rezonans:** İki kişinin aynı frekansta olduğu an.
-* **Sönümleme:** Sakin bir konuşma ortamı yaratmak için stresi ve egoyu azaltmak.
+## 2. Temel Bağlantı
+* **Vibe-Ping:** Merhaba.
+* **Senkronizasyon:** Senkronize et.
+* **Sakin:** Rahatlayın.
 
-## 3. Sözsüz İşaretler: Vücut Dili
-* **Tam Kesinti:** İletişimi anında durduran büyük bir fiziksel hareket.
-* **Tutarlılık:** Vücut diliniz sözlerinizle uyuşmalıdır.
-* **Durdurma Sinyali:** Ciddi bir kesinti görüşmeyi sonlandırır.
+## 3. Beden Dili
+* **Dur:** Durmak için yapılan fiziksel jest.
+* **Eşleşme:** Gövde kelimelerle eşleşmelidir.
 
-## 4. Düşünceleri Çevirmek: Dinleyiciye Uyum
-* **Temel Anlam:** Asıl niyet (ZORUNLU, YASAK, OLABİLİR).
-* **Mesajı Uyarlamak:** Dinleyiciye göre (Uzman veya Acemi) ifadeyi değiştirmek.
-* **Zihinsel Yük:** Dinleyici bunalmışsa konuşmaya ara vermek.
+## 4. Düşünceleri Çevir
+* **Anlamı:** Temel amaç.
+* **Uyarlama:** Dinleyiciye uyum sağlama.
 
-## 5. Örnek Olay: NVIDIA_HALT_2012
-Linus Torvalds, işbirliği eksikliği nedeniyle NVIDIA ile olan ilişkisini "Tam Kesinti" hareketiyle sonlandırdı.
+## 5. Örnek Olay: NVIDIA
+Linus Torvalds bir hareketle NVIDIA'yı durdurdu.
 
-## 6. Mimari
-Düşünceler -> Net Kurallar -> Dinleyiciye Uyarlama.
+## 6. Katı Kurallar
+* Evet veya Hayır.
+* MUTLAKA veya MAYIS.
 
-## 7. Kesin Kurallar
-* **Siyah ve Beyaz:** Sadece "Evet" veya "Hayır".
-* **"Meli/Malı" Yok:** Sadece ZORUNLU veya OLABİLİR.
-* **Sıfır Kayıp:** Anlam tamamen aynı kalmalıdır.
-
-## 8. Meta Veri
-* **Dil:** tr
-* **Protokol:** MCH-LOGIC-1.0
+## 8. Metadata & Compliance
+* **Language Code:** tr
+* **Protocol Class:** MCH-LOGIC-1.0

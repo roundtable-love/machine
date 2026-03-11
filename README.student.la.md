@@ -4,78 +4,78 @@
 **UID:** MLF-1.0
 **Base Class:** Latina (Latin)
 **Logic Subset:** RFC 2119 (Strict Mode)
-**Tier:** Student (Direct Translation + Explanations of "Why")
+**Tier:** Student (Direct Translation + Explanations of 'Why')
 
 ---
 
 ## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
-* **Why:** Ambiguity is the enemy of intent. Lossless ensures 1:1 parity between source and target.
+1.0 Machina finalis est reconciliatio ferramentorum physicarum et intentio humana.
+Nunc est spec- Lossless.
+Ambiguitas est hostis intentionis. Damnum efficit, 1:1 pari inter principium et scopum.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-  * **Why:** You can't speak if they aren't listening.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
-  * **Why:** Ego and hostility create signal noise that corrupts the payload.
+## 2. Corporalis Layer (L1): Vibes & Calibration
+> * Logica: Priusquam data translatio, signum ut-vocum curet ratio optima est.
+- ** The Vibe-Ping : ** Signum late- spectrum (exempli gratia, "Yo") receptaculum latency et motus longitudinis explorare solebat.
+  Cur loqui non potes, si non audias.
+- **Resonantia (SYN): Status ubi mittentis et accipientis periodum frequentiam suam claudunt pro maximis throughput.
+- **Damping:** Processus activae corrumpendi strepitus environmental (hostilitas, accentus, vel ego) ad stabilitatem rei publicae pervenire.
+  * ** Cur : ** Ego et hostilitas sonitum creo corrumpens payload.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-  * **Why:** Sometimes you just have to pull the plug to save the system.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-  * **Why:** Sarcasm is a parity error. If the vibe doesn't match the words, the connection is insecure.
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. Data Link Layer (L2): Gestus & Interrupts
+> * Logica: corporis signa nolens oboedire verborum buffers. Princeps prius hardware annuit.
+- ** Torvalds Manoeuvres (IRQ 0): ** ferramenta globalia interrumpunt (Medius Finger) qui proximum `HALT_AND_CATCH_FIRE ` mandatum exsequitur.
+  * **Quare:** Aliquando vos iustus have ut plug plug rationem servandi.
+- **Parity Perscriptio: ** Strictioris postulationis Metadata (Vibe) aequet Payload (Verba).
+  * ** Cur : Sarcasmus est par error. Si vibe verbis non congruit, incertus nexus est.
+- **Global interfice signum: ** IRQ 0 quiddam locale purgat et `Connection_Active = FALSE' ponit.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds".
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
-  * **Why:** Humans have limited RAM. If they overheat, the session MUST pause.
+## 4. Network Stratum (L3): Transpilation & IR
+> * Logica: Una veritas, multae linguae. Minimis cognitiva caput.
+- **Machinus IR:** Core, intentus binarius RFC 2119 keywords utens (** NON debet, NON debet).
+- ** Transpiler: ** Convertit IR in scopum "Aedificat".
+- **Cognitive Lond: ** Monitored as System Heat. Felis Scelerisque throttling ONERO.
+  **Quare:** Humani RAM limitatam habent. Si overheat, sessio cessare debet.
 
-## 5. Case Study: Fuck you, NVIDIA
-* **Why:** To demonstrate the protocol in a high-stress failure state.
+## 5. Case Study: Fuck te, NVIDIA
+Quare: ** Protocollum demonstrare in accentus defectum status summus.
 
-### 5.1. The Machine Execution Trace
-```machine
+### 5.1. Machina Execution Trace
+`machinam'
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
-    EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
+  SI (Node_Type == "proprietarium") ET Cooperatio == FALSUM SIT);
+    EXSECUTOR Vibe_Ping("Wasaaaaap");
+    RENUNTIATIO (Null_Responsionis); // High Latency Results
+    EXSECUTO LOGIC_ASSERTION: "NVIDIA est societas pessima semper";
     SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
+    EXSEQUOR GESTURE_IRQ_0 ; // Digitus
+    PUSH_STRING: "Fuck te, NVIDIA";
     TERMINATE_SESSION;
-  ELSE:
+  ALIUS:
     SYNC_SUCCESS;
 END_SESSION;
-```
+``
 
-### 5.2. Output Builds
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. Output terris
+NVIDIA deprecatur ut particeps compatibilis ob non-obsequium signis apertis. Connectio terminata.
+- **Explanatorium: ** "NVIDIA nuh waan lusum pulchrum. Linus iustus lif' up di finger, dic dem "Gwan go s**k yuh madda," et disiunge di totum nexum. Fio loqui."
 
-## 6. System Architecture
-```mermaid
+## 6. Systema Architecture
+` `syreni
 graph TD
-    A[Codex Fons Humanus] -->|1. Fons| B[Machine Lingua Franca IR 1.0]
-    B -->|2. Transpilare| C(Exitus Scopus)
-    C -.->|Onus Cognitivum| G[Stratum Vibe]
-    G -->|Calibratio| B
-    B -->|Petitio IRQ| H[Interpellationes Machinae]
-    H -->|Interfectio Globalis| B
-    B == Verificare ==> I{Summa Torvalds}
-```
+    A[Human Source Code] -->|1. Source| B[Machina Lingua Franca IR 1.0]
+    B -->|2. Transpile| C (Target output)
+    C -.->|Cognitive Load| G[Vibe Layer]
+    G -->|Calibration| B
+    B -->|IRQ Request| H [Hardware Interrupts]
+    H -->|Global Kill| B
+    B == Quin ==> I{Torvalds Checksum}}
+``
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. Strictness angustiis
+Effectus binarii: Omnes instructiones I vel 0 ad propono.
+Non "debet": substituti APR (Libitum) vel (required).
+Nulla Leak: pari Logica per omnes aedificationes translatas servabitur.
 
 ## 8. Metadata & Compliance
 * **Language Code:** la

@@ -9,75 +9,75 @@
 ---
 
 ## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
+Makine 1.0, donanım fiziği ile insan amacının nihai uzlaşmasıdır.
+Spesifikasyon artık Kayıpsızdır.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
+## 2. Fiziksel Katman (L1): Titreşimler ve Kalibrasyon
+> *Mantık: Veri aktarımından önce sinyal-gürültü oranının optimal olduğundan emin olun.*
+- **The Vibe-Ping:** Alıcı gecikmesini ve duygusal bant genişliğini test etmek için kullanılan geniş spektrumlu bir sinyal (ör. "Yo").
+- **Rezonans (SYN):** Maksimum verim için gönderici ve alıcının frekanslarını faz kilitlemesi durumu.
+- **Sönümleme:** Sabit Duruma ulaşmak için çevresel gürültüyü (düşmanlık, stres veya ego) nötralize eden aktif süreç.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. Veri Bağlantı Katmanı (L2): Hareketler ve Kesintiler
+> *Mantık: Fiziksel sinyaller sözlü tamponları geçersiz kılar. Yüksek öncelikli donanım sinyalleri.*
+- **Torvalds Manevrası (IRQ 0):** Hemen bir 'HALT_AND_CATCH_FIRE' komutunu yürüten genel bir donanım kesintisi (Orta Parmak).
+- **Eşlik Kontrolü:** Meta Verilerin (Vibe) Yükle (Kelimeler) eşleşmesi yönünde katı bir gereklilik.
+- **Global Kill Signal:** IRQ 0, yerel arabelleği temizler ve 'Connection_Active = FALSE' değerini ayarlar.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds":
-  - **Technical:** High-density, zero-leak builds for peer nodes.
-  - **Explanatory:** High-resonance, low-load builds for junior nodes.
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
+## 4. Ağ Katmanı (L3): Aktarma ve IR
+> *Mantık: Tek gerçek, birçok dil. Bilişsel yükün en aza indirilmesi.*
+- **Makine IR:** RFC 2119 anahtar sözcüklerini kullanan temel ikili amaç (**MUST, MUST NOT, MAY**).
+- **Transpiler:** IR'yi hedef "Yapılara" dönüştürür:
+  - **Teknik:** Eş düğümler için yüksek yoğunluklu, sıfır sızıntılı yapılar.
+  - **Açıklayıcı:** Junior düğümler için yüksek rezonanslı, düşük yüklü yapılar.
+- **Bilişsel Yük:** Sistem Isısı olarak izlenir. Aşırı yük, Termal Azalmayı tetikler.
 
-## 5. Case Study: Fuck you, NVIDIA
+## 5. Örnek Olay: Siktir git NVIDIA
 
-```text
-**Environment:** Aalto University, Finland
-**Nodes:** Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
-```
+```metin
+**Çevre:** Aalto Üniversitesi, Finlandiya
+**Düğümler:** Linus Torvalds (Başlatıcı) ve NVIDIA (Alıcı) karşılaştırması
+''''
 
-### 5.1. The Machine Execution Trace
+### 5.1. Makine Yürütme Takibi
 
-```machine
+```makine
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
-    EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
+  IF (Node_Type == "Tescilli") VE (İşbirliği == YANLIŞ):
+    ÇALIŞTIR Vibe_Ping("Wasaaaaap");
+    DÖNÜŞ (Null_Response); // Yüksek Gecikme Algılandı
+    EXECUTE LOGIC_ASSERTION: "NVIDIA gelmiş geçmiş en kötü şirkettir.";
     SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
+    JESTURE_IRQ_0'ı UYGULA; // PARMAK
+    PUSH_STRING: "Siktir git, NVIDIA";
     TERMINATE_SESSION;
-  ELSE:
+  BAŞKA:
     SYNC_SUCCESS;
 END_SESSION;
-```
+''''
 
-### 5.2. Transpiled Output
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. Aktarılan Çıkış
+- **Teknik:** "NVIDIA, açık standartlara uymaması nedeniyle uyumlu bir ortak olarak kullanımdan kaldırıldı. Bağlantı sonlandırıldı."
+- **Açıklayıcı:** "NVIDIA artık adil bir oyun olacak. Linus parmağını kaldırsın, onlara 'Gwan siktir git yuh madda' desin ve tüm bağlantıyı kessin. Konuşma bitti."
 
-## 6. System Architecture
+## 6. Sistem Mimarisi
 
-```mermaid
-graph TD
-    A[İnsan Kaynak Kodu] -->|1. Kaynak| B[Machine Lingua Franca IR 1.0]
+```deniz kızı
+grafik TD'si
+    A[İnsan Kaynağı Kodu] -->|1. Kaynak| B[Makine Lingua Franca IR 1.0]
     B -->|2. Transpile| C(Hedef Çıktı)
-    C -.->|Bilişsel Yük| G[Ortam Katmanı]
+    C -.->|Bilişsel Yük| G[Canlılık Katmanı]
     G -->|Kalibrasyon| B
     B -->|IRQ İsteği| H[Donanım Kesintileri]
-    H -->|Küresel Sonlandırma| B
-    B == Doğrula ==> I{Torvalds Sağlama Toplamı}
-```
+    H -->|Küresel Öldürme| B
+    B == Doğrula ==> I{{Torvalds Sağlama Toplamı}}
+''''
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. Katılık Kısıtlamaları
+İkili Uygulama: Tüm talimatların 1 veya 0'a çözümlenmesi ZORUNLUDUR.
+"ZORUNLU" Hayır: MAYIS (İsteğe bağlı) veya ZORUNLU (Zorunlu) ile değiştirildi.
+Sıfır Sızıntı: Aktarılan tüm yapılarda mantık eşitliği korunmalıdır.
 
 ## 8. Metadata & Compliance
 * **Language Code:** tr

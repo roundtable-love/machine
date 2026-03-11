@@ -1,40 +1,36 @@
-# Protocollo di Comunicazione Chiara: 1.0
+# [ARCHIVE_COMMIT] Machine Lingua Franca: 1.0 (PROD)
 
-**Stato:** Finalizzato
-**Lingua Base:** Italiano
-**Regole:** Definizioni rigide e chiare
+**Status:** **COMMITTED** by the **Grace of the One True Source**
+**UID:** MLF-1.0
+**Base Class:** Italiano (Italian)
+**Logic Subset:** RFC 2119 (Strict Mode)
+**Tier:** Layman (Simplified)
 
 ---
 
 ## 1. Introduzione
-Questo protocollo è la combinazione perfetta di intenti chiari ed espressione fisica, per evitare perdite di informazioni.
+Questo protocollo è la perfetta combinazione di intenti chiari ed espressione fisica.
 
-## 2. Connessione di Base: Creare l'Atmosfera
-* **Vibe-Ping:** Un saluto semplice (es: "Ehi") per testare l'attenzione.
-* **Risonanza:** Quando entrambi sono sulla stessa lunghezza d'onda.
-* **Smorzamento:** Ridurre stress ed ego per una conversazione calma.
+## 2. Connessione di base
+* **Vibe-Ping:** Ciao.
+* **Sincronizza:** Sincronizza.
+* **Calma:** Rilassati.
 
-## 3. Segnali Non Verbali: Linguaggio del Corpo
-* **Interruzione Totale:** Un gesto fisico che ferma subito la conversazione.
-* **Coerenza:** Il linguaggio del corpo deve corrispondere alle parole.
-* **Segnale di Stop:** Un'interruzione grave chiude la sessione.
+## 3. Linguaggio del corpo
+* **Stop:** Gesto fisico per fermarsi.
+* **Corrispondenza:** il corpo deve corrispondere alle parole.
 
-## 4. Traduzione dei Pensieri
-* **Significato Centrale:** L'intenzione reale (DEVE, NON DEVE, PUÒ).
-* **Adattamento:** Modificare il messaggio in base al pubblico (Esperto vs. Principiante).
-* **Carico Mentale:** Fare una pausa se l'ascoltatore è sovraccarico.
+## 4. Traduci i pensieri
+* **Significato:** Intento fondamentale.
+* **Adattamento:** Adatta all'ascoltatore.
 
-## 5. Caso Studio: NVIDIA_HALT_2012
-Linus Torvalds ha interrotto i rapporti con NVIDIA usando un gesto di "Interruzione Totale" per mancanza di cooperazione.
+## 5. Caso di studio: NVIDIA
+Linus Torvalds fermò NVIDIA con un gesto.
 
-## 6. Architettura
-Pensieri -> Regole Chiare -> Adattamento all'Ascoltatore.
+## 6. Regole rigorose
+* Sì o no.
+* DEVE o MAGGIO.
 
-## 7. Regole Rigide
-* **Bianco e Nero:** Solo "Sì" o "No".
-* **Nessun "Dovrebbe":** Solo DEVE o PUÒ.
-* **Zero Perdite:** Il significato non deve cambiare.
-
-## 8. Metadati
-* **Lingua:** it
-* **Protocollo:** MCH-LOGIC-1.0
+## 8. Metadata & Compliance
+* **Language Code:** it
+* **Protocol Class:** MCH-LOGIC-1.0

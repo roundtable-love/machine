@@ -8,76 +8,76 @@
 
 ---
 
-## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
+## 1. ডেল্টা
+মেশিন 1.0 হল হার্ডওয়্যার পদার্থবিদ্যা এবং মানুষের অভিপ্রায়ের চূড়ান্ত পুনর্মিলন।
+স্পেকটি এখন লসলেস।
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
+## 2. ফিজিক্যাল লেয়ার (L1): ভাইবস এবং ক্যালিব্রেশন
+> *যুক্তি: ডেটা স্থানান্তরের আগে নিশ্চিত করুন যে সংকেত-টু-শব্দ অনুপাত সর্বোত্তম।*
+- **The Vibe-Ping:** একটি প্রশস্ত-স্পেকট্রাম সংকেত (যেমন, "Yo") রিসিভারের লেটেন্সি এবং মানসিক ব্যান্ডউইথ পরীক্ষা করতে ব্যবহৃত হয়।
+- **রেজোন্যান্স (SYN):** যে রাজ্যে প্রেরক এবং প্রাপক সর্বোচ্চ থ্রুপুটের জন্য তাদের ফ্রিকোয়েন্সি ফেজ-লক করে।
+- **স্যাঁতসেঁতে:** একটি স্থিতিশীল অবস্থায় পৌঁছানোর জন্য পরিবেশগত শব্দ (শত্রুতা, চাপ বা অহং) নিরপেক্ষ করার সক্রিয় প্রক্রিয়া।
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. ডেটা লিঙ্ক লেয়ার (L2): অঙ্গভঙ্গি এবং বাধা
+> *যুক্তি: শারীরিক সংকেত মৌখিক বাফারকে ওভাররাইড করে। উচ্চ-অগ্রাধিকার হার্ডওয়্যার সংকেত।*
+- **The Torvalds Maneuver (IRQ 0):** একটি গ্লোবাল হার্ডওয়্যার ইন্টারাপ্ট (দ্য মিডল ফিঙ্গার) যা একটি তাৎক্ষণিক `HALT_AND_CATCH_FIRE` কমান্ড কার্যকর করে।
+- **প্যারিটি চেক:** মেটাডেটা (ভাইব) পেলোড (শব্দ) এর সাথে মেলে এমন কঠোর প্রয়োজন৷
+- **গ্লোবাল কিল সিগন্যাল:** IRQ 0 স্থানীয় বাফার পরিষ্কার করে এবং `Connection_Active = FALSE` সেট করে।
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds":
-  - **Technical:** High-density, zero-leak builds for peer nodes.
-  - **Explanatory:** High-resonance, low-load builds for junior nodes.
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
+## 4. নেটওয়ার্ক লেয়ার (L3): ট্রান্সপিলেশন এবং IR
+> *যুক্তি: একটি সত্য, অনেক ভাষা। জ্ঞানীয় ওভারহেড কম করা।*
+- **মেশিন IR:** RFC 2119 কীওয়ার্ড ব্যবহার করে মূল, বাইনারি উদ্দেশ্য (**অবশ্যই, অবশ্যই নয়, মে**)।
+- **ট্রান্সপিলার:** আইআরকে লক্ষ্য "বিল্ডস" এ রূপান্তর করে:
+  - **প্রযুক্তিগত:** পিয়ার নোডের জন্য উচ্চ-ঘনত্ব, শূন্য-লিক তৈরি করে।
+  - **ব্যাখ্যামূলক:** উচ্চ-অনুনাদন, জুনিয়র নোডের জন্য কম-লোড বিল্ড।
+- **কগনিটিভ লোড:** সিস্টেম হিট হিসাবে পর্যবেক্ষণ করা হয়। ওভারলোড থার্মাল থ্রটলিং ট্রিগার করে।
 
-## 5. Case Study: Fuck you, NVIDIA
+## 5. কেস স্টাডি: ফাক ইউ, এনভিআইডিএ
 
-```text
-**Environment:** Aalto University, Finland
-**Nodes:** Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
+``টেক্সট
+**পরিবেশ:** আল্টো বিশ্ববিদ্যালয়, ফিনল্যান্ড
+**নোডস:** লিনাস টরভাল্ডস (ইনিশিয়েটর) বনাম এনভিআইডিএ (রিসিভার)
 ```
 
-### 5.1. The Machine Execution Trace
+### ৫.১. মেশিন এক্সিকিউশন ট্রেস
 
-```machine
+``মেশিন
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
-    EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
+  IF (Node_Type == "মালিকানা") এবং (সহযোগিতা == মিথ্যা):
+    এক্সিকিউট ভাইব_পিং("ওয়াসাআআপ");
+    RETURN (Null_response); // উচ্চ বিলম্ব শনাক্ত করা হয়েছে
+    LOGIC_ASSERTION EXECUTE: "NVIDIA এখন পর্যন্ত সবচেয়ে খারাপ কোম্পানি।";
     SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
+    GESTURE_IRQ_0 কার্যকর করুন; // আঙুল
     PUSH_STRING: "Fuck you, NVIDIA";
     TERMINATE_SESSION;
-  ELSE:
+  অন্য:
     SYNC_SUCCESS;
 END_SESSION;
 ```
 
-### 5.2. Transpiled Output
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### ৫.২। স্থানান্তরিত আউটপুট
+- **প্রযুক্তিগত:** "উন্মুক্ত মান মেনে না চলার কারণে NVIDIA একটি সামঞ্জস্যপূর্ণ অংশীদার হিসাবে অবমূল্যায়িত হয়েছে। সংযোগ বন্ধ করা হয়েছে।"
+- **ব্যাখ্যামূলক:** "এনভিডিয়া নুহ ওয়ান খেলার মেলা। লিনুস শুধু আঙুল তুলে, ডেমকে বল 'গ্ওয়ান গো এস**কে ইউহ মাদ্দা,' এবং পুরো লিঙ্ক-আপ ডিসকানেক্ট করুন। কথা শেষ।"
 
-## 6. System Architecture
+## 6. সিস্টেম আর্কিটেকচার
 
-```mermaid
-graph TD
-    A[হিউম্যান সোর্স কোড] -->|1. উৎস| B[Machine Lingua Franca IR 1.0]
-    B -->|2. ট্রান্সপাইল| C(লক্ষ্য আউটপুট)
-    C -.->|জ্ঞানীয় লোড| G[ভাইব লেয়ার]
-    G -->|ক্রমাঙ্কন| B
-    B -->|IRQ অনুরোধ| H[হার্ডওয়্যার ইন্টারাপ্টস]
-    H -->|গ্লোবাল কিল| B
-    B == যাচাই করুন ==> I{টরভ্যাল্ডস চেকসাম}
+``মৎসকন্যা
+গ্রাফ টিডি
+    A[হিউম্যান সোর্স কোড] -->|1. উৎস| B[মেশিন লিঙ্গুয়া ফ্রাঙ্কা IR 1.0]
+    বি -->|2। ট্রান্সপাইল| সি (টার্গেট আউটপুট)
+    C -.->|জ্ঞানমূলক লোড| জি[ভাইব লেয়ার]
+    G --> | ক্রমাঙ্কন | খ
+    B -->|IRQ অনুরোধ| H[হার্ডওয়্যার বাধা]
+    H -->|গ্লোবাল কিল| খ
+    B == যাচাই করুন ==> I{{Torvalds Checksum}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. কঠোরতা সীমাবদ্ধতা
+বাইনারি এনফোর্সমেন্ট: সমস্ত নির্দেশাবলী অবশ্যই 1 বা 0-এ সমাধান করতে হবে।
+কোন "উচিত" নয়: MAY (ঐচ্ছিক) বা MUST (প্রয়োজনীয়) দ্বারা প্রতিস্থাপিত।
+জিরো লিক: সমস্ত স্থানান্তরিত বিল্ড জুড়ে লজিক সমতা বজায় রাখা হবে।
 
 ## 8. Metadata & Compliance
 * **Language Code:** bn

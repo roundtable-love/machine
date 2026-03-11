@@ -66,12 +66,12 @@ END_SESSION;
 ```mermaid
 graph TD
     A[Human Source Code] -->|1. Source| B[Machine Lingua Franca IR 1.0]
-    B -->|2. Translate| C(Target Output)
-    C -.->|Brain Load| G[Vibe Layer]
-    G -->|Check Vibe| B
-    B -->|IRQ Request| H[Hardware Stop]
-    H -->|Global Done| B
-    B == Verify ==> I{Torvalds Check}
+    B -->|2. Transpile| C(Target Output)
+    C -.->|Cognitive Load| G[Vibe Layer]
+    G -->|Calibration| B
+    B -->|IRQ Request| H[Hardware Interrupts]
+    H -->|Global Kill| B
+    B == Verify ==> I{{Torvalds Checksum}}
 ```
 
 ## 7. Strictness Constraints

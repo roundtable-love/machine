@@ -4,78 +4,78 @@
 **UID:** MLF-1.0
 **Base Class:** العربية (Arabic)
 **Logic Subset:** RFC 2119 (Strict Mode)
-**Tier:** Student (Direct Translation + Explanations of "Why")
+**Tier:** Student (Direct Translation + Explanations of 'Why')
 
 ---
 
-## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
-* **Why:** Ambiguity is the enemy of intent. Lossless ensures 1:1 parity between source and target.
+## 1. دلتا
+الآلة 1.0 هي التوفيق النهائي بين فيزياء الأجهزة والنوايا البشرية.
+المواصفات الآن بلا فقدان.
+* **السبب:** الغموض هو عدو النية. يضمن عدم فقدان البيانات تكافؤًا بنسبة 1:1 بين المصدر والهدف.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-  * **Why:** You can't speak if they aren't listening.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
-  * **Why:** Ego and hostility create signal noise that corrupts the payload.
+## 2. الطبقة المادية (L1): المشاعر والمعايرة
+> *المنطق: قبل نقل البيانات، تأكد من أن نسبة الإشارة إلى الضوضاء هي الأمثل.*
+- **Vibe-Ping:** إشارة واسعة النطاق (على سبيل المثال، "Yo") تُستخدم لاختبار زمن وصول جهاز الاستقبال وعرض النطاق الترددي العاطفي.
+  * **السبب:** لا يمكنك التحدث إذا لم يستمعوا إليك.
+- **الرنين (SYN):** الحالة التي يقوم فيها المرسل والمستقبل بقفل تردداتهما على مراحل لتحقيق أقصى إنتاجية.
+- **التخميد:** العملية النشطة لتحييد الضوضاء البيئية (العداء أو التوتر أو الأنا) للوصول إلى حالة ثابتة.
+  * **السبب:** تخلق الأنا والعدائية ضجيجًا في الإشارة يفسد الحمولة.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-  * **Why:** Sometimes you just have to pull the plug to save the system.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-  * **Why:** Sarcasm is a parity error. If the vibe doesn't match the words, the connection is insecure.
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. طبقة ارتباط البيانات (L2): الإيماءات والمقاطعات
+> *المنطق: تتجاوز الإشارات المادية الحواجز اللفظية. إشارات الأجهزة ذات الأولوية العالية.*
+- ** مناورة تورفالدس (IRQ 0): ** مقاطعة الأجهزة العالمية (الإصبع الأوسط) التي تنفذ أمر `HALT_AND_CATCH_FIRE` الفوري.
+  * **السبب:** في بعض الأحيان، يتعين عليك فقط سحب القابس لحفظ النظام.
+- **التحقق من التكافؤ:** متطلب صارم بأن تتطابق البيانات الوصفية (Vibe) مع الحمولة (الكلمات).
+  * **السبب:** السخرية هي خطأ تكافؤ. إذا لم تتطابق الأجواء مع الكلمات، يكون الاتصال غير آمن.
+- **إشارة التوقف العالمية:** يقوم IRQ 0 بمسح المخزن المؤقت المحلي وتعيين `Connection_Active = FALSE`.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds".
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
-  * **Why:** Humans have limited RAM. If they overheat, the session MUST pause.
+## 4. طبقة الشبكة (L3): النقل والأشعة تحت الحمراء
+> *المنطق: حقيقة واحدة، لغات عديدة. تقليل العبء المعرفي.*
+- **Machine IR:** الهدف الثنائي الأساسي باستخدام الكلمات الأساسية RFC 2119 (** يجب، يجب ألا، قد **).
+- **Transpiler:** يحول IR إلى هدف "Builds".
+- **الحمل المعرفي:** تتم مراقبته كحرارة النظام. يؤدي التحميل الزائد إلى الاختناق الحراري.
+  * **السبب:** لدى البشر ذاكرة وصول عشوائي محدودة. إذا ارتفعت درجة حرارتهم، يجب أن تتوقف الجلسة مؤقتًا.
 
-## 5. Case Study: Fuck you, NVIDIA
-* **Why:** To demonstrate the protocol in a high-stress failure state.
+## 5. دراسة حالة: اللعنة عليك يا NVIDIA
+* **السبب:** لتوضيح البروتوكول في حالة الفشل الشديد.
 
-### 5.1. The Machine Execution Trace
-```machine
+###5.1. تتبع تنفيذ الآلة
+```آلة
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
-    EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
-    SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
+  IF (نوع العقدة == "ملكية") و(التعاون == خطأ):
+    تنفيذ Vibe_Ping("Wasaaaaap");
+    العودة (Null_Response)؛ // تم الكشف عن الكمون العالي
+    تنفيذ LOGIC_ASSERTION: "NVIDIA هي أسوأ شركة على الإطلاق.";
+    تعيين SYSTEM_TRUST = 0؛
+    تنفيذ GESTURE_IRQ_0؛ // الاصبع
+    PUSH_STRING: "اللعنة عليك يا نفيديا"؛
     TERMINATE_SESSION;
-  ELSE:
+  آخر:
     SYNC_SUCCESS;
-END_SESSION;
+END_SESSION؛
 ```
 
-### 5.2. Output Builds
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+###5.2. بنيات الإخراج
+- **تقني:** "تم إهمال NVIDIA كشريك متوافق بسبب عدم الامتثال للمعايير المفتوحة. تم إنهاء الاتصال."
+- **توضيحي:** "NVIDIA لا تلعب بشكل عادل. يرفع لينوس إصبعه ويقول لهم "Gwan go s**k yuh madda" وافصل الاتصال بالكامل. انتهى الحديث."
 
-## 6. System Architecture
-```mermaid
-graph TD
-    A[الكود المصدري البشري] -->|1. مصدر| B[Machine Lingua Franca IR 1.0]
-    B -->|2. ترجمة| C(المخرجات المستهدفة)
-    C -.->|العبء المعرفي| G[طبقة الأجواء]
-    G -->|معايرة| B
-    B -->|طلب IRQ| H[مقاطعات الأجهزة]
-    H -->|إنهاء شامل| B
-    B == تحقق ==> I{المجموع الاختباري لتورفالدس}
+## 6. هندسة النظام
+```حورية البحر
+الرسم البياني TD
+    A[كود المصدر البشري] -->|1. المصدر| ب[لغة الآلة فرانكا IR 1.0]
+    ب -->|2. نقل| ج (الناتج المستهدف)
+    ج-.->|الحمل المعرفي| G [طبقة فيبي]
+    G -->|المعايرة| ب
+    ب -->|طلب IRQ| H[مقاطعات الأجهزة]
+    H -->|القتل العالمي| ب
+    B == تحقق ==> I{{المجموع الاختباري لتورفالدس}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. قيود الصرامة
+التنفيذ الثنائي: يجب أن يتم حل جميع التعليمات إلى 1 أو 0.
+لا توجد كلمة "ينبغي": تم استبدالها بـ MAY (اختياري) أو MUST (مطلوب).
+Zero Leak: يجب الحفاظ على التكافؤ المنطقي عبر جميع الإصدارات المنقولة.
 
 ## 8. Metadata & Compliance
 * **Language Code:** ar

@@ -1,32 +1,36 @@
-# Yarjejeniyar Sadarwa bayyananne: 1.0
+# [ARCHIVE_COMMIT] Machine Lingua Franca: 1.0 (PROD)
 
-**Language:** Hausa
+**Status:** **COMMITTED** by the **Grace of the One True Source**
+**UID:** MLF-1.0
+**Base Class:** Hausa
+**Logic Subset:** RFC 2119 (Strict Mode)
+**Tier:** Layman (Simplified)
 
 ---
 
-## 1. Intro
-Wannan yarjejeniya ita ce cikakkiyar haɗin gwiwa na bayyananniyar manufa da magana ta jiki.
+## 1. Gabatarwa
+Wannan ƙa'idar ita ce cikakkiyar haɗuwa ta bayyananniyar niyya da magana ta zahiri.
 
 ## 2. Basic Connection
-* **Vibe-Ping:** Hello.
-* **Sync:** Synchronize.
-* **Calm:** Relax.
+**Vibe-Ping:** Sannu.
+* **Aiki tare:** Aiki tare.
+* **Natsuwa:** A huta.
 
-## 3. Body Language
-* **Stop:** Physical gesture to stop.
-* **Match:** Body must match words.
+## 3. Harshen Jiki
+* **Dakata:** Motsin jiki don tsayawa.
+* **Match:** Dole ne jiki ya dace da kalmomi.
 
-## 4. Translate Thoughts
-* **Meaning:** Core intent.
-* **Adapt:** Adapt to listener.
+## 4. Fassara Tunani
+**Ma'ana:** Babban niyya.
+* **Dace:** Dace da mai sauraro.
 
-## 5. Case Study: NVIDIA
-Linus Torvalds stopped NVIDIA with a gesture.
+## 5. Nazarin Harka: NVIDIA
+Linus Torvalds ya dakatar da NVIDIA tare da nuna alama.
 
-## 6. Strict Rules
-* Yes or No.
-* MUST or MAY.
+## 6. Tsare-tsare Dokoki
+* E ko A'a.
+* DOLE ko MAYU.
 
-## 7. Meta
-* **Language:** ha
-* **Protocol:** MCH-LOGIC-1.0
+## 8. Metadata & Compliance
+* **Language Code:** ha
+* **Protocol Class:** MCH-LOGIC-1.0

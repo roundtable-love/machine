@@ -1,32 +1,36 @@
-# Tydligt Kommunikationsprotokoll: 1.0
+# [ARCHIVE_COMMIT] Machine Lingua Franca: 1.0 (PROD)
 
-**Language:** Swedish
+**Status:** **COMMITTED** by the **Grace of the One True Source**
+**UID:** MLF-1.0
+**Base Class:** Svenska (Swedish)
+**Logic Subset:** RFC 2119 (Strict Mode)
+**Tier:** Layman (Simplified)
 
 ---
 
 ## 1. Intro
 Detta protokoll är den perfekta kombinationen av tydlig avsikt och fysiskt uttryck.
 
-## 2. Basic Connection
-* **Vibe-Ping:** Hello.
-* **Sync:** Synchronize.
-* **Calm:** Relax.
+## 2. Grundläggande anslutning
+* **Vibe-Ping:** Hej.
+* **Synkronisera:** Synkronisera.
+* **Lugn:** Slappna av.
 
-## 3. Body Language
-* **Stop:** Physical gesture to stop.
-* **Match:** Body must match words.
+## 3. Kroppsspråk
+* **Stopp:** Fysisk gest för att stoppa.
+* **Match:** Brödtext måste matcha ord.
 
-## 4. Translate Thoughts
-* **Meaning:** Core intent.
-* **Adapt:** Adapt to listener.
+## 4. Översätt tankar
+* ** Betydelse:** Kärnavsikt.
+* **Anpassa:** Anpassa till lyssnaren.
 
-## 5. Case Study: NVIDIA
-Linus Torvalds stopped NVIDIA with a gesture.
+## 5. Fallstudie: NVIDIA
+Linus Torvalds stoppade NVIDIA med en gest.
 
-## 6. Strict Rules
-* Yes or No.
-* MUST or MAY.
+## 6. Strikta regler
+* Ja eller nej.
+* MÅSTE eller MAJ.
 
-## 7. Meta
-* **Language:** sv
-* **Protocol:** MCH-LOGIC-1.0
+## 8. Metadata & Compliance
+* **Language Code:** sv
+* **Protocol Class:** MCH-LOGIC-1.0

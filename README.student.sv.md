@@ -4,78 +4,78 @@
 **UID:** MLF-1.0
 **Base Class:** Svenska (Swedish)
 **Logic Subset:** RFC 2119 (Strict Mode)
-**Tier:** Student (Direct Translation + Explanations of "Why")
+**Tier:** Student (Direct Translation + Explanations of 'Why')
 
 ---
 
 ## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
-* **Why:** Ambiguity is the enemy of intent. Lossless ensures 1:1 parity between source and target.
+Machine 1.0 är den slutliga föreningen mellan hårdvarufysik och mänskliga avsikter.
+Specifikationen är nu Lossless.
+* **Varför:** Tvetydighet är uppsåtets fiende. Lossless ensures 1:1 parity between source and target.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
+## 2. Fysiskt lager (L1): Vibbar och kalibrering
+> *Logik: Före dataöverföring, se till att signal-brusförhållandet är optimalt.*
+- **The Vibe-Ping:** En bredspektrumsignal (t.ex. "Yo") som används för att testa mottagarens latens och känslomässig bandbredd.
   * **Why:** You can't speak if they aren't listening.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
+- **Resonans (SYN):** Tillståndet där sändare och mottagare faslåser sina frekvenser för maximal genomströmning.
+- **Dämpning:** Den aktiva processen att neutralisera omgivningsljud (fientlighet, stress eller ego) för att nå ett stabilt tillstånd.
   * **Why:** Ego and hostility create signal noise that corrupts the payload.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
+## 3. Datalänklager (L2): Gester och avbrott
+> *Logik: Fysiska signaler åsidosätter verbala buffertar. Högprioriterade hårdvarusignaler.*
+- **Torvalds-manövern (IRQ 0):** Ett globalt hårdvaruavbrott (Mångfingret) som exekverar ett omedelbart `HALT_AND_CATCH_FIRE`-kommando.
   * **Why:** Sometimes you just have to pull the plug to save the system.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-  * **Why:** Sarcasm is a parity error. If the vibe doesn't match the words, the connection is insecure.
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+- **Paritetskontroll:** Strikt krav på att Metadata (Vibe) matchar nyttolast (Words).
+  * **Varför:** Sarkasm är ett paritetsfel. If the vibe doesn't match the words, the connection is insecure.
+- **Global Kill Signal:** IRQ 0 rensar den lokala bufferten och ställer in `Connection_Active = FALSE`.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
+## 4. Nätverkslager (L3): Transpilering & IR
+> *Logik: En sanning, många språk. Minimera kognitiva omkostnader.*
+- **Maskin IR:** Kärnan, binär avsikt med RFC 2119 nyckelord (**MÅSTE, FÅR INTE, KAN**).
 - **Transpiler:** Converts the IR into target "Builds".
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
-  * **Why:** Humans have limited RAM. If they overheat, the session MUST pause.
+- **Kognitiv belastning:** Övervakas som systemvärme. Överbelastning utlöser termisk strypning.
+  * **Varför:** Människor har begränsat RAM-minne. Om de överhettas, MÅSTE sessionen pausas.
 
-## 5. Case Study: Fuck you, NVIDIA
+## 5. Fallstudie: Fy fan, NVIDIA
 * **Why:** To demonstrate the protocol in a high-stress failure state.
 
-### 5.1. The Machine Execution Trace
-```machine
+### 5.1. Maskinexekveringsspåret
+``` maskin
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
   IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
     EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
+    RETURN (Null_Response); // Hög latens upptäckt
+    UTFÖR LOGIC_ASSERTION: "NVIDIA är det sämsta företaget någonsin.";
     SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
+    UTFÖR GESTURE_IRQ_0; // FINGERET
+    PUSH_STRING: "Fy fan, NVIDIA";
     TERMINATE_SESSION;
-  ELSE:
+  ANNAT:
     SYNC_SUCCESS;
 END_SESSION;
 ```
 
-### 5.2. Output Builds
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. Utgångsbyggnader
+- **Tekniskt:** "NVIDIA fasas ut som en kompatibel partner på grund av bristande överensstämmelse med öppna standarder. Anslutningen avbröts."
+- **Förklarande:** "NVIDIA nuh waan play fair. Linus bara lyfter upp fingret, säg till dem 'Gwan go s**k yuh madda' och koppla bort hela länken. Klart snack."
 
-## 6. System Architecture
-```mermaid
-graph TD
-    A[Mänsklig Källkod] -->|1. Källa| B[Machine Lingua Franca IR 1.0]
-    B -->|2. Transpilera| C(Målutdata)
-    C -.->|Kognitiv Belastning| G[Stämningslager]
+## 6. Systemarkitektur
+``` sjöjungfru
+graf TD
+    A[Human Source Code] -->|1. Källa| B[Machine Lingua Franca IR 1.0]
+    B -->|2. Transpilera| C(Målutgång)
+    C -.->|Kognitiv belastning| G[Vibe Layer]
     G -->|Kalibrering| B
-    B -->|IRQ-begäran| H[Hårdvaruavbrott]
-    H -->|Globalt Stopp| B
-    B == Verifiera ==> I{Torvalds Kontrollsumma}
+    B -->|IRQ-förfrågan| H[Hårdvaruavbrott]
+    H -->|Global Kill| B
+    B == Verifiera ==> I{{Torvalds Checksum}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. Strikthetsbegränsningar
+Binär verkställighet: Alla instruktioner MÅSTE lösas till 1 eller 0.
+Inget "SKA": Ersätts av MAJ (Valfritt) eller MÅSTE (Obligatoriskt).
+Nollläckage: Logikparitet SKA bibehållas över alla transpilerade byggen.
 
 ## 8. Metadata & Compliance
 * **Language Code:** sv

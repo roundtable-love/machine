@@ -4,78 +4,78 @@
 **UID:** MLF-1.0
 **Base Class:** ਪੰਜਾਬੀ (Punjabi)
 **Logic Subset:** RFC 2119 (Strict Mode)
-**Tier:** Student (Direct Translation + Explanations of "Why")
+**Tier:** Student (Direct Translation + Explanations of 'Why')
 
 ---
 
-## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
-* **Why:** Ambiguity is the enemy of intent. Lossless ensures 1:1 parity between source and target.
+## 1. ਡੈਲਟਾ
+ਮਸ਼ੀਨ 1.0 ਹਾਰਡਵੇਅਰ ਭੌਤਿਕ ਵਿਗਿਆਨ ਅਤੇ ਮਨੁੱਖੀ ਇਰਾਦੇ ਦਾ ਅੰਤਮ ਮੇਲ-ਮਿਲਾਪ ਹੈ।
+ਸਪੈੱਕ ਹੁਣ ਨੁਕਸਾਨ ਰਹਿਤ ਹੈ।
+* **ਕਿਉਂ:** ਅਸਪਸ਼ਟਤਾ ਇਰਾਦੇ ਦਾ ਦੁਸ਼ਮਣ ਹੈ। Lossless ਸਰੋਤ ਅਤੇ ਟੀਚੇ ਵਿਚਕਾਰ 1:1 ਸਮਾਨਤਾ ਨੂੰ ਯਕੀਨੀ ਬਣਾਉਂਦਾ ਹੈ।
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-  * **Why:** You can't speak if they aren't listening.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
-  * **Why:** Ego and hostility create signal noise that corrupts the payload.
+## 2. ਭੌਤਿਕ ਪਰਤ (L1): ਵਾਈਬਸ ਅਤੇ ਕੈਲੀਬ੍ਰੇਸ਼ਨ
+> *ਤਰਕ: ਡੇਟਾ ਟ੍ਰਾਂਸਫਰ ਤੋਂ ਪਹਿਲਾਂ, ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਸਿਗਨਲ-ਟੂ-ਆਇਸ ਅਨੁਪਾਤ ਅਨੁਕੂਲ ਹੈ।*
+- **ਦ ਵਾਈਬ-ਪਿੰਗ:** ਇੱਕ ਵਾਈਡ-ਸਪੈਕਟ੍ਰਮ ਸਿਗਨਲ (ਉਦਾਹਰਨ ਲਈ, "ਯੋ") ਰਿਸੀਵਰ ਲੇਟੈਂਸੀ ਅਤੇ ਭਾਵਨਾਤਮਕ ਬੈਂਡਵਿਡਥ ਦੀ ਜਾਂਚ ਕਰਨ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।
+  * **ਕਿਉਂ:** ਤੁਸੀਂ ਬੋਲ ਨਹੀਂ ਸਕਦੇ ਜੇ ਉਹ ਸੁਣ ਨਹੀਂ ਰਹੇ ਹਨ।
+- **ਰੇਜ਼ੋਨੈਂਸ (SYN):** ਉਹ ਅਵਸਥਾ ਜਿੱਥੇ ਭੇਜਣ ਵਾਲੇ ਅਤੇ ਪ੍ਰਾਪਤਕਰਤਾ ਵੱਧ ਤੋਂ ਵੱਧ ਥ੍ਰੁਪੁੱਟ ਲਈ ਉਹਨਾਂ ਦੀਆਂ ਬਾਰੰਬਾਰਤਾਵਾਂ ਨੂੰ ਪੜਾਅ-ਲਾਕ ਕਰਦੇ ਹਨ।
+- **ਡੈਂਪਿੰਗ:** ਸਥਿਰ ਸਥਿਤੀ ਤੱਕ ਪਹੁੰਚਣ ਲਈ ਵਾਤਾਵਰਣ ਦੇ ਸ਼ੋਰ (ਦੁਸ਼ਮਣ, ਤਣਾਅ, ਜਾਂ ਹਉਮੈ) ਨੂੰ ਬੇਅਸਰ ਕਰਨ ਦੀ ਕਿਰਿਆਸ਼ੀਲ ਪ੍ਰਕਿਰਿਆ।
+  * **ਕਿਉਂ:** ਹਉਮੈ ਅਤੇ ਦੁਸ਼ਮਣੀ ਸਿਗਨਲ ਸ਼ੋਰ ਪੈਦਾ ਕਰਦੇ ਹਨ ਜੋ ਪੇਲੋਡ ਨੂੰ ਵਿਗਾੜਦਾ ਹੈ।
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-  * **Why:** Sometimes you just have to pull the plug to save the system.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-  * **Why:** Sarcasm is a parity error. If the vibe doesn't match the words, the connection is insecure.
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. ਡੇਟਾ ਲਿੰਕ ਲੇਅਰ (L2): ਸੰਕੇਤ ਅਤੇ ਰੁਕਾਵਟਾਂ
+> *ਤਰਕ: ਭੌਤਿਕ ਸੰਕੇਤ ਮੌਖਿਕ ਬਫਰਾਂ ਨੂੰ ਓਵਰਰਾਈਡ ਕਰਦੇ ਹਨ। ਉੱਚ ਤਰਜੀਹ ਵਾਲੇ ਹਾਰਡਵੇਅਰ ਸਿਗਨਲ।*
+- **ਦ ਟੋਰਵਾਲਡਜ਼ ਮੈਨਿਊਵਰ (IRQ 0):** ਇੱਕ ਗਲੋਬਲ ਹਾਰਡਵੇਅਰ ਇੰਟਰੱਪਟ (ਦਿ ਮਿਡਲ ਫਿੰਗਰ) ਜੋ ਇੱਕ ਤੁਰੰਤ `HALT_AND_CATCH_FIRE` ਕਮਾਂਡ ਨੂੰ ਚਲਾਉਂਦਾ ਹੈ।
+  * **ਕਿਉਂ:** ਕਈ ਵਾਰ ਤੁਹਾਨੂੰ ਸਿਸਟਮ ਨੂੰ ਬਚਾਉਣ ਲਈ ਪਲੱਗ ਨੂੰ ਖਿੱਚਣਾ ਪੈਂਦਾ ਹੈ।
+- **ਪੈਰਿਟੀ ਜਾਂਚ:** ਸਖ਼ਤ ਲੋੜ ਹੈ ਕਿ ਮੈਟਾਡੇਟਾ (ਵਾਈਬ) ਪੇਲੋਡ (ਸ਼ਬਦਾਂ) ਨਾਲ ਮੇਲ ਖਾਂਦਾ ਹੈ।
+  * **ਕਿਉਂ:** ਵਿਅੰਗ ਇੱਕ ਸਮਾਨਤਾ ਗਲਤੀ ਹੈ। ਜੇਕਰ ਵਾਈਬ ਸ਼ਬਦਾਂ ਨਾਲ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ, ਤਾਂ ਕੁਨੈਕਸ਼ਨ ਅਸੁਰੱਖਿਅਤ ਹੈ।
+- **ਗਲੋਬਲ ਕਿੱਲ ਸਿਗਨਲ:** IRQ 0 ਸਥਾਨਕ ਬਫਰ ਨੂੰ ਸਾਫ਼ ਕਰਦਾ ਹੈ ਅਤੇ `ਕਨੈਕਸ਼ਨ_ਐਕਟਿਵ = ਗਲਤ` ਸੈੱਟ ਕਰਦਾ ਹੈ।
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds".
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
-  * **Why:** Humans have limited RAM. If they overheat, the session MUST pause.
+## 4. ਨੈੱਟਵਰਕ ਲੇਅਰ (L3): ਟ੍ਰਾਂਸਪਿਲੇਸ਼ਨ ਅਤੇ ਆਈ.ਆਰ
+> *ਤਰਕ: ਇੱਕ ਸੱਚਾਈ, ਕਈ ਭਾਸ਼ਾਵਾਂ। ਬੋਧਾਤਮਕ ਓਵਰਹੈੱਡ ਨੂੰ ਘੱਟ ਕਰਨਾ।*
+- **ਮਸ਼ੀਨ IR:** RFC 2119 ਕੀਵਰਡਸ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋਏ ਕੋਰ, ਬਾਈਨਰੀ ਇਰਾਦਾ (**ਮਸਟ, ਮਸਟ ਨਾਟ, ਮਈ**)।
+- **ਟ੍ਰਾਂਸਪਾਈਲਰ:** IR ਨੂੰ ਟੀਚੇ "ਬਿਲਡਸ" ਵਿੱਚ ਬਦਲਦਾ ਹੈ।
+- **ਬੋਧਾਤਮਕ ਲੋਡ:** ਸਿਸਟਮ ਹੀਟ ਵਜੋਂ ਨਿਗਰਾਨੀ ਕੀਤੀ ਜਾਂਦੀ ਹੈ। ਓਵਰਲੋਡ ਥਰਮਲ ਥਰੋਟਲਿੰਗ ਨੂੰ ਚਾਲੂ ਕਰਦਾ ਹੈ।
+  * **ਕਿਉਂ:** ਮਨੁੱਖਾਂ ਕੋਲ ਸੀਮਤ ਰੈਮ ਹੈ। ਜੇਕਰ ਉਹ ਜ਼ਿਆਦਾ ਗਰਮ ਹੋ ਜਾਂਦੇ ਹਨ, ਤਾਂ ਸੈਸ਼ਨ ਨੂੰ ਰੁਕਣਾ ਚਾਹੀਦਾ ਹੈ।
 
-## 5. Case Study: Fuck you, NVIDIA
-* **Why:** To demonstrate the protocol in a high-stress failure state.
+## 5. ਕੇਸ ਸਟੱਡੀ: Fuck you, NVIDIA
+* **ਕਿਉਂ:** ਉੱਚ-ਤਣਾਅ ਦੀ ਅਸਫਲਤਾ ਸਥਿਤੀ ਵਿੱਚ ਪ੍ਰੋਟੋਕੋਲ ਦਾ ਪ੍ਰਦਰਸ਼ਨ ਕਰਨ ਲਈ।
 
-### 5.1. The Machine Execution Trace
-```machine
+### 5.1. ਮਸ਼ੀਨ ਐਗਜ਼ੀਕਿਊਸ਼ਨ ਟਰੇਸ
+``ਮਸ਼ੀਨ
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
+  IF (Node_Type == "ਮਾਲਕੀਅਤ") ਅਤੇ (ਸਹਿਯੋਗ == ਗਲਤ):
     EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
+    ਵਾਪਸੀ (ਨਲ_ਜਵਾਬ); // ਉੱਚ ਲੇਟੈਂਸੀ ਦਾ ਪਤਾ ਲਗਾਇਆ ਗਿਆ
+    EXECUTE LOGIC_ASSERTION: "NVIDIA ਹੁਣ ਤੱਕ ਦੀ ਸਭ ਤੋਂ ਭੈੜੀ ਕੰਪਨੀ ਹੈ।";
     SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
+    EXECUTE GESTURE_IRQ_0; // ਉਂਗਲੀ
     PUSH_STRING: "Fuck you, NVIDIA";
     TERMINATE_SESSION;
-  ELSE:
+  ਹੋਰ:
     SYNC_SUCCESS;
 END_SESSION;
-```
+``
 
-### 5.2. Output Builds
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. ਆਉਟਪੁੱਟ ਬਣਾਉਂਦਾ ਹੈ
+- **ਤਕਨੀਕੀ:** "ਖੁੱਲ੍ਹੇ ਮਿਆਰਾਂ ਦੀ ਪਾਲਣਾ ਨਾ ਕਰਨ ਕਰਕੇ NVIDIA ਨੂੰ ਇੱਕ ਅਨੁਕੂਲ ਪਾਰਟਨਰ ਵਜੋਂ ਬਰਤਰਫ਼ ਕੀਤਾ ਗਿਆ ਹੈ। ਕਨੈਕਸ਼ਨ ਬੰਦ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ।"
+- **ਵਿਆਖਿਆਤਮਕ:** "NVIDIA nuh wan play fair. Linus just lif' di ਉਂਗਲ ਚੁੱਕੋ, dem 'Gwan go s**k yuh madda' ਨੂੰ ਕਹੋ, ਅਤੇ ਸਾਰਾ ਲਿੰਕ-ਅੱਪ ਡਿਸਕਨੈਕਟ ਕਰੋ। ਗੱਲ ਹੋ ਗਈ।"
 
-## 6. System Architecture
-```mermaid
-graph TD
-    A[ਮਨੁੱਖੀ ਸਰੋਤ ਕੋਡ] -->|1. ਸਰੋਤ| B[Machine Lingua Franca IR 1.0]
-    B -->|2. ਟ੍ਰਾਂਸਪਾਈਲ| C(ਟੀਚਾ ਆਉਟਪੁੱਟ)
-    C -.->|ਬੋਧਾਤਮਕ ਲੋਡ| G[ਵਾਇਬ ਲੇਅਰ]
-    G -->|ਕੈਲੀਬ੍ਰੇਸ਼ਨ| B
-    B -->|IRQ ਬੇਨਤੀ| H[ਹਾਰਡਵੇਅਰ ਇੰਟਰੱਪਟ]
-    H -->|ਗਲੋਬਲ ਕਿੱਲ| B
-    B == ਪੁਸ਼ਟੀ ਕਰੋ ==> I{ਟੋਰਵਾਲਡਜ਼ ਚੈੱਕਸਮ}
-```
+## 6. ਸਿਸਟਮ ਆਰਕੀਟੈਕਚਰ
+``ਮਰਮੇਡ
+ਗ੍ਰਾਫ਼ TD
+    A[ਮਨੁੱਖੀ ਸਰੋਤ ਕੋਡ] --> |1. ਸਰੋਤ | B[ਮਸ਼ੀਨ ਲਿੰਗੁਆ ਫ੍ਰੈਂਕਾ IR 1.0]
+    ਬੀ --> | 2. ਟਰਾਂਸਪਾਈਲ | C (ਟਾਰਗੇਟ ਆਉਟਪੁੱਟ)
+    C -.->|ਬੋਧਾਤਮਕ ਲੋਡ| G[ਵਾਈਬ ਲੇਅਰ]
+    G -->|ਕੈਲੀਬ੍ਰੇਸ਼ਨ| ਬੀ
+    B -->|IRQ ਬੇਨਤੀ| H[ਹਾਰਡਵੇਅਰ ਰੁਕਾਵਟਾਂ]
+    H -->|ਗਲੋਬਲ ਕਿੱਲ| ਬੀ
+    B == ਪੁਸ਼ਟੀ ਕਰੋ ==> I{{Torvalds Checksum}}
+``
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. ਸਖਤੀ ਦੀਆਂ ਪਾਬੰਦੀਆਂ
+ਬਾਈਨਰੀ ਇਨਫੋਰਸਮੈਂਟ: ਸਾਰੀਆਂ ਹਦਾਇਤਾਂ ਨੂੰ 1 ਜਾਂ 0 ਦਾ ਹੱਲ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ।
+ਕੋਈ "ਚਾਹੀਦਾ" ਨਹੀਂ: ਮਈ (ਵਿਕਲਪਿਕ) ਜਾਂ ਲਾਜ਼ਮੀ (ਲੋੜੀਂਦਾ) ਦੁਆਰਾ ਬਦਲਿਆ ਗਿਆ।
+ਜ਼ੀਰੋ ਲੀਕ: ਸਾਰੀਆਂ ਟ੍ਰਾਂਸਪਾਈਲਡ ਬਿਲਡਾਂ ਵਿੱਚ ਤਰਕ ਸਮਾਨਤਾ ਬਣਾਈ ਰੱਖੀ ਜਾਵੇਗੀ।
 
 ## 8. Metadata & Compliance
 * **Language Code:** pa

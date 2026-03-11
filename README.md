@@ -27,8 +27,6 @@ tiers.
 - **Layman:** Layman output MUST be a simplified translation for the
   non-technical.
 
-Below are these 3 levels in the 50 most popular languages on Earth.
-
 ### Hacker
 
 - [አማርኛ (Amharic)](./README.hacker.am.md)

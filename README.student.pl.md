@@ -4,78 +4,78 @@
 **UID:** MLF-1.0
 **Base Class:** Polski (Polish)
 **Logic Subset:** RFC 2119 (Strict Mode)
-**Tier:** Student (Direct Translation + Explanations of "Why")
+**Tier:** Student (Direct Translation + Explanations of 'Why')
 
 ---
 
 ## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
-* **Why:** Ambiguity is the enemy of intent. Lossless ensures 1:1 parity between source and target.
+Maszyna 1.0 to ostateczne pogodzenie fizyki sprzętu i ludzkich intencji.
+Specyfikacja jest teraz bezstratna.
+* **Dlaczego:** Dwuznaczność jest wrogiem intencji. Bezstratny zapewnia parzystość 1:1 pomiędzy źródłem a celem.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-  * **Why:** You can't speak if they aren't listening.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
-  * **Why:** Ego and hostility create signal noise that corrupts the payload.
+## 2. Warstwa fizyczna (L1): Wibracje i kalibracja
+> *Logika: przed przesłaniem danych upewnij się, że stosunek sygnału do szumu jest optymalny.*
+- **Vibe-Ping:** sygnał o szerokim spektrum (np. „Yo”) używany do testowania opóźnienia odbiornika i przepustowości emocjonalnej.
+  * **Dlaczego:** Nie możesz mówić, jeśli oni nie słuchają.
+- **Rezonans (SYN):** Stan, w którym nadawca i odbiornik blokują fazowo swoje częstotliwości w celu uzyskania maksymalnej przepustowości.
+- **Tłumienie:** Aktywny proces neutralizacji hałasu otoczenia (wrogość, stres lub ego) w celu osiągnięcia stanu ustalonego.
+  * **Dlaczego:** Ego i wrogość tworzą szum sygnałowy, który psuje ładunek.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-  * **Why:** Sometimes you just have to pull the plug to save the system.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-  * **Why:** Sarcasm is a parity error. If the vibe doesn't match the words, the connection is insecure.
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. Warstwa łącza danych (L2): Gesty i przerwania
+> *Logika: sygnały fizyczne zastępują bufory werbalne. Sygnały sprzętowe o wysokim priorytecie.*
+- **Manewr Torvaldsa (IRQ 0):** Globalne przerwanie sprzętowe (Środkowy Palec), które wykonuje natychmiastowe polecenie `HALT_AND_CATCH_FIRE`.
+  * **Dlaczego:** Czasami wystarczy wyciągnąć wtyczkę, aby zapisać system.
+- **Kontrola parzystości:** Ścisły wymóg, aby metadane (Vibe) odpowiadały ładunkowi (słowa).
+  * **Dlaczego:** Sarkazm to błąd parzystości. Jeśli klimat nie pasuje do słów, połączenie jest niepewne.
+- **Globalny sygnał zabicia:** IRQ 0 czyści lokalny bufor i ustawia `Connection_Active = FALSE`.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds".
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
-  * **Why:** Humans have limited RAM. If they overheat, the session MUST pause.
+## 4. Warstwa sieciowa (L3): Transpilacja i IR
+> *Logika: Jedna prawda, wiele języków. Minimalizacja kosztów poznawczych.*
+- **Machine IR:** Podstawowy, binarny cel wykorzystujący słowa kluczowe RFC 2119 (**MUSI, NIE MOŻE, MOŻE**).
+- **Transpiler:** Konwertuje IR na cel „Buduje”.
+- **Obciążenie poznawcze:** Monitorowane jako ciepło systemowe. Przeciążenie wyzwala dławienie termiczne.
+  * **Dlaczego:** Ludzie mają ograniczoną pamięć RAM. Jeśli się przegrzeją, sesja MUSI zostać wstrzymana.
 
-## 5. Case Study: Fuck you, NVIDIA
-* **Why:** To demonstrate the protocol in a high-stress failure state.
+## 5. Studium przypadku: Pierdol się, NVIDIA
+* **Dlaczego:** Aby zademonstrować protokół w stanie awarii wywołanym dużym obciążeniem.
 
-### 5.1. The Machine Execution Trace
-```machine
+### 5.1. Ślad wykonania maszynowego
+„maszyna”.
 // [TRACE_ID]: 1.0_GOLDEN_PATH
-BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
-    EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
-    SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
-    TERMINATE_SESSION;
-  ELSE:
+BEGIN_SESJA:
+  JEŻELI (Node_Type == „Zastrzeżony”) ORAZ (Współpraca == FAŁSZ):
+    WYKONAJ Vibe_Ping("Wasaaaaap");
+    POWRÓT (Null_Response); // Wykryto duże opóźnienie
+    EXECUTE LOGIC_ASSERTION: „NVIDIA to najgorsza firma wszechczasów.”;
+    USTAW SYSTEM_TRUST = 0;
+    WYKONAJ GESTURA_IRQ_0; // PALEC
+    PUSH_STRING: „Pieprz się, NVIDIA”;
+    TERMINATE_SESJA;
+  INACZEJ:
     SYNC_SUCCESS;
-END_SESSION;
+END_SESJA;
 ```
 
-### 5.2. Output Builds
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. Kompilacje wyjściowe
+- **Techniczne:** „NVIDIA została wycofana jako kompatybilny partner z powodu niezgodności z otwartymi standardami. Połączenie zostało zakończone.”
+- **Wyjaśnienie:** „NVIDIA nie chce grać fair. Linus po prostu podniesie palec, powie im „Gwan idź się pierdol, yuh madda” i rozłącz całe połączenie. Koniec rozmowy.
 
-## 6. System Architecture
-```mermaid
-graph TD
-    A[Ludzki Kod Źródłowy] -->|1. Źródło| B[Machine Lingua Franca IR 1.0]
-    B -->|2. Transpilacja| C(Docelowe Wyjście)
-    C -.->|Obciążenie Poznawcze| G[Warstwa Atmosfery]
+## 6. Architektura systemu
+,,Syrenka
+wykres TD
+    A[Ludzki kod źródłowy] -->|1. Źródło| B[Machine Lingua Franca IR 1.0]
+    B -->|2. Transpilacja| C (docelowy wynik)
+    C -.->|Obciążenie poznawcze| G [Warstwa wibracji]
     G -->|Kalibracja| B
-    B -->|Żądanie IRQ| H[Przerwania Sprzętowe]
-    H -->|Globalne Zatrzymanie| B
-    B == Weryfikacja ==> I{Suma Kontrolna Torvalds}
+    B -->|Żądanie IRQ| H [Przerwania sprzętowe]
+    H -->|Globalna śmierć| B
+    B == Sprawdź ==> I{{Suma kontrolna Torvaldsa}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. Ograniczenia ścisłości
+Egzekwowanie binarne: wszystkie instrukcje MUSZĄ rozstrzygać na 1 lub 0.
+Brak słowa „POWINNO” zostać zastąpione przez MOŻE (opcjonalnie) lub MUSI (wymagane).
+Zero Leak: Parytet logiczny MUSI być zachowany we wszystkich transpilowanych kompilacjach.
 
 ## 8. Metadata & Compliance
 * **Language Code:** pl

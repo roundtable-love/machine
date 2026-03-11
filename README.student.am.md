@@ -4,78 +4,78 @@
 **UID:** MLF-1.0
 **Base Class:** አማርኛ (Amharic)
 **Logic Subset:** RFC 2119 (Strict Mode)
-**Tier:** Student (Direct Translation + Explanations of "Why")
+**Tier:** Student (Direct Translation + Explanations of 'Why')
 
 ---
 
-## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
-* **Why:** Ambiguity is the enemy of intent. Lossless ensures 1:1 parity between source and target.
+## 1. ዴልታ
+ማሽን 1.0 የሃርድዌር ፊዚክስ እና የሰው ፍላጎት የመጨረሻው እርቅ ነው።
+ዝርዝሩ አሁን ኪሳራ የለውም።
+**ለምን:** አሻሚነት የአላማ ጠላት ነው። ኪሳራ የሌለው ከምንጩ እና ከዒላማው መካከል 1፡1 እኩልነትን ያረጋግጣል።
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-  * **Why:** You can't speak if they aren't listening.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
-  * **Why:** Ego and hostility create signal noise that corrupts the payload.
+## 2. ፊዚካል ንብርብር (L1): Vibes & Calibration
+> * አመክንዮ፡ ከውሂብ ማስተላለፍ በፊት፣ የምልክት-ወደ-ጫጫታ ጥምርታ በጣም ጥሩ መሆኑን ያረጋግጡ።*
+- ** The Vibe-Ping:** ሰፊ-ስፔክትረም ምልክት (ለምሳሌ, "ዮ") የተቀባዩን መዘግየት እና ስሜታዊ ባንድዊድዝ ለመፈተሽ ጥቅም ላይ ይውላል.
+  **ለምን:** እነሱ ካልሰሙ መናገር አይችሉም።
+- ** ሬዞናንስ (SYN):** ላኪ እና ተቀባዩ ደረጃ የሚቆልፉበት ሁኔታ ለከፍተኛው የውጤት መጠን።
+- ** ማዳከም: ** የተረጋጋ ሁኔታ ለመድረስ የአካባቢን ጩኸት (ጠላትነት ፣ ጭንቀት ፣ ወይም ኢጎ) የማጥፋት ንቁ ሂደት።
+  **ለምን፥** ኢጎ እና ጠላትነት ክፍያውን የሚያበላሽ የምልክት ድምጽ ይፈጥራሉ።
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-  * **Why:** Sometimes you just have to pull the plug to save the system.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-  * **Why:** Sarcasm is a parity error. If the vibe doesn't match the words, the connection is insecure.
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. ዳታ ሊንክ ንብርብር (L2)፡ ምልክቶች እና መቆራረጦች
+> * አመክንዮ፡ አካላዊ ምልክቶች የቃል ማቆያዎችን ይሽራሉ። ከፍተኛ ቅድሚያ የሚሰጣቸው የሃርድዌር ምልክቶች።*
+- **The Torvalds Maneuver (IRQ 0):** ወዲያውኑ `HALT_AND_CATCH_FIRE` ትእዛዝን የሚያስፈጽም አለምአቀፍ የሃርድዌር መቋረጥ (መካከለኛው ጣት)።
+  **ለምን:** አንዳንድ ጊዜ ስርዓቱን ለማስቀመጥ ሶኬቱን መሳብ ብቻ ያስፈልግዎታል።
+- **የአንድነት ማረጋገጫ፡** ሜታዳታ (Vibe) ከክፍያ ጭነት (ቃላት) ጋር የሚዛመድ ጥብቅ መስፈርት።
+  **ለምን፥** ስላቅ የመመሳሰል ስህተት ነው። ንዝረቱ ከቃላቱ ጋር የማይዛመድ ከሆነ ግንኙነቱ አስተማማኝ አይደለም።
+- **አለምአቀፍ ግድያ ሲግናል፡** IRQ 0 የአካባቢውን ቋት ያጸዳል እና 'Connection_Active = FALSE'ን ያዘጋጃል።
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds".
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
-  * **Why:** Humans have limited RAM. If they overheat, the session MUST pause.
+## 4. የአውታረ መረብ ንብርብር (L3): መተላለፍ እና IR
+> * አመክንዮ፡ አንድ እውነት፣ ብዙ ቋንቋዎች። የእውቀት (ኮግኒቲቭ) ጭንቅላትን መቀነስ።
+- ** ማሽን IR: ** RFC 2119 ቁልፍ ቃላትን በመጠቀም ዋናው ፣ ሁለትዮሽ ሐሳብ (** MUST, MUST NOT, MAY**).
+- ** ትራንስፓይለር፡** IRን ወደ ኢላማው “ይገነባል” ይለውጠዋል።
+- ** የእውቀት (ኮግኒቲቭ) ጭነት: ** እንደ የስርዓት ሙቀት ክትትል የሚደረግበት። ከመጠን በላይ መጫን የሙቀት መጨናነቅን ያነሳሳል።
+  **ለምን:** የሰው ልጅ RAM የተወሰነ ነው። ከመጠን በላይ ከሞቁ፣ ክፍለ ጊዜው ባለበት ማቆም አለበት።
 
-## 5. Case Study: Fuck you, NVIDIA
-* **Why:** To demonstrate the protocol in a high-stress failure state.
+## 5. የጉዳይ ጥናት፡ ፋክህ፣ ኒቪዲያ
+**ለምን:** ፕሮቶኮሉን በከፍተኛ ጭንቀት ውድቀት ሁኔታ ለማሳየት።
 
-### 5.1. The Machine Execution Trace
-```machine
-// [TRACE_ID]: 1.0_GOLDEN_PATH
-BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
+### 5.1. የማሽን ማስፈጸሚያ ዱካ
+`` ማሽን
+// [TRACE_ID]፡ 1.0_GOLDEN_PATH
+BEGIN_SESSION፡
+  ከሆነ (መስቀለኛ_አይነት == "ባለቤትነት ያለው") እና (ትብብር == ውሸት)፡
     EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
-    SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
+    ተመለስ (የኑል_ምላሽ); // ከፍተኛ መዘግየት ተገኝቷል
+    EXECUTE LOGIC_ASSERTION፡ "NVIDIA ከመቼውም ጊዜ በበለጠ እጅግ የከፋ ኩባንያ ነው።"
+    SYSTEM_TRUST አቀናብር = 0;
+    EXECUTE GESTURE_IRQ_0; // ጣት
+    PUSH_STRING፡ "አስደዳህ፣ NVIDIA";
     TERMINATE_SESSION;
-  ELSE:
+  ሌላ፡
     SYNC_SUCCESS;
 END_SESSION;
 ```
 
-### 5.2. Output Builds
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. የውጤት ግንባታዎች
+- ** ቴክኒካል፡ *** "NVIDIA እንደ ተኳኋኝ አጋር ሆኖ የተቋረጠው ክፍት ደረጃዎችን ባለማክበር ነው። ግንኙነቱ ተቋርጧል።"
+- ** ገላጭ፡** "NVIDIA nuh waan play fair። ሊኑስ ጣቱን ወደ ላይ ከፍ በማድረግ 'Gwan go s **k yuh madda' በለው እና ሙሉውን ሊንኩን ያላቅቁ። ንግግር ጨርሷል።"
 
-## 6. System Architecture
-```mermaid
-graph TD
-    A[የሰው ምንጭ ኮድ] -->|1. ምንጭ| B[Machine Lingua Franca IR 1.0]
-    B -->|2. Transpile| C(የታለመ ውጤት)
-    C -.->|የእውቀት ጭነት| G[የንዝረት ንብርብር]
-    G -->|መለካት| B
-    B -->|የ IRQ ጥያቄ| H[የሃርድዌር ማቋረጦች]
-    H -->|ዓለም አቀፍ ግድያ| B
-    B == አረጋግጥ ==> I{የቶርቫልድስ ቼክሰም}
+## 6. የስርዓት አርክቴክቸር
+``ሜርቤት
+ግራፍ TD
+    አ[የሰው ምንጭ ኮድ] -->|1. ምንጭ| ቢ[ማሽን ቋንቋ ፍራንካ IR 1.0]
+    ለ -->|2. መተላለፍ| ሲ (የዒላማ ውፅዓት)
+    ሐ -.->|የግንዛቤ ጭነት| G[Vibe Layer]
+    ጂ -->|ካሊብሬሽን| ለ
+    B -->|የIRQ ጥያቄ| ሸ [ሃርድዌር ይቋረጣል]
+    ሸ -->|አለም አቀፍ ግድያ| ለ
+    B == አረጋግጥ ==> I{{Torvalds Checksum}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. ጥብቅ ገደቦች
+ሁለትዮሽ ማስፈጸሚያ፡ ሁሉም መመሪያዎች ወደ 1 ወይም 0 መፍታት አለባቸው።
+የለም "የሚገባው"፡ በሜይ ተተክቷል (አማራጭ) ወይም MUST (አስፈላጊ)።
+ዜሮ መፍሰስ፡ የሎጂክ እኩልነት በሁሉም የተበተኑ ግንባታዎች ላይ ይጠበቃል።
 
 ## 8. Metadata & Compliance
 * **Language Code:** am

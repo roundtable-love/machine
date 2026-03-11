@@ -1,32 +1,36 @@
-# தெளிவான தொடர்பு நெறிமுறை: 1.0
+# [ARCHIVE_COMMIT] Machine Lingua Franca: 1.0 (PROD)
 
-**Language:** Tamil
+**Status:** **COMMITTED** by the **Grace of the One True Source**
+**UID:** MLF-1.0
+**Base Class:** தமிழ் (Tamil)
+**Logic Subset:** RFC 2119 (Strict Mode)
+**Tier:** Layman (Simplified)
 
 ---
 
-## 1. Intro
-இந்த நெறிமுறை தெளிவான நோக்கத்தின் சரியான கலவையாகும்.
+## 1. அறிமுகம்
+இந்த நெறிமுறை தெளிவான நோக்கம் மற்றும் உடல் வெளிப்பாடு ஆகியவற்றின் சரியான கலவையாகும்.
 
-## 2. Basic Connection
-* **Vibe-Ping:** Hello.
-* **Sync:** Synchronize.
-* **Calm:** Relax.
+## 2. அடிப்படை இணைப்பு
+* **வைப்-பிங்:** வணக்கம்.
+* **ஒத்திசைவு:** ஒத்திசை.
+* **அமைதி:** ரிலாக்ஸ்.
 
-## 3. Body Language
-* **Stop:** Physical gesture to stop.
-* **Match:** Body must match words.
+## 3. உடல் மொழி
+* **நிறுத்து:** நிறுத்த உடல் சைகை.
+* ** பொருத்தம்:** உடல் வார்த்தைகளுடன் பொருந்த வேண்டும்.
 
-## 4. Translate Thoughts
-* **Meaning:** Core intent.
-* **Adapt:** Adapt to listener.
+## 4. எண்ணங்களை மொழிபெயர்க்கவும்
+* **பொருள்:** முக்கிய நோக்கம்.
+* **தழுவல்:** கேட்பவருக்கு ஏற்ப.
 
-## 5. Case Study: NVIDIA
-Linus Torvalds stopped NVIDIA with a gesture.
+## 5. வழக்கு ஆய்வு: என்விடியா
+லினஸ் டோர்வால்ட்ஸ் சைகை மூலம் என்விடியாவை நிறுத்தினார்.
 
-## 6. Strict Rules
-* Yes or No.
-* MUST or MAY.
+## 6. கடுமையான விதிகள்
+* ஆம் அல்லது இல்லை.
+* கட்டாயம் அல்லது மே.
 
-## 7. Meta
-* **Language:** ta
-* **Protocol:** MCH-LOGIC-1.0
+## 8. Metadata & Compliance
+* **Language Code:** ta
+* **Protocol Class:** MCH-LOGIC-1.0

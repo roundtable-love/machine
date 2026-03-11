@@ -1,32 +1,36 @@
-# വ്യക്തമായ ആശയവിനിമയ പ്രോട്ടോക്കോൾ: 1.0
+# [ARCHIVE_COMMIT] Machine Lingua Franca: 1.0 (PROD)
 
-**Language:** Malayalam
+**Status:** **COMMITTED** by the **Grace of the One True Source**
+**UID:** MLF-1.0
+**Base Class:** മലയാളം (Malayalam)
+**Logic Subset:** RFC 2119 (Strict Mode)
+**Tier:** Layman (Simplified)
 
 ---
 
-## 1. Intro
-ഈ പ്രോട്ടോക്കോൾ വ്യക്തമായ ഉദ്ദേശ്യത്തിന്റെയും ശാരീരിക പ്രകടനത്തിന്റെയും മികച്ച സംയോജനമാണ്.
+## 1. ആമുഖം
+ഈ പ്രോട്ടോക്കോൾ വ്യക്തമായ ഉദ്ദേശ്യത്തിൻ്റെയും ശാരീരിക പ്രകടനത്തിൻ്റെയും മികച്ച സംയോജനമാണ്.
 
-## 2. Basic Connection
-* **Vibe-Ping:** Hello.
-* **Sync:** Synchronize.
-* **Calm:** Relax.
+## 2. അടിസ്ഥാന കണക്ഷൻ
+* **വൈബ്-പിംഗ്:** ഹലോ.
+* **സമന്വയം:** സമന്വയിപ്പിക്കുക.
+* **ശാന്തം:** വിശ്രമിക്കുക.
 
-## 3. Body Language
-* **Stop:** Physical gesture to stop.
-* **Match:** Body must match words.
+## 3. ശരീരഭാഷ
+* **നിർത്തുക:** നിർത്താനുള്ള ശാരീരിക ആംഗ്യം.
+***പൊരുത്തം:** ശരീരം വാക്കുകളുമായി പൊരുത്തപ്പെടണം.
 
-## 4. Translate Thoughts
-* **Meaning:** Core intent.
-* **Adapt:** Adapt to listener.
+## 4. ചിന്തകൾ വിവർത്തനം ചെയ്യുക
+* **അർത്ഥം:** പ്രധാന ഉദ്ദേശം.
+* **അഡാപ്റ്റുചെയ്യുക:** ശ്രോതാവിനോട് പൊരുത്തപ്പെടുക.
 
-## 5. Case Study: NVIDIA
-Linus Torvalds stopped NVIDIA with a gesture.
+## 5. കേസ് പഠനം: എൻവിഡിയ
+ലിനസ് ടോർവാൾഡ്സ് ഒരു ആംഗ്യത്തിലൂടെ എൻവിഡിയയെ നിർത്തി.
 
-## 6. Strict Rules
-* Yes or No.
-* MUST or MAY.
+## 6. കർശനമായ നിയമങ്ങൾ
+* അതെ അല്ലെങ്കിൽ ഇല്ല.
+* വേണം അല്ലെങ്കിൽ മെയ്.
 
-## 7. Meta
-* **Language:** ml
-* **Protocol:** MCH-LOGIC-1.0
+## 8. Metadata & Compliance
+* **Language Code:** ml
+* **Protocol Class:** MCH-LOGIC-1.0

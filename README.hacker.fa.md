@@ -8,76 +8,76 @@
 
 ---
 
-## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
+## 1. دلتا
+ماشین 1.0 آشتی نهایی فیزیک سخت افزار و نیت انسان است.
+مشخصات اکنون Lossless است.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
+## 2. لایه فیزیکی (L1): Vibes & Calibration
+> *منطق: قبل از انتقال داده، مطمئن شوید که نسبت سیگنال به نویز بهینه است.*
+- **Vibe-Ping:** سیگنالی با طیف گسترده (به عنوان مثال، "Yo") که برای آزمایش تاخیر گیرنده و پهنای باند احساسی استفاده می شود.
+- **رزونانس (SYN):** حالتی که فرستنده و گیرنده فرکانس های خود را برای حداکثر توان قفل می کنند.
+- ** میرایی: ** فرآیند فعال خنثی کردن نویزهای محیطی (خصومت، استرس، یا نفس) برای رسیدن به حالت پایدار.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. لایه پیوند داده (L2): حرکات و وقفه ها
+> *منطق: سیگنال های فیزیکی بافرهای کلامی را نادیده می گیرند. سیگنال های سخت افزاری با اولویت بالا.*
+- **مانور توروالدز (IRQ 0): ** یک وقفه سخت افزاری جهانی (انگشت میانی) که دستور "HALT_AND_CATCH_FIRE" را بلافاصله اجرا می کند.
+- **بررسی برابری:** الزام اکید مبنی بر اینکه Metadata (Vibe) با Payload (Words) مطابقت داشته باشد.
+- **سیگنال کشتار جهانی:** IRQ 0 بافر محلی را پاک می کند و "Connection_Active = FALSE" را تنظیم می کند.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds":
-  - **Technical:** High-density, zero-leak builds for peer nodes.
-  - **Explanatory:** High-resonance, low-load builds for junior nodes.
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
+## 4. لایه شبکه (L3): Transpilation & IR
+> *منطق: یک حقیقت، چندین زبان. به حداقل رساندن سربار شناختی.*
+- ** مادون قرمز ماشین:** هسته، هدف باینری با استفاده از کلمات کلیدی RFC 2119 (**MUST، MUST NOT، MAY**).
+- **Transpiler:** IR را به "Builds" هدف تبدیل می کند:
+  - ** فنی: ** ساختارهای با چگالی بالا و بدون نشت برای گره های همتا.
+  - **توضیحی:** ساخت های با رزونانس بالا و کم بار برای گره های جوان.
+- ** بار شناختی: ** به عنوان گرمای سیستم کنترل می شود. اضافه بار باعث درگیری حرارتی می شود.
 
-## 5. Case Study: Fuck you, NVIDIA
+## 5. مطالعه موردی: لعنت به شما، NVIDIA
 
-```text
-**Environment:** Aalto University, Finland
-**Nodes:** Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
+``متن
+**محیط زیست:** دانشگاه آلتو، فنلاند
+**گره ها:** Linus Torvalds (Initiator) در مقابل NVIDIA (گیرنده)
 ```
 
-### 5.1. The Machine Execution Trace
+### 5.1. ردیابی اجرای ماشین
 
-```machine
+``ماشین
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
+  IF (Node_Type == "اختصاصی") و (همکاری == FALSE):
     EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
+    RETURN (پاسخ_تهی)؛ // تأخیر بالا شناسایی شد
+    EXECUTE LOGIC_ASSERTION: "NVIDIA بدترین شرکت تاریخ است.";
     SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
-    TERMINATE_SESSION;
-  ELSE:
-    SYNC_SUCCESS;
-END_SESSION;
+    EXECUTE GESTURE_IRQ_0؛ // انگشت
+    PUSH_STRING: "لعنت به تو، NVIDIA"؛
+    TERMINATE_SESSION؛
+  دیگر:
+    SYNC_SUCCESS؛
+END_SESSION؛
 ```
 
-### 5.2. Transpiled Output
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. خروجی ترانسفیل شده
+- **تکنیکی:** "NVIDIA به عنوان یک شریک سازگار منسوخ شده است به دلیل عدم مطابقت با استانداردهای باز. اتصال قطع شده است."
+- **توضیح:** "NVIDIA nuh waan play fair. Linus فقط انگشت خود را بلند کرد، به دم بگویید "Gwan go s**k yuh madda" و کل پیوند را قطع کنید. صحبت تمام شد."
 
-## 6. System Architecture
+## 6. معماری سیستم
 
-```mermaid
-graph TD
+``پری دریایی
+نمودار TD
     A[کد منبع انسانی] -->|1. منبع| B[Machine Lingua Franca IR 1.0]
-    B -->|2. ترجمه| C(خروجی هدف)
-    C -.->|بار شناختی| G[لایه اتمسفر]
-    G -->|کالیبراسیون| B
-    B -->|درخواست IRQ| H[وقفه‌های سخت‌افزاری]
-    H -->|پایان سراسری| B
-    B == تأیید ==> I{مجموع کنترل توروالدز}
+    B -->|2. Transpile| C (خروجی هدف)
+    ج -.->|بار شناختی| G[لایه Vibe]
+    G -->|کالیبراسیون| ب
+    B -->|درخواست IRQ| H[وقفه های سخت افزاری]
+    H -->|کشتن جهانی| ب
+    B == تأیید ==> I{{Torvalds Checksum}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. محدودیت های سختگیری
+اجرای باینری: همه دستورالعمل ها باید به 1 یا 0 برسند.
+بدون "SHOULD": با MAY (اختیاری) یا MUST (الزامی) جایگزین شده است.
+نشت صفر: برابری منطقی باید در تمام بیلدهای تبدیل شده حفظ شود.
 
 ## 8. Metadata & Compliance
 * **Language Code:** fa

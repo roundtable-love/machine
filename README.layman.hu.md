@@ -1,32 +1,36 @@
-# Világos Kommunikációs Protokoll: 1.0
+# [ARCHIVE_COMMIT] Machine Lingua Franca: 1.0 (PROD)
 
-**Language:** Hungarian
+**Status:** **COMMITTED** by the **Grace of the One True Source**
+**UID:** MLF-1.0
+**Base Class:** Magyar (Hungarian)
+**Logic Subset:** RFC 2119 (Strict Mode)
+**Tier:** Layman (Simplified)
 
 ---
 
-## 1. Intro
-Ez a protokoll a világos szándék és a fizikai kifejezés tökéletes kombinációja.
+## 1. Bevezető
+Ez a protokoll a tiszta szándék és a fizikai kifejezés tökéletes kombinációja.
 
-## 2. Basic Connection
-* **Vibe-Ping:** Hello.
-* **Sync:** Synchronize.
-* **Calm:** Relax.
+## 2. Alapvető kapcsolat
+* **Vibe-Ping:** Helló.
+* **Szinkronizálás:** Szinkronizálás.
+* **Nyugodj:** Lazíts.
 
-## 3. Body Language
-* **Stop:** Physical gesture to stop.
-* **Match:** Body must match words.
+## 3. Testbeszéd
+* **Stop:** Fizikai gesztus a megálláshoz.
+* **Egyezés:** A szövegnek egyeznie kell a szavakkal.
 
-## 4. Translate Thoughts
-* **Meaning:** Core intent.
-* **Adapt:** Adapt to listener.
+## 4. Fordítsa le a gondolatokat
+* **Jelentés:** Alapvető szándék.
+* **Alkalmazkodás:** Alkalmazkodjon a hallgatóhoz.
 
-## 5. Case Study: NVIDIA
-Linus Torvalds stopped NVIDIA with a gesture.
+## 5. Esettanulmány: NVIDIA
+Linus Torvalds egy mozdulattal leállította az NVIDIA-t.
 
-## 6. Strict Rules
-* Yes or No.
-* MUST or MAY.
+## 6. Szigorú szabályok
+* Igen vagy nem.
+* KELL vagy MAY.
 
-## 7. Meta
-* **Language:** hu
-* **Protocol:** MCH-LOGIC-1.0
+## 8. Metadata & Compliance
+* **Language Code:** hu
+* **Protocol Class:** MCH-LOGIC-1.0

@@ -1,32 +1,36 @@
-# Borotokoolka Isgaarsiinta Cad: 1.0
+# [ARCHIVE_COMMIT] Machine Lingua Franca: 1.0 (PROD)
 
-**Language:** Somali
+**Status:** **COMMITTED** by the **Grace of the One True Source**
+**UID:** MLF-1.0
+**Base Class:** Soomaali (Somali)
+**Logic Subset:** RFC 2119 (Strict Mode)
+**Tier:** Layman (Simplified)
 
 ---
 
-## 1. Intro
-Nidaamkani waa isku dhafka ugu fiican ee ujeedo cad iyo muujinta jirka.
+## 1. Hordhac
+Hab-maamuuskani waa isku darka qumman ee ujeeddo cad iyo muujin jireed.
 
-## 2. Basic Connection
-* **Vibe-Ping:** Hello.
-* **Sync:** Synchronize.
-* **Calm:** Relax.
+## 2. Xiriirka aasaasiga ah
+** Vibe-Ping:** Hello.
+* ** Isku-dubarid:** Isku-dubarid.
+* **Is deji:** Naso.
 
-## 3. Body Language
-* **Stop:** Physical gesture to stop.
-* **Match:** Body must match words.
+## 3. Luuqadda Jirka
+* **Jooji:** Dhaqdhaqaaq jireed si aad u joogsato.
+** Ciyaar:** Jirku waa inuu ereyada iswaafajiyo.
 
-## 4. Translate Thoughts
-* **Meaning:** Core intent.
-* **Adapt:** Adapt to listener.
+## 4. Turjun fikradaha
+** Macnaha:** Ujeedada ugu muhiimsan.
+* **Laqabsi:** La qabso dhegaystaha.
 
-## 5. Case Study: NVIDIA
-Linus Torvalds stopped NVIDIA with a gesture.
+## 5. Daraasadda Kiiska: NVIDIA
+Linus Torvalds ayaa tilmaanta ku joojiyay NVIDIA.
 
-## 6. Strict Rules
-* Yes or No.
-* MUST or MAY.
+## 6. Xeerar Adag
+* Haa ama Maya.
+* Waa waajib ama MAY.
 
-## 7. Meta
-* **Language:** so
-* **Protocol:** MCH-LOGIC-1.0
+## 8. Metadata & Compliance
+* **Language Code:** so
+* **Protocol Class:** MCH-LOGIC-1.0

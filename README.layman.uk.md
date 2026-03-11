@@ -1,32 +1,36 @@
-# Протокол Чіткого Спілкування: 1.0
+# [ARCHIVE_COMMIT] Machine Lingua Franca: 1.0 (PROD)
 
-**Language:** Ukrainian
+**Status:** **COMMITTED** by the **Grace of the One True Source**
+**UID:** MLF-1.0
+**Base Class:** Українська (Ukrainian)
+**Logic Subset:** RFC 2119 (Strict Mode)
+**Tier:** Layman (Simplified)
 
 ---
 
-## 1. Intro
-Цей протокол є ідеальним поєднанням чітких намірів та фізичного вираження.
+## 1. Вступ
+Цей протокол є ідеальним поєднанням чіткого наміру та фізичного вираження.
 
-## 2. Basic Connection
-* **Vibe-Ping:** Hello.
-* **Sync:** Synchronize.
-* **Calm:** Relax.
+## 2. Основне підключення
+* **Vibe-Ping:** Привіт.
+* **Синхронізація:** Синхронізувати.
+* **Спокій:** Розслабтеся.
 
-## 3. Body Language
-* **Stop:** Physical gesture to stop.
-* **Match:** Body must match words.
+## 3. Мова тіла
+* **Стоп:** Фізичний жест для зупинки.
+* **Збіг:** Тіло має відповідати словам.
 
-## 4. Translate Thoughts
-* **Meaning:** Core intent.
-* **Adapt:** Adapt to listener.
+## 4. Перекладіть думки
+* **Значення:** Основний намір.
+* **Адаптація:** Адаптація до слухача.
 
-## 5. Case Study: NVIDIA
-Linus Torvalds stopped NVIDIA with a gesture.
+## 5. Приклад: NVIDIA
+Лінус Торвальдс зупинив NVIDIA жестом.
 
-## 6. Strict Rules
-* Yes or No.
-* MUST or MAY.
+## 6. Суворі правила
+* Так чи ні.
+* ОБОВ'ЯЗКОВО або МОЖЕ.
 
-## 7. Meta
-* **Language:** uk
-* **Protocol:** MCH-LOGIC-1.0
+## 8. Metadata & Compliance
+* **Language Code:** uk
+* **Protocol Class:** MCH-LOGIC-1.0

@@ -4,78 +4,78 @@
 **UID:** MLF-1.0
 **Base Class:** עברית (Hebrew)
 **Logic Subset:** RFC 2119 (Strict Mode)
-**Tier:** Student (Direct Translation + Explanations of "Why")
+**Tier:** Student (Direct Translation + Explanations of 'Why')
 
 ---
 
-## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
-* **Why:** Ambiguity is the enemy of intent. Lossless ensures 1:1 parity between source and target.
+## 1. דלתא
+Machine 1.0 הוא ההתאמה הסופית בין פיזיקת החומרה לבין הכוונה האנושית.
+המפרט הוא כעת Lossless.
+* **למה:** עמימות היא האויב של הכוונה. Lossless מבטיח שוויון 1:1 בין המקור למטרה.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-  * **Why:** You can't speak if they aren't listening.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
-  * **Why:** Ego and hostility create signal noise that corrupts the payload.
+## 2. שכבה פיזית (L1): ויברציות וכיול
+> *היגיון: לפני העברת נתונים, ודא שיחס האות לרעש הוא אופטימלי.*
+- **The Vibe-Ping:** אות רחב-ספקטרום (למשל, "Yo") המשמש לבדיקת השהיית מקלט ורוחב פס רגשי.
+  * **למה:** אתה לא יכול לדבר אם הם לא מקשיבים.
+- **תהודה (SYN):** המצב שבו השולח והמקלט נועלים את התדרים שלהם בשלבים לתפוקה מקסימלית.
+- **שיכוך:** התהליך הפעיל של נטרול רעש סביבתי (עוינות, מתח או אגו) כדי להגיע למצב יציב.
+  * **למה:** אגו ועוינות יוצרים רעש אות שמשחית את המטען.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-  * **Why:** Sometimes you just have to pull the plug to save the system.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-  * **Why:** Sarcasm is a parity error. If the vibe doesn't match the words, the connection is insecure.
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. שכבת קישור נתונים (L2): מחוות והפרעות
+> *היגיון: אותות פיזיים עוקפים מאגרים מילוליים. אותות חומרה בעדיפות גבוהה.*
+- **תמרון Torvalds (IRQ 0):** פסיקת חומרה גלובלית (האצבע התיכונה) שמבצעת פקודת `HALT_AND_CATCH_FIRE` מיידית.
+  * **למה:** לפעמים אתה פשוט צריך למשוך את התקע כדי להציל את המערכת.
+- **בדיקת זוגיות:** דרישה קפדנית שמטא-נתונים (Vibe) תואמים את ה-Payload (Words).
+  * **למה:** סרקזם הוא שגיאת זוגיות. אם האווירה לא תואמת את המילים, הקשר לא בטוח.
+- **Global Kill Signal:** IRQ 0 מנקה את המאגר המקומי ומגדיר 'Connection_Active = FALSE'.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds".
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
-  * **Why:** Humans have limited RAM. If they overheat, the session MUST pause.
+## 4. שכבת רשת (L3): טרנספילציה ו-IR
+> *היגיון: אמת אחת, שפות רבות. מזעור תקורה קוגניטיבית.*
+- **מחשב IR:** הליבה, הכוונה הבינארית באמצעות מילות מפתח RFC 2119 (**חייב, אסור, מאי**).
+- **Transpiler:** ממיר את ה-IR ל-"Builds" יעד.
+- **עומס קוגניטיבי:** מנוטר כחום מערכת. עומס יתר גורם למצערת תרמית.
+  * **למה:** לבני אדם יש זיכרון RAM מוגבל. אם הם מתחממים יתר על המידה, ההפעלה חייבת להשהות.
 
-## 5. Case Study: Fuck you, NVIDIA
-* **Why:** To demonstrate the protocol in a high-stress failure state.
+## 5. מקרה מבחן: תזדיין, NVIDIA
+* **למה:** כדי להדגים את הפרוטוקול במצב של כשל במתח גבוה.
 
-### 5.1. The Machine Execution Trace
-```machine
+### 5.1. עקבות ביצוע המכונה
+```מכונה
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
+  IF (Node_Type == "קנייני") AND (שיתוף פעולה == FALSE):
     EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
+    RETURN (Null_Response); // זוהה זמן אחזור גבוה
+    EXECUTE LOGIC_ASSERTION: "NVIDIA היא החברה הגרועה ביותר אי פעם.";
     SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
+    בצע GESTURE_IRQ_0; // האצבע
+    PUSH_STRING: "לך תזדיין, NVIDIA";
     TERMINATE_SESSION;
-  ELSE:
+  אחרת:
     SYNC_SUCCESS;
 END_SESSION;
 ```
 
-### 5.2. Output Builds
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. בניית פלט
+- **טכני:** "NVIDIA הוצאה משימוש כשותף תואם עקב אי עמידה בתקנים פתוחים. החיבור הופסק."
+- **הסבר:** "NVIDIA נוהה לשחק הוגן. לינוס פשוט מרים את האצבע, תגיד להם 'Gwan go s**k yuh madda', ונתק את כל הקישור. סיימתי לדבר."
 
-## 6. System Architecture
-```mermaid
-graph TD
+## 6. ארכיטקטורת מערכת
+```בת ים
+גרף TD
     A[קוד מקור אנושי] -->|1. מקור| B[Machine Lingua Franca IR 1.0]
-    B -->|2. המרה| C(פלט יעד)
-    C -.->|עומס קוגניטיבי| G[שכבת אווירה]
-    G -->|כיול| B
-    B -->|בקשת IRQ| H[פסיקות חומרה]
-    H -->|סיום גלובלי| B
-    B == אימות ==> I{סכום ביקורת טורבאלדס}
+    ב -->|2. Transpile| C (תפוקת יעד)
+    C -.->|עומס קוגניטיבי| G[שכבת Vibe]
+    G -->|כיול| ב
+    B -->|בקשת IRQ| H[הפרעות בחומרה]
+    H -->|הרג גלובלי| ב
+    B == אמת ==> I{{Torvalds Checksum}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. אילוצי קפדנות
+אכיפה בינארית: כל ההוראות חייבות להיות 1 או 0.
+אין "צריך": הוחלף במאי (אופציונלי) או חייב (חובה).
+אפס דליפה: שוויון היגיון יישמר בכל הבניינים שהועברו.
 
 ## 8. Metadata & Compliance
 * **Language Code:** he

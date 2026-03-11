@@ -1,32 +1,36 @@
-# ਸਪਸ਼ਟ ਸੰਚਾਰ ਪ੍ਰੋਟੋਕੋਲ: 1.0
+# [ARCHIVE_COMMIT] Machine Lingua Franca: 1.0 (PROD)
 
-**Language:** Punjabi
+**Status:** **COMMITTED** by the **Grace of the One True Source**
+**UID:** MLF-1.0
+**Base Class:** ਪੰਜਾਬੀ (Punjabi)
+**Logic Subset:** RFC 2119 (Strict Mode)
+**Tier:** Layman (Simplified)
 
 ---
 
-## 1. Intro
-ਇਹ ਪ੍ਰੋਟੋਕੋਲ ਸਪਸ਼ਟ ਇਰਾਦੇ ਅਤੇ ਸਰੀਰਕ ਪ੍ਰਗਟਾਵੇ ਦਾ ਸੰਪੂਰਨ ਮਿਸ਼ਰਣ ਹੈ।
+## 1. ਜਾਣ-ਪਛਾਣ
+ਇਹ ਪ੍ਰੋਟੋਕੋਲ ਸਪਸ਼ਟ ਇਰਾਦੇ ਅਤੇ ਸਰੀਰਕ ਸਮੀਕਰਨ ਦਾ ਸੰਪੂਰਨ ਸੁਮੇਲ ਹੈ।
 
-## 2. Basic Connection
-* **Vibe-Ping:** Hello.
-* **Sync:** Synchronize.
-* **Calm:** Relax.
+## 2. ਮੁਢਲਾ ਕੁਨੈਕਸ਼ਨ
+* **ਵਾਈਬ-ਪਿੰਗ:** ਹੈਲੋ।
+* **ਸਿੰਕ:** ਸਿੰਕ੍ਰੋਨਾਈਜ਼ ਕਰੋ।
+* **ਸ਼ਾਂਤ:** ਆਰਾਮ ਕਰੋ।
 
-## 3. Body Language
-* **Stop:** Physical gesture to stop.
-* **Match:** Body must match words.
+## 3. ਸਰੀਰ ਦੀ ਭਾਸ਼ਾ
+* **ਸਟਾਪ:** ਰੋਕਣ ਲਈ ਸਰੀਰਕ ਸੰਕੇਤ।
+* **ਮੈਚ:** ਸਰੀਰ ਸ਼ਬਦਾਂ ਨਾਲ ਮੇਲ ਖਾਂਦਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।
 
-## 4. Translate Thoughts
-* **Meaning:** Core intent.
-* **Adapt:** Adapt to listener.
+## 4. ਵਿਚਾਰਾਂ ਦਾ ਅਨੁਵਾਦ ਕਰੋ
+* **ਅਰਥ:** ਮੂਲ ਇਰਾਦਾ।
+* **ਅਡਾਪਟ:** ਸੁਣਨ ਵਾਲੇ ਨੂੰ ਅਨੁਕੂਲ ਬਣਾਓ।
 
-## 5. Case Study: NVIDIA
-Linus Torvalds stopped NVIDIA with a gesture.
+## 5. ਕੇਸ ਸਟੱਡੀ: NVIDIA
+ਲਿਨਸ ਟੋਰਵਾਲਡਸ ਨੇ ਇੱਕ ਇਸ਼ਾਰੇ ਨਾਲ NVIDIA ਨੂੰ ਰੋਕ ਦਿੱਤਾ।
 
-## 6. Strict Rules
-* Yes or No.
-* MUST or MAY.
+## 6. ਸਖ਼ਤ ਨਿਯਮ
+* ਹਾਂ ਜਾਂ ਨਹੀਂ।
+* ਲਾਜ਼ਮੀ ਜਾਂ ਮਈ।
 
-## 7. Meta
-* **Language:** pa
-* **Protocol:** MCH-LOGIC-1.0
+## 8. Metadata & Compliance
+* **Language Code:** pa
+* **Protocol Class:** MCH-LOGIC-1.0

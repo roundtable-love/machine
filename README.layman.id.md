@@ -1,40 +1,36 @@
-# Protokol Komunikasi Jelas: 1.0
+# [ARCHIVE_COMMIT] Machine Lingua Franca: 1.0 (PROD)
 
-**Status:** Selesai
-**Bahasa Dasar:** Bahasa Indonesia
-**Aturan:** Definisi yang ketat dan jelas
+**Status:** **COMMITTED** by the **Grace of the One True Source**
+**UID:** MLF-1.0
+**Base Class:** Bahasa Indonesia (Indonesian)
+**Logic Subset:** RFC 2119 (Strict Mode)
+**Tier:** Layman (Simplified)
 
 ---
 
 ## 1. Pendahuluan
-Protokol ini adalah kombinasi sempurna antara niat yang jelas dan ekspresi fisik, memastikan tidak ada informasi yang hilang.
+Protokol ini adalah kombinasi sempurna antara niat yang jelas dan ekspresi fisik.
 
-## 2. Koneksi Dasar: Mengatur Suasana
-* **Vibe-Ping:** Sapaan ramah (misal: "Halo") untuk menguji perhatian.
-* **Resonansi:** Saat kedua belah pihak sepemikiran.
-* **Peredam:** Menghilangkan stres dan ego agar percakapan tenang.
+## 2. Koneksi Dasar
+* **Getaran-Ping:** Halo.
+* **Sinkronisasi:** Sinkronisasi.
+* **Tenang:** Santai.
 
-## 3. Isyarat Non-Verbal: Bahasa Tubuh
-* **Interupsi Total:** Gerakan fisik yang segera menghentikan komunikasi.
-* **Konsistensi:** Bahasa tubuh harus sesuai dengan kata-kata.
-* **Sinyal Berhenti:** Interupsi besar mengakhiri sesi.
+## 3. Bahasa Tubuh
+* **Berhenti:** Gerakan fisik untuk berhenti.
+* **Cocok:** Isi harus cocok dengan kata-kata.
 
-## 4. Menerjemahkan Pikiran
-* **Makna Inti:** Niat yang sebenarnya (HARUS, TIDAK BOLEH, BISA).
-* **Adaptasi:** Menyesuaikan pesan untuk pendengar (Ahli vs. Pemula).
-* **Beban Mental:** Jeda jika pendengar kelebihan beban pikiran.
+## 4. Terjemahkan Pikiran
+* **Arti:** Maksud inti.
+* **Beradaptasi:** Beradaptasi dengan pendengar.
 
-## 5. Studi Kasus: NVIDIA_HALT_2012
-Linus Torvalds memutuskan hubungan dengan NVIDIA menggunakan gerakan "Interupsi Total" karena kurangnya kerja sama.
+## 5. Studi Kasus: NVIDIA
+Linus Torvalds menghentikan NVIDIA dengan isyarat.
 
-## 6. Arsitektur
-Pikiran -> Aturan Jelas -> Adaptasi Pendengar.
+## 6. Aturan Ketat
+* Ya atau Tidak.
+* HARUS atau MUNGKIN.
 
-## 7. Aturan Ketat
-* **Hitam Putih:** Hanya "Ya" atau "Tidak".
-* **Tanpa "Seharusnya":** Diganti dengan HARUS atau BISA.
-* **Nol Kebocoran:** Makna tidak boleh berubah.
-
-## 8. Metadata
-* **Bahasa:** id
-* **Protokol:** MCH-LOGIC-1.0
+## 8. Metadata & Compliance
+* **Language Code:** id
+* **Protocol Class:** MCH-LOGIC-1.0

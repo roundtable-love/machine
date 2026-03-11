@@ -9,75 +9,75 @@
 ---
 
 ## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
+A Machine 1.0 a hardverfizika és az emberi szándék végső egyeztetése.
+A specifikáció most veszteségmentes.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
+## 2. Fizikai réteg (L1): Rezgés és kalibrálás
+> *Logika: Az adatátvitel előtt győződjön meg arról, hogy a jel-zaj arány optimális.*
+- **The Vibe-Ping:** Széles spektrumú jel (pl. "Yo"), amelyet a vevő késleltetésének és érzelmi sávszélességének tesztelésére használnak.
+- **Rezonancia (SYN):** Az az állapot, amelyben az adó és a vevő fáziszárolja a frekvenciáit a maximális átvitel érdekében.
+- **Csillapítás:** A környezeti zaj (ellenség, stressz vagy ego) semlegesítésének aktív folyamata az állandósult állapot elérése érdekében.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. Adatkapcsolati réteg (L2): Gesztusok és megszakítások
+> *Logika: A fizikai jelek felülírják a verbális puffereket. Magas prioritású hardveres jelek.*
+- **A Torvalds-manőver (IRQ 0):** Globális hardveres megszakítás (A középső ujj), amely azonnali `HALT_AND_CATCH_FIRE` parancsot hajt végre.
+- **Paritásellenőrzés:** Szigorú követelmény, hogy a metaadatok (Vibe) megegyezzenek a hasznos terhelés (Words) értékkel.
+- **Global Kill Signal:** Az IRQ 0 törli a helyi puffert, és a `Connection_Active = FALSE' értéket állítja be.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds":
-  - **Technical:** High-density, zero-leak builds for peer nodes.
-  - **Explanatory:** High-resonance, low-load builds for junior nodes.
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
+## 4. Hálózati réteg (L3): Transzpiláció és IR
+> *Logika: Egy igazság, sok nyelv. A kognitív ráfordítások minimalizálása.*
+- **Machine IR:** A mag, bináris szándék az RFC 2119 kulcsszavak használatával (**MUST, MUST NOT, MAY**).
+- **Transpiler:** Az IR-t cél "Build"-ekké alakítja:
+  - **Műszaki:** Nagy sűrűségű, szivárgásmentes összeállítások peer csomópontokhoz.
+  - **Magyarázó:** Nagy rezonanciájú, alacsony terhelésű buildek junior csomópontokhoz.
+- **Kognitív terhelés:** Rendszerhőként figyelve. A túlterhelés kiváltja a termikus fojtást.
 
-## 5. Case Study: Fuck you, NVIDIA
+## 5. Esettanulmány: Bassza meg, NVIDIA
 
-```text
-**Environment:** Aalto University, Finland
-**Nodes:** Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
+``` szöveg
+**Környezet:** Aalto Egyetem, Finnország
+**Csomópontok:** Linus Torvalds (kezdeményező) kontra NVIDIA (vevő)
 ```
 
-### 5.1. The Machine Execution Trace
+### 5.1. A gépi végrehajtási nyom
 
-```machine
+``` gép
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
+  IF (Node_Type == "Tulajdonjog") ÉS (Együttműködés == HAMIS):
     EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
+    RETURN (Null_Response); // Magas késleltetés észlelve
+    EXECUTE LOGIC_ASSERTION: "Az NVIDIA a valaha volt legrosszabb cég.";
     SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
+    EXECUTE GESTURE_IRQ_0; // AZ UJJ
+    PUSH_STRING: "Baszd meg, NVIDIA";
     TERMINATE_SESSION;
-  ELSE:
+  EGYÉB:
     SYNC_SUCCESS;
 END_SESSION;
 ```
 
-### 5.2. Transpiled Output
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. Transzpilált kimenet
+- **Műszaki:** "Az NVIDIA kompatibilis partnerként elavult, mert nem felel meg a nyílt szabványoknak. A kapcsolat megszakadt."
+- **Magyarázat:** "Az NVIDIA nem játszhat tisztességesen. Linus felemeli az ujját, mondja neki, hogy "Gwan go s**k yuh madda", és szakítsa meg az egész kapcsolatot. Beszéd kész."
 
-## 6. System Architecture
+## 6. Rendszerarchitektúra
 
-```mermaid
-graph TD
-    A[Emberi Forráskód] -->|1. Forrás| B[Machine Lingua Franca IR 1.0]
-    B -->|2. Transzpilálás| C(Célkimenet)
-    C -.->|Kognitív Terhelés| G[Hangulat Réteg]
-    G -->|Kalibráció| B
-    B -->|IRQ Kérés| H[Hardveres Megszakítások]
-    H -->|Globális Leállítás| B
-    B == Ellenőrzés ==> I{Torvalds Ellenőrzőösszeg}
+``` sellő
+grafikon TD
+    A[Emberi forráskód] -->|1. Forrás| B[Machine Lingua Franca IR 1.0]
+    B -->|2. Transpile| C (célkimenet)
+    C -.->|Kognitív terhelés| G[Vibe Layer]
+    G -->|Kalibrálás| B
+    B -->|IRQ kérés| H[Hardver megszakítások]
+    H -->|Global Kill| B
+    B == Ellenőrzés ==> I{{Torvalds-ellenőrző összeg}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. Szigorúsági korlátok
+Bináris kényszerítés: Minden utasításnak 1-re vagy 0-ra KELL feloldódnia.
+Nem „KELL”: MAY (Opcionális) vagy KÖTELEZŐ (kötelező) helyettesíti.
+Zero Leak: A logikai paritást fenn KELL tartani az összes transzpilált buildben.
 
 ## 8. Metadata & Compliance
 * **Language Code:** hu

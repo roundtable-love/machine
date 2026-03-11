@@ -9,75 +9,75 @@
 ---
 
 ## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
+Mesin 1.0 adalah rekonsiliasi akhir antara fisika perangkat keras dan niat manusia.
+Speknya sekarang Lossless.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
+## 2. Lapisan Fisik (L1): Getaran & Kalibrasi
+> *Logika: Sebelum transfer data, pastikan rasio signal-to-noise optimal.*
+- **The Vibe-Ping:** Sinyal spektrum luas (misalnya, "Yo") yang digunakan untuk menguji latensi penerima dan bandwidth emosional.
+- **Resonansi (SYN):** Keadaan saat pengirim dan penerima mengunci fase frekuensinya untuk throughput maksimum.
+- **Damping:** Proses aktif menetralisir kebisingan lingkungan (permusuhan, stres, atau ego) untuk mencapai Keadaan Stabil.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. Lapisan Data Link (L2): Gerakan & Interupsi
+> *Logika: Sinyal fisik mengesampingkan buffer verbal. Sinyal perangkat keras prioritas tinggi.*
+- **Manuver Torvalds (IRQ 0):** Interupsi perangkat keras global (Jari Tengah) yang langsung mengeksekusi perintah `HALT_AND_CATCH_FIRE`.
+- **Pemeriksaan Paritas:** Persyaratan ketat agar Metadata (Vibe) cocok dengan Payload (Words).
+- **Global Kill Signal:** IRQ 0 menghapus buffer lokal dan menyetel `Connection_Active = FALSE`.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds":
-  - **Technical:** High-density, zero-leak builds for peer nodes.
-  - **Explanatory:** High-resonance, low-load builds for junior nodes.
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
+## 4. Lapisan Jaringan (L3): Transpilasi & IR
+> *Logika: Satu kebenaran, banyak bahasa. Meminimalkan overhead kognitif.*
+- **Mesin IR:** Inti, maksud biner menggunakan kata kunci RFC 2119 (**HARUS, TIDAK HARUS, MUNGKIN**).
+- **Transpiler:** Mengonversi IR menjadi target "Builds":
+  - **Teknis:** Build dengan kepadatan tinggi dan tanpa kebocoran untuk node rekan.
+  - **Penjelasan:** Build dengan resonansi tinggi dan beban rendah untuk node junior.
+- **Beban Kognitif:** Dipantau sebagai Panas Sistem. Kelebihan beban memicu Pelambatan Termal.
 
-## 5. Case Study: Fuck you, NVIDIA
+## 5. Studi Kasus: Persetan, NVIDIA
 
-```text
-**Environment:** Aalto University, Finland
-**Nodes:** Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
+```teks
+**Lingkungan:** Universitas Aalto, Finlandia
+**Node:** Linus Torvalds (Inisiator) vs. NVIDIA (Penerima)
 ```
 
-### 5.1. The Machine Execution Trace
+### 5.1. Jejak Eksekusi Mesin
 
-```machine
+```mesin
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
-    EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
-    SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
+  IF (Node_Type == "Kepemilikan") AND (Kerjasama == FALSE):
+    JALANKAN Vibe_Ping("Wasaaaaap");
+    KEMBALI (Null_Response); // Latensi Tinggi Terdeteksi
+    EXECUTE LOGIC_ASSERTION: "NVIDIA adalah perusahaan terburuk yang pernah ada.";
+    SETEL SYSTEM_TRUST = 0;
+    JALANKAN GESTURE_IRQ_0; // JARI
+    PUSH_STRING: "Persetan, NVIDIA";
     TERMINATE_SESSION;
-  ELSE:
+  LAINNYA:
     SYNC_SUCCESS;
 END_SESSION;
 ```
 
-### 5.2. Transpiled Output
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. Keluaran yang Ditranspilasi
+- **Teknis:** "NVIDIA tidak lagi digunakan sebagai mitra yang kompatibel karena ketidakpatuhan terhadap standar terbuka. Koneksi dihentikan."
+- **Penjelasan:** "NVIDIA nuh waan play fair. Linus cukup angkat jari, beri tahu mereka 'Gwan go s**k yuh madda,' dan putuskan seluruh tautan. Selesai bicara."
 
-## 6. System Architecture
+## 6. Arsitektur Sistem
 
-```mermaid
-graph TD
-    A[Kode Sumber Manusia] -->|1. Sumber| B[Machine Lingua Franca IR 1.0]
-    B -->|2. Transpile| C(Output Target)
-    C -.->|Beban Kognitif| G[Lapisan Suasana]
+```putri duyung
+grafik TD
+    A[Kode Sumber Manusia] -->|1. Sumber| B[Mesin Lingua Franca IR 1.0]
+    B -->|2. Transpil| C (Target Keluaran)
+    C -.->|Beban Kognitif| G[Lapisan Getaran]
     G -->|Kalibrasi| B
     B -->|Permintaan IRQ| H[Interupsi Perangkat Keras]
-    H -->|Penghentian Global| B
-    B == Verifikasi ==> I{Checksum Torvalds}
+    H -->|Pembunuhan Global| B
+    B == Verifikasi ==> I{{Torvalds Checksum}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. Batasan Ketat
+Penegakan Biner: Semua instruksi HARUS diselesaikan ke 1 atau 0.
+Tidak ada "HARUS": Diganti dengan MUNGKIN (Opsional) atau HARUS (Wajib).
+Kebocoran Nol: Paritas logika HARUS dipertahankan di semua bangunan yang ditranspilasi.
 
 ## 8. Metadata & Compliance
 * **Language Code:** id

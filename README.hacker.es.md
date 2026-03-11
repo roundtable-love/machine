@@ -8,76 +8,76 @@
 
 ---
 
-## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
+## 1.Delta
+Machine 1.0 es la reconciliación final entre la física del hardware y la intención humana.
+La especificación ahora es Sin pérdidas.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
+## 2. Capa física (L1): vibraciones y calibración
+> *Lógica: Antes de la transferencia de datos, asegúrese de que la relación señal-ruido sea óptima.*
+- **The Vibe-Ping:** Una señal de amplio espectro (por ejemplo, "Yo") que se utiliza para probar la latencia del receptor y el ancho de banda emocional.
+- **Resonancia (SYN):** El estado en el que el emisor y el receptor bloquean en fase sus frecuencias para obtener el máximo rendimiento.
+- **Amortiguación:** El proceso activo de neutralizar el ruido ambiental (hostilidad, estrés o ego) para alcanzar un estado estable.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. Capa de enlace de datos (L2): gestos e interrupciones
+> *Lógica: Las señales físicas anulan los amortiguadores verbales. Señales de hardware de alta prioridad.*
+- **La maniobra de Torvalds (IRQ 0):** Una interrupción de hardware global (El dedo medio) que ejecuta un comando inmediato `HALT_AND_CATCH_FIRE`.
+- **Verificación de paridad:** Requisito estricto de que los metadatos (Vibe) coincidan con la carga útil (Words).
+- **Señal de interrupción global:** IRQ 0 borra el búfer local y establece `Connection_Active = FALSE`.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds":
-  - **Technical:** High-density, zero-leak builds for peer nodes.
-  - **Explanatory:** High-resonance, low-load builds for junior nodes.
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
+## 4. Capa de red (L3): transpilación e IR
+> *Lógica: Una verdad, muchos lenguajes. Minimizar la sobrecarga cognitiva.*
+- **Máquina IR:** La intención binaria central que utiliza palabras clave RFC 2119 (**DEBE, NO DEBE, PUEDE**).
+- **Transpiler:** Convierte el IR en "Construcciones" objetivo:
+  - **Técnico:** Construcciones de alta densidad y sin fugas para nodos pares.
+  - **Explicativo:** Construcciones de alta resonancia y baja carga para nodos junior.
+- **Carga cognitiva:** Monitoreada como calor del sistema. La sobrecarga activa la limitación térmica.
 
-## 5. Case Study: Fuck you, NVIDIA
+## 5. Estudio de caso: Vete a la mierda, NVIDIA
 
-```text
-**Environment:** Aalto University, Finland
-**Nodes:** Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
+```texto
+**Medio ambiente:** Universidad Aalto, Finlandia
+**Nodos:** Linus Torvalds (iniciador) frente a NVIDIA (receptor)
 ```
 
-### 5.1. The Machine Execution Trace
+### 5.1. El seguimiento de ejecución de la máquina
 
-```machine
+```máquina
 // [TRACE_ID]: 1.0_GOLDEN_PATH
-BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
-    EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
-    SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
-    TERMINATE_SESSION;
-  ELSE:
-    SYNC_SUCCESS;
+INICIO_SESIÓN:
+  IF (Node_Type == "Propietario") Y (Cooperación == FALSO):
+    EJECUTAR Vibe_Ping("Wasaaaaap");
+    REGRESAR (Respuesta_nula); // Alta latencia detectada
+    EXECUTE LOGIC_ASSERTION: "NVIDIA es la peor empresa que existe.";
+    ESTABLECER SISTEMA_CONFIANZA = 0;
+    EJECUTAR GESTURE_IRQ_0; // EL DEDO
+    PUSH_STRING: "Jódete, NVIDIA";
+    TERMINAR_SESSIÓN;
+  MÁS:
+    SINCRONIZACIÓN_ÉXITO;
 END_SESSION;
 ```
 
-### 5.2. Output Builds
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. Salida transpilada
+- **Técnico:** "NVIDIA está obsoleta como socio compatible debido al incumplimiento de los estándares abiertos. Conexión terminada".
+- **Explicativo:** "NVIDIA no quiere jugar limpio. Linus simplemente levanta el dedo, les dice 'Gwan ve a la mierda, madda' y desconecta todo el enlace. Listo".
 
-## 6. System Architecture
+## 6. Arquitectura del sistema
 
-```mermaid
-graph TD
-    A[Código Fuente Humano] -->|1. Fuente| B[Machine Lingua Franca IR 1.0]
-    B -->|2. Transpilar| C(Salida de Destino)
-    C -.->|Carga Cognitiva| G[Capa de Ambiente]
-    G -->|Calibración| B
-    B -->|Solicitud IRQ| H[Interrupciones de Hardware]
-    H -->|Terminación Global| B
-    B == Verificar ==> I{Suma de Control Torvalds}
+```sirena
+gráfico TD
+    A[Código fuente humano] -->|1. Fuente| B[Máquina Lengua Franca IR 1.0]
+    B -->|2. Transpilar| C(Salida objetivo)
+    C -.->|Carga Cognitiva| G[Capa de ambiente]
+    G -->|Calibración| b
+    B -->|Solicitud IRQ| H[Interrupciones de hardware]
+    H -->|Muerte global| b
+    B == Verificar ==> I{{Suma de comprobación de Torvalds}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. Restricciones de rigor
+Aplicación binaria: todas las instrucciones DEBEN resolverse en 1 o 0.
+No "DEBE": Reemplazado por MAYO (Opcional) o DEBE (Obligatorio).
+Fuga cero: la paridad lógica DEBE mantenerse en todas las compilaciones transpiladas.
 
 ## 8. Metadata & Compliance
 * **Language Code:** es

@@ -8,76 +8,76 @@
 
 ---
 
-## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
+## 1. دلتا
+الآلة 1.0 هي التوفيق النهائي بين فيزياء الأجهزة والنوايا البشرية.
+المواصفات الآن بلا فقدان.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
+## 2. الطبقة المادية (L1): المشاعر والمعايرة
+> *المنطق: قبل نقل البيانات، تأكد من أن نسبة الإشارة إلى الضوضاء هي الأمثل.*
+- **Vibe-Ping:** إشارة واسعة النطاق (على سبيل المثال، "Yo") تُستخدم لاختبار زمن وصول جهاز الاستقبال وعرض النطاق الترددي العاطفي.
+- **الرنين (SYN):** الحالة التي يقوم فيها المرسل والمستقبل بقفل تردداتهما على مراحل لتحقيق أقصى إنتاجية.
+- **التخميد:** العملية النشطة لتحييد الضوضاء البيئية (العداء أو التوتر أو الأنا) للوصول إلى حالة ثابتة.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. طبقة ارتباط البيانات (L2): الإيماءات والمقاطعات
+> *المنطق: تتجاوز الإشارات المادية الحواجز اللفظية. إشارات الأجهزة ذات الأولوية العالية.*
+- ** مناورة تورفالدس (IRQ 0): ** مقاطعة الأجهزة العالمية (الإصبع الأوسط) التي تنفذ أمر `HALT_AND_CATCH_FIRE` الفوري.
+- **التحقق من التكافؤ:** متطلب صارم بأن تتطابق البيانات الوصفية (Vibe) مع الحمولة (الكلمات).
+- **إشارة التوقف العالمية:** يقوم IRQ 0 بمسح المخزن المؤقت المحلي وتعيين `Connection_Active = FALSE`.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds":
-  - **Technical:** High-density, zero-leak builds for peer nodes.
-  - **Explanatory:** High-resonance, low-load builds for junior nodes.
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
+## 4. طبقة الشبكة (L3): النقل والأشعة تحت الحمراء
+> *المنطق: حقيقة واحدة، لغات عديدة. تقليل العبء المعرفي.*
+- **Machine IR:** الهدف الثنائي الأساسي باستخدام الكلمات الأساسية RFC 2119 (** يجب، يجب ألا، قد **).
+- **Transpiler:** يحول IR إلى "Builds" الهدف:
+  - **من الناحية الفنية:** تصميمات عالية الكثافة وغير قابلة للتسرب للعقد النظيرة.
+  - **توضيحية:** تصميمات عالية الرنين ومنخفضة التحميل للعقد الصغيرة.
+- **الحمل المعرفي:** تتم مراقبته كحرارة النظام. يؤدي التحميل الزائد إلى الاختناق الحراري.
 
-## 5. Case Study: Fuck you, NVIDIA
+## 5. دراسة حالة: اللعنة عليك يا NVIDIA
 
-```text
-**Environment:** Aalto University, Finland
-**Nodes:** Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
+```نص
+**البيئة:** جامعة آلتو، فنلندا
+**العقد:** لينوس تورفالدس (البادئ) مقابل NVIDIA (المتلقي)
 ```
 
-### 5.1. The Machine Execution Trace
+###5.1. تتبع تنفيذ الآلة
 
-```machine
+```آلة
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
-    EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
-    SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
+  IF (نوع العقدة == "ملكية") و(التعاون == خطأ):
+    تنفيذ Vibe_Ping("Wasaaaaap");
+    العودة (Null_Response)؛ // تم الكشف عن الكمون العالي
+    تنفيذ LOGIC_ASSERTION: "NVIDIA هي أسوأ شركة على الإطلاق.";
+    تعيين SYSTEM_TRUST = 0؛
+    تنفيذ GESTURE_IRQ_0؛ // الاصبع
+    PUSH_STRING: "اللعنة عليك يا نفيديا"؛
     TERMINATE_SESSION;
-  ELSE:
+  آخر:
     SYNC_SUCCESS;
-END_SESSION;
+END_SESSION؛
 ```
 
-### 5.2. Transpiled Output
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+###5.2. الإخراج المنقول
+- **تقني:** "تم إهمال NVIDIA كشريك متوافق بسبب عدم الامتثال للمعايير المفتوحة. تم إنهاء الاتصال."
+- **توضيحي:** "NVIDIA لا تلعب بشكل عادل. يرفع لينوس إصبعه ويقول لهم "Gwan go s**k yuh madda" وافصل الاتصال بالكامل. انتهى الحديث."
 
-## 6. System Architecture
+## 6. هندسة النظام
 
-```mermaid
-graph TD
-    A[الكود المصدري البشري] -->|1. مصدر| B[Machine Lingua Franca IR 1.0]
-    B -->|2. ترجمة| C(المخرجات المستهدفة)
-    C -.->|العبء المعرفي| G[طبقة الأجواء]
-    G -->|معايرة| B
-    B -->|طلب IRQ| H[مقاطعات الأجهزة]
-    H -->|إنهاء شامل| B
-    B == تحقق ==> I{المجموع الاختباري لتورفالدس}
+```حورية البحر
+الرسم البياني TD
+    A[كود المصدر البشري] -->|1. المصدر| ب[لغة الآلة فرانكا IR 1.0]
+    ب -->|2. نقل| ج (الناتج المستهدف)
+    ج-.->|الحمل المعرفي| G [طبقة فيبي]
+    G -->|المعايرة| ب
+    ب -->|طلب IRQ| H[مقاطعات الأجهزة]
+    H -->|القتل العالمي| ب
+    B == تحقق ==> I{{المجموع الاختباري لتورفالدس}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. قيود الصرامة
+التنفيذ الثنائي: يجب أن يتم حل جميع التعليمات إلى 1 أو 0.
+لا توجد كلمة "ينبغي": تم استبدالها بـ MAY (اختياري) أو MUST (مطلوب).
+Zero Leak: يجب الحفاظ على التكافؤ المنطقي عبر جميع الإصدارات المنقولة.
 
 ## 8. Metadata & Compliance
 * **Language Code:** ar

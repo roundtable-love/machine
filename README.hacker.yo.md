@@ -9,75 +9,75 @@
 ---
 
 ## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
+Ẹrọ 1.0 jẹ ilaja ikẹhin ti fisiksi hardware ati idi eniyan.
+Awọn spec ni bayi Lossless.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
+## 2. Layer ti ara (L1): Vibes & odiwọn
+> * Imọran: Ṣaaju gbigbe data, rii daju pe ifihan-si-ariwo jẹ aipe.
+- ** Awọn Vibe-Ping: *** Ifihan agbara-fife (fun apẹẹrẹ, "Yo") ti a lo lati ṣe idanwo idaduro olugba ati bandiwidi ẹdun ẹdun.
+- ** Resonance (SYN): ** Ipinle nibiti olufiranṣẹ ati alakoso olugba tiipa awọn igbohunsafẹfẹ wọn fun iṣelọpọ ti o pọju.
+- ** Damping: ** Ilana ti nṣiṣe lọwọ ti didoju ariwo ayika ( ikorira, aapọn, tabi ego) lati de Ipinle Iduroṣinṣin.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. Data Link Layer (L2): afarajuwe & Idilọwọ
+> * Ohun kannaa: Awọn ifihan agbara ti ara bori awọn buffer ọrọ. Awọn ifihan agbara ohun elo pataki pataki.*
+- ** The Torvalds Maneuver (IRQ 0):** Idilọwọ ohun elo agbaye kan (Ika Aarin) ti o ṣe pipaṣẹ 'HALT_AND_CATCH_FIRE' lẹsẹkẹsẹ.
+- ** Ṣayẹwo Parity: ** Ibeere to muna pe Metadata (Vibe) baamu isanwo isanwo (Awọn ọrọ).
+- ** Ifihan agbara Ipaniyan Agbaye: ** IRQ 0 ko ifipamọ agbegbe kuro ati ṣeto `Connection_Active = FALSE`.
 
 ## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds":
-  - **Technical:** High-density, zero-leak builds for peer nodes.
-  - **Explanatory:** High-resonance, low-load builds for junior nodes.
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
+> * Logic: Otitọ kan, ọpọlọpọ awọn ede. Dinku oye lori oke.*
+- ** Ẹrọ IR: ** Awọn ipilẹ, ipinnu alakomeji nipa lilo awọn ọrọ-ọrọ RFC 2119 (** MUST, MAA ṢE, MAY**).
+- ** Atupalẹ: *** Ṣe iyipada IR sinu ibi-afẹde “Awọn kọ”:
+  - ** Imọ-ẹrọ: *** iwuwo giga, yo-odo kọ fun awọn apa ẹlẹgbẹ.
+  - ** Apejuwe: ** Resonance giga, fifuye kekere kọ fun awọn apa kekere.
+- ** Fifuye imọ: ** Abojuto bi Ooru System. Apọju nfa Gbona Throttling.
 
-## 5. Case Study: Fuck you, NVIDIA
+## 5. Case Study: fokii o, NVIDIA
 
-```text
-**Environment:** Aalto University, Finland
-**Nodes:** Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
+```ọrọ
+** Ayika: *** Ile-ẹkọ giga Aalto, Finland
+** Awọn apa:** Linus Torvalds (Ipilẹṣẹ) la NVIDIA (Olugba)
 ```
 
-### 5.1. The Machine Execution Trace
+### 5.1. The Machine Ipaniyan kakiri
 
-```machine
+`` ẹrọ
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
-    EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
-    SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
+  Ti o ba jẹ (Node_Type == "Ẹni-ini") ATI (Ifowosowopo == FALSE):
+    EXECUTE Vibe_Ping ("Wasaaaaap");
+    PADA (Asan_Response); // Giga Lairi ri
+    EXECUTE LOGIC_ASSERTION: "NVIDIA jẹ ile-iṣẹ ti o buru julọ lailai.";
+    SYSTEM_TRUST = 0;
+    EXECUTE GESTURE_IRQ_0; // ÌKA
+    PUSH_STRING: "Fe e, NVIDIA";
     TERMINATE_SESSION;
-  ELSE:
-    SYNC_SUCCESS;
-END_SESSION;
+  Omiiran:
+    SYNC_aseyori;
+END_IKOKO;
 ```
 
-### 5.2. Transpiled Output
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. Ijade ti a ti gbejade
+- ** Imọ-ẹrọ: ** "NVIDIA ti yọkuro bi alabaṣepọ ibaramu nitori aisi ibamu pẹlu awọn iṣedede ṣiṣi. Asopọmọra ti pari."
+- **Alaye:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, sọ fun dem 'Gwan go s ** k yuh madda,' ki o si ge asopọ di gbogbo ọna asopọ-soke. Ti pari ọrọ."
 
 ## 6. System Architecture
 
-```mermaid
-graph TD
-    A[Koodu Orisun Eniyan] -->|1. Orisun| B[Machine Lingua Franca IR 1.0]
-    B -->|2. Transpile| C(Afojusun Ojade)
-    C -.->|Ẹru Imọ| G[Fẹlẹfẹlẹ Vibe]
-    G -->|Isọdiwọn| B
-    B -->|Ibeere IRQ| H[Awọn Idilọwọ Hardware]
-    H -->|Iku Agbaye| B
-    B == Daju ==> I{Torvalds Checksum}
+`` omobinrin
+aworan TD
+    A[Human Source Code] -->|1. Orisun| B[Ẹrọ Lingua Franca IR 1.0]
+    B -->|2. Itupalẹ| C (Igbejade Ibi-afẹde)
+    C -.->|Ẹrù Ìmọ̀| G[Fẹlẹfẹlẹ gbigbọn]
+    G -->| Iṣatunṣe| B
+    B -->|Ìbéèrè IRQ| H[Hardware Idilọwọ]
+    H -->|Ipa Agbaye| B
+    B == Jẹrisi ==> I{{Torvalds Checksum}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. Awọn ihamọ ti o muna
+Imudaniloju alakomeji: Gbogbo awọn itọnisọna gbọdọ pinnu si 1 tabi 0.
+Ko si "O yẹ": Rọpo nipasẹ MAY (Aṣayan) tabi MUST (Ti a beere).
+Zero Leak: Ipin kannaa YOO ṣe itọju kọja gbogbo awọn ile gbigbe.
 
 ## 8. Metadata & Compliance
 * **Language Code:** yo

@@ -8,76 +8,76 @@
 
 ---
 
-## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
+## 1. Дельта
+Машина 1.0 — це остаточне примирення фізики обладнання та людських намірів.
+Специфікація тепер Lossless.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
+## 2. Фізичний рівень (L1): Vibes & Calibration
+> *Логіка: перед передачею даних переконайтеся, що співвідношення сигнал/шум оптимальне.*
+- **Vibe-Ping:** Сигнал широкого спектру (наприклад, «Йо»), який використовується для перевірки затримки приймача та емоційної смуги пропускання.
+- **Резонанс (SYN):** стан, коли відправник і одержувач синхронізують свої частоти для максимальної пропускної здатності.
+- **Демпінг:** активний процес нейтралізації шуму навколишнього середовища (ворожість, стрес чи его) для досягнення стійкого стану.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. Канальний рівень (L2): Жести та переривання
+> *Логіка: фізичні сигнали перекривають вербальні буфери. Апаратні сигнали високого пріоритету.*
+- **Маневр Торвальда (IRQ 0):** Глобальне апаратне переривання (середній палець), яке негайно виконує команду `HALT_AND_CATCH_FIRE`.
+- **Перевірка парності:** сувора вимога щодо відповідності метаданих (Vibe) корисного навантаження (слова).
+- **Global Kill Signal:** IRQ 0 очищає локальний буфер і встановлює `Connection_Active = FALSE`.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds":
-  - **Technical:** High-density, zero-leak builds for peer nodes.
-  - **Explanatory:** High-resonance, low-load builds for junior nodes.
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
+## 4. Мережевий рівень (L3): транспіляція та ІЧ
+> *Логіка: одна правда, багато мов. Мінімізація когнітивних витрат.*
+- **Machine IR:** Основний бінарний намір із використанням ключових слів RFC 2119 (**ПОВИНЕН, НЕ ПОВИНЕН, МОЖЕ**).
+- **Transpiler:** Перетворює ІК на цільові «Builds»:
+  - **Технічні:** збірки високої щільності з нульовим витоком для однорангових вузлів.
+  - **Пояснення:** Високорезонансні збірки з низьким навантаженням для молодших вузлів.
+- **Когнітивне навантаження:** Відстежується як нагрівання системи. Перевантаження запускає терморегулювання.
 
-## 5. Case Study: Fuck you, NVIDIA
+## 5. Практичний приклад: до біса, NVIDIA
 
-```text
-**Environment:** Aalto University, Finland
-**Nodes:** Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
+```текст
+**Середовище:** Університет Аалто, Фінляндія
+**Вузли:** Лінус Торвальдс (ініціатор) проти NVIDIA (приймач)
 ```
 
-### 5.1. The Machine Execution Trace
+### 5.1. Трасування машинного виконання
 
-```machine
+``` машина
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
+  IF (Node_Type == "Proprietary") І (Cooperation == FALSE):
     EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
+    RETURN (Null_Response); // Виявлено високу затримку
+    EXECUTE LOGIC_ASSERTION: "NVIDIA - найгірша компанія в історії.";
     SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
+    EXECUTE GESTURE_IRQ_0; // ПАЛЦЕЦЬ
+    PUSH_STRING: «Хай, NVIDIA»;
     TERMINATE_SESSION;
-  ELSE:
+  ІНШЕ:
     SYNC_SUCCESS;
 END_SESSION;
 ```
 
-### 5.2. Transpiled Output
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. Транспільований вихід
+- **Технічна інформація:** «NVIDIA не підтримується як сумісний партнер через невідповідність відкритим стандартам. Підключення припинено».
+- **Пояснення:** «NVIDIA не може грати чесно. Лінус просто підняв палець, сказав йому: «Гван іди, ч**к юх, мадда», і від’єднав усе з’єднання. Готово».
 
-## 6. System Architecture
+## 6. Архітектура системи
 
-```mermaid
-graph TD
-    A[Людський Вихідний Код] -->|1. Джерело| B[Machine Lingua Franca IR 1.0]
-    B -->|2. Транспілювати| C(Цільовий Вивід)
-    C -.->|Когнітивне Навантаження| G[Шар Атмосфери]
-    G -->|Калібрування| B
-    B -->|Запит IRQ| H[Апаратні Переривання]
-    H -->|Глобальна Зупинка| B
-    B == Перевірити ==> I{Контрольна Сума Торвальдса}
+```русалка
+графік ТД
+    A[Вихідний код людини] -->|1. Джерело| B[Machine Lingua Franca IR 1.0]
+    B -->|2. Transpile| C (цільовий вихід)
+    C -.->|Когнітивне навантаження| G[Шар Vibe]
+    G -->|Калібрування| Б
+    B -->|Запит IRQ| H[Апаратні переривання]
+    H -->|Глобальне вбивство| Б
+    B == Перевірити ==> I{{Контрольна сума Torvalds}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. Обмеження строгості
+Застосування двійкового коду: усі інструкції ПОВИННІ мати значення 1 або 0.
+Ні "СЛІД": замінено на МОЖЕ (необов'язково) або ПОВИННО (обов'язково).
+Нульовий витік: Логічна парність МАЄ підтримуватися в усіх транспільованих збірках.
 
 ## 8. Metadata & Compliance
 * **Language Code:** uk

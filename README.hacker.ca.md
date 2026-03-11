@@ -9,75 +9,75 @@
 ---
 
 ## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
+La màquina 1.0 és la conciliació final de la física del maquinari i la intenció humana.
+L'especificació ara és sense pèrdues.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
+## 2. Capa física (L1): vibracions i calibració
+> *Lògica: abans de la transferència de dades, assegureu-vos que la relació senyal-soroll sigui òptima.*
+- **The Vibe-Ping:** un senyal d'espectre ampli (p. ex., "Yo") que s'utilitza per provar la latència del receptor i l'ample de banda emocional.
+- **Ressonància (SYN):** L'estat on l'emissor i el receptor bloquegen les seves freqüències per obtenir el màxim rendiment.
+- **Amortització:** el procés actiu de neutralització del soroll ambiental (hostilitat, estrès o ego) per arribar a un estat estacionari.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. Capa d'enllaç de dades (L2): gestos i interrupcions
+> *Lògica: els senyals físics anul·len els buffers verbals. Senyals de maquinari d'alta prioritat.*
+- **La maniobra de Torvalds (IRQ 0):** Una interrupció de maquinari global (The Middle Finger) que executa una ordre `HALT_AND_CATCH_FIRE` immediata.
+- **Verificació de paritat:** requisit estricte que les metadades (Vibe) coincideixin amb la càrrega útil (Words).
+- **Global Kill Signal:** IRQ 0 esborra la memòria intermèdia local i estableix `Connection_Active = FALSE`.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds":
-  - **Technical:** High-density, zero-leak builds for peer nodes.
-  - **Explanatory:** High-resonance, low-load builds for junior nodes.
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
+## 4. Capa de xarxa (L3): Transpilació i IR
+> *Lògica: una veritat, molts idiomes. Minimització de la sobrecàrrega cognitiva.*
+- **Machine IR:** La intenció binària bàsica utilitzant paraules clau RFC 2119 (**MUST, MUST NOT, MAY**).
+- **Transpiler:** Converteix l'IR en "Builds" objectiu:
+  - **Tècnic:** compilacions d'alta densitat i sense fuites per a nodes iguals.
+  - **Explicatiu:** Construccions d'alta ressonància i baixa càrrega per a nodes júniors.
+- **Càrrega cognitiva:** Monitoritzada com a calor del sistema. La sobrecàrrega provoca l'acceleració tèrmica.
 
-## 5. Case Study: Fuck you, NVIDIA
+## 5. Cas pràctic: a la merda, NVIDIA
 
 ```text
-**Environment:** Aalto University, Finland
-**Nodes:** Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
+**Medi ambient:** Aalto University, Finlàndia
+**Nodes:** Linus Torvalds (iniciador) vs. NVIDIA (receptor)
 ```
 
-### 5.1. The Machine Execution Trace
+### 5.1. El rastre d'execució de la màquina
 
-```machine
+``` màquina
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
-    EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
+  IF (Node_Type == "Propietari") AND (Cooperació == FALSE):
+    EXECUTE Vibe_Ping ("Wasaaaaap");
+    RETURN (Resposta_Null); // Alta latència detectada
+    EXECUTE LOGIC_ASSERTION: "NVIDIA és la pitjor empresa que hi ha mai.";
     SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
+    EXECUTE GESTURE_IRQ_0; // EL DIT
+    PUSH_STRING: "A la merda, NVIDIA";
     TERMINATE_SESSION;
-  ELSE:
+  ALTRES:
     SYNC_SUCCESS;
 END_SESSION;
 ```
 
-### 5.2. Transpiled Output
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. Sortida transpilada
+- **Tècnic:** "NVIDIA està obsolet com a soci compatible a causa de l'incompliment dels estàndards oberts. S'ha finalitzat la connexió."
+- **Explicatiu:** "NVIDIA no va a jugar net. Linus només aixeca el dit, digues-los 'Gwan go s**k yuh madda' i desconnecta tot l'enllaç. Ja hem parlat."
 
-## 6. System Architecture
+## 6. Arquitectura del sistema
 
-```mermaid
-graph TD
-    A[Codi Font Humà] -->|1. Font| B[Machine Lingua Franca IR 1.0]
-    B -->|2. Transpilar| C(Sortida Destí)
-    C -.->|Càrrega Cognitiva| G[Capa d'Ambient]
+``` sirena
+gràfic TD
+    A[Codi font humà] -->|1. Font| B[Machine Lingua Franca IR 1.0]
+    B -->|2. Transpilar| C (sortida objectiu)
+    C -.->|Càrrega cognitiva| G[Capa de vibració]
     G -->|Calibració| B
-    B -->|Petició IRQ| H[Interrupcions de Maquinari]
-    H -->|Aturada Global| B
-    B == Verificar ==> I{Suma de Comprovació Torvalds}
+    B -->|Sol·licitud d'IRQ| H[Interrupcions de maquinari]
+    H -->|Global Kill| B
+    B == Verificar ==> I{{Torvalds Checksum}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. Restriccions de rigor
+Aplicació binària: totes les instruccions HAN de resoldre's a 1 o 0.
+No "HAURRIA": substituït per MAY (Opcional) o MUST (obligatori).
+Zero Leak: la paritat lògica s'ha de mantenir en totes les compilacions transpilades.
 
 ## 8. Metadata & Compliance
 * **Language Code:** ca

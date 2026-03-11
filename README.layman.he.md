@@ -1,32 +1,36 @@
-# פרוטוקול תקשורת ברורה: 1.0
+# [ARCHIVE_COMMIT] Machine Lingua Franca: 1.0 (PROD)
 
-**Language:** Hebrew
+**Status:** **COMMITTED** by the **Grace of the One True Source**
+**UID:** MLF-1.0
+**Base Class:** עברית (Hebrew)
+**Logic Subset:** RFC 2119 (Strict Mode)
+**Tier:** Layman (Simplified)
 
 ---
 
-## 1. Intro
+## 1. מבוא
 פרוטוקול זה הוא השילוב המושלם של כוונה ברורה וביטוי פיזי.
 
-## 2. Basic Connection
-* **Vibe-Ping:** Hello.
-* **Sync:** Synchronize.
-* **Calm:** Relax.
+## 2. חיבור בסיסי
+* **Vibe-Ping:** שלום.
+* **סנכרון:** סנכרון.
+* **רגוע:** תירגע.
 
-## 3. Body Language
-* **Stop:** Physical gesture to stop.
-* **Match:** Body must match words.
+## 3. שפת גוף
+* **עצירה:** מחווה פיזית לעצור.
+* **התאמה:** הגוף חייב להתאים למילים.
 
-## 4. Translate Thoughts
-* **Meaning:** Core intent.
-* **Adapt:** Adapt to listener.
+## 4. תרגם מחשבות
+* **משמעות:** כוונת הליבה.
+** התאמה:** התאמה למאזין.
 
-## 5. Case Study: NVIDIA
-Linus Torvalds stopped NVIDIA with a gesture.
+## 5. מקרה מבחן: NVIDIA
+לינוס טורוואלדס עצר את NVIDIA בתנועה.
 
-## 6. Strict Rules
-* Yes or No.
-* MUST or MAY.
+## 6. כללים נוקשים
+*כן או לא.
+*חייב או מאי.
 
-## 7. Meta
-* **Language:** he
-* **Protocol:** MCH-LOGIC-1.0
+## 8. Metadata & Compliance
+* **Language Code:** he
+* **Protocol Class:** MCH-LOGIC-1.0

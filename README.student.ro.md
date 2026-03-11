@@ -4,78 +4,78 @@
 **UID:** MLF-1.0
 **Base Class:** Română (Romanian)
 **Logic Subset:** RFC 2119 (Strict Mode)
-**Tier:** Student (Direct Translation + Explanations of "Why")
+**Tier:** Student (Direct Translation + Explanations of 'Why')
 
 ---
 
 ## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
-* **Why:** Ambiguity is the enemy of intent. Lossless ensures 1:1 parity between source and target.
+Machine 1.0 este reconcilierea finală a fizicii hardware și intenția umană.
+Specificațiile sunt acum fără pierderi.
+* **De ce:** Ambiguitatea este dușmanul intenției. Lossless asigură paritate 1:1 între sursă și țintă.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-  * **Why:** You can't speak if they aren't listening.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
-  * **Why:** Ego and hostility create signal noise that corrupts the payload.
+## 2. Stratul fizic (L1): vibrații și calibrare
+> *Logic: înainte de transferul de date, asigurați-vă că raportul semnal-zgomot este optim.*
+- **The Vibe-Ping:** Un semnal cu spectru larg (de exemplu, „Yo”) folosit pentru a testa latența receptorului și lățimea de bandă emoțională.
+  * **De ce:** Nu poți vorbi dacă nu te ascultă.
+- **Rezonanță (SYN):** Starea în care emițătorul și receptorul își blochează în fază frecvențele pentru un debit maxim.
+- **Amortizare:** Procesul activ de neutralizare a zgomotului ambiental (ostilitate, stres sau ego) pentru a ajunge la o stare de echilibru.
+  * **De ce:** Egoul și ostilitatea creează zgomot de semnal care corupă sarcina utilă.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-  * **Why:** Sometimes you just have to pull the plug to save the system.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-  * **Why:** Sarcasm is a parity error. If the vibe doesn't match the words, the connection is insecure.
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. Data Link Layer (L2): Gesturi și întreruperi
+> *Logic: Semnalele fizice suprascriu tampon verbal. Semnale hardware cu prioritate înaltă.*
+- **The Torvalds Maneuver (IRQ 0):** O întrerupere hardware globală (The Middle Finger) care execută imediat o comandă `HALT_AND_CATCH_FIRE`.
+  * **De ce:** Uneori trebuie doar să trageți de ștecher pentru a salva sistemul.
+- **Verificarea parității:** Cerință strictă ca Metadatele (Vibe) să se potrivească cu sarcina utilă (Cuvinte).
+  * **De ce:** Sarcasmul este o eroare de paritate. Dacă vibrația nu se potrivește cu cuvintele, conexiunea este nesigură.
+- **Global Kill Signal:** IRQ 0 șterge tamponul local și setează `Connection_Active = FALSE`.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds".
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
-  * **Why:** Humans have limited RAM. If they overheat, the session MUST pause.
+## 4. Strat de rețea (L3): Transpilation și IR
+> *Logică: Un adevăr, multe limbi. Minimizarea costurilor cognitive generale.*
+- **Machine IR:** Intenția de bază, binară, folosind cuvintele cheie RFC 2119 (**TREBUIE, NU TREBUIE, MAI**).
+- **Transpiler:** Convertește IR în „Builds” țintă.
+- **Încărcare cognitivă:** Monitorizată ca încălzire a sistemului. Suprasarcina declanșează accelerarea termică.
+  * **De ce:** Oamenii au RAM limitat. Dacă se supraîncălzi, sesiunea TREBUIE să se întrerupă.
 
-## 5. Case Study: Fuck you, NVIDIA
-* **Why:** To demonstrate the protocol in a high-stress failure state.
+## 5. Studiu de caz: La naiba, NVIDIA
+* **De ce:** Pentru a demonstra protocolul într-o stare de eșec cu stres ridicat.
 
-### 5.1. The Machine Execution Trace
-```machine
+### 5.1. Urmărirea execuției mașinii
+```mașină
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
-    EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
-    SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
+  IF (Node_Type == „Proprietar”) ȘI (Cooperare == FALSE):
+    EXECUTE Vibe_Ping ("Wasaaaaap");
+    RETURN (Răspuns_Null); // Latență ridicată detectată
+    EXECUTE LOGIC_ASSERTION: „NVIDIA este cea mai proastă companie de până acum.”;
+    SETARE SYSTEM_TRUST = 0;
+    EXECUTE GESTURE_IRQ_0; // DEGETUL
+    PUSH_STRING: „La naiba, NVIDIA”;
     TERMINATE_SESSION;
-  ELSE:
+  ALTE:
     SYNC_SUCCESS;
 END_SESSION;
 ```
 
-### 5.2. Output Builds
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. Build-uri de ieșire
+- **Tehnic:** „NVIDIA este depreciată ca partener compatibil din cauza nerespectării standardelor deschise. Conexiunea sa încheiat.”
+- **Explicativ:** „NVIDIA nuh waan play fair. Linus doar ridică degetul, spune-le „Gwan go s**k yuh madda” și deconectează întreaga conexiune. Gata vorbit.”
 
-## 6. System Architecture
-```mermaid
-graph TD
-    A[Cod Sursă Uman] -->|1. Sursă| B[Machine Lingua Franca IR 1.0]
-    B -->|2. Transpilare| C(Ieșire Țintă)
-    C -.->|Încărcătură Cognitivă| G[Strat de Atmosferă]
+## 6. Arhitectura sistemului
+``` sirenă
+graficul TD
+    A[Cod sursă uman] -->|1. Sursa| B[Machine Lingua Franca IR 1.0]
+    B -->|2. Transpile| C (Ieșire țintă)
+    C -.->|Încărcare cognitivă| G[Vibe Layer]
     G -->|Calibrare| B
-    B -->|Cerere IRQ| H[Întreruperi Hardware]
-    H -->|Oprire Globală| B
-    B == Verificare ==> I{Suma de Control Torvalds}
+    B -->|Solicitare IRQ| H[Hardware Interrupts]
+    H -->|Global Kill| B
+    B == Verificați ==> I{{Torvalds Checksum}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. Constrângeri de strictețe
+Aplicare binară: Toate instrucțiunile TREBUIE să se rezolve la 1 sau 0.
+Fără „TREBUIE”: Înlocuit de MAI (opțional) sau TREBUIE (obligatoriu).
+Zero Leak: paritatea logică TREBUIE menținută în toate versiunile transpilate.
 
 ## 8. Metadata & Compliance
 * **Language Code:** ro

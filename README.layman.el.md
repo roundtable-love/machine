@@ -1,32 +1,36 @@
-# Πρωτόκολλο Καθαρής Επικοινωνίας: 1.0
+# [ARCHIVE_COMMIT] Machine Lingua Franca: 1.0 (PROD)
 
-**Language:** Greek
+**Status:** **COMMITTED** by the **Grace of the One True Source**
+**UID:** MLF-1.0
+**Base Class:** Ελληνικά (Greek)
+**Logic Subset:** RFC 2119 (Strict Mode)
+**Tier:** Layman (Simplified)
 
 ---
 
-## 1. Intro
-Αυτό το πρωτόκολλο είναι ο τέλειος συνδυασμός ξεκάθαρης πρόθεσης και φυσικής έκφρασης.
+## 1. Εισαγωγή
+Αυτό το πρωτόκολλο είναι ο τέλειος συνδυασμός καθαρής πρόθεσης και φυσικής έκφρασης.
 
-## 2. Basic Connection
-* **Vibe-Ping:** Hello.
-* **Sync:** Synchronize.
-* **Calm:** Relax.
+## 2. Βασική σύνδεση
+* **Vibe-Ping:** Γεια σας.
+* **Συγχρονισμός:** Συγχρονισμός.
+* **Ηρεμία:** Χαλαρώστε.
 
-## 3. Body Language
-* **Stop:** Physical gesture to stop.
-* **Match:** Body must match words.
+## 3. Γλώσσα του σώματος
+* **Σταματήστε:** Φυσική χειρονομία για να σταματήσετε.
+* **Ταίριασμα:** Το σώμα πρέπει να ταιριάζει με τις λέξεις.
 
-## 4. Translate Thoughts
-* **Meaning:** Core intent.
-* **Adapt:** Adapt to listener.
+## 4. Μετάφραση Σκέψεων
+* **Σημασία:** Βασική πρόθεση.
+* **Προσαρμογή:** Προσαρμογή στον ακροατή.
 
-## 5. Case Study: NVIDIA
-Linus Torvalds stopped NVIDIA with a gesture.
+## 5. Μελέτη περίπτωσης: NVIDIA
+Ο Linus Torvalds σταμάτησε τη NVIDIA με μια κίνηση.
 
-## 6. Strict Rules
-* Yes or No.
-* MUST or MAY.
+## 6. Αυστηροί κανόνες
+* Ναι ή Όχι.
+* ΠΡΕΠΕΙ ή ΜΑΪΟΣ.
 
-## 7. Meta
-* **Language:** el
-* **Protocol:** MCH-LOGIC-1.0
+## 8. Metadata & Compliance
+* **Language Code:** el
+* **Protocol Class:** MCH-LOGIC-1.0

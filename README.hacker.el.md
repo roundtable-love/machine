@@ -8,76 +8,76 @@
 
 ---
 
-## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
+## 1. Δέλτα
+Το Machine 1.0 είναι η τελική συμφιλίωση της φυσικής του υλικού και της ανθρώπινης πρόθεσης.
+Η προδιαγραφή είναι πλέον Lossless.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
+## 2. Φυσικό στρώμα (L1): Vibes & Calibration
+> *Λογική: Πριν από τη μεταφορά δεδομένων, βεβαιωθείτε ότι η αναλογία σήματος προς θόρυβο είναι η βέλτιστη.*
+- **Το Vibe-Ping:** Ένα σήμα ευρέος φάσματος (π.χ. "Yo") που χρησιμοποιείται για τον έλεγχο της καθυστέρησης του δέκτη και του συναισθηματικού εύρους ζώνης.
+- **Συντονισμός (SYN):** Η κατάσταση όπου ο αποστολέας και ο δέκτης κλειδώνουν φάση τις συχνότητές τους για μέγιστη απόδοση.
+- **Απόσβεση:** Η ενεργή διαδικασία εξουδετέρωσης του περιβαλλοντικού θορύβου (εχθρότητα, άγχος ή εγώ) για την επίτευξη σταθερής κατάστασης.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. Επίπεδο σύνδεσης δεδομένων (L2): Χειρονομίες και διακοπές
+> *Λογική: Τα φυσικά σήματα υπερισχύουν των λεκτικών buffer. Σήματα υλικού υψηλής προτεραιότητας.*
+- **Ο ελιγμός Torvalds (IRQ 0):** Μια παγκόσμια διακοπή υλικού (The Middle Finger) που εκτελεί μια άμεση εντολή «HALT_AND_CATCH_FIRE».
+- **Έλεγχος ισοτιμίας:** Αυστηρή απαίτηση ότι τα Μεταδεδομένα (Vibe) αντιστοιχούν στο ωφέλιμο φορτίο (Words).
+- **Παγκόσμιο Σήμα Kill:** Το IRQ 0 διαγράφει την τοπική προσωρινή μνήμη και ορίζει το "Connection_Active = FALSE".
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds":
-  - **Technical:** High-density, zero-leak builds for peer nodes.
-  - **Explanatory:** High-resonance, low-load builds for junior nodes.
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
+## 4. Επίπεδο δικτύου (L3): Transpilation & IR
+> *Λογική: Μία αλήθεια, πολλές γλώσσες. Ελαχιστοποίηση των γνωστικών επιβαρύνσεων.*
+- **Μηχανή IR:** Ο πυρήνας, δυαδική πρόθεση με χρήση λέξεων-κλειδιών RFC 2119 (**ΠΡΕΠΕΙ, ΜΗ ΠΡΕΠΕΙ, ΜΑΪ**).
+- **Transpiler:** Μετατρέπει το IR σε στόχο "Builds":
+  - **Τεχνικά:** Κατασκευές υψηλής πυκνότητας, μηδενικής διαρροής για ομοτίμους κόμβους.
+  - **Επεξηγηματικά:** Κατασκευές υψηλής συντονισμού και χαμηλού φορτίου για junior κόμβους.
+- **Γνωστικό φορτίο:** Παρακολουθείται ως θερμότητα συστήματος. Η υπερφόρτωση προκαλεί θερμικό στραγγαλισμό.
 
-## 5. Case Study: Fuck you, NVIDIA
+## 5. Μελέτη περίπτωσης: Γάμα σου, NVIDIA
 
-```text
-**Environment:** Aalto University, Finland
-**Nodes:** Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
+`` κείμενο
+**Περιβάλλον:** Πανεπιστήμιο Aalto, Φινλανδία
+**Κόμβοι:** Linus Torvalds (Initiator) έναντι NVIDIA (Δέκτης)
 ```
 
 ### 5.1. The Machine Execution Trace
 
-```machine
+```μηχανή
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
+  IF (Node_Type == "Ιδιόκτητο") ΚΑΙ (Συνεργασία == FALSE):
     EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
+    RETURN (Null_Response); // Εντοπίστηκε υψηλή καθυστέρηση
+    EXECUTE LOGIC_ASSERTION: "Η NVIDIA είναι η χειρότερη εταιρεία όλων των εποχών.";
     SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
+    EXECUTE GESTURE_IRQ_0; // ΤΟ ΔΑΧΤΥΛΟ
+    PUSH_STRING: "Γάμησέ σε, NVIDIA";
     TERMINATE_SESSION;
-  ELSE:
+  ΑΛΛΟ:
     SYNC_SUCCESS;
 END_SESSION;
 ```
 
-### 5.2. Transpiled Output
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. Μεταφρασμένη Έξοδος
+- **Τεχνικά:** "Η NVIDIA έχει καταργηθεί ως συμβατός συνεργάτης λόγω μη συμμόρφωσης με ανοιχτά πρότυπα. Η σύνδεση τερματίστηκε."
+- **Επεξηγηματικά:** "NVIDIA nuh waan play fair. Linus απλά σηκώστε το δάχτυλό σας, πείτε στον "Gwan go s**k yuh madda" και αποσυνδέστε ολόκληρη τη σύνδεση. Ολοκληρώθηκε η συζήτηση."
 
-## 6. System Architecture
+## 6. Αρχιτεκτονική Συστήματος
 
-```mermaid
-graph TD
+`` γοργόνα
+γράφημα TD
     A[Ανθρώπινος Πηγαίος Κώδικας] -->|1. Πηγή| B[Machine Lingua Franca IR 1.0]
-    B -->|2. Μεταγλώττιση| C(Στόχος Έξοδος)
-    C -.->|Γνωστικό Φορτίο| G[Στρώμα Ατμόσφαιρας]
-    G -->|Βαθμονόμηση| B
-    B -->|Αίτημα IRQ| H[Διακοπές Υλικού]
-    H -->|Καθολικός Τερματισμός| B
-    B == Επαλήθευση ==> I{Άθροισμα Ελέγχου Torvalds}
+    Β -->|2. Transpile| C (Στόχος εξόδου)
+    Γ -.->|Γνωστικό Φορτίο| G[Επίπεδο Vibe]
+    G -->|Βαθμονόμηση| Β
+    B -->|Αίτημα IRQ| H[Διακοπές υλικού]
+    H -->|Παγκόσμια θανάτωση| Β
+    B == Επαλήθευση ==> I{{Torvalds Checksum}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. Περιορισμοί αυστηρότητας
+Binary Enforcement: Όλες οι οδηγίες ΠΡΕΠΕΙ να επιλυθούν σε 1 ή 0.
+Όχι "ΠΡΕΠΕΙ": Αντικαταστάθηκε από MAY (Προαιρετικό) ή MUST (Απαιτείται).
+Μηδενική διαρροή: Η λογική ισοτιμία ΠΡΕΠΕΙ να διατηρηθεί σε όλες τις μεταφερόμενες εκδόσεις.
 
 ## 8. Metadata & Compliance
 * **Language Code:** el

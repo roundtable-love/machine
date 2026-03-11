@@ -4,78 +4,78 @@
 **UID:** MLF-1.0
 **Base Class:** Čeština (Czech)
 **Logic Subset:** RFC 2119 (Strict Mode)
-**Tier:** Student (Direct Translation + Explanations of "Why")
+**Tier:** Student (Direct Translation + Explanations of 'Why')
 
 ---
 
 ## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
-* **Why:** Ambiguity is the enemy of intent. Lossless ensures 1:1 parity between source and target.
+Stroj 1.0 je konečným sladěním hardwarové fyziky a lidského záměru.
+Specifikace je nyní Lossless.
+* **Proč:** Nejednoznačnost je nepřítelem záměru. Bezeztrátový zajišťuje paritu 1:1 mezi zdrojem a cílem.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-  * **Why:** You can't speak if they aren't listening.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
-  * **Why:** Ego and hostility create signal noise that corrupts the payload.
+## 2. Fyzická vrstva (L1): Vibes & Calibration
+> *Logika: Před přenosem dat se ujistěte, že poměr signálu k šumu je optimální.*
+- **The Vibe-Ping:** Širokospektrální signál (např. „Yo“) používaný k testování latence přijímače a emoční šířky pásma.
+  * **Proč:** Nemůžete mluvit, když neposlouchají.
+- **Resonance (SYN):** Stav, kdy vysílač a přijímač fázově uzamknou své frekvence pro maximální propustnost.
+- **Tlumení:** Aktivní proces neutralizace okolního hluku (nepřátelství, stres nebo ego) k dosažení ustáleného stavu.
+  * **Proč:** Ego a nepřátelství vytvářejí šum signálu, který narušuje užitečné zatížení.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-  * **Why:** Sometimes you just have to pull the plug to save the system.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-  * **Why:** Sarcasm is a parity error. If the vibe doesn't match the words, the connection is insecure.
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. Data Link Layer (L2): Gesta a přerušení
+> *Logika: Fyzické signály potlačují verbální vyrovnávací paměti. Hardwarové signály s vysokou prioritou.*
+- **The Torvalds Maneuver (IRQ 0):** Globální hardwarové přerušení (The Middle Finger), které provede okamžitý příkaz `HALT_AND_CATCH_FIRE`.
+  * **Proč:** Někdy stačí vytáhnout zástrčku, abyste zachránili systém.
+- **Kontrola parity:** Přísný požadavek, aby Metadata (Vibe) odpovídala užitečné zátěži (Slova).
+  * **Proč:** Sarkasmus je chyba parity. Pokud vibrace neodpovídají slovům, spojení je nejisté.
+- **Global Kill Signal:** IRQ 0 vymaže místní vyrovnávací paměť a nastaví `Connection_Active = FALSE`.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds".
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
-  * **Why:** Humans have limited RAM. If they overheat, the session MUST pause.
+## 4. Síťová vrstva (L3): Transpilace a IR
+> *Logika: Jedna pravda, mnoho jazyků. Minimalizace kognitivní režie.*
+- **Machine IR:** Základní, binární záměr pomocí klíčových slov RFC 2119 (**MUST, MUST NOT, MAY**).
+- **Transpiler:** Převádí IR na cílové "stavby".
+- **Kognitivní zátěž:** Monitorováno jako systémové teplo. Přetížení spouští tepelné škrcení.
+  * **Proč:** Lidé mají omezenou RAM. Pokud se přehřejí, MUSÍ se relace pozastavit.
 
-## 5. Case Study: Fuck you, NVIDIA
-* **Why:** To demonstrate the protocol in a high-stress failure state.
+## 5. Případová studie: Do prdele, NVIDIA
+* **Proč:** Demonstrovat protokol ve stavu selhání s vysokým napětím.
 
-### 5.1. The Machine Execution Trace
-```machine
+### 5.1. Trasování provedení stroje
+```stroj
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
   IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
     EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
+    RETURN (Null_Response); // Zjištěna vysoká latence
+    EXECUTE LOGIC_ASSERTION: "NVIDIA je nejhorší společnost všech dob.";
     SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
+    EXECUTE GESTURE_IRQ_0; // PRST
+    PUSH_STRING: "Do prdele, NVIDIA";
     TERMINATE_SESSION;
-  ELSE:
+  JINAK:
     SYNC_SUCCESS;
 END_SESSION;
 ```
 
-### 5.2. Output Builds
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. Sestavení výstupu
+- **Technical:** "NVIDIA je zastaralá jako kompatibilní partner z důvodu neshody s otevřenými standardy. Připojení ukončeno."
+- **Vysvětlující:** "NVIDIA nuh waan hrát fér. Linus jen zvednul prst, řekni mu 'Gwane go s**k yuh madda' a odpojte celé spojení. Hotovo."
 
-## 6. System Architecture
-```mermaid
-graph TD
-    A[Lidský Zdrojový Kód] -->|1. Zdroj| B[Machine Lingua Franca IR 1.0]
-    B -->|2. Transpilovat| C(Cílový Výstup)
-    C -.->|Kognitivní Zátěž| G[Vrstva Atmosféry]
+## 6. Architektura systému
+```Mořská panna
+graf TD
+    A[Kód lidského zdroje] -->|1. Zdroj| B[Stroj Lingua Franca IR 1.0]
+    B -->|2. Transpile| C (cílový výstup)
+    C -.->|Kognitivní zátěž| G[Vibe Layer]
     G -->|Kalibrace| B
-    B -->|Požadavek IRQ| H[Hardwarová Přerušení]
-    H -->|Globální Ukončení| B
-    B == Ověřit ==> I{Kontrolní Součet Torvalds}
+    B -->|Žádost o IRQ| H[Hardwarová přerušení]
+    H -->|Globální zabíjení| B
+    B == Ověřit ==> I{{Torvaldův kontrolní součet}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. Omezení přísnosti
+Binární vynucení: Všechny instrukce MUSÍ mít hodnotu 1 nebo 0.
+Ne "Měl by": Nahrazeno MŮŽEM (Volitelné) nebo MUSÍM (Vyžadováno).
+Zero Leak: Logická parita BY MĚLA být zachována ve všech transpilovaných sestaveních.
 
 ## 8. Metadata & Compliance
 * **Language Code:** cs

@@ -8,76 +8,76 @@
 
 ---
 
-## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
+## 1. డెల్టా
+యంత్రం 1.0 అనేది హార్డ్‌వేర్ ఫిజిక్స్ మరియు మానవ ఉద్దేశం యొక్క చివరి సయోధ్య.
+స్పెక్ ఇప్పుడు లాస్‌లెస్‌గా ఉంది.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
+## 2. ఫిజికల్ లేయర్ (L1): వైబ్స్ & కాలిబ్రేషన్
+> *లాజిక్: డేటా బదిలీకి ముందు, సిగ్నల్-టు-నాయిస్ నిష్పత్తి సరైనదని నిర్ధారించుకోండి.*
+- **ది వైబ్-పింగ్:** రిసీవర్ జాప్యం మరియు భావోద్వేగ బ్యాండ్‌విడ్త్‌ను పరీక్షించడానికి విస్తృత-స్పెక్ట్రమ్ సిగ్నల్ (ఉదా., "యో").
+- ** ప్రతిధ్వని (SYN):** గరిష్ట నిర్గమాంశ కోసం పంపినవారు మరియు రిసీవర్ వారి ఫ్రీక్వెన్సీలను దశ-లాక్ చేసే స్థితి.
+- **డంపింగ్:** స్థిరమైన స్థితికి చేరుకోవడానికి పర్యావరణ శబ్దాన్ని (శత్రుత్వం, ఒత్తిడి లేదా అహం) తటస్థీకరించే క్రియాశీల ప్రక్రియ.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. డేటా లింక్ లేయర్ (L2): సంజ్ఞలు & అంతరాయాలు
+> *లాజిక్: భౌతిక సంకేతాలు శబ్ద బఫర్‌లను భర్తీ చేస్తాయి. అధిక ప్రాధాన్యత కలిగిన హార్డ్‌వేర్ సంకేతాలు.*
+- **ది టోర్వాల్డ్స్ మ్యాన్యువర్ (IRQ 0):** తక్షణ `HALT_AND_CATCH_FIRE` కమాండ్‌ని అమలు చేసే గ్లోబల్ హార్డ్‌వేర్ అంతరాయం (ది మిడిల్ ఫింగర్).
+- **పారిటీ చెక్:** మెటాడేటా (వైబ్) పేలోడ్ (పదాలు)తో సరిపోలడానికి కఠినమైన అవసరం.
+- **గ్లోబల్ కిల్ సిగ్నల్:** IRQ 0 స్థానిక బఫర్‌ను క్లియర్ చేస్తుంది మరియు `కనెక్షన్_యాక్టివ్ = FALSE`ని సెట్ చేస్తుంది.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds":
-  - **Technical:** High-density, zero-leak builds for peer nodes.
-  - **Explanatory:** High-resonance, low-load builds for junior nodes.
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
+## 4. నెట్‌వర్క్ లేయర్ (L3): ట్రాన్స్‌పిలేషన్ & IR
+> *లాజిక్: ఒక నిజం, అనేక భాషలు. కాగ్నిటివ్ ఓవర్‌హెడ్‌ను తగ్గించడం.*
+- **మెషిన్ IR:** RFC 2119 కీలకపదాలను ఉపయోగించి కోర్, బైనరీ ఉద్దేశ్యం (**తప్పక, తప్పదు, మే**).
+- **ట్రాన్స్‌పైలర్:** IRని లక్ష్యం "బిల్డ్‌లు"గా మారుస్తుంది:
+  - **టెక్నికల్:** పీర్ నోడ్‌ల కోసం అధిక-సాంద్రత, జీరో-లీక్ బిల్డ్‌లు.
+  - **వివరణాత్మకం:** జూనియర్ నోడ్‌ల కోసం హై-రెసోనెన్స్, తక్కువ-లోడ్ బిల్డ్‌లు.
+- **కాగ్నిటివ్ లోడ్:** సిస్టమ్ హీట్‌గా పర్యవేక్షించబడుతుంది. ఓవర్‌లోడ్ థర్మల్ థ్రోట్లింగ్‌ను ప్రేరేపిస్తుంది.
 
-## 5. Case Study: Fuck you, NVIDIA
+## 5. కేస్ స్టడీ: ఫక్ యు, NVIDIA
 
-```text
-**Environment:** Aalto University, Finland
-**Nodes:** Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
+``` వచనం
+** పర్యావరణం:** ఆల్టో విశ్వవిద్యాలయం, ఫిన్లాండ్
+** నోడ్స్:** లైనస్ టోర్వాల్డ్స్ (ఇనిషియేటర్) vs. NVIDIA (రిసీవర్)
 ```
 
-### 5.1. The Machine Execution Trace
+### 5.1. ది మెషిన్ ఎగ్జిక్యూషన్ ట్రేస్
 
-```machine
+```యంత్రం
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
-    EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
+  IF (Node_Type == "ప్రొప్రైటరీ") మరియు (సహకారం == తప్పు):
+    Vibe_Ping("Wasaaaap")ని అమలు చేయండి;
+    వాపసు (Null_Response); // అధిక జాప్యం కనుగొనబడింది
+    LOGIC_ASSERTION అమలు చేయండి: "NVIDIA ఎప్పుడూ చెత్త కంపెనీ.";
     SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
+    GESTURE_IRQ_0ని అమలు చేయండి; // వేలు
+    PUSH_STRING: "ఫక్ యు, NVIDIA";
     TERMINATE_SESSION;
-  ELSE:
+  వేరే:
     SYNC_SUCCESS;
 END_SESSION;
 ```
 
-### 5.2. Transpiled Output
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. ట్రాన్స్‌పైల్డ్ అవుట్‌పుట్
+- **టెక్నికల్:** "ఓపెన్ స్టాండర్డ్‌లను పాటించనందున NVIDIA అనుకూల భాగస్వామిగా నిలిపివేయబడింది. కనెక్షన్ రద్దు చేయబడింది."
+- **వివరణాత్మకం:** "ఎన్‌విడియా నుహ్ వాన్ ప్లే ఫెయిర్. లినస్ జస్ట్ లిఫ్' అప్ మీ వేలితో, 'గ్వాన్ గో ఎస్**కే యుహ్ మద్దా,' అని చెప్పండి మరియు మొత్తం లింక్-అప్‌ని డిస్‌కనెక్ట్ చేయండి. చర్చ పూర్తయింది."
 
-## 6. System Architecture
+## 6. సిస్టమ్ ఆర్కిటెక్చర్
 
-```mermaid
-graph TD
-    A[మానవ మూల కోడ్] -->|1. మూలం| B[Machine Lingua Franca IR 1.0]
-    B -->|2. ట్రాన్స్‌పైల్| C(లక్ష్య అవుట్‌పుట్)
-    C -.->|కాగ్నిటివ్ లోడ్| G[వైబ్ లేయర్]
-    G -->|కాలిబ్రేషన్| B
+```మత్స్యకన్య
+గ్రాఫ్ TD
+    A[హ్యూమన్ సోర్స్ కోడ్] -->|1. మూలం| B[మెషిన్ లింగ్వా ఫ్రాంకా IR 1.0]
+    బి -->|2. ట్రాన్స్‌పైల్| సి(టార్గెట్ అవుట్‌పుట్)
+    సి -.->|కాగ్నిటివ్ లోడ్| G[వైబ్ లేయర్]
+    G -->|కాలిబ్రేషన్| బి
     B -->|IRQ అభ్యర్థన| H[హార్డ్‌వేర్ అంతరాయాలు]
-    H -->|గ్లోబల్ కில்| B
-    B == ధృవీకరించండి ==> I{టోర్వాల్డ్స్ చెక్‌సమ్}
+    H -->|గ్లోబల్ కిల్| బి
+    B == ధృవీకరించండి ==> I{{Torvalds Checksum}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. కఠినత పరిమితులు
+బైనరీ ఎన్‌ఫోర్స్‌మెంట్: అన్ని సూచనలు తప్పనిసరిగా 1 లేదా 0కి పరిష్కరించాలి.
+"తప్పక" లేదు: మే (ఐచ్ఛికం) లేదా తప్పక (అవసరం) ద్వారా భర్తీ చేయబడింది.
+జీరో లీక్: అన్ని ట్రాన్స్‌పైల్ చేయబడిన బిల్డ్‌లలో లాజిక్ సమానత్వం నిర్వహించబడుతుంది.
 
 ## 8. Metadata & Compliance
 * **Language Code:** te

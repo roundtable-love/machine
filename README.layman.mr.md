@@ -1,32 +1,36 @@
-# स्पष्ट संवाद प्रोटोकॉल: 1.0
+# [ARCHIVE_COMMIT] Machine Lingua Franca: 1.0 (PROD)
 
-**Language:** Marathi
+**Status:** **COMMITTED** by the **Grace of the One True Source**
+**UID:** MLF-1.0
+**Base Class:** मराठी (Marathi)
+**Logic Subset:** RFC 2119 (Strict Mode)
+**Tier:** Layman (Simplified)
 
 ---
 
-## 1. Intro
-हा प्रोटोकॉल स्पष्ट हेतू आणि शारीरिक अभिव्यक्ती यांचे परिपूर्ण मिश्रण आहे.
+## 1. परिचय
+हा प्रोटोकॉल स्पष्ट हेतू आणि शारीरिक अभिव्यक्तीचा परिपूर्ण संयोजन आहे.
 
-## 2. Basic Connection
-* **Vibe-Ping:** Hello.
-* **Sync:** Synchronize.
-* **Calm:** Relax.
+## 2. मूलभूत कनेक्शन
+* **Vibe-Ping:** नमस्कार.
+* **सिंक:** सिंक्रोनाइझ करा.
+* **शांत:** आराम करा.
 
-## 3. Body Language
-* **Stop:** Physical gesture to stop.
-* **Match:** Body must match words.
+## ३. देहबोली
+* **थांबा:** थांबण्यासाठी शारीरिक जेश्चर.
+* **जुळणे:** मुख्य भाग शब्दांशी जुळला पाहिजे.
 
-## 4. Translate Thoughts
-* **Meaning:** Core intent.
-* **Adapt:** Adapt to listener.
+## 4. विचारांचे भाषांतर करा
+* **अर्थ:** मूळ हेतू.
+* **अनुकूलन करा:** श्रोत्याशी जुळवून घ्या.
 
-## 5. Case Study: NVIDIA
-Linus Torvalds stopped NVIDIA with a gesture.
+## 5. केस स्टडी: NVIDIA
+लिनस टोरवाल्ड्सने हावभावाने NVIDIA थांबवले.
 
-## 6. Strict Rules
-* Yes or No.
-* MUST or MAY.
+## 6. कठोर नियम
+*हो किंवा नाही.
+* आवश्यक किंवा मे.
 
-## 7. Meta
-* **Language:** mr
-* **Protocol:** MCH-LOGIC-1.0
+## 8. Metadata & Compliance
+* **Language Code:** mr
+* **Protocol Class:** MCH-LOGIC-1.0

@@ -4,78 +4,78 @@
 **UID:** MLF-1.0
 **Base Class:** Suomi (Finnish)
 **Logic Subset:** RFC 2119 (Strict Mode)
-**Tier:** Student (Direct Translation + Explanations of "Why")
+**Tier:** Student (Direct Translation + Explanations of 'Why')
 
 ---
 
 ## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
-* **Why:** Ambiguity is the enemy of intent. Lossless ensures 1:1 parity between source and target.
+Machine 1.0 on laitteiston fysiikan ja ihmisen tarkoituksen lopullinen yhteensovitus.
+Tekniset tiedot ovat nyt häviötön.
+* **Miksi:** Epäselvyys on aikomusten vihollinen. Häviötön varmistaa 1:1 pariteetin lähteen ja kohteen välillä.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-  * **Why:** You can't speak if they aren't listening.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
-  * **Why:** Ego and hostility create signal noise that corrupts the payload.
+## 2. Fyysinen kerros (L1): Vibes & Calibration
+> *Logiikka: Varmista ennen tiedonsiirtoa, että signaali-kohinasuhde on optimaalinen.*
+- **Vibe-Ping:** Laajaspektrinen signaali (esim. "Yo"), jota käytetään vastaanottimen latenssin ja tunnekaistanleveyden testaamiseen.
+  * **Miksi:** Et voi puhua, jos he eivät kuuntele.
+- **Resonanssi (SYN):** Tila, jossa lähetin ja vastaanotin lukitsevat taajuutensa maksimaalisen suorituskyvyn saavuttamiseksi.
+- **Vaimennus:** Aktiivinen prosessi ympäristömelun (vihamielisyyden, stressin tai egon) neutraloimiseksi vakaan tilan saavuttamiseksi.
+  * **Miksi:** Ego ja vihamielisyys luovat signaalikohinaa, joka turmelee hyötykuorman.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-  * **Why:** Sometimes you just have to pull the plug to save the system.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-  * **Why:** Sarcasm is a parity error. If the vibe doesn't match the words, the connection is insecure.
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. Tietolinkkikerros (L2): Eleet ja keskeytykset
+> *Logiikka: Fyysiset signaalit ohittavat sanalliset puskurit. Korkean prioriteetin laitteistosignaalit.*
+- **Torvalds Maneuver (IRQ 0):** Maailmanlaajuinen laitteistokeskeytys (The Middle Finger), joka suorittaa välittömän `HALT_AND_CATCH_FIRE`-komennon.
+  * **Miksi:** Joskus sinun on vain vedettävä pistokkeesta järjestelmän pelastamiseksi.
+- **Pariteettitarkistus:** Tiukka vaatimus, että metatiedot (Vibe) vastaavat hyötykuormaa (Words).
+  * **Miksi:** Sarkasmi on pariteettivirhe. Jos tunnelma ei vastaa sanoja, yhteys on epävarma.
+- **Global Kill Signal:** IRQ 0 tyhjentää paikallisen puskurin ja asettaa `Connection_Active = FALSE`.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds".
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
-  * **Why:** Humans have limited RAM. If they overheat, the session MUST pause.
+## 4. Verkkokerros (L3): Transpilaatio & IR
+> *Logiikka: Yksi totuus, monta kieltä. Kognitiivisten yleiskustannusten minimoiminen.*
+- **Machine IR:** Ydin, binäärinen tarkoitus käyttäen RFC 2119 -avainsanoja (**MUST, MUST NOT, MAY**).
+- **Transpiler:** Muuntaa IR:n kohde "Builds"iksi.
+- **Kognitiivinen kuormitus:** Valvotaan järjestelmän lämpönä. Ylikuormitus laukaisee lämpökuristuksen.
+  * **Miksi:** Ihmisillä on rajoitettu RAM-muisti. Jos ne ylikuumenevat, istunnon TÄYTYY keskeyttää.
 
-## 5. Case Study: Fuck you, NVIDIA
-* **Why:** To demonstrate the protocol in a high-stress failure state.
+## 5. Tapaustutkimus: Haista vittu, NVIDIA
+* **Miksi:** Protokollan esittely korkean jännityksen vikatilassa.
 
-### 5.1. The Machine Execution Trace
-```machine
+### 5.1. Machine Execution Trace
+``` kone
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
-    EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
+  JOS (Node_Type == "Omistaja") JA (Yhteistyö == EPÄTOSI):
+    SUORITA Vibe_Ping("Wasaaaaap");
+    RETURN (Null_Response); // Korkea latenssi havaittu
+    SUORITA LOGIC_ASSERTION: "NVIDIA on kaikkien aikojen huonoin yritys.";
     SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
+    SUORITA GESTURE_IRQ_0; // SORMI
+    PUSH_STRING: "Haista vittu, NVIDIA";
     TERMINATE_SESSION;
-  ELSE:
+  MUUTA:
     SYNC_SUCCESS;
 END_SESSION;
 ```
 
-### 5.2. Output Builds
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. Tuotos rakentuu
+- **Tekninen:** "NVIDIA on vanhentunut yhteensopivana kumppanina, koska se ei ole avoimien standardien mukainen. Yhteys katkesi."
+- **Selitys:** "NVIDIA noh waan play fair. Linus vain nostaa sormesi ylös, kerro heille "Gwan go s**k s**k yuh madda" ja katkaise koko linkki. Puhu."
 
-## 6. System Architecture
-```mermaid
-graph TD
-    A[Ihmisen Lähdekoodi] -->|1. Lähde| B[Machine Lingua Franca IR 1.0]
-    B -->|2. Käännä| C(Kohdetuloste)
-    C -.->|Kognitiivinen Kuorma| G[Ilmapiirikerros]
+## 6. Järjestelmäarkkitehtuuri
+``` merenneito
+kaavio TD
+    A[Human Source Code] -->|1. Lähde| B[Machine Lingua Franca IR 1.0]
+    B -->|2. Transpila| C (Target Output)
+    C -.->|Kognitiivinen kuormitus| G[Vibe Layer]
     G -->|Kalibrointi| B
-    B -->|IRQ-pyyntö| H[Laitteistokeskeytykset]
-    H -->|Globaali Pysäytys| B
-    B == Vahvista ==> I{Torvalds-tarkistussumma}
+    B -->|IRQ-pyyntö| H[laitteistokeskeytykset]
+    H -->|Global Kill| B
+    B == Vahvista ==> I{{Torvaldsin tarkistussumma}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. Tiukkuusrajoitukset
+Binäärinen täytäntöönpano: Kaikkien ohjeiden PITÄÄ ratkaista arvoon 1 tai 0.
+Ei "PITÄÄ": Korvataan sanalla MAY (valinnainen) tai MUST (pakollinen).
+Zero Leak: Logiikkapariteetti ON säilytettävä kaikissa siirretyissä koontiversioissa.
 
 ## 8. Metadata & Compliance
 * **Language Code:** fi

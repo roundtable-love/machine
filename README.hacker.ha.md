@@ -9,75 +9,75 @@
 ---
 
 ## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
+Machine 1.0 shine sulhu na ƙarshe na ilimin lissafi na hardware da niyyar ɗan adam.
+Takaddun bayanai yanzu ba su da hasara.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
+## 2. Layer na Jiki (L1): Vibes & Calibration
+> * Hankali: Kafin canja wurin bayanai, tabbatar da rabon sigina-zuwa-amo yana da kyau kwarai.*
+- ** The Vibe-Ping: ** Sigina mai faɗi (misali, "Yo") da aka yi amfani da shi don gwada jinkirin mai karɓa da bandwidth na motsin rai.
+- ** Resonance (SYN):** Jihar da mai aikawa da mai karɓa lokaci-lokaci-kulle mitocin su don iyakar abin da ake samarwa.
+- **Damping:** Tsarin aiki na kawar da hayaniyar muhalli (ƙiyayya, damuwa, ko son kai) don isa ga Jiha Tsaye.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. Layer Data Link Layer (L2): Hanyoyi & Katsewa
+> * Hankali: Sigina na jiki suna ƙetare maƙallan magana. Sigina na kayan masarufi masu fifiko.*
+- ** The Torvalds Maneuver (IRQ 0):** Katse kayan masarufi na duniya (Yatsa ta Tsakiya) wanda ke aiwatar da umarnin ''HALT_AND_CATCH_FIRE' nan take.
+- ** Bincika Parity: ** Maƙasudin buƙatu cewa Metadata (Vibe) ya dace da biyan kuɗi (Kalmomi).
+- ** Siginar Kisan Duniya: ** IRQ 0 yana share ma'ajin gida kuma yana saita ''Haɗin_Active = KARYA'.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds":
-  - **Technical:** High-density, zero-leak builds for peer nodes.
-  - **Explanatory:** High-resonance, low-load builds for junior nodes.
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
+## 4. Layer Network (L3): Transpilation & IR
+> * Hankali: Gaskiya daya, harsuna da yawa. Rage kaifin hankali.*
+- ** Na'ura IR: ** Mahimmanci, niyya ta binary ta amfani da kalmomin RFC 2119 (** DOLE, BA DOLE, MAY**).
+- ** Mai jujjuyawa: *** Yana canza IR zuwa "Gina" manufa:
+  - ** Fasaha: *** Babban yawa, sifili-leak yana ginawa don nodes na tsara.
+  - ** Bayani:** Babban rawa, ƙarancin kaya yana gina ƙananan nodes.
+- ** Load ɗin Hankali:** Ana Kulawa azaman Zafin Tsarin. Yawan wuce gona da iri yana haifar da maƙarƙashiya ta thermal.
 
-## 5. Case Study: Fuck you, NVIDIA
+## 5. Nazarin Case: Fuck you, NVIDIA
 
-```text
-**Environment:** Aalto University, Finland
-**Nodes:** Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
+``` rubutu
+** Muhalli: *** Jami'ar Aalto, Finland
+** Nodes:** Linus Torvalds (Mafakarwa) vs. NVIDIA (Mai karɓa)
 ```
 
-### 5.1. The Machine Execution Trace
+### 5.1. Alamar Kashe Injin
 
-```machine
+``mashin
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
+  IDAN (Node_Type == "Mai mallakar mallaka") DA (Haɗin kai == KARYA):
     EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
-    SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
+    MAYARWA (Response_Babu); // An Gano Babban Latency
+    EXECUTE LOGIC_ASSERTION: "NVIDIA shine kamfani mafi muni da aka taɓa samu.";
+    SYSTEM_TRUST = 0;
+    EXECUTE GESTURE_IRQ_0; // YATSA
     PUSH_STRING: "Fuck you, NVIDIA";
     TERMINATE_SESSION;
-  ELSE:
+  SAURAN:
     SYNC_SUCCESS;
-END_SESSION;
+KARSHEN_ZAMA;
 ```
 
-### 5.2. Transpiled Output
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+## 5.2. Fitar da aka watsa
+- ** Fasaha: ** "An soke NVIDIA a matsayin abokin tarayya mai jituwa saboda rashin bin ka'idodin buɗaɗɗen. Haɗin ya ƙare."
+- **Bayyana:** "NVIDIA nuh waan yi wasa mai kyau. Linus kawai ya ɗaga yatsa, gaya dem 'Gwan go s ** k yuh madda,' kuma ka cire haɗin haɗin duka. Done talk."
 
-## 6. System Architecture
+## 6. Tsarin Gine-gine
 
-```mermaid
+```yar budurwa
 graph TD
-    A[Lambar Tushen Mutum] -->|1. Tushen| B[Machine Lingua Franca IR 1.0]
-    B -->|2. Transpile| C(Fitarwa Target)
-    C -.->|Nauyin Fahimi| G[Tushen Vibe]
-    G -->|Daidaitawa| B
-    B -->|Neman IRQ| H[Matsalolin Hardware]
+    A[Human Source Code] -->|1. Source| B[Mashin Lingua Franca IR 1.0]
+    B -->|2. Fassarar | C (Fitar da manufa)
+    C -.->|Load ɗin Hankali| G[Layer Vibe]
+    G -->|Karafi| B
+    B -->|Tambayar IRQ| H [Hardware Yana Katsewa]
     H -->|Kisan Duniya| B
-    B == Tabbatar ==> I{Torvalds Checksum}
+    B == Tabbatar da ==> I {{Torvalds Checksum}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. Takurawa
+Ƙaddamar da Binary: Duk umarnin dole ne a warware su zuwa 1 ko 0.
+A'a "KAMATA": MAY ya maye gurbinsa (Na zaɓi) ko Dole ne (Ake Bukata).
+Leak Zero: Za a kiyaye daidaiton ma'ana a duk ginin da aka watsa.
 
 ## 8. Metadata & Compliance
 * **Language Code:** ha

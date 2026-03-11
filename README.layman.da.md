@@ -1,32 +1,36 @@
-# Tydelig Kommunikationsprotokol: 1.0
+# [ARCHIVE_COMMIT] Machine Lingua Franca: 1.0 (PROD)
 
-**Language:** Danish
+**Status:** **COMMITTED** by the **Grace of the One True Source**
+**UID:** MLF-1.0
+**Base Class:** Dansk (Danish)
+**Logic Subset:** RFC 2119 (Strict Mode)
+**Tier:** Layman (Simplified)
 
 ---
 
 ## 1. Intro
-Denne protokol er den perfekte kombination af tydelig hensigt og fysisk udtryk.
+Denne protokol er den perfekte kombination af klar hensigt og fysisk udtryk.
 
-## 2. Basic Connection
-* **Vibe-Ping:** Hello.
-* **Sync:** Synchronize.
-* **Calm:** Relax.
+## 2. Grundlæggende tilslutning
+* **Vibe-Ping:** Hej.
+* **Synkroniser:** Synkroniser.
+* **Rolig:** Slap af.
 
-## 3. Body Language
-* **Stop:** Physical gesture to stop.
-* **Match:** Body must match words.
+## 3. Kropssprog
+* **Stop:** Fysisk gestus for at stoppe.
+* **Match:** Brødtekst skal matche ord.
 
-## 4. Translate Thoughts
-* **Meaning:** Core intent.
-* **Adapt:** Adapt to listener.
+## 4. Oversæt tanker
+* **Betydning:** Kernehensigt.
+* **Tilpas:** Tilpas til lytteren.
 
-## 5. Case Study: NVIDIA
-Linus Torvalds stopped NVIDIA with a gesture.
+## 5. Casestudie: NVIDIA
+Linus Torvalds stoppede NVIDIA med en gestus.
 
-## 6. Strict Rules
-* Yes or No.
-* MUST or MAY.
+## 6. Strenge regler
+* Ja eller nej.
+* SKAL eller MAJ.
 
-## 7. Meta
-* **Language:** da
-* **Protocol:** MCH-LOGIC-1.0
+## 8. Metadata & Compliance
+* **Language Code:** da
+* **Protocol Class:** MCH-LOGIC-1.0

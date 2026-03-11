@@ -1,40 +1,36 @@
-# Jasny Protokół Komunikacyjny: 1.0
+# [ARCHIVE_COMMIT] Machine Lingua Franca: 1.0 (PROD)
 
-**Status:** Zakończono
-**Język bazowy:** Polski (Polish)
-**Zasady:** Surowe i jasne definicje
+**Status:** **COMMITTED** by the **Grace of the One True Source**
+**UID:** MLF-1.0
+**Base Class:** Polski (Polish)
+**Logic Subset:** RFC 2119 (Strict Mode)
+**Tier:** Layman (Simplified)
 
 ---
 
-## 1. Wstęp
-Ten protokół to idealne połączenie jasnych intencji i fizycznej ekspresji, gwarantujące brak utraty informacji.
+## 1. Wprowadzenie
+Protokół ten stanowi idealne połączenie jasnej intencji i fizycznej ekspresji.
 
-## 2. Podstawowe Połączenie: Ustalenie Nastroju
-* **Vibe-Ping:** Proste powitanie (np. "Hej"), aby sprawdzić uwagę.
-* **Rezonans:** Moment, w którym obie osoby nadają na tych samych falach.
-* **Tłumienie:** Redukcja stresu i ego w celu stworzenia spokojnego środowiska.
+## 2. Podstawowe połączenie
+* **Vibe-Ping:** Witam.
+* **Synchronizacja:** Synchronizacja.
+* **Spokój:** Zrelaksuj się.
 
-## 3. Sygnały Niewerbalne: Mowa Ciała
-* **Całkowite Przerwanie:** Poważny gest fizyczny natychmiast kończący rozmowę.
-* **Spójność:** Twoja mowa ciała musi zgadzać się z twoimi słowami.
-* **Sygnał Stop:** Poważne przerwanie oznacza koniec sesji.
+## 3. Język ciała
+* **Stop:** Fizyczny gest zatrzymania.
+* **Dopasowanie:** Treść musi pasować do słów.
 
-## 4. Tłumaczenie Myśli: Dostosowanie do Odbiorcy
-* **Główne Znaczenie:** Prawdziwa intencja (MUSI, NIE MOŻE, MOŻE).
-* **Adaptacja Wiadomości:** Zmiana sposobu wyrażania się w zależności od odbiorcy (Ekspert vs Początkujący).
-* **Obciążenie Umysłowe:** Zrób przerwę, jeśli słuchacz jest przytłoczony.
+## 4. Tłumacz myśli
+* ** Znaczenie:** Podstawowa intencja.
+* **Dostosuj:** Dostosuj się do słuchacza.
 
-## 5. Studium Przypadku: NVIDIA_HALT_2012
-Linus Torvalds zakończył relacje z NVIDIA używając gestu "Całkowitego Przerwania" z powodu braku współpracy.
+## 5. Studium przypadku: NVIDIA
+Linus Torvalds zatrzymał Nvidię gestem.
 
-## 6. Architektura
-Myśli -> Jasne Zasady -> Adaptacja dla Odbiorcy.
+## 6. Surowe zasady
+* Tak lub Nie.
+* MUSI lub MOŻE.
 
-## 7. Surowe Zasady
-* **Czarno-Białe:** Tylko "Tak" lub "Nie".
-* **Żadnego "Powinno się":** Tylko MUSI lub MOŻE.
-* **Zero Wycieków:** Znaczenie musi pozostać dokładnie to samo.
-
-## 8. Metadane
-* **Język:** pl
-* **Protokół:** MCH-LOGIC-1.0
+## 8. Metadata & Compliance
+* **Language Code:** pl
+* **Protocol Class:** MCH-LOGIC-1.0

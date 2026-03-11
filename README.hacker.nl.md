@@ -9,75 +9,75 @@
 ---
 
 ## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
+Machine 1.0 is de uiteindelijke verzoening van hardwarefysica en menselijke bedoelingen.
+De specificatie is nu Lossless.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
+## 2. Fysieke laag (L1): trillingen en kalibratie
+> *Logica: zorg ervoor dat de signaal-ruisverhouding optimaal is vóór de gegevensoverdracht.*
+- **De Vibe-Ping:** Een breedspectrumsignaal (bijvoorbeeld 'Yo') dat wordt gebruikt om de latentie van de ontvanger en de emotionele bandbreedte te testen.
+- **Resonantie (SYN):** De toestand waarin zender en ontvanger hun frequenties in fase vergrendelen voor maximale doorvoer.
+- **Demping:** Het actieve proces van het neutraliseren van omgevingsgeluid (vijandigheid, stress of ego) om een ​​stabiele toestand te bereiken.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. Datalinklaag (L2): gebaren en onderbrekingen
+> *Logica: fysieke signalen overschrijven verbale buffers. Hardwaresignalen met hoge prioriteit.*
+- **De Torvalds-manoeuvre (IRQ 0):** Een globale hardware-interrupt (de middelvinger) die een onmiddellijk `HALT_AND_CATCH_FIRE`-commando uitvoert.
+- **Pariteitscontrole:** Strikte vereiste dat metagegevens (Vibe) overeenkomen met de payload (woorden).
+- **Global Kill Signal:** IRQ 0 wist de lokale buffer en stelt 'Connection_Active = FALSE' in.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds":
-  - **Technical:** High-density, zero-leak builds for peer nodes.
-  - **Explanatory:** High-resonance, low-load builds for junior nodes.
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
+## 4. Netwerklaag (L3): Transpilatie en IR
+> *Logica: Eén waarheid, vele talen. Minimaliseren van cognitieve overhead.*
+- **Machine IR:** De kern, binaire bedoeling met behulp van RFC 2119-trefwoorden (**MOET, MOET NIET, MAG**).
+- **Transpiler:** Converteert de IR naar doel-'Builds':
+  - **Technisch:** Constructies met hoge dichtheid en geen lekkage voor peer-nodes.
+  - **Verklarend:** Builds met hoge resonantie en lage belasting voor junior knooppunten.
+- **Cognitieve belasting:** bewaakt als systeemwarmte. Overbelasting veroorzaakt thermische throttling.
 
-## 5. Case Study: Fuck you, NVIDIA
+## 5. Casestudy: fuck you, NVIDIA
 
-```text
-**Environment:** Aalto University, Finland
-**Nodes:** Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
+```tekst
+**Milieu:** Aalto Universiteit, Finland
+**Knooppunten:** Linus Torvalds (initiatiefnemer) versus NVIDIA (ontvanger)
 ```
 
-### 5.1. The Machine Execution Trace
+### 5.1. Het machine-uitvoeringsspoor
 
 ```machine
 // [TRACE_ID]: 1.0_GOLDEN_PATH
-BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
-    EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
-    SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
+BEGIN_SESSIE:
+  IF (Node_Type == "Proprietary") AND (Samenwerking == FALSE):
+    UITVOEREN Vibe_Ping("Waaaaaaap");
+    RETOUR (Null_Response); // Hoge latentie gedetecteerd
+    EXECUTE LOGIC_ASSERTION: "NVIDIA is het slechtste bedrijf ooit.";
+    SET SYSTEEM_TRUST = 0;
+    UITVOEREN GEBAAR_IRQ_0; // DE VINGER
     PUSH_STRING: "Fuck you, NVIDIA";
-    TERMINATE_SESSION;
-  ELSE:
+    BEËINDIGEN_SESSIE;
+  ANDERS:
     SYNC_SUCCESS;
 END_SESSION;
 ```
 
-### 5.2. Transpiled Output
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. Getranspileerde uitvoer
+- **Technisch:** "NVIDIA is verouderd als compatibele partner vanwege het niet naleven van open standaarden. Verbinding verbroken."
+- **Verklarend:** "NVIDIA wil het eerlijk spelen. Linus steekt gewoon zijn vinger op, zeg hem 'Gwan go s**k yuh madda', en verbreek de hele verbinding. Klaar met praten."
 
-## 6. System Architecture
+## 6. Systeemarchitectuur
 
-```mermaid
-graph TD
-    A[Menselijke Broncode] -->|1. Bron| B[Machine Lingua Franca IR 1.0]
+```Zeemeermin
+grafiek TD
+    A[Menselijke broncode] -->|1. Bron| B[Machinelingua Franca IR 1.0]
     B -->|2. Transpileren| C(Doeluitvoer)
-    C -.->|Cognitieve Belasting| G[Sfeerlaag]
+    C -.->|Cognitieve belasting| G[Vibe-laag]
     G -->|Kalibratie| B
-    B -->|IRQ-verzoek| H[Hardware-interrupts]
-    H -->|Wereldwijde Stop| B
-    B == Verifiëren ==> I{Torvalds Checksum}
+    B -->|IRQ-verzoek| H[Hardware-onderbrekingen]
+    H -->|Wereldwijde moord| B
+    B == Verifiëren ==> I{{Torvalds Checksum}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. Strikte beperkingen
+Binaire handhaving: alle instructies MOETEN worden omgezet in 1 of 0.
+Geen "MOET": vervangen door MAY (optioneel) of MUST (vereist).
+Zero Leak: Logica-pariteit MOET behouden blijven in alle getranspileerde builds.
 
 ## 8. Metadata & Compliance
 * **Language Code:** nl

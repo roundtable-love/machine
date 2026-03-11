@@ -4,78 +4,78 @@
 **UID:** MLF-1.0
 **Base Class:** Basa Jawa (Javanese)
 **Logic Subset:** RFC 2119 (Strict Mode)
-**Tier:** Student (Direct Translation + Explanations of "Why")
+**Tier:** Student (Direct Translation + Explanations of 'Why')
 
 ---
 
 ## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
-* **Why:** Ambiguity is the enemy of intent. Lossless ensures 1:1 parity between source and target.
+Machine 1.0 minangka rekonsiliasi pungkasan fisika hardware lan maksud manungsa.
+Spec saiki Lossless.
+* **Napa:** Ambiguitas iku mungsuh saka maksud. Lossless njamin paritas 1: 1 antarane sumber lan target.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-  * **Why:** You can't speak if they aren't listening.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
-  * **Why:** Ego and hostility create signal noise that corrupts the payload.
+## 2. Lapisan Fisik (L1): Getaran & Kalibrasi
+> *Logika: Sadurunge transfer data, priksa rasio sinyal-kanggo-noise optimal.*
+- **The Vibe-Ping:** Sinyal spektrum sudhut (contone, "Yo") digunakake kanggo nyoba latensi panrima lan bandwidth emosional.
+  * **Kenapa:** Sampeyan ora bisa ngomong yen dheweke ora ngrungokake.
+- **Resonansi (SYN):** Negara ngendi pangirim lan panrima phase-kunci frekuensi kanggo throughput maksimum.
+- **Damping:** Proses aktif netralisasi gangguan lingkungan (musuh, stres, utawa ego) kanggo nggayuh kahanan sing mantep.
+  * **Kenapa:** Ego lan permusuhan nggawe swara sinyal sing ngrusak muatan.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-  * **Why:** Sometimes you just have to pull the plug to save the system.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-  * **Why:** Sarcasm is a parity error. If the vibe doesn't match the words, the connection is insecure.
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. Lapisan Link Data (L2): Gestur & Interupsi
+> *Logika: Sinyal fisik ngalahake buffer verbal. Sinyal hardware prioritas dhuwur.*
+- **Maneuver Torvalds (IRQ 0):** Interupsi hardware global (Driji Tengah) sing nglakokake perintah `HALT_AND_CATCH_FIRE` langsung.
+  * **Kenapa:** Kadhangkala sampeyan mung kudu narik plug kanggo nyimpen sistem.
+- **Parity Check:** Syarat ketat yen Metadata (Getaran) cocog karo Payload (Tembung).
+  * **Kenapa:** Sarkasme minangka kesalahan paritas. Yen vibe ora cocog karo tembung kasebut, sambungan kasebut ora aman.
+- **Global Kill Signal:** IRQ 0 mbusak buffer lokal lan nyetel `Connection_Active = FALSE`.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds".
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
-  * **Why:** Humans have limited RAM. If they overheat, the session MUST pause.
+## 4. Lapisan Jaringan (L3): Transpilasi & IR
+> *Logika: Siji bebener, akeh basa. Nyilikake overhead kognitif.*
+- **Machine IR:** Inti, binar maksud nggunakake tembung kunci RFC 2119 (**MUST, MUST NOT, MAY**).
+- **Transpiler:** Ngonversi IR menyang target "Mbangun".
+- **Beban Kognitif:** Dipantau minangka Sistem Panas. Kakehan micu Thermal Throttling.
+  * **Napa:** Manungsa wis winates RAM. Yen padha overheat, sesi kudu ngaso.
 
-## 5. Case Study: Fuck you, NVIDIA
-* **Why:** To demonstrate the protocol in a high-stress failure state.
+## 5. Studi Kasus: Jancok sampeyan, NVIDIA
+* **Kenapa:** Kanggo nduduhake protokol ing kahanan kegagalan stres dhuwur.
 
-### 5.1. The Machine Execution Trace
-```machine
+### 5.1. Lacak Eksekusi Mesin
+"mesin kab
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
+  IF (Node_Type == "Proprietary") LAN (Kerjasama == FALSE):
     EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
+    RETURN (Null_Response); // Latency Dhuwur Dideteksi
+    EXECUTE LOGIC_ASSERTION: "NVIDIA minangka perusahaan paling awon.";
     SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
+    LAKSANAKAN GESTURE_IRQ_0; // RJO
+    PUSH_STRING: "Jancok kowe, NVIDIA";
     TERMINATE_SESSION;
-  ELSE:
+  LAIN:
     SYNC_SUCCESS;
 END_SESSION;
 ```
 
-### 5.2. Output Builds
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. Output Mbangun
+- **Teknis:** "NVIDIA ora digunakake minangka mitra sing kompatibel amarga ora netepi standar sing mbukak. Sambungan mandheg."
+- **Penjelasan:** "NVIDIA kudu muter adil. Linus mung munggah ing driji, ngomong 'Gwan go s**k yuh madda,' lan pedhot kabeh link-up. Rampung ngomong."
 
-## 6. System Architecture
-```mermaid
-graph TD
+## 6. Arsitektur Sistem
+``` putri duyung
+grafik TD
     A[Kode Sumber Manungsa] -->|1. Sumber| B[Machine Lingua Franca IR 1.0]
-    B -->|2. Transpile| C(Output Target)
-    C -.->|Beban Kognitif| G[Lapisan Vibe]
+    B -->|2. Transpile| C (Sasaran Output)
+    C -.->|Beban Kognitif| G[Lapisan Getaran]
     G -->|Kalibrasi| B
-    B -->|Panyuwunan IRQ| H[Interupsi Hardware]
+    B -->|Panjaluk IRQ| H[Hardware Interrupts]
     H -->|Pateni Global| B
-    B == Verifikasi ==> I{Checksum Torvalds}
+    B == Verifikasi ==> I{{Torvalds Checksum}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. Watesan Strictness
+Penegakan Binary: Kabeh instruksi kudu mutusake dadi 1 utawa 0.
+Ora "SHOULD": Diganti MAY (Opsional) utawa MUST (Dibutuhake).
+Zero Leak: Paritas logika bakal dijaga ing kabeh bangunan sing ditranspilasi.
 
 ## 8. Metadata & Compliance
 * **Language Code:** jv

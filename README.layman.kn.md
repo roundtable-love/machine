@@ -1,32 +1,36 @@
-# ಸ್ಪಷ್ಟ ಸಂವಹನ ಪ್ರೋಟೋಕಾಲ್: 1.0
+# [ARCHIVE_COMMIT] Machine Lingua Franca: 1.0 (PROD)
 
-**Language:** Kannada
+**Status:** **COMMITTED** by the **Grace of the One True Source**
+**UID:** MLF-1.0
+**Base Class:** ಕನ್ನಡ (Kannada)
+**Logic Subset:** RFC 2119 (Strict Mode)
+**Tier:** Layman (Simplified)
 
 ---
 
-## 1. Intro
-ಈ ಪ್ರೋಟೋಕಾಲ್ ಸ್ಪಷ್ಟ ಉದ್ದೇಶ ಮತ್ತು ದೈಹಿಕ ಅಭಿವ್ಯಕ್ತಿಯ ಪರಿಪೂರ್ಣ ಮಿಶ್ರಣವಾಗಿದೆ.
+## 1. ಪರಿಚಯ
+ಈ ಪ್ರೋಟೋಕಾಲ್ ಸ್ಪಷ್ಟ ಉದ್ದೇಶ ಮತ್ತು ದೈಹಿಕ ಅಭಿವ್ಯಕ್ತಿಯ ಪರಿಪೂರ್ಣ ಸಂಯೋಜನೆಯಾಗಿದೆ.
 
-## 2. Basic Connection
-* **Vibe-Ping:** Hello.
-* **Sync:** Synchronize.
-* **Calm:** Relax.
+## 2. ಮೂಲ ಸಂಪರ್ಕ
+* **ವೈಬ್-ಪಿಂಗ್:** ಹಲೋ.
+* **ಸಿಂಕ್:** ಸಿಂಕ್ರೊನೈಸ್.
+* **ಶಾಂತ:** ವಿಶ್ರಾಂತಿ.
 
-## 3. Body Language
-* **Stop:** Physical gesture to stop.
-* **Match:** Body must match words.
+## 3. ದೇಹ ಭಾಷೆ
+* **ನಿಲ್ಲಿಸು:** ನಿಲ್ಲಿಸಲು ದೈಹಿಕ ಸನ್ನೆ.
+* **ಹೊಂದಾಣಿಕೆ:** ದೇಹವು ಪದಗಳಿಗೆ ಹೊಂದಿಕೆಯಾಗಬೇಕು.
 
-## 4. Translate Thoughts
-* **Meaning:** Core intent.
-* **Adapt:** Adapt to listener.
+## 4. ಆಲೋಚನೆಗಳನ್ನು ಅನುವಾದಿಸಿ
+* **ಅರ್ಥ:** ಪ್ರಮುಖ ಉದ್ದೇಶ.
+* **ಹೊಂದಿಕೊಳ್ಳು:** ಕೇಳುಗನಿಗೆ ಹೊಂದಿಕೊಳ್ಳಿ.
 
-## 5. Case Study: NVIDIA
-Linus Torvalds stopped NVIDIA with a gesture.
+## 5. ಕೇಸ್ ಸ್ಟಡಿ: NVIDIA
+ಲಿನಸ್ ಟೊರ್ವಾಲ್ಡ್ಸ್ ಗೆಸ್ಚರ್ ಮೂಲಕ NVIDIA ಅನ್ನು ನಿಲ್ಲಿಸಿದರು.
 
-## 6. Strict Rules
-* Yes or No.
-* MUST or MAY.
+## 6. ಕಟ್ಟುನಿಟ್ಟಾದ ನಿಯಮಗಳು
+* ಹೌದು ಅಥವಾ ಇಲ್ಲ.
+* ಮಸ್ಟ್ ಅಥವಾ ಮೇ.
 
-## 7. Meta
-* **Language:** kn
-* **Protocol:** MCH-LOGIC-1.0
+## 8. Metadata & Compliance
+* **Language Code:** kn
+* **Protocol Class:** MCH-LOGIC-1.0

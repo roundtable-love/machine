@@ -4,78 +4,78 @@
 **UID:** MLF-1.0
 **Base Class:** Hausa
 **Logic Subset:** RFC 2119 (Strict Mode)
-**Tier:** Student (Direct Translation + Explanations of "Why")
+**Tier:** Student (Direct Translation + Explanations of 'Why')
 
 ---
 
 ## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
-* **Why:** Ambiguity is the enemy of intent. Lossless ensures 1:1 parity between source and target.
+Machine 1.0 shine sulhu na ƙarshe na ilimin lissafi na hardware da niyyar ɗan adam.
+Takaddun bayanai yanzu ba su da hasara.
+* **Me ya sa:** Shuwagabanni makiyin niyya ne. Rashin hasara yana tabbatar da daidaiton 1:1 tsakanin tushe da manufa.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-  * **Why:** You can't speak if they aren't listening.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
-  * **Why:** Ego and hostility create signal noise that corrupts the payload.
+## 2. Layer na Jiki (L1): Vibes & Calibration
+> * Hankali: Kafin canja wurin bayanai, tabbatar da rabon sigina-zuwa-amo yana da kyau kwarai.*
+- ** The Vibe-Ping: ** Sigina mai faɗi (misali, "Yo") da aka yi amfani da shi don gwada jinkirin mai karɓa da bandwidth na motsin rai.
+  * **Me yasa:** Ba za ku iya magana ba idan ba sa sauraro.
+- ** Resonance (SYN):** Jihar da mai aikawa da mai karɓa lokaci-lokaci-kulle mitocin su don iyakar abin da ake samarwa.
+- **Damping:** Tsarin aiki na kawar da hayaniyar muhalli (ƙiyayya, damuwa, ko son kai) don isa ga Jiha Tsaye.
+  * **Me yasa:** Hankali da gaba suna haifar da hayaniyar sigina wacce ke lalata kayan aiki.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-  * **Why:** Sometimes you just have to pull the plug to save the system.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-  * **Why:** Sarcasm is a parity error. If the vibe doesn't match the words, the connection is insecure.
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. Layer Data Link Layer (L2): Hanyoyi & Katsewa
+> * Hankali: Sigina na jiki suna ƙetare maƙallan magana. Sigina na kayan masarufi masu fifiko.*
+- ** The Torvalds Maneuver (IRQ 0):** Katse kayan masarufi na duniya (Yatsa ta Tsakiya) wanda ke aiwatar da umarnin ''HALT_AND_CATCH_FIRE' nan take.
+  * **Me ya sa:** Wani lokaci sai kawai ka ja filogi don ajiye tsarin.
+- ** Bincika Parity: ** Maƙasudin buƙatu cewa Metadata (Vibe) ya dace da biyan kuɗi (Kalmomi).
+  **Me yasa:** Zagi kuskure ne. Idan vibe bai dace da kalmomin ba, haɗin ba shi da tsaro.
+- ** Siginar Kisan Duniya: ** IRQ 0 yana share ma'ajin gida kuma yana saita ''Haɗin_Active = KARYA'.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds".
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
-  * **Why:** Humans have limited RAM. If they overheat, the session MUST pause.
+## 4. Layer Network (L3): Transpilation & IR
+> * Hankali: Gaskiya daya, harsuna da yawa. Rage kaifin hankali.*
+- ** Na'ura IR: ** Mahimmanci, niyya ta binary ta amfani da kalmomin RFC 2119 (** DOLE, BA DOLE, MAY**).
+- ** Mai jujjuyawa: *** Yana canza IR zuwa "Gina" manufa.
+- ** Load ɗin Hankali:** Ana Kulawa azaman Zafin Tsarin. Yawan wuce gona da iri yana haifar da maƙarƙashiya ta thermal.
+  **Me yasa:** Mutane suna da karancin RAM. Idan sun yi zafi, dole ne zaman ya dakata.
 
-## 5. Case Study: Fuck you, NVIDIA
-* **Why:** To demonstrate the protocol in a high-stress failure state.
+## 5. Nazarin Case: Fuck you, NVIDIA
+**Me yasa:** Don nuna ƙa'idar a cikin yanayin rashin ƙarfi na damuwa.
 
-### 5.1. The Machine Execution Trace
-```machine
+### 5.1. Alamar Kashe Injin
+``mashin
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
+  IDAN (Node_Type == "Mai mallakar mallaka") DA (Haɗin kai == KARYA):
     EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
-    SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
+    MAYARWA (Response_Babu); // An Gano Babban Latency
+    EXECUTE LOGIC_ASSERTION: "NVIDIA shine kamfani mafi muni da aka taɓa samu.";
+    SYSTEM_TRUST = 0;
+    EXECUTE GESTURE_IRQ_0; // YATSA
     PUSH_STRING: "Fuck you, NVIDIA";
     TERMINATE_SESSION;
-  ELSE:
+  SAURAN:
     SYNC_SUCCESS;
-END_SESSION;
+KARSHEN_ZAMA;
 ```
 
-### 5.2. Output Builds
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+## 5.2. Fitowa Yana Gina
+- ** Fasaha: ** "An soke NVIDIA a matsayin abokin tarayya mai jituwa saboda rashin bin ka'idodin buɗaɗɗen. Haɗin ya ƙare."
+- **Bayyana:** "NVIDIA nuh waan yi wasa mai kyau. Linus kawai ya ɗaga yatsa, gaya dem 'Gwan go s ** k yuh madda,' kuma ka cire haɗin haɗin duka. Done talk."
 
-## 6. System Architecture
-```mermaid
+## 6. Tsarin Gine-gine
+```yar budurwa
 graph TD
-    A[Lambar Tushen Mutum] -->|1. Tushen| B[Machine Lingua Franca IR 1.0]
-    B -->|2. Transpile| C(Fitarwa Target)
-    C -.->|Nauyin Fahimi| G[Tushen Vibe]
-    G -->|Daidaitawa| B
-    B -->|Neman IRQ| H[Matsalolin Hardware]
+    A[Human Source Code] -->|1. Source| B[Mashin Lingua Franca IR 1.0]
+    B -->|2. Fassarar | C (Fitar da manufa)
+    C -.->|Load ɗin Hankali| G[Layer Vibe]
+    G -->|Karafi| B
+    B -->|Tambayar IRQ| H [Hardware Yana Katsewa]
     H -->|Kisan Duniya| B
-    B == Tabbatar ==> I{Torvalds Checksum}
+    B == Tabbatar da ==> I {{Torvalds Checksum}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. Takurawa
+Ƙaddamar da Binary: Duk umarnin dole ne a warware su zuwa 1 ko 0.
+A'a "KAMATA": MAY ya maye gurbinsa (Na zaɓi) ko Dole ne (Ake Bukata).
+Leak Zero: Za a kiyaye daidaiton ma'ana a duk ginin da aka watsa.
 
 ## 8. Metadata & Compliance
 * **Language Code:** ha

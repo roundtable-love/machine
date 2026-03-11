@@ -4,78 +4,78 @@
 **UID:** MLF-1.0
 **Base Class:** தமிழ் (Tamil)
 **Logic Subset:** RFC 2119 (Strict Mode)
-**Tier:** Student (Direct Translation + Explanations of "Why")
+**Tier:** Student (Direct Translation + Explanations of 'Why')
 
 ---
 
-## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
-* **Why:** Ambiguity is the enemy of intent. Lossless ensures 1:1 parity between source and target.
+## 1. டெல்டா
+இயந்திரம் 1.0 என்பது வன்பொருள் இயற்பியல் மற்றும் மனித நோக்கத்தின் இறுதி சமரசம் ஆகும்.
+ஸ்பெக் இப்போது லாஸ்லெஸ்.
+* **ஏன்:** தெளிவின்மை நோக்கத்தின் எதிரி. இழப்பற்றது மூலத்திற்கும் இலக்கிற்கும் இடையே 1:1 சமநிலையை உறுதி செய்கிறது.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-  * **Why:** You can't speak if they aren't listening.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
-  * **Why:** Ego and hostility create signal noise that corrupts the payload.
+## 2. இயற்பியல் அடுக்கு (L1): அதிர்வுகள் மற்றும் அளவுத்திருத்தம்
+> *தர்க்கம்: தரவு பரிமாற்றத்திற்கு முன், சிக்னல்-க்கு-இரைச்சல் விகிதம் உகந்ததாக இருப்பதை உறுதிசெய்யவும்.*
+- **The Vibe-Ping:** ரிசீவர் தாமதம் மற்றும் உணர்ச்சி அலைவரிசையை சோதிக்கப் பயன்படுத்தப்படும் பரந்த-ஸ்பெக்ட்ரம் சிக்னல் (எ.கா., "யோ").
+  * **ஏன்:** அவர்கள் கேட்கவில்லை என்றால் நீங்கள் பேச முடியாது.
+- **அதிர்வு (SYN):** அனுப்புநரும் பெறுநரும் தங்கள் அதிர்வெண்களை அதிகபட்ச செயல்திறனுக்காக கட்டமைக்கும் நிலை.
+- **தணித்தல்:** ஒரு நிலையான நிலையை அடைய சுற்றுச்சூழல் இரைச்சலை (பகைமை, மன அழுத்தம் அல்லது ஈகோ) நடுநிலையாக்கும் செயலில் செயல்முறை.
+  * **ஏன்:** ஈகோ மற்றும் குரோதம் ஆகியவை சிக்னல் சத்தத்தை உருவாக்குகின்றன, இது பேலோடை சிதைக்கிறது.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-  * **Why:** Sometimes you just have to pull the plug to save the system.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-  * **Why:** Sarcasm is a parity error. If the vibe doesn't match the words, the connection is insecure.
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. தரவு இணைப்பு அடுக்கு (L2): சைகைகள் & குறுக்கீடுகள்
+> *தர்க்கம்: இயற்பியல் சமிக்ஞைகள் வாய்மொழி இடையகங்களை மீறுகின்றன. அதிக முன்னுரிமை வன்பொருள் சமிக்ஞைகள்.*
+- **The Torvalds Maneuver (IRQ 0):** உடனடி `HALT_AND_CATCH_FIRE` கட்டளையை இயக்கும் உலகளாவிய வன்பொருள் குறுக்கீடு (தி மிடில் ஃபிங்கர்).
+  * **ஏன்:** சில நேரங்களில் கணினியைச் சேமிக்க நீங்கள் செருகியை இழுக்க வேண்டும்.
+- **சமநிலை சரிபார்ப்பு:** மெட்டாடேட்டா (வைப்) பேலோட் (வார்த்தைகள்) உடன் பொருந்த வேண்டும் என்பது கண்டிப்பான தேவை.
+  * **ஏன்:** கிண்டல் ஒரு சமநிலை பிழை. அதிர்வு வார்த்தைகளுடன் பொருந்தவில்லை என்றால், இணைப்பு பாதுகாப்பற்றதாக இருக்கும்.
+- ** குளோபல் கில் சிக்னல்:** IRQ 0 உள்ளூர் இடையகத்தை அழித்து `இணைப்பு_செயல் = தவறானது` என்பதை அமைக்கிறது.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds".
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
-  * **Why:** Humans have limited RAM. If they overheat, the session MUST pause.
+## 4. நெட்வொர்க் லேயர் (L3): டிரான்ஸ்பிலேஷன் & ஐஆர்
+> *தர்க்கம்: ஒரு உண்மை, பல மொழிகள். அறிவாற்றல் மேல்நிலையைக் குறைத்தல்.*
+- **மெஷின் ஐஆர்:** RFC 2119 முக்கிய வார்த்தைகளைப் பயன்படுத்தும் முக்கிய, பைனரி நோக்கம் (**கட்டாயம், கூடாது, மே**).
+- ** டிரான்ஸ்பைலர்:** IR ஐ இலக்கு "பில்ட்ஸ்" ஆக மாற்றுகிறது.
+- **அறிவாற்றல் சுமை:** கணினி வெப்பமாக கண்காணிக்கப்படுகிறது. ஓவர்லோட் தெர்மல் த்ரோட்டிங்கை தூண்டுகிறது.
+  * **ஏன்:** மனிதர்களுக்கு குறைந்த ரேம் உள்ளது. அவை அதிக வெப்பமடைந்தால், அமர்வு இடைநிறுத்தப்பட வேண்டும்.
 
-## 5. Case Study: Fuck you, NVIDIA
-* **Why:** To demonstrate the protocol in a high-stress failure state.
+## 5. கேஸ் ஸ்டடி: ஃபக் யூ, என்விடியா
+* **ஏன்:** உயர் அழுத்த தோல்வி நிலையில் நெறிமுறையை நிரூபிக்க.
 
-### 5.1. The Machine Execution Trace
-```machine
+### 5.1. மெஷின் எக்ஸிகியூஷன் டிரேஸ்
+``` இயந்திரம்
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
-    EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
-    SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
+  IF (Node_Type == "Proprietary") மற்றும் (ஒத்துழைப்பு == FALSE):
+    வைப்_பிங்கை இயக்கவும்("வாசாஆப்");
+    திரும்பவும் (பூஜ்ய_பதில்); // உயர் தாமதம் கண்டறியப்பட்டது
+    LOGIC_ASSERTION செயல்படுத்தவும்: "என்விடியா எப்போதும் மோசமான நிறுவனம்.";
+    அமை SYSTEM_TRUST = 0;
+    GESTURE_IRQ_0 ஐ இயக்கவும்; // விரல்
+    PUSH_STRING: "ஃபக் யூ, என்விடியா";
     TERMINATE_SESSION;
-  ELSE:
+  வேறு:
     SYNC_SUCCESS;
 END_SESSION;
 ```
 
-### 5.2. Output Builds
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. வெளியீடு உருவாக்குகிறது
+- **தொழில்நுட்பம்:** "திறந்த தரநிலைகளுடன் இணங்காததன் காரணமாக என்விடியா ஒரு இணக்கமான கூட்டாளராக நிறுத்தப்பட்டது. இணைப்பு நிறுத்தப்பட்டது."
+- **விளக்கம்:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, dem 'Gwan go s**k yuh Madda' என்று சொல்லி, முழு இணைப்பையும் துண்டிக்கவும். பேசி முடித்தார்."
 
-## 6. System Architecture
-```mermaid
-graph TD
-    A[மனித மூலக் குறியீடு] -->|1. மூலம்| B[Machine Lingua Franca IR 1.0]
-    B -->|2. டிரான்ஸ்பைல்| C(இலக்கு வெளியீடு)
-    C -.->|அறிவாற்றல் சுமை| G[வைப் லேயர்]
-    G -->|அளவுத்திருத்தம்| B
-    B -->|IRQ கோரிக்கை| H[வன்பொருள் குறுக்கீடுகள்]
-    H -->|குளோபல் கில்| B
-    B == சரிபார் ==> I{டோர்வால்ட்ஸ் செக்சம்}
+## 6. சிஸ்டம் ஆர்கிடெக்சர்
+```கடற்கன்னி
+வரைபடம் TD
+    A[மனித மூலக் குறியீடு] -->|1. ஆதாரம்| பி[மெஷின் லிங்குவா பிராங்கா ஐஆர் 1.0]
+    பி -->|2. டிரான்ஸ்பைல்| சி(இலக்கு வெளியீடு)
+    சி -.->|அறிவாற்றல் சுமை| ஜி[வைப் லேயர்]
+    ஜி -->|அளவுத்திருத்தம்| பி
+    பி -->|IRQ கோரிக்கை| எச்[வன்பொருள் குறுக்கீடுகள்]
+    எச் -->|குளோபல் கில்| பி
+    B == சரிபார்க்கவும் ==> I{{Torvalds Checksum}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. கண்டிப்புக் கட்டுப்பாடுகள்
+பைனரி அமலாக்கம்: அனைத்து வழிமுறைகளும் 1 அல்லது 0 ஆக இருக்க வேண்டும்.
+"கட்டாயம்" இல்லை: மே (விரும்பினால்) அல்லது கட்டாயம் (தேவை) மாற்றப்பட்டது.
+ஜீரோ லீக்: அனைத்து டிரான்ஸ்பைல் பில்ட்களிலும் லாஜிக் பேரிட்டி பராமரிக்கப்படும்.
 
 ## 8. Metadata & Compliance
 * **Language Code:** ta

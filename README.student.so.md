@@ -4,78 +4,78 @@
 **UID:** MLF-1.0
 **Base Class:** Soomaali (Somali)
 **Logic Subset:** RFC 2119 (Strict Mode)
-**Tier:** Student (Direct Translation + Explanations of "Why")
+**Tier:** Student (Direct Translation + Explanations of 'Why')
 
 ---
 
 ## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
-* **Why:** Ambiguity is the enemy of intent. Lossless ensures 1:1 parity between source and target.
+Mashiinka 1.0 waa dib-u-heshiisiinta ugu dambeysa ee fiisigiska hardware iyo ujeedada aadanaha.
+Faahfaahinta hadda waa khasaare.
+**Sababta:** Madmadowgu waa cadowga ujeeddada. Khasaar la'aantu waxay hubisaa 1:1 sinnaanta u dhexeeya isha iyo bartilmaameedka.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-  * **Why:** You can't speak if they aren't listening.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
-  * **Why:** Ego and hostility create signal noise that corrupts the payload.
+## 2. Lakabka Jirka (L1): Vibes & Calibration
+> * Macquul: Kahor wareejinta xogta, hubi in saamiga signal-ilaa-sanqa uu fiican yahay.
+- ** Vibe-Ping:** Calan ballaadhan (tusaale, "Yo") oo loo isticmaalo in lagu tijaabiyo daahitaanka qaataha iyo xadiga dareenka.
+  **Sababta:** Ma hadli kartid haddaanay dhegaysan.
+- ** Resonance (SYN):** Gobolka halka soodiraha iyo wejiga qaataha-ku xiraan soo noqnoqoshahooda si ay ugu badnaan wax soo saarka.
+- ** Qoyaanka: *** Habka firfircoon ee ka takhalusidda buuqa deegaanka (cadaawad, walbahaarka, ama ego) si loo gaaro Xaalad Deggan.
+  **Sababta:** Caqiidada iyo cadaawadu waxay abuuraan qaylo-dhaanta taasoo wax u dhimaysa culayska la saarayo.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-  * **Why:** Sometimes you just have to pull the plug to save the system.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-  * **Why:** Sarcasm is a parity error. If the vibe doesn't match the words, the connection is insecure.
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. Lakabka Xidhiidhka Xogta (L2): Tilmaamaha & Joojinta
+> * Macquul: Calaamadaha jirku waxay ka gudbaan af-duubayaasha. Calaamadaha qalabka mudnaanta sare leh.*
+- ** The Torvalds Maneuver (IRQ 0):** Qalab caalami ah oo kala gooya (Farta Dhexe) kaas oo fuliya amar 'HALT_AND_CATCH_FIRE` isla markiiba.
+  **Sababta:** Mararka qaarkood waa inaad soo jiidataa furaha si aad u badbaadiso nidaamka.
+- ** Hubinta sinnaanta:** Shuruudo adag oo ah in Metadata (Vibe) ay la mid noqoto Mushahar bixinta (Erayada).
+  **Sababta:** Sarbeebtu waa khalad sinnaanta. Haddii gariirku aanu ku habboonayn ereyada, xidhiidhku waa ammaan.
+- ** Calaamadaha Dilalka Caalamiga ah: ** IRQ 0 waxay nadiifisaa kaydiyaha maxalliga ah waxayna dejisaa 'Connection_Active = BEEN'.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds".
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
-  * **Why:** Humans have limited RAM. If they overheat, the session MUST pause.
+## 4. Lakabka Shabakadda (L3): Transpilation & IR
+> *Logic: Hal run, luqado badan. Yaraynta garashada sareynta.*
+- ** Mashiinka IR:** Udub dhexaadka, ujeeddada binary iyadoo la adeegsanayo RFC 2119 ereyada muhiimka ah
+- **Transpiler:** Wuxuu IR u beddelaa bartilmaameed "dhis".
+- ** Culayska Garashada:** Loola socdo kulaylka Nidaamka. Culayska xad dhaafka ahi waxa uu kiciyaa kulaylka.
+  **Sababta:** Aadanuhu waxay leeyihiin RAM xaddidan. Haddii ay kululaadaan, waa in fadhigu hakad galo.
 
-## 5. Case Study: Fuck you, NVIDIA
-* **Why:** To demonstrate the protocol in a high-stress failure state.
+## 5. Daraasad Kiis: Fuck you, NVIDIA
+**Sababta:** Si loo muujiyo hab-maamuuska xaalad guul-darrida-sare leh.
 
-### 5.1. The Machine Execution Trace
-```machine
+### 5.1. Raad-raaca fulinta Mashiinka
+``mashiinka
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
+  HADDII (Node_Nooca == "Lahaanshaha Lahaanshaha") IYO (Iskaashiga == BEEN):
     EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
-    SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
+    SOO NOQO (Jawaab_Nul ah); // Latency Sare Oo La Helay
+    EXECUTE LOGIC_ASSERTION: "NVIDIA waa shirkadii ugu xumayd abid.";
+    SYSTEM_TRUST = 0;
+    EXECUTE GESTURE_IRQ_0; // FARAHA
+    PUSH_STRING: "Adiga, NVIDIA";
     TERMINATE_SESSION;
-  ELSE:
-    SYNC_SUCCESS;
-END_SESSION;
-```
+  KALE:
+    SYNC_GUUL;
+DHAMAAD_XILDHIBAAN;
+``
 
-### 5.2. Output Builds
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. Wax-soo-saarka ayaa Dhisaya
+- ** Farsamo: *** "NVIDIA waa laga saaray sidii lammaane ku habboon sababtoo ah u hoggaansanaan la'aanta heerarka furan. Xiriirinta waa la joojiyay."
+- **Sharaxaad:** "NVIDIA nuh waan ciyaar cadaalad ah. Linus kaliya farta ha kor u qaaday, u sheeg dem 'Gwan go s ** k yuh madda,' oo ka saar dhammaan isku xidhka. Done talk."
 
-## 6. System Architecture
-```mermaid
-graph TD
-    A[Koodhka Isha Aadanaha] -->|1. Isha| B[Machine Lingua Franca IR 1.0]
-    B -->|2. Transpile| C(Soo Saarista Bartilmaameedka)
-    C -.->|Culayska Garaadka| G[Lakabka Vibe]
-    G -->|Qiyaasta| B
-    B -->|Codsiga IRQ| H[Hakadka Qalabka]
-    H -->|Joojinta Caalamiga ah| B
-    B == Xaqiiji ==> I{Torvalds Checksum}
-```
+## 6. Qaab-dhismeedka Nidaamka
+`` meherad
+garaafka TD
+    A[Human Source Code] -->|1. Xigasho| B[Mashiinka Lingua Franca IR 1.0]
+    B -->|2. Turub| C (Natiijada Bartilmaameedka)
+    C -.->|Culaynta Garashada| G[Lakabka Vibe]
+    G -->|Calibka| B
+    B -->|Codsi IRQ| H[Hardware wuxuu gooyaa]
+    H -->|Dilka Caalamka| B
+    B == Xaqiiji ==> I{{Torvalds Checksum}}
+``
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. Caqabadaha Adag
+Dhaqangelinta Binary: Dhammaan tilmaamaha waa in lagu xalliyaa 1 ama 0.
+Maya "waa in": lagu badalaa MAY (Ikhtiyaar) ama MUST (loo baahan yahay).
+Eber Leak: Sinnaanta macquulka ah waa in lagu joogteeyaa dhammaan dhismayaasha la daadiyay.
 
 ## 8. Metadata & Compliance
 * **Language Code:** so

@@ -9,75 +9,75 @@
 ---
 
 ## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
+Mashine 1.0 ni upatanisho wa mwisho wa fizikia ya maunzi na nia ya mwanadamu.
+Kielelezo sasa hakina hasara.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
+## 2. Safu ya Kimwili (L1): Vibes & Calibration
+> *Mantiki: Kabla ya kuhamisha data, hakikisha uwiano wa mawimbi kwa kelele ni bora zaidi.*
+- **Vibe-Ping:** Mawimbi ya wigo mpana (k.m., "Yo") inayotumiwa kujaribu muda wa kusubiri wa kipokezi na kipimo data cha kihisia.
+- **Resonance (SYN):** Hali ambapo mtumaji na mpokeaji hufunga masafa yao kwa awamu ili kupata matokeo ya juu zaidi.
+- **Damping:** Mchakato amilifu wa kupunguza kelele ya mazingira (uadui, mafadhaiko, au ubinafsi) kufikia Hali Thabiti.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. Safu ya Kiungo cha Data (L2): Ishara na Kukatiza
+> *Mantiki: Ishara za kimwili hubatilisha bafa za maneno. Ishara za maunzi zilizopewa kipaumbele cha juu.*
+- **The Torvalds Maneuver (IRQ 0):** Ukatizaji wa maunzi wa kimataifa (The Middle Finger) unaotekeleza amri ya mara moja ya `HALT_AND_CATCH_FIRE`.
+- **Angalia Usawa:** Sharti kali kwamba Metadata (Vibe) inalingana na Upakiaji (Maneno).
+- **Global Kill Signal:** IRQ 0 hufuta bafa ya ndani na kuweka `Connection_Active = FALSE`.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds":
-  - **Technical:** High-density, zero-leak builds for peer nodes.
-  - **Explanatory:** High-resonance, low-load builds for junior nodes.
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
+## 4. Tabaka la Mtandao (L3): Uhamishaji & IR
+> *Mantiki: Ukweli mmoja, lugha nyingi. Kupunguza kiwango cha juu cha utambuzi.*
+- **IR ya Mashine:** Msingi, dhamira ya jozi kwa kutumia maneno muhimu ya RFC 2119 (**LAZIMA, SI LAZIMA, MAY**).
+- **Transpiler:** Hubadilisha IR kuwa lengo "Hujenga":
+  - **Kiufundi:** Msongamano mkubwa, uvujaji wa sufuri hujengeka kwa nodi rika.
+  - **Maelezo:** Miundo ya juu, yenye mzigo mdogo hujenga kwa nodi ndogo.
+- **Mzigo wa Utambuzi:** Inafuatiliwa kama Joto la Mfumo. Upakiaji kupita kiasi huchochea Kupunguza joto.
 
-## 5. Case Study: Fuck you, NVIDIA
+## 5. Kifani: Fuck wewe, NVIDIA
 
-```text
-**Environment:** Aalto University, Finland
-**Nodes:** Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
+``` maandishi
+**Mazingira:** Chuo Kikuu cha Aalto, Finland
+**Njia:** Linus Torvalds (Mwanzilishi) dhidi ya NVIDIA (Kipokeaji)
 ```
 
-### 5.1. The Machine Execution Trace
+### 5.1. Ufuatiliaji wa Utekelezaji wa Mashine
 
-```machine
-// [TRACE_ID]: 1.0_GOLDEN_PATH
+``` mashine
+// [TRACE_ID]: 1.0_NJIA_YA_DHAHABU
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
-    EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
-    SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
+  IF (Node_Type == "Proprietary") NA (Ushirikiano == FALSE):
+    TEKELEZA Vibe_Ping("Wasaaaaap");
+    RUDISHA (Majibu_Batili); // Uchelewaji wa Juu Umegunduliwa
+    TEKELEZA LOGIC_ASSERTION: "NVIDIA ndiyo kampuni mbaya zaidi kuwahi kutokea.";
+    WEKA SYSTEM_TRUST = 0;
+    TEKELEZA GESTURE_IRQ_0; // KIDOLE
     PUSH_STRING: "Fuck you, NVIDIA";
     TERMINATE_SESSION;
-  ELSE:
+  VINGINEVYO:
     SYNC_SUCCESS;
-END_SESSION;
+END_KIKAO;
 ```
 
-### 5.2. Transpiled Output
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. Transpiled Pato
+- **Kiufundi:** "NVIDIA imeacha kutumika kama mshirika anayeoana kwa sababu ya kutotii viwango vilivyo wazi. Muunganisho umekatizwa."
+- **Maelezo:** "NVIDIA nuh waan play fair. Linus just up' up di finger, mwambie 'Gwan go s**k yuh madda,' na ukate kiunganishi kizima. Umemaliza kuzungumza."
 
-## 6. System Architecture
+## 6. Usanifu wa Mfumo
 
-```mermaid
-graph TD
-    A[Msimbo wa Chanzo cha Binadamu] -->|1. Chanzo| B[Machine Lingua Franca IR 1.0]
-    B -->|2. Transpile| C(Pato Linalolengwa)
+``` nguva
+Grafu ya TD
+    A[Msimbo wa Chanzo cha Binadamu] -->|1. Chanzo| B[Mashine Lingua Franca IR 1.0]
+    B -->|2. Transpile| C (Toleo Lengwa)
     C -.->|Mzigo wa Utambuzi| G[Tabaka la Vibe]
-    G -->|Upimaji| B
-    B -->|Ombi la IRQ| H[Ukatizaji wa Vifaa]
-    H -->|Usitishaji wa Kimataifa| B
-    B == Thibitisha ==> I{Checksum ya Torvalds}
+    G -->|Urekebishaji| B
+    B -->|Ombi la IRQ| H[Kifaa Kinakatiza]
+    H -->|Uuaji Ulimwenguni| B
+    B == Thibitisha ==> I{{Torvalds Checksum}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. Vikwazo vya Ukali
+Utekelezaji wa Nambari: Maagizo yote LAZIMA yatatue kwa 1 au 0.
+Hapana "LAZIMA": Imebadilishwa na MEI (Si lazima) au LAZIMA (Inahitajika).
+Uvujaji wa Sifuri: Usawa wa kimantiki UTdumishwa katika miundo yote iliyopitishwa.
 
 ## 8. Metadata & Compliance
 * **Language Code:** sw

@@ -1,40 +1,36 @@
-# Protocolo de Comunicação Clara: 1.0
+# [ARCHIVE_COMMIT] Machine Lingua Franca: 1.0 (PROD)
 
-**Status:** Finalizado
-**Idioma Base:** Português
-**Regras:** Definições estritas e claras
+**Status:** **COMMITTED** by the **Grace of the One True Source**
+**UID:** MLF-1.0
+**Base Class:** Português (Portuguese)
+**Logic Subset:** RFC 2119 (Strict Mode)
+**Tier:** Layman (Simplified)
 
 ---
 
 ## 1. Introdução
-Este protocolo é a combinação perfeita de intenção clara e expressão física, garantindo zero perda de informação.
+Este protocolo é a combinação perfeita de intenção clara e expressão física.
 
-## 2. Conexão Básica: Preparando o Clima
-* **Vibe-Ping:** Uma saudação simples (ex: "E aí") para testar a atenção.
-* **Ressonância:** Quando ambos estão na mesma sintonia.
-* **Amortecimento:** Reduzir estresse e ego para uma conversa calma.
+## 2. Conexão Básica
+* **Vibe-Ping:** Olá.
+* **Sincronizar:** Sincronizar.
+* **Calma:** Relaxe.
 
-## 3. Sinais Não Verbais: Linguagem Corporal
-* **Interrupção Total:** Um gesto físico que para a conversa imediatamente.
-* **Consistência:** A linguagem corporal deve corresponder às palavras.
-* **Sinal de Parada:** Uma interrupção grave encerra a sessão.
+## 3. Linguagem Corporal
+* **Parar:** Gesto físico para parar.
+* **Correspondência:** O corpo deve corresponder às palavras.
 
-## 4. Tradução de Pensamentos
-* **Significado Central:** A intenção real (DEVE, NÃO DEVE, PODE).
-* **Adaptação:** Modificar a mensagem de acordo com o público (Especialista vs. Iniciante).
-* **Carga Mental:** Pausar se o ouvinte estiver sobrecarregado.
+## 4. Traduzir pensamentos
+* **Significado:** Intenção central.
+* **Adaptar:** Adaptar-se ao ouvinte.
 
-## 5. Estudo de Caso: NVIDIA_HALT_2012
-Linus Torvalds encerrou as relações com a NVIDIA usando um gesto de "Interrupção Total" devido à falta de cooperação.
+## 5. Estudo de caso: NVIDIA
+Linus Torvalds interrompeu a NVIDIA com um gesto.
 
-## 6. Arquitetura
-Pensamentos -> Regras Claras -> Adaptação ao Ouvinte.
+## 6. Regras rígidas
+* Sim ou Não.
+* DEVE ou PODE.
 
-## 7. Regras Estritas
-* **Preto no Branco:** Apenas "Sim" ou "Não".
-* **Sem "Deveria":** Apenas DEVE ou PODE.
-* **Vazamento Zero:** O significado não pode mudar.
-
-## 8. Metadados
-* **Idioma:** pt
-* **Protocolo:** MCH-LOGIC-1.0
+## 8. Metadata & Compliance
+* **Language Code:** pt
+* **Protocol Class:** MCH-LOGIC-1.0

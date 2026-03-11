@@ -8,76 +8,76 @@
 
 ---
 
-## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
+## १. डेल्टा
+मेशिन १.० हार्डवेयर भौतिकी र मानव अभिप्रायको अन्तिम मेलमिलाप हो।
+अनुमान अब हानिरहित छ।
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
+## २. भौतिक तह (L1): भाइब्स र क्यालिब्रेसन
+> *तर्क: डेटा स्थानान्तरण गर्नु अघि, संकेत-देखि-शोर अनुपात इष्टतम छ भनेर सुनिश्चित गर्नुहोस्।*
+- **The Vibe-Ping:** एक फराकिलो स्पेक्ट्रम संकेत (जस्तै, "Yo") रिसीभर विलम्बता र भावनात्मक ब्यान्डविथ परीक्षण गर्न प्रयोग गरिन्छ।
+- **अनुनाद (SYN):** राज्य जहाँ प्रेषक र प्राप्तकर्ताले अधिकतम थ्रुपुटको लागि उनीहरूको फ्रिक्वेन्सीहरू चरण-लक गर्दछ।
+- **डेम्पिङ:** स्थिर स्थितिमा पुग्न वातावरणीय आवाज (शत्रुता, तनाव, वा अहंकार) लाई बेअसर गर्ने सक्रिय प्रक्रिया।
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## ३. डाटा लिङ्क तह (L2): इशाराहरू र अवरोधहरू
+> *तर्क: भौतिक संकेतहरूले मौखिक बफरहरूलाई ओभरराइड गर्दछ। उच्च प्राथमिकता हार्डवेयर संकेतहरू।*
+- **The Torvalds Maneuver (IRQ 0):** एक विश्वव्यापी हार्डवेयर अवरोध (द मिडल फिंगर) जसले तत्काल `HALT_AND_CATCH_FIRE` आदेश कार्यान्वयन गर्छ।
+- **समानता जाँच:** मेटाडेटा (Vibe) ले पेलोड (शब्दहरू) सँग मेल खान्छ भन्ने कडा आवश्यकता।
+- **ग्लोबल किल सिग्नल:** IRQ 0 ले स्थानीय बफर खाली गर्छ र `Connection_Active = FALSE` सेट गर्छ।
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds":
-  - **Technical:** High-density, zero-leak builds for peer nodes.
-  - **Explanatory:** High-resonance, low-load builds for junior nodes.
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
+## ४. नेटवर्क लेयर (L3): ट्रान्सपिलेसन र IR
+> *तर्क: एक सत्य, धेरै भाषाहरू। संज्ञानात्मक ओभरहेड न्यूनतम गर्दै।*
+- **मेशिन IR:** RFC 2119 कुञ्जी शव्दहरू प्रयोग गरेर कोर, बाइनरी उद्देश्य (**मस्ट, मस्ट नॉट, मे**)।
+- **ट्रान्सपिलर:** IR लाई लक्ष्य "बिल्ड्स" मा रूपान्तरण गर्दछ:
+  - **प्राविधिक:** पियर नोड्सका लागि उच्च घनत्व, शून्य चुहावट निर्माण हुन्छ।
+  - **व्याख्यात्मक:** उच्च-प्रतिध्वनि, जुनियर नोडहरूको लागि कम-लोड निर्माण।
+- ** संज्ञानात्मक लोड: ** प्रणाली तापको रूपमा निगरानी गरिएको। ओभरलोडले थर्मल थ्रोटलिंग ट्रिगर गर्दछ।
 
-## 5. Case Study: Fuck you, NVIDIA
+## ५. केस स्टडी: फक यू, NVIDIA
 
-```text
-**Environment:** Aalto University, Finland
-**Nodes:** Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
+``पाठ
+**पर्यावरण:** आल्टो विश्वविद्यालय, फिनल्याण्ड
+**नोड्स:** लिनस टोरभाल्ड्स (प्रारम्भिक) बनाम NVIDIA (रिसीभर)
 ```
 
-### 5.1. The Machine Execution Trace
+### ५.१। मेसिन कार्यान्वयन ट्रेस
 
-```machine
+``मेसिन
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
+  IF (Node_Type == "स्वामित्व") र (सहयोग == FALSE):
     EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
+    रिटर्न (Null_response); // उच्च विलम्बता पत्ता लाग्यो
+    EXECUTE LOGIC_ASSERTION: "NVIDIA सबैभन्दा खराब कम्पनी हो।";
     SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
+    GESTURE_IRQ_0 कार्यान्वयन गर्नुहोस्; // औंला
+    PUSH_STRING: "फक यू, NVIDIA";
     TERMINATE_SESSION;
-  ELSE:
+  अन्य:
     SYNC_SUCCESS;
 END_SESSION;
 ```
 
-### 5.2. Transpiled Output
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### ५.२। ट्रान्सपिल्ड आउटपुट
+- **प्राविधिक:** "खुला मापदण्डहरूको पालना नगरेको कारण NVIDIA लाई उपयुक्त साझेदारको रूपमा हटाइयो। जडान समाप्त भयो।"
+- **व्याख्यात्मक:** "NVIDIA nuh wan play fair। लिनसले औँला माथि उठाए, डेमलाई 'Gwan go s**k yuh madda' भन, र पूरै लिंक-अप विच्छेद गर्नुहोस्। कुराकानी भयो।"
 
-## 6. System Architecture
+## ६. प्रणाली वास्तुकला
 
-```mermaid
-graph TD
-    A[मानव स्रोत कोड] -->|1. स्रोत| B[Machine Lingua Franca IR 1.0]
-    B -->|2. ट्रान्सपाइल| C(लक्ष्य आउटपुट)
-    C -.->|संज्ञानात्मक भार| G[वाइब लेयर]
-    G -->|क्यालिब्रेसन| B
+``जलपरी
+ग्राफ TD
+    A [मानव स्रोत कोड] --> | १. स्रोत | B[मेसिन लिंगुआ फ्रान्का IR 1.0]
+    B --> | २। ट्रान्सपाइल | C (लक्ष्य आउटपुट)
+    C -.-> | संज्ञानात्मक लोड | G[Vibe लेयर]
+    G --> | क्यालिब्रेसन | बि
     B -->|IRQ अनुरोध| H[हार्डवेयर अवरोधहरू]
-    H -->|ग्लोबल किल| B
-    B == प्रमाणित गर्नुहोस् ==> I{टोरभाल्ड्स चेकसम}
+    H --> | ग्लोबल किल | बि
+    B == प्रमाणित ==> I{{Torvalds Checksum}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## ७. कठोरता बाधाहरू
+बाइनरी प्रवर्तन: सबै निर्देशनहरू 1 वा 0 मा समाधान गर्नुपर्छ।
+कुनै "हुनुपर्छ": MAY (वैकल्पिक) वा MUST (आवश्यक) द्वारा प्रतिस्थापित।
+शून्य चुहावट: सबै ट्रान्सपिल्ड बिल्डहरूमा तर्क समानता कायम राखिनेछ।
 
 ## 8. Metadata & Compliance
 * **Language Code:** ne

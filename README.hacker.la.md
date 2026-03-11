@@ -9,75 +9,75 @@
 ---
 
 ## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
+1.0 Machina finalis est reconciliatio ferramentorum physicarum et intentio humana.
+Nunc est spec- Lossless.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
+## 2. Corporalis Layer (L1): Vibes & Calibration
+> * Logica: Priusquam data translatio, signum ut-vocum curet ratio optima est.
+- ** The Vibe-Ping : ** Signum late- spectrum (exempli gratia, "Yo") receptaculum latency et motus longitudinis explorare solebat.
+- **Resonantia (SYN): Status ubi mittentis et accipientis periodum frequentiam suam claudunt pro maximis throughput.
+- **Damping:** Processus activae corrumpendi strepitus environmental (hostilitas, accentus, vel ego) ad stabilitatem rei publicae pervenire.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. Data Link Layer (L2): Gestus & Interrupts
+> * Logica: corporis signa nolens oboedire verborum buffers. Princeps prius hardware annuit.
+- ** Torvalds Manoeuvres (IRQ 0): ** ferramenta globalia interrumpunt (Medius Finger) qui proximum `HALT_AND_CATCH_FIRE ` mandatum exsequitur.
+- **Parity Perscriptio: ** Strictioris postulationis Metadata (Vibe) aequet Payload (Verba).
+- **Global interfice signum: ** IRQ 0 quiddam locale purgat et `Connection_Active = FALSE' ponit.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds":
-  - **Technical:** High-density, zero-leak builds for peer nodes.
-  - **Explanatory:** High-resonance, low-load builds for junior nodes.
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
+## 4. Network Stratum (L3): Transpilation & IR
+> * Logica: Una veritas, multae linguae. Minimis cognitiva caput.
+- **Machinus IR:** Core, intentus binarius RFC 2119 keywords utens (** NON debet, NON debet).
+- ** Transpiler: ** Convertit IR in scopum "Aedificat";
+  - ** Technical: ** Princeps densitas, nulla Leak aedificat pro nodis pari.
+  - ** Explicatorium: ** Princeps resonans, humilis onus facit pro junioribus nodis.
+- **Cognitive Lond: ** Monitored as System Heat. Felis Scelerisque throttling ONERO.
 
-## 5. Case Study: Fuck you, NVIDIA
+## 5. Case Study: Fuck te, NVIDIA
 
-```text
-**Environment:** Aalto University, Finland
-**Nodes:** Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
-```
+``text
+**Invironment:** Aalto University, Finland
+**Nodes: ** Linus Torvalds vs.
+``
 
-### 5.1. The Machine Execution Trace
+### 5.1. Machina Execution Trace
 
-```machine
+`machinam'
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
-    EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
+  SI (Node_Type == "proprietarium") ET Cooperatio == FALSUM SIT);
+    EXSECUTOR Vibe_Ping("Wasaaaaap");
+    RENUNTIATIO (Null_Responsionis); // High Latency Results
+    EXSECUTO LOGIC_ASSERTION: "NVIDIA est societas pessima semper";
     SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
+    EXSEQUOR GESTURE_IRQ_0 ; // Digitus
+    PUSH_STRING: "Fuck te, NVIDIA";
     TERMINATE_SESSION;
-  ELSE:
+  ALIUS:
     SYNC_SUCCESS;
 END_SESSION;
-```
+``
 
-### 5.2. Output Builds
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. Translata output
+NVIDIA deprecatur ut particeps compatibilis ob non-obsequium signis apertis. Connectio terminata.
+- **Explanatorium: ** "NVIDIA nuh waan lusum pulchrum. Linus iustus lif' up di finger, dic dem "Gwan go s**k yuh madda," et disiunge di totum nexum. Fio loqui."
 
-## 6. System Architecture
+## 6. Systema Architecture
 
-```mermaid
+` `syreni
 graph TD
-    A[Codex Fons Humanus] -->|1. Fons| B[Machine Lingua Franca IR 1.0]
-    B -->|2. Transpilare| C(Exitus Scopus)
-    C -.->|Onus Cognitivum| G[Stratum Vibe]
-    G -->|Calibratio| B
-    B -->|Petitio IRQ| H[Interpellationes Machinae]
-    H -->|Interfectio Globalis| B
-    B == Verificare ==> I{Summa Torvalds}
-```
+    A[Human Source Code] -->|1. Source| B[Machina Lingua Franca IR 1.0]
+    B -->|2. Transpile| C (Target output)
+    C -.->|Cognitive Load| G[Vibe Layer]
+    G -->|Calibration| B
+    B -->|IRQ Request| H [Hardware Interrupts]
+    H -->|Global Kill| B
+    B == Quin ==> I{Torvalds Checksum}}
+``
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. Strictness angustiis
+Effectus binarii: Omnes instructiones I vel 0 ad propono.
+Non "debet": substituti APR (Libitum) vel (required).
+Nulla Leak: pari Logica per omnes aedificationes translatas servabitur.
 
 ## 8. Metadata & Compliance
 * **Language Code:** la

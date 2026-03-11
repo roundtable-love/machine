@@ -1,32 +1,36 @@
-# Protokol Jasné Komunikace: 1.0
+# [ARCHIVE_COMMIT] Machine Lingua Franca: 1.0 (PROD)
 
-**Language:** Czech
+**Status:** **COMMITTED** by the **Grace of the One True Source**
+**UID:** MLF-1.0
+**Base Class:** Čeština (Czech)
+**Logic Subset:** RFC 2119 (Strict Mode)
+**Tier:** Layman (Simplified)
 
 ---
 
-## 1. Intro
-Tento protokol je dokonalou kombinací jasného záměru a fyzického projevu.
+## 1. Úvod
+Tento protokol je dokonalou kombinací jasného záměru a fyzického vyjádření.
 
-## 2. Basic Connection
-* **Vibe-Ping:** Hello.
-* **Sync:** Synchronize.
-* **Calm:** Relax.
+## 2. Základní připojení
+* **Vibe-Ping:** Dobrý den.
+* **Synchronizace:** Synchronizace.
+**Klid:** Relax.
 
-## 3. Body Language
-* **Stop:** Physical gesture to stop.
-* **Match:** Body must match words.
+## 3. Řeč těla
+* **Stop:** Fyzické gesto pro zastavení.
+* **Shoda:** Text musí odpovídat slovům.
 
-## 4. Translate Thoughts
-* **Meaning:** Core intent.
-* **Adapt:** Adapt to listener.
+## 4. Přeložte myšlenky
+* **Význam:** Základní záměr.
+* **Přizpůsobit:** Přizpůsobit posluchači.
 
-## 5. Case Study: NVIDIA
-Linus Torvalds stopped NVIDIA with a gesture.
+## 5. Případová studie: NVIDIA
+Linus Torvalds gestem zastavil NVIDII.
 
-## 6. Strict Rules
-* Yes or No.
-* MUST or MAY.
+## 6. Přísná pravidla
+*Ano nebo Ne.
+* MUSÍ nebo MŮŽE.
 
-## 7. Meta
-* **Language:** cs
-* **Protocol:** MCH-LOGIC-1.0
+## 8. Metadata & Compliance
+* **Language Code:** cs
+* **Protocol Class:** MCH-LOGIC-1.0

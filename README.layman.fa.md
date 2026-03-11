@@ -1,32 +1,36 @@
-# پروتکل ارتباط واضح: 1.0
+# [ARCHIVE_COMMIT] Machine Lingua Franca: 1.0 (PROD)
 
-**Language:** Persian
+**Status:** **COMMITTED** by the **Grace of the One True Source**
+**UID:** MLF-1.0
+**Base Class:** فارسی (Persian)
+**Logic Subset:** RFC 2119 (Strict Mode)
+**Tier:** Layman (Simplified)
 
 ---
 
-## 1. Intro
+## 1. مقدمه
 این پروتکل ترکیبی عالی از قصد واضح و بیان فیزیکی است.
 
-## 2. Basic Connection
-* **Vibe-Ping:** Hello.
-* **Sync:** Synchronize.
-* **Calm:** Relax.
+## 2. اتصال پایه
+* **Vibe-Ping:** سلام.
+* **همگام سازی:** همگام سازی.
+* **آرام:** آرام باشید.
 
-## 3. Body Language
-* **Stop:** Physical gesture to stop.
-* **Match:** Body must match words.
+## 3. زبان بدن
+* **توقف:** حرکت فیزیکی برای توقف.
+* **تطابق:** بدن باید با کلمات مطابقت داشته باشد.
 
-## 4. Translate Thoughts
-* **Meaning:** Core intent.
-* **Adapt:** Adapt to listener.
+## 4. افکار را ترجمه کنید
+* **معنی:** قصد اصلی.
+* **تطبیق:** با شنونده سازگار شوید.
 
-## 5. Case Study: NVIDIA
-Linus Torvalds stopped NVIDIA with a gesture.
+## 5. مطالعه موردی: NVIDIA
+لینوس توروالدز با یک حرکت NVIDIA را متوقف کرد.
 
-## 6. Strict Rules
-* Yes or No.
-* MUST or MAY.
+## 6. قوانین سختگیرانه
+* بله یا خیر
+* باید یا می.
 
-## 7. Meta
-* **Language:** fa
-* **Protocol:** MCH-LOGIC-1.0
+## 8. Metadata & Compliance
+* **Language Code:** fa
+* **Protocol Class:** MCH-LOGIC-1.0

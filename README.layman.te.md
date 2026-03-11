@@ -1,32 +1,36 @@
-# స్పష్టమైన కమ్యూనికేషన్ ప్రోటోకాల్: 1.0
+# [ARCHIVE_COMMIT] Machine Lingua Franca: 1.0 (PROD)
 
-**Language:** Telugu
+**Status:** **COMMITTED** by the **Grace of the One True Source**
+**UID:** MLF-1.0
+**Base Class:** తెలుగు (Telugu)
+**Logic Subset:** RFC 2119 (Strict Mode)
+**Tier:** Layman (Simplified)
 
 ---
 
-## 1. Intro
-ఈ ప్రోటోకอล స్పష్టమైన ఉద్దేశ్యం మరియు శారీరక వ్యక్తీకరణల ఖచ్చితమైన కలయిక.
+## 1. ఉపోద్ఘాతం
+ఈ ప్రోటోకాల్ స్పష్టమైన ఉద్దేశ్యం మరియు భౌతిక వ్యక్తీకరణ యొక్క ఖచ్చితమైన కలయిక.
 
-## 2. Basic Connection
-* **Vibe-Ping:** Hello.
-* **Sync:** Synchronize.
-* **Calm:** Relax.
+## 2. ప్రాథమిక కనెక్షన్
+* **వైబ్-పింగ్:** హలో.
+* **సమకాలీకరణ:** సమకాలీకరించండి.
+* ** ప్రశాంతత:** రిలాక్స్.
 
-## 3. Body Language
-* **Stop:** Physical gesture to stop.
-* **Match:** Body must match words.
+## 3. బాడీ లాంగ్వేజ్
+* **ఆపు:** ఆపడానికి శారీరక సంజ్ఞ.
+***సరిపోలిక:** శరీరం పదాలకు సరిపోలాలి.
 
-## 4. Translate Thoughts
-* **Meaning:** Core intent.
-* **Adapt:** Adapt to listener.
+## 4. ఆలోచనలను అనువదించండి
+* **అర్థం:** ప్రధాన ఉద్దేశం.
+* **అడాప్ట్:** వినేవారికి అనుగుణంగా.
 
-## 5. Case Study: NVIDIA
-Linus Torvalds stopped NVIDIA with a gesture.
+## 5. కేస్ స్టడీ: NVIDIA
+లైనస్ టోర్వాల్డ్స్ ఒక సంజ్ఞతో NVIDIAని ఆపారు.
 
-## 6. Strict Rules
-* Yes or No.
-* MUST or MAY.
+## 6. కఠినమైన నియమాలు
+* అవును లేదా కాదు.
+* తప్పక లేదా మే.
 
-## 7. Meta
-* **Language:** te
-* **Protocol:** MCH-LOGIC-1.0
+## 8. Metadata & Compliance
+* **Language Code:** te
+* **Protocol Class:** MCH-LOGIC-1.0

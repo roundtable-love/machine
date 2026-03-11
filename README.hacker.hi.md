@@ -8,76 +8,76 @@
 
 ---
 
-## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
+## 1. डेल्टा
+मशीन 1.0 हार्डवेयर भौतिकी और मानव इरादे का अंतिम सामंजस्य है।
+विशिष्टता अब दोषरहित है.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
+## 2. भौतिक परत (L1): वाइब्स और अंशांकन
+> *तर्क: डेटा ट्रांसफर से पहले, सुनिश्चित करें कि सिग्नल-टू-शोर अनुपात इष्टतम है।*
+- **वाइब-पिंग:** एक विस्तृत-स्पेक्ट्रम सिग्नल (उदाहरण के लिए, "यो") का उपयोग रिसीवर विलंबता और भावनात्मक बैंडविड्थ का परीक्षण करने के लिए किया जाता है।
+- **रेजोनेंस (SYN):** वह स्थिति जहां प्रेषक और रिसीवर अधिकतम थ्रूपुट के लिए अपनी आवृत्तियों को चरणबद्ध करते हैं।
+- **डंपिंग:** स्थिर स्थिति तक पहुंचने के लिए पर्यावरणीय शोर (शत्रुता, तनाव, या अहंकार) को बेअसर करने की सक्रिय प्रक्रिया।
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. डेटा लिंक परत (L2): इशारे और व्यवधान
+> *तर्क: भौतिक संकेत मौखिक बफ़र्स पर हावी हो जाते हैं। उच्च प्राथमिकता वाले हार्डवेयर सिग्नल।*
+- **टोर्वाल्ड्स पैंतरेबाज़ी (आईआरक्यू 0):** एक वैश्विक हार्डवेयर इंटरप्ट (द मिडिल फिंगर) जो तत्काल `HALT_AND_CATCH_FIRE` कमांड निष्पादित करता है।
+- **समानता जांच:** सख्त आवश्यकता है कि मेटाडेटा (वाइब) पेलोड (शब्दों) से मेल खाता हो।
+- **ग्लोबल किल सिग्नल:** IRQ 0 स्थानीय बफर को साफ़ करता है और `कनेक्शन_एक्टिव = FALSE` सेट करता है।
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds":
-  - **Technical:** High-density, zero-leak builds for peer nodes.
-  - **Explanatory:** High-resonance, low-load builds for junior nodes.
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
+## 4. नेटवर्क परत (एल3): ट्रांसपिलेशन और आईआर
+> *तर्क: सत्य एक, भाषाएँ अनेक। संज्ञानात्मक ओवरहेड को कम करना।*
+- **मशीन आईआर:** आरएफसी 2119 कीवर्ड का उपयोग करते हुए मूल, बाइनरी इरादा (**जरूर, जरूरी नहीं, मई**)।
+- **ट्रांसपिलर:** आईआर को लक्ष्य "बिल्ड्स" में परिवर्तित करता है:
+  - **तकनीकी:** पीयर नोड्स के लिए उच्च-घनत्व, शून्य-रिसाव बिल्ड।
+  - **व्याख्यात्मक:** जूनियर नोड्स के लिए उच्च-अनुनाद, कम-लोड बिल्ड।
+- **संज्ञानात्मक भार:** सिस्टम हीट के रूप में मॉनिटर किया गया। ओवरलोड थर्मल थ्रॉटलिंग को ट्रिगर करता है।
 
-## 5. Case Study: Fuck you, NVIDIA
+## 5. केस स्टडी: भाड़ में जाओ, एनवीडिया
 
-```text
-**Environment:** Aalto University, Finland
-**Nodes:** Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
+```पाठ
+**पर्यावरण:** आल्टो विश्वविद्यालय, फ़िनलैंड
+**नोड्स:** लिनस टोरवाल्ड्स (आरंभकर्ता) बनाम एनवीडिया (रिसीवर)
 ```
 
-### 5.1. The Machine Execution Trace
+### 5.1. मशीन निष्पादन ट्रेस
 
-```machine
+```मशीन
 // [TRACE_ID]: 1.0_GOLDEN_PATH
-BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
-    EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
-    SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
+BEGIN_सत्र:
+  यदि (Node_Type == "स्वामित्व") और (सहयोग == गलत):
+    EXECUTE Vibe_Ping("wasaaaap");
+    वापसी (Null_Response); // उच्च विलंबता का पता चला
+    निष्पादित तर्क_अभिकथन: "एनवीडिया अब तक की सबसे खराब कंपनी है।";
+    सेट सिस्टम_ट्रस्ट = 0;
+    जेस्चर निष्पादित करें_IRQ_0; // उंगली
+    पुश_स्ट्रिंग: "भाड़ में जाओ, एनवीडिया";
     TERMINATE_SESSION;
-  ELSE:
+  अन्य:
     SYNC_SUCCESS;
 END_SESSION;
 ```
 
-### 5.2. Transpiled Output
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. ट्रांसपिल्ड आउटपुट
+- **तकनीकी:** "खुले मानकों का अनुपालन न करने के कारण NVIDIA को एक संगत भागीदार के रूप में हटा दिया गया है। कनेक्शन समाप्त कर दिया गया है।"
+- **व्याख्यात्मक:** "एनवीडिया अब निष्पक्ष खेलें। लिनुस बस अपनी उंगली ऊपर उठाएं, उन्हें बताएं 'ग्वान गो एस**के युह मड्डा,' और पूरे लिंक-अप को डिस्कनेक्ट कर दें। बात हो गई।"
 
-## 6. System Architecture
+## 6. सिस्टम आर्किटेक्चर
 
-```mermaid
-graph TD
-    A[मानव स्रोत कोड] -->|1. स्रोत| B[Machine Lingua Franca IR 1.0]
-    B -->|2. ट्रांसपाइल| C(लक्ष्य आउटपुट)
-    C -.->|संज्ञानात्मक भार| G[वाइब लेयर]
-    G -->|अंशांकन| B
-    B -->|IRQ अनुरोध| H[हार्डवेयर इंटरप्ट्स]
-    H -->|ग्लोबल किल| B
-    B == सत्यापित करें ==> I{टोरवाल्ड्स चेकसम}
+```मत्स्यांगना
+ग्राफ टीडी
+    ए[मानव स्रोत कोड] -->|1. स्रोत| बी[मशीन लिंगुआ फ़्रैंका आईआर 1.0]
+    बी -->|2. ट्रांसपाइल| सी(लक्ष्य आउटपुट)
+    सी -.->|संज्ञानात्मक भार| जी[वाइब परत]
+    जी -->|अंशांकन| बी
+    बी -->|आईआरक्यू अनुरोध| एच[हार्डवेयर व्यवधान]
+    एच -->|ग्लोबल किल| बी
+    बी == सत्यापित करें ==> मैं{{टोरवाल्ड्स चेकसम}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. सख्ती की बाध्यताएँ
+बाइनरी प्रवर्तन: सभी निर्देशों का समाधान 1 या 0 होना चाहिए।
+नहीं "चाहिए": मई (वैकल्पिक) या अवश्य (आवश्यक) द्वारा प्रतिस्थापित।
+शून्य रिसाव: सभी ट्रांसपिल्ड बिल्डों में तर्क समता बनाए रखी जाएगी।
 
 ## 8. Metadata & Compliance
 * **Language Code:** hi

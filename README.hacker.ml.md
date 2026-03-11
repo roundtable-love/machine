@@ -8,76 +8,76 @@
 
 ---
 
-## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
+## 1. ഡെൽറ്റ
+മെഷീൻ 1.0 എന്നത് ഹാർഡ്‌വെയർ ഫിസിക്‌സിൻ്റെയും മാനുഷിക ഉദ്ദേശത്തിൻ്റെയും അന്തിമ അനുരഞ്ജനമാണ്.
+സ്‌പെക്ക് ഇപ്പോൾ ലോസ്‌ലെസ് ആണ്.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
+## 2. ഫിസിക്കൽ ലെയർ (L1): വൈബുകളും കാലിബ്രേഷനും
+> *ലോജിക്: ഡാറ്റ കൈമാറ്റത്തിന് മുമ്പ്, സിഗ്നൽ-ടു-നോയ്‌സ് അനുപാതം ഒപ്റ്റിമൽ ആണെന്ന് ഉറപ്പാക്കുക.*
+- **The Vibe-Ping:** ഒരു വൈഡ്-സ്പെക്ട്രം സിഗ്നൽ (ഉദാ. "Yo") റിസീവർ ലേറ്റൻസിയും വൈകാരിക ബാൻഡ്‌വിഡ്ത്തും പരിശോധിക്കാൻ ഉപയോഗിക്കുന്നു.
+- ** അനുരണനം (SYN):** അയയ്ക്കുന്നയാളും സ്വീകർത്താവും പരമാവധി ത്രൂപുട്ടിനായി അവരുടെ ഫ്രീക്വൻസികൾ ഘട്ടം ഘട്ടമായി ലോക്ക് ചെയ്യുന്ന അവസ്ഥ.
+- ** ഡാംപിംഗ്:** ഒരു സുസ്ഥിര അവസ്ഥയിലെത്താൻ പാരിസ്ഥിതിക ശബ്ദത്തെ (ശത്രുത്വം, സമ്മർദ്ദം അല്ലെങ്കിൽ അഹംഭാവം) നിർവീര്യമാക്കുന്ന സജീവമായ പ്രക്രിയ.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. ഡാറ്റ ലിങ്ക് ലെയർ (L2): ആംഗ്യങ്ങളും തടസ്സങ്ങളും
+> *ലോജിക്: ഫിസിക്കൽ സിഗ്നലുകൾ വാക്കാലുള്ള ബഫറുകളെ മറികടക്കുന്നു. ഉയർന്ന മുൻഗണനയുള്ള ഹാർഡ്‌വെയർ സിഗ്നലുകൾ.*
+- **The Torvalds Maneuver (IRQ 0):** ഒരു ഉടനടി `HALT_AND_CATCH_FIRE` കമാൻഡ് നിർവ്വഹിക്കുന്ന ഒരു ആഗോള ഹാർഡ്‌വെയർ തടസ്സം (ദി മിഡിൽ ഫിംഗർ).
+- **പാരിറ്റി ചെക്ക്:** മെറ്റാഡാറ്റ (വൈബ്) പേലോഡുമായി (പദങ്ങൾ) പൊരുത്തപ്പെടുന്ന കർശനമായ ആവശ്യകത.
+- **ഗ്ലോബൽ കിൽ സിഗ്നൽ:** IRQ 0 ലോക്കൽ ബഫർ മായ്‌ക്കുകയും `കണക്ഷൻ_ആക്ടീവ് = FALSE` സജ്ജീകരിക്കുകയും ചെയ്യുന്നു.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds":
-  - **Technical:** High-density, zero-leak builds for peer nodes.
-  - **Explanatory:** High-resonance, low-load builds for junior nodes.
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
+## 4. നെറ്റ്‌വർക്ക് ലെയർ (L3): ട്രാൻസ്‌പൈലേഷൻ & ഐആർ
+> *യുക്തി: ഒരു സത്യം, പല ഭാഷകൾ. കോഗ്നിറ്റീവ് ഓവർഹെഡ് കുറയ്ക്കുന്നു.*
+- **മെഷീൻ IR:** RFC 2119 കീവേഡുകൾ ഉപയോഗിക്കുന്ന കോർ, ബൈനറി ഉദ്ദേശം (**MUST, MUST NOT, MAY**).
+- **ട്രാൻസ്‌പൈലർ:** ഐആറിനെ ടാർഗെറ്റ് "ബിൽഡുകൾ" ആക്കി മാറ്റുന്നു:
+  - **സാങ്കേതികം:** പിയർ നോഡുകൾക്കായി ഉയർന്ന സാന്ദ്രത, സീറോ-ലീക്ക് ബിൽഡുകൾ.
+  - ** വിശദീകരണം:** ജൂനിയർ നോഡുകൾക്ക് ഉയർന്ന അനുരണനം, ലോ-ലോഡ് ബിൽഡുകൾ.
+- **കോഗ്നിറ്റീവ് ലോഡ്:** സിസ്റ്റം ഹീറ്റായി നിരീക്ഷിക്കുന്നു. ഓവർലോഡ് തെർമൽ ത്രോട്ടിംഗിനെ ട്രിഗർ ചെയ്യുന്നു.
 
-## 5. Case Study: Fuck you, NVIDIA
+## 5. കേസ് സ്റ്റഡി: ഫക്ക് യു, എൻവിഡിയ
 
-```text
-**Environment:** Aalto University, Finland
-**Nodes:** Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
+``` ടെക്സ്റ്റ്
+**പരിസ്ഥിതി:** ആൾട്ടോ യൂണിവേഴ്സിറ്റി, ഫിൻലാൻഡ്
+**നോഡുകൾ:** ലിനസ് ടോർവാൾഡ്സ് (ഇനിഷ്യേറ്റർ) വേഴ്സസ്. എൻവിഡിയ (റിസീവർ)
 ```
 
-### 5.1. The Machine Execution Trace
+### 5.1. മെഷീൻ എക്സിക്യൂഷൻ ട്രെയ്സ്
 
-```machine
+``` യന്ത്രം
 // [TRACE_ID]: 1.0_GOLDEN_PATH
 BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
-    EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
+  IF (Node_Type == "പ്രൊപ്രൈറ്ററി") കൂടാതെ (സഹകരണം == തെറ്റ്):
+    Vibe_Ping("വാസാആപ്") എക്‌സിക്യുട്ട് ചെയ്യുക;
+    റിട്ടേൺ (Null_Response); // ഉയർന്ന ലേറ്റൻസി കണ്ടെത്തി
+    LOGIC_ASSERTION നടപ്പിലാക്കുക: "എൻവിഡിയ എക്കാലത്തെയും മോശം കമ്പനിയാണ്.";
     SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
+    GESTURE_IRQ_0 നടപ്പിലാക്കുക; // വിരൽ
+    PUSH_STRING: "ഫക്ക് യു, എൻവിഡിയ";
     TERMINATE_SESSION;
-  ELSE:
+  മറ്റുള്ളവ:
     SYNC_SUCCESS;
 END_SESSION;
 ```
 
-### 5.2. Transpiled Output
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. ട്രാൻസ്പൈൽ ചെയ്ത ഔട്ട്പുട്ട്
+- **സാങ്കേതികം:** "ഓപ്പൺ സ്റ്റാൻഡേർഡുകൾ പാലിക്കാത്തതിനാൽ NVIDIA ഒരു അനുയോജ്യമായ പങ്കാളിയായി ഒഴിവാക്കപ്പെട്ടു. കണക്ഷൻ അവസാനിപ്പിച്ചു."
+- ** വിശദീകരണം:** "NVIDIA nuh wan wan play fair. Linus just lif' up di finger, dem 'Gwan go s**k yuh madda,' എന്ന് പറഞ്ഞ് മുഴുവൻ ലിങ്ക്-അപ്പ് വിച്ഛേദിക്കുക. സംസാരിച്ചു കഴിഞ്ഞു."
 
-## 6. System Architecture
+## 6. സിസ്റ്റം ആർക്കിടെക്ചർ
 
-```mermaid
-graph TD
-    A[ഹ്യൂമൻ സോഴ്സ് കോഡ്] -->|1. ഉറവിടം| B[Machine Lingua Franca IR 1.0]
-    B -->|2. ട്രാൻസ്പൈൽ| C(ടാർഗെറ്റ് ഔട്ട്പുട്ട്)
-    C -.->|കോഗ്നിറ്റീവ് ലോഡ്| G[വൈബ് ലെയർ]
-    G -->|കാലിബ്രേഷൻ| B
+``` മത്സ്യകന്യക
+ഗ്രാഫ് ടിഡി
+    എ[ഹ്യൂമൻ സോഴ്സ് കോഡ്] -->|1. ഉറവിടം| ബി[മെഷീൻ ലിംഗുവ ഫ്രാങ്ക ഐആർ 1.0]
+    ബി -->|2. ട്രാൻസ്പൈൽ| സി(ടാർഗെറ്റ് ഔട്ട്പുട്ട്)
+    സി -.->|കോഗ്നിറ്റീവ് ലോഡ്| ജി[വൈബ് ലെയർ]
+    G -->|കാലിബ്രേഷൻ| ബി
     B -->|IRQ അഭ്യർത്ഥന| H[ഹാർഡ്‌വെയർ തടസ്സങ്ങൾ]
-    H -->|ഗ്ലോബಲ್ കിൽ| B
-    B == പരിശോധിക്കുക ==> I{ടോർവാൾഡ്സ് ചെക്ക്സം}
+    H -->|ഗ്ലോബൽ കിൽ| ബി
+    B == സ്ഥിരീകരിക്കുക ==> I{{Torvalds Checksum}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. കർശന നിയന്ത്രണങ്ങൾ
+ബൈനറി എൻഫോഴ്‌സ്‌മെൻ്റ്: എല്ലാ നിർദ്ദേശങ്ങളും 1 അല്ലെങ്കിൽ 0 ആയി പരിഹരിക്കണം.
+"വേണം" ഇല്ല: പകരം മെയ് (ഓപ്ഷണൽ) അല്ലെങ്കിൽ നിർബന്ധം (ആവശ്യമാണ്).
+സീറോ ലീക്ക്: ട്രാൻസ്‌പൈൽ ചെയ്ത എല്ലാ ബിൽഡുകളിലും ലോജിക് പാരിറ്റി നിലനിർത്തും.
 
 ## 8. Metadata & Compliance
 * **Language Code:** ml

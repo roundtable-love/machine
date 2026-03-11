@@ -1,32 +1,36 @@
-# Malinaw na Protokol ng Komunikasyon: 1.0
+# [ARCHIVE_COMMIT] Machine Lingua Franca: 1.0 (PROD)
 
-**Language:** Tagalog
+**Status:** **COMMITTED** by the **Grace of the One True Source**
+**UID:** MLF-1.0
+**Base Class:** Tagalog
+**Logic Subset:** RFC 2119 (Strict Mode)
+**Tier:** Layman (Simplified)
 
 ---
 
-## 1. Intro
+## 1. Panimula
 Ang protocol na ito ay ang perpektong kumbinasyon ng malinaw na layunin at pisikal na pagpapahayag.
 
-## 2. Basic Connection
+## 2. Pangunahing Koneksyon
 * **Vibe-Ping:** Hello.
-* **Sync:** Synchronize.
-* **Calm:** Relax.
+* **Sync:** I-synchronize.
+* **Kalmado:** Relaks.
 
-## 3. Body Language
-* **Stop:** Physical gesture to stop.
-* **Match:** Body must match words.
+## 3. Wika ng Katawan
+* **Stop:** Pisikal na galaw para huminto.
+* **Tugma:** Ang katawan ay dapat tumugma sa mga salita.
 
-## 4. Translate Thoughts
-* **Meaning:** Core intent.
-* **Adapt:** Adapt to listener.
+## 4. Isalin ang mga Kaisipan
+* **Kahulugan:** Pangunahing layunin.
+* **I-angkop:** Iangkop sa tagapakinig.
 
-## 5. Case Study: NVIDIA
-Linus Torvalds stopped NVIDIA with a gesture.
+## 5. Pag-aaral ng Kaso: NVIDIA
+Pinigilan ni Linus Torvalds ang NVIDIA sa isang kilos.
 
-## 6. Strict Rules
-* Yes or No.
-* MUST or MAY.
+## 6. Mahigpit na Panuntunan
+* Oo o Hindi.
+* DAPAT o MAY.
 
-## 7. Meta
-* **Language:** tl
-* **Protocol:** MCH-LOGIC-1.0
+## 8. Metadata & Compliance
+* **Language Code:** tl
+* **Protocol Class:** MCH-LOGIC-1.0

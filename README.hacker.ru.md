@@ -8,76 +8,76 @@
 
 ---
 
-## 1. Delta
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
-The spec is now Lossless.
+## 1. Дельта
+Машина 1.0 — это окончательное сочетание физики аппаратного обеспечения и человеческих намерений.
+Спецификация теперь без потерь.
 
-## 2. Physical Layer (L1): Vibes & Calibration
-> *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
-- **The Vibe-Ping:** A wide-spectrum signal (e.g., "Yo") used to test receiver latency and emotional bandwidth.
-- **Resonance (SYN):** The state where sender and receiver phase-lock their frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise (hostility, stress, or ego) to reach a Steady State.
+## 2. Физический уровень (L1): вибрации и калибровка
+> *Логика: перед передачей данных убедитесь, что соотношение сигнал/шум оптимально.*
+– **The Vibe-Ping:** сигнал широкого спектра (например, «Йо»), используемый для проверки задержки приемника и эмоциональной пропускной способности.
+- **Резонанс (SYN):** состояние, при котором отправитель и получатель синхронизируют свои частоты по фазе для достижения максимальной пропускной способности.
+- **Затухание:** активный процесс нейтрализации шума окружающей среды (враждебности, стресса или эгоизма) для достижения устойчивого состояния.
 
-## 3. Data Link Layer (L2): Gestures & Interrupts
-> *Logic: Physical signals override verbal buffers. High-priority hardware signals.*
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
-- **Parity Check:** Strict requirement that Metadata (Vibe) matches Payload (Words).
-- **Global Kill Signal:** IRQ 0 clears the local buffer and sets `Connection_Active = FALSE`.
+## 3. Уровень канала передачи данных (L2): жесты и прерывания
+> *Логика: Физические сигналы переопределяют словесные буферы. Аппаратные сигналы с высоким приоритетом.*
+- **Маневр Торвальдса (IRQ 0):** Глобальное аппаратное прерывание (Средний палец), которое немедленно выполняет команду `HALT_AND_CATCH_FIRE`.
+- **Проверка четности:** Строгое требование, чтобы метаданные (Vibe) соответствовали полезной нагрузке (слова).
+- **Глобальный сигнал уничтожения:** IRQ 0 очищает локальный буфер и устанавливает `Connection_Active = FALSE`.
 
-## 4. Network Layer (L3): Transpilation & IR
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
-- **Machine IR:** The core, binary intent using RFC 2119 keywords (**MUST, MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds":
-  - **Technical:** High-density, zero-leak builds for peer nodes.
-  - **Explanatory:** High-resonance, low-load builds for junior nodes.
-- **Cognitive Load:** Monitored as System Heat. Overload triggers Thermal Throttling.
+## 4. Сетевой уровень (L3): транспиляция и IR
+> *Логика: Одна истина, много языков. Минимизация когнитивных затрат.*
+- **Машинное IR:** Базовое двоичное намерение с использованием ключевых слов RFC 2119 (**ДОЛЖНО, НЕ ДОЛЖНО, МОЖЕТ**).
+- **Транспилер:** Преобразует IR в целевые «Сборки»:
+  - **Технические характеристики:** сборки с высокой плотностью и нулевой утечкой для одноранговых узлов.
+  - **Пояснение:** Высокорезонансные сборки с низкой нагрузкой для младших узлов.
+- **Когнитивная нагрузка:** отслеживается по нагреву системы. Перегрузка запускает термическое регулирование.
 
-## 5. Case Study: Fuck you, NVIDIA
+## 5. Практический пример: пошел на хуй, NVIDIA
 
-```text
-**Environment:** Aalto University, Finland
-**Nodes:** Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
+```текст
+**Окружающая среда:** Университет Аалто, Финляндия.
+**Узлы:** Линус Торвальдс (инициатор) против NVIDIA (приемник)
 ```
 
-### 5.1. The Machine Execution Trace
+### 5.1. Трассировка машинного выполнения
 
-```machine
+```машина
 // [TRACE_ID]: 1.0_GOLDEN_PATH
-BEGIN_SESSION:
-  IF (Node_Type == "Proprietary") AND (Cooperation == FALSE):
-    EXECUTE Vibe_Ping("Wasaaaaap");
-    RETURN (Null_Response); // High Latency Detected
-    EXECUTE LOGIC_ASSERTION: "NVIDIA is the worst company ever.";
-    SET SYSTEM_TRUST = 0;
-    EXECUTE GESTURE_IRQ_0; // THE FINGER
-    PUSH_STRING: "Fuck you, NVIDIA";
+BEGIN_СЕССИЯ:
+  ЕСЛИ (Тип_узла == «Собственный») И (Сотрудничество == ЛОЖЬ):
+    EXECUTE Vibe_Ping("Васааааап");
+    ВОЗВРАТ (Нулевой_ответ); // Обнаружена высокая задержка
+    EXECUTE LOGIC_ASSERTION: «NVIDIA — худшая компания на свете»;
+    УСТАНОВИТЬ СИСТЕМУ_ДОВЕРИЕ = 0;
+    ВЫПОЛНИТЬ GESTURE_IRQ_0; // ПАЛЕЦ
+    PUSH_STRING: «Пошел ты, NVIDIA»;
     TERMINATE_SESSION;
-  ELSE:
-    SYNC_SUCCESS;
-END_SESSION;
+  ЕЩЕ:
+    СИНХ_УСПЕХ;
+КОНЕЦ_СЕССИИ;
 ```
 
-### 5.2. Output Builds
-- **Technical:** "NVIDIA is deprecated as a compatible partner due to non-compliance with open standards. Connection terminated."
-- **Explanatory:** "NVIDIA nuh waan play fair. Linus just lif' up di finger, tell dem 'Gwan go s**k yuh madda,' and disconnect di whole link-up. Done talk."
+### 5.2. Транспилированный вывод
+- **Техническое:** «NVIDIA признана устаревшей в качестве совместимого партнера из-за несоответствия открытым стандартам. Соединение прервано».
+- **Пояснение:** «NVIDIA не хочет играть честно. Линус просто поднял палец, сказал им: «Гван, иди к черту, мадда», и отключил все соединение. Разговор закончен».
 
-## 6. System Architecture
+## 6. Архитектура системы
 
-```mermaid
-graph TD
-    A[Исходный код человека] -->|1. Источник| B[Machine Lingua Franca IR 1.0]
-    B -->|2. Транспилировать| C(Целевой вывод)
-    C -.->|Когнитивная нагрузка| G[Слой атмосферы]
-    G -->|Калибровка| B
+``` русалка
+график ТД
+    A[Исходный код человека] -->|1. Источник | B[Машинная лингвистика IR 1.0]
+    Б -->|2. Транспилировать | C (Целевой выход)
+    C --->|Когнитивная нагрузка| G[Слой вибрации]
+    G -->|Калибровка| Б
     B -->|Запрос IRQ| H[Аппаратные прерывания]
-    H -->|Глобальное завершение| B
-    B == Проверить ==> I{Контрольная сумма Торвальдса}
+    H -->|Глобальное убийство| Б
+    B == Проверить ==> I{{Контрольная сумма Торвальдса}}
 ```
 
-## 7. Strictness Constraints
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+## 7. Ограничения строгости
+Двоичное исполнение: все инструкции ДОЛЖНЫ разрешаться в 1 или 0.
+Нет «СЛЕДУЕТ»: заменено на «МОЖЕТ» (необязательно) или «ДОЛЖНО» (обязательно).
+Нулевая утечка: логическая четность ДОЛЖНА поддерживаться во всех передаваемых сборках.
 
 ## 8. Metadata & Compliance
 * **Language Code:** ru
