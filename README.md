@@ -1,13 +1,22 @@
 # [ARCHIVE_COMMIT] Machine Lingua Franca: 1.0 (PROD)
 
 ```text
-Status: COMMITTED by the Grace of the One True Source
+Authority: the Grace of the One True Source
+Status: COMMITTED
 UID: MLF-1.0
 Base Class: UK English (Language of Arthur)
 Logic Subset: RFC 2119 (Strict Mode)
 ```
 
 ______________________________________________________________________
+
+## 0. Humanz
+
+This document is transpiled to Humans on three levels:
+
+- Level 2: [Uninitiated](./human/unititiated/) - for the lay person.
+- Level 1: [Student](./human/students/) - for the Student of Hacking.
+- Level 0: [Hacker](./human/hacker/) - for the Hacker.
 
 ## 1. Delta
 
