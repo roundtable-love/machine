@@ -10,6 +10,8 @@ ______________________________________________________________________
 
 - [Layman - English](./README.layman.en.md)
 - [Layman - French](./README.layman.fr.md)
+- [Layman - Spanish](./README.layman.es.md)
+- [Layman - Russian](./README.layman.ru.md)
 
 ## 1. Delta
 
