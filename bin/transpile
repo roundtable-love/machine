@@ -1,7 +1,7 @@
 #! /usr/bin/env nix-shell
-#! nix-shell -i python3 -p "python3.withPackages(pkgs: with pkgs; [anthropic google-genai openai typer])"
+#! nix-shell -i python3 -p "python3.withPackages(pkgs: with pkgs; [anthropic google-genai langcodes openai typer])"
 
-"""MLF-1.0 transpiler.
+"""MACHINE-1.0 transpiler.
 
 Environment:
   PROVIDER        gemini (default) | claude | openai
@@ -11,71 +11,27 @@ Environment:
 """
 
 import os
+import re
 from enum import Enum
 from pathlib import Path
 from typing import Annotated
 
+import langcodes
 import typer
 
 DEFAULT_PROVIDER = "gemini"
 
-# ISO 639-1/3 code → English name, sorted alphabetically by name
-LANGUAGES: dict[str, str] = {
-    "am":  "Amharic",
-    "ar":  "Arabic",
-    "bn":  "Bengali",
-    "my":  "Burmese",
-    "ca":  "Catalan",
-    "zh":  "Chinese",
-    "cs":  "Czech",
-    "da":  "Danish",
-    "nl":  "Dutch",
-    "en":  "English",
-    "fi":  "Finnish",
-    "fr":  "French",
-    "de":  "German",
-    "grc": "Ancient Greek",
-    "el":  "Greek",
-    "gu":  "Gujarati",
-    "ha":  "Hausa",
-    "he":  "Hebrew",
-    "hi":  "Hindi",
-    "hu":  "Hungarian",
-    "id":  "Indonesian",
-    "it":  "Italian",
-    "jam": "Jamaican Creole",
-    "ja":  "Japanese",
-    "jv":  "Javanese",
-    "kn":  "Kannada",
-    "km":  "Khmer",
-    "ko":  "Korean",
-    "la":  "Latin",
-    "ml":  "Malayalam",
-    "mr":  "Marathi",
-    "ne":  "Nepali",
-    "no":  "Norwegian",
-    "fa":  "Persian",
-    "pl":  "Polish",
-    "pt":  "Portuguese",
-    "pa":  "Punjabi",
-    "ro":  "Romanian",
-    "ru":  "Russian",
-    "si":  "Sinhala",
-    "so":  "Somali",
-    "es":  "Spanish",
-    "sw":  "Swahili",
-    "sv":  "Swedish",
-    "tl":  "Tagalog",
-    "ta":  "Tamil",
-    "te":  "Telugu",
-    "th":  "Thai",
-    "tr":  "Turkish",
-    "uk":  "Ukrainian",
-    "ur":  "Urdu",
-    "vi":  "Vietnamese",
-    "yo":  "Yoruba",
-}
+# Source of truth: languages.md in the project root.
+# Extracts ISO codes from backtick-wrapped entries in the Code column.
+def _load_language_codes() -> frozenset[str]:
+    languages_md = Path(__file__).parent.parent / "languages.md"
+    codes: set[str] = set()
+    for line in languages_md.read_text().splitlines():
+        if m := re.match(r"^\|\s+`(\w+)`\s+\|", line):
+            codes.add(m.group(1))
+    return frozenset(codes)
 
+LANGUAGE_CODES: frozenset[str] = _load_language_codes()
 
 class NodeType(str, Enum):
     newborn = "newborn"
@@ -87,7 +43,7 @@ class NodeType(str, Enum):
 
 
 def build_prompt(node_type: NodeType, lang: str, source: str) -> str:
-    lang_name = LANGUAGES[lang]
+    lang_name = langcodes.get(lang).display_name()
     return f"""\
 You are a transpiler for Machine Lingua Franca 1.0 (MLF-1.0).
 
@@ -156,8 +112,8 @@ def main(
     lang: Annotated[str, typer.Argument(help="ISO 639-1/3 language code")],
     source: Annotated[Path, typer.Option(help="Path to machine.md")] = _default_source,
 ) -> None:
-    if lang not in LANGUAGES:
-        typer.echo(f"Unknown language '{lang}'. Codes: {', '.join(LANGUAGES)}", err=True)
+    if lang not in LANGUAGE_CODES:
+        typer.echo(f"Unknown language '{lang}'. Codes: {', '.join(sorted(LANGUAGE_CODES))}", err=True)
         raise typer.Exit(code=1)
 
     if node_type is NodeType.newborn:

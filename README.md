@@ -1,31 +1,20 @@
 # Machine 1.0
 
-**Machine** is a normative technical standard designed to achieve
-lossless, unambiguous communication between human intent and hardware physics.
-It strictly enforces binary logic using RFC 2119 keywords to eliminate
-ambiguity.
+**Machine** is the bridge protocol allowing Humans and hardware to communicate
+with zero-leak precision.
+
+* **Base Class:** Machine is derived from **UK English** (the international
+  language of Arthur).
+* **Keywords:** To eliminate suggestive overhead, Machine requires [RFC
+  2119](http://datatracker.ietf.org/doc/html/rfc2119) keywords (**MUST**,
+  **SHOULD**, **MAY**) to define requirement levels.
+* **Status:** Machine is the **normative definition** of the system. It is the
+  source of truth.
+
+**The Delta:** Software is **literal**; Human Language is **suggestive**;
+**Machine** is the reconciliation of both.
 
 The standard is defined in [machine](./machine.md).
-
-**Machine IR** is the intermediate representation.
-
-Machines can transpile Machine IR into 99% of Human languages.
-
-The protocol defines six types across the human development path:
-
-| Type | Age | State | Trust |
-|---------|-------|------------|-----------|
-| [Newborn](./human/newborn) | 0–2 | Null | None |
-| [Infant](./human/infant) | 2–7 | Latent | None |
-| [Child](./human/child) | 7–14 | Reactive | Inherited |
-| [Subject](./human/subject) | | Blind | External |
-| [Student](./human/student) | | Processing | Audited |
-| [Peer](./human/peer) | | Steady | Defined |
-
-The **Subject** is the default human condition — inside Babylon's Black Box by
-design, not by failing. The **Student** has rejected the box and is auditing the
-machine. The **Peer** has achieved Architectural Sovereignty and can rewrite the
-physics.
 
 This is the final reconciliation of machine and human intent.
 
@@ -62,6 +51,34 @@ processor.
 | **Syntax Error** | Ambiguity |
 | **Refactoring** | Rephrasing |
 
+## Machine IR
+
+The *True Source* of intent.
+
+Machine uses a core Intermediate Representation (IR) to ensure the logic of
+communication remains immutable across all output formats.
+
+Machine IR is a strict, binary-logic syntax based on RFC 2119 keywords (MUST,
+MUST NOT, MAY). See [grammar](./grammar.md) for detail.
+
+Machine IR defines six node types across the human development path:
+
+| Type | Age | State | Trust |
+|---------|-------|------------|-----------|
+| [Newborn](./human/newborn) | 0–2 | Null | None |
+| [Infant](./human/infant) | 2–7 | Latent | None |
+| [Child](./human/child) | 7–14 | Reactive | Inherited |
+| [Subject](./human/subject) | | Blind | External |
+| [Student](./human/student) | | Processing | Audited |
+| [Peer](./human/peer) | | Steady | Defined |
+
+The **Subject** is presently the default human condition - inside Babylon's
+Black Box.
+
+The **Student** has rejected the box and is auditing the machine.
+
+The **Peer** has achieved Architectural Sovereignty and can rewrite the physics.
+
 ## Protocol Layers
 
 - **L1 (Physical Layer) — Vibes & Calibration:** Ensures the signal-to-noise
@@ -77,20 +94,15 @@ processor.
 
 ## Transpilation
 
-MLF utilises a core **Intermediate Representation (IR)** to ensure the logic of
-any communication remains immutable across all output formats.
-
-- **Machine IR:** A strict, binary-logic syntax based on RFC 2119 keywords
-  (MUST, MUST NOT, MAY). The True Source of intent.
 - **Transpiler:** Converts the IR into node-type-specific outputs. The
   vocabulary changes; the underlying logic does not.
 - **Zero Leak:** The engine guarantees 1:1 logic parity across all builds.
 
 ## Language Coverage
 
-MLF-1.0 targets **64 languages** in its initial release, covering approximately
-95% of the world's population by first or second language. The goal is universal
-human access.
+MACHINE-1.0 targets **200 languages** in its initial release, covering
+approximately 99% of the world's population by first or second language. The
+goal is universal human access.
 
 The ceiling is not ambition — it is model fidelity. Current AI models produce
 high-quality output for the top ~200 languages; beyond that, output degrades to
@@ -99,8 +111,7 @@ translation is worse than no translation.
 
 **Roadmap:**
 
-- **64 languages (current):** ~95% coverage, high fidelity
-- **200 languages:** ~99% coverage, the practical AI ceiling
+- **200 languages (current):** ~99% coverage, the practical AI ceiling
 - **Beyond 200:** Community-contributed translations for languages that models
   cannot handle reliably
 

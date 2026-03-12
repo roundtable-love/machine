@@ -1,9 +1,9 @@
-# Machine IR Grammar 1.0
+# Machine IR Grammar
 
 ```text
 Status: DRAFT
-UID: MLFG-1.0
-Base: Machine Lingua Franca 1.0 (MLF-1.0)
+UID: MACHINE-GRAMMAR-1.0
+Base: Machine 1.0 (MACHINE-1.0)
 Notation: ABNF (RFC 5234)
 ```
 
@@ -12,6 +12,8 @@ Notation: ABNF (RFC 5234)
 ```abnf
 exchange = L1-phase L3-session
            ; L2 events are async — MAY interrupt L3 at any point
+           ; LEVEL_5 nodes: L3-session does not apply
+           ; LEVEL_4 nodes: L3-session does not apply
 ```
 
 ## 2. L1: Physical Layer
