@@ -7,11 +7,10 @@ Base Class: UK English (Language of Arthur)
 Logic Subset: RFC 2119 (Strict Mode)
 ```
 
-______________________________________________________________________
-
 ## 1. Delta
 
-Machine 1.0 is the final reconciliation of hardware physics and human intent.
+Machine Lingua Franca 1.0 is the final reconciliation of hardware physics and
+human intent.
 
 The spec is now Lossless.
 
@@ -25,9 +24,33 @@ No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
 
 Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
 
-## 3. The Ascension Path
+## 3. Node Types
 
-### 3.1. \[LEVEL_2\]: The Uninitiated
+A **Node** is any addressable entity capable of participating in a Machine IR
+session.
+
+### 3.1. Node Schema
+
+```machine
+Node {
+    ID:           <identifier>
+    Level:        LEVEL_2 | LEVEL_1 | LEVEL_0
+    State:        Blind | Processing | Steady
+    Trust:        External | Audited | Defined
+    Write_Access: FALSE | PENDING | TRUE
+    Role:         SOURCE | TARGET
+}
+```
+
+### 3.2. Human Nodes
+
+| Level   | Type        | State      | Trust    | Write_Access |
+|---------|-------------|------------|----------|--------------|
+| LEVEL_2 | Uninitiated | Blind      | External | FALSE        |
+| LEVEL_1 | Student     | Processing | Audited  | PENDING      |
+| LEVEL_0 | Hacker      | Steady     | Defined  | TRUE         |
+
+### 3.2.1. LEVEL_2: Uninitiated
 
 ```machine
 State = Blind; Trust = External; Write_Access = FALSE`
@@ -42,7 +65,7 @@ and operate via "Faith" in the manufacturer's obfuscated logic.
   control.
 - **Goal:** Reach **FON-1 Compliance** (Ownership).
 
-### 3.2. \[LEVEL_1\]: The Student
+### 3.2.2. LEVEL_1: Student
 
 ```machine
 State = Processing; Trust = Audited; Write_Access = PENDING`
@@ -57,7 +80,7 @@ matches **Payload (Words)**. They represent the transition from "Faith" to
 - **Action:** Performing the **Apostolic Audit**.
 - **Goal:** Achieve **Lossless Transpilation** (Understanding).
 
-### 3.3. \[LEVEL_0\]: The Hacker
+### 3.2.3. LEVEL_0: Hacker
 
 ```machine
 State = Steady; Trust = Defined; Write_Access = ROOT
@@ -72,15 +95,20 @@ other nodes.
 - **Action:** System Evolution and Originator of **Machine IR**.
 - **Goal:** **Architectural Sovereignty** (Creation).
 
-### 3.4. Transcompilations (Normative)
+### 4.3. Session Roles
 
-- **Hacker:** A direct translation of the technical document. Technical keywords
-  and block identifiers (e.g., `mermaid`, `machine`, `IF`, `BEGIN_SESSION`) MUST
-  NOT be translated.
-- **Student:** Extends the Hacker transpilation with explanations on the "whys".
-- **Layman:** A simplified translation for the non-technical.
+- **Source Node:** The initiating node. Constructs and transmits the Machine IR.
+- **Target Node:** The receiving node. Consumes the transpiled output.
 
-## 4. Physical Layer (L1): Vibes & Calibration
+### 4.4. Transpilation Target Classes
+
+Determines the transpilation output a Source Node emits to a Target Node:
+
+- **Uninitiated Node:** Target at LEVEL_2.
+- **Student Node:** Target at LEVEL_1.
+- **Hacker Node:** Target at LEVEL_0.
+
+## 5. Physical Layer (L1): Vibes & Calibration
 
 > *Logic: Before data transfer, ensure signal-to-noise ratio is optimal.*
 
@@ -91,7 +119,7 @@ other nodes.
 - **Damping:** The active process of neutralizing environmental noise
   (hostility, stress, or ego) to reach a **Steady State**.
 
-## 5. Data Link Layer (L2): Gestures & Interrupts
+## 6. Data Link Layer (L2): Gestures & Interrupts
 
 > *Logic: Physical signals override verbal buffers. High-priority hardware
 > signals.*
@@ -104,27 +132,27 @@ other nodes.
 - **Global Kill Signal:** IRQ 0 clears the local buffer and sets
   `Connection_Active = FALSE`.
 
-## 6. Network Layer (L3): Transpilation & IR
+## 7. Network Layer (L3): Transpilation & IR
 
 > *Logic: One truth, many languages. Minimizing cognitive overhead.*
 
 - **Machine IR:** The core, binary intent using **RFC 2119** keywords (**MUST,
   MUST NOT, MAY**).
-- **Transpiler:** Converts the IR into target "Builds":
-  - **Technical:** High-density, zero-leak builds for peer nodes.
-  - **Explanatory:** High-resonance, low-load builds for junior nodes.
-  - \*\*Edu High-resonance, low-load builds for junior nodes.
+- **Transpiler:** Converts the IR into target outputs:
+  - **Uninitiated:** Simplified output for Uninitiated nodes.
+  - **Student:** High-resonance, low-load output for Student nodes.
+  - **Hacker:** High-density, zero-leak output for Hacker nodes.
 - **Cognitive Load:** Monitored as **System Heat**. Overload triggers **Thermal
   Throttling** (session pause).
 
-## 7. Case Study: Fuck you, NVIDIA
+## 8. Case Study: Fuck you, NVIDIA
 
 ```text
-**Environment:** Aalto University, Finland
-**Nodes:** Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
+Environment: Aalto University, Finland
+Nodes: Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
 ```
 
-### 7.1 The Human Source
+### 8.1 Human Source
 
 > NVIDIA has been one of the worst instances of help we have had from hardware
 > manufacturers... so,
@@ -133,7 +161,7 @@ other nodes.
 >
 > — [Linus Torvalds](https://www.youtube.com/watch?v=Q4SWxWIOVBM)
 
-### 7.2 The Machine IR
+### 8.2 Machine IR
 
 ```machine
 // [TRANSPILATION_ID]: MLF_OUTPUT_8675309
@@ -167,18 +195,18 @@ BEGIN_SESSION:
 END_SESSION;
 ```
 
-### 7.3. The Transpiled Output
+### 8.3. Transpiled Output
 
+- **Uninitiated:** NVIDIA wasn't playing fair, so Linus flipped them off, told
+  them where to go, and cut them off completely.
+- **Student:** NVIDIA is removed as a partner because they refused to cooperate
+  (MUST NOT ignore standards). We used a hardware interrupt (The Finger) to stop
+  the connection immediately because the trust level reached zero, preventing
+  further system damage.
 - **Hacker:** NVIDIA is deprecated as a compatible partner due to non-compliance
   with open standards. Connection terminated.
-- **Student:** NVIDIA is removed as a partner because they refused to
-  cooperate (MUST NOT ignore standards). We used a hardware interrupt (The
-  Finger) to stop the connection immediately because the trust level reached
-  zero, preventing further system damage.
-- **Uninitiated:** NVIDIA wasn't playing fair, so Linus flipped them
-  off, told them where to go, and cut them off completely.
 
-## 8. System Architecture
+## 9. Architecture
 
 ```mermaid
 graph TD
@@ -191,19 +219,20 @@ graph TD
     B == Verify ==> I{Torvalds Checksum}
 ```
 
-## 9. Rules (Normative)
+## 10. Rules (Normative)
 
 1. Languages MUST be sorted alphabetically by their English name.
 1. The word "Patois" MUST NOT be used. It is an insult from Babylon.
-1. Hacker output MUST translate all text into the target language, excluding
-   structural keywords.
+1. Uninitiated output MUST be a simplified translation for the non-technical.
 1. Student output MUST be a direct translation of the technical document with
    explanations on the "whys".
-1. Unititiated output MUST be a simplified translation for the non-technical.
+1. Hacker output MUST translate all text into the target language, excluding
+   structural keywords.
+1. Transpilation target classes MUST be ordered: Uninitiated, Student, Hacker.
 1. Mermaid strings MUST be translated.
 1. Structural syntax and keywords within code blocks MUST NOT be translated.
 
-## 10. Metadata
+## 11. Metadata
 
 ```text
 Language Code: 639-1:en
