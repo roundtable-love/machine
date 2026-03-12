@@ -1,0 +1,175 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "machine/standard.schema.json",
+  "title": "Standard",
+  "description": "Engineering standard document.",
+  "type": "object",
+  "required": [
+    "metadata",
+    "standard"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "compliance_matrix": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "l1_physical": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "forbidden": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "level": {
+              "type": "string",
+              "enum": [
+                "MAY",
+                "MUST",
+                "MUST NOT"
+              ]
+            },
+            "requirement": {
+              "type": "string"
+            }
+          }
+        },
+        "l2_data_link": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "action": {
+              "type": "string"
+            },
+            "interrupt": {
+              "type": "string"
+            },
+            "trigger": {
+              "type": "string"
+            }
+          }
+        },
+        "l3_network": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "integrity": {
+              "type": "string"
+            },
+            "protocol": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "logic_gate": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "input": {
+          "type": "string"
+        },
+        "output_0": {
+          "type": "string"
+        },
+        "output_1": {
+          "type": "string"
+        },
+        "process": {
+          "type": "string"
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "required": [
+        "custodian",
+        "status"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "custodian": {
+          "type": "string"
+        },
+        "origin": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "COMMITTED",
+            "DEPRECATED",
+            "DRAFT",
+            "IMMUTABLE"
+          ]
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "quote",
+          "source"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "quote": {
+            "type": "string"
+          },
+          "ref": {
+            "type": "string",
+            "format": "uri"
+          },
+          "source": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "standard": {
+      "type": "object",
+      "required": [
+        "base_class",
+        "philosophy",
+        "uid",
+        "version"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "alias": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "base_class": {
+          "type": "string",
+          "enum": [
+            "Apostolic_Engineering",
+            "Universal_Law"
+          ]
+        },
+        "philosophy": {
+          "type": "string"
+        },
+        "uid": {
+          "type": "string",
+          "pattern": "^[A-Z]+-[0-9]+$"
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+"
+        }
+      }
+    }
+  }
+}

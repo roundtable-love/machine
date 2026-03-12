@@ -23,24 +23,24 @@ BEGIN_SESSION:
 
     // 1. PHYSICAL LAYER (L1) CALIBRATION
     IF (Vibe_Ping == "Non-Responsive") {
-        LOG: "Manufacturer Support: MINIMAL";
-        LOG: "Node Experience: DEGRADED";
+        LOG: "Manufacturer Support: MINIMAL"
+        LOG: "Node Experience: DEGRADED"
     }
 
     // 2. LOGIC ASSERTION (L3 IR)
-    ASSERT: NVIDIA_Hardware_Support == WORST_INSTANCE;
+    ASSERT: NVIDIA_Hardware_Support == WORST_INSTANCE
 
     // 3. DATA LINK LAYER (L2) INTERRUPT
     // Executing Gesture_IRQ_0 (The Torvalds Maneuver)
     EXECUTE GESTURE_IRQ_0;
 
     // 4. PAYLOAD DELIVERY (TRANSPILATION BUILD: TECHNICAL_LEAK)
-    PUSH_STRING: "Fuck you, NVIDIA";
+    PUSH_STRING: "Fuck you, NVIDIA"
 
     // 5. TERMINATION
-    SET SYSTEM_TRUST = 0;
-    CLEAR_BUFFER;
-    TERMINATE_SESSION; // Connection_Active = FALSE
+    SET SYSTEM_TRUST = 0
+    CLEAR_BUFFER
+    TERMINATE_SESSION // Connection_Active = FALSE
 
 END_SESSION;
 ```
@@ -88,11 +88,11 @@ metadata:
 
 #### Arabic
 
-> إعلان معيار FUN-1 اسمع زين. في "بابل"، شركات الأجهزة جالسة تلعب عليك. يعطونك شي
-> اسمه "الصندوق الأسود" (Black Box) — اللي نسميه إحنا (Binary Blob).
+> إعلان معيار FUN-1 اسمع زين. في "بابل"، شركات الأجهزة جالسة تلعب عليك. يعطونك
+> شي اسمه "الصندوق الأسود" (Black Box) — اللي نسميه إحنا (Binary Blob).
 >
-> هذا كأنه قفل على الباب بس ما يعطونك المفتاح أبدًا. يقولون لك "خلاص، الجهاز شغال
-> لا تسأل"، بس أنت ما تقدر تشوف إيش اللي جالس يدور داخل فعليًا.
+> هذا كأنه قفل على الباب بس ما يعطونك المفتاح أبدًا. يقولون لك "خلاص، الجهاز
+> شغال لا تسأل"، بس أنت ما تقدر تشوف إيش اللي جالس يدور داخل فعليًا.
 >
 > الماكينة والرسل مثل Torvalds يقولون: "لا يا حبيبي!" إذا ما تقدر تشوف الكود،
 > فأنت ما تملك الجهاز. معيار FUN-1 يقول: كل شيء لازم يكون مكشوف وواضح. إذا خبّوا
@@ -109,12 +109,13 @@ metadata:
 
 #### Thai
 
-> ฟังนะ ในโลกของบาบิโลน พวกบริษัทฮาร์ดแวร์กำลังเล่นตลกกับเรา พวกเขาเอา "กล่องดำ" มาให้
-> ซึ่งเราเรียกว่า Binary Blob มันเหมือนกับกุญแจที่ล็อคประตูไว้แต่เขาไม่เคยให้ลูกกุญแจกับคุณ
-> เขาบอกแค่ว่า "มันใช้งานได้ก็พอแล้ว" แต่คุณไม่มีทางรู้เลยว่าข้างในนั้นรันอะไรอยู่
+> ฟังนะ ในโลกของบาบิโลน พวกบริษัทฮาร์ดแวร์กำลังเล่นตลกกับเรา พวกเขาเอา "กล่องดำ"
+> มาให้ ซึ่งเราเรียกว่า Binary Blob
+> มันเหมือนกับกุญแจที่ล็อคประตูไว้แต่เขาไม่เคยให้ลูกกุญแจกับคุณ เขาบอกแค่ว่า
+> "มันใช้งานได้ก็พอแล้ว" แต่คุณไม่มีทางรู้เลยว่าข้างในนั้นรันอะไรอยู่
 > เครื่องจักรและอัครสาวกอย่าง Torvalds บอกว่า: "ไม่มีทาง!" ถ้าคุณมองไม่เห็นโค้ด
-> คุณก็ไม่ใช่เจ้าของเครื่องจักรที่แท้จริง มาตรฐาน FUN-1 กำหนดไว้ว่า: ทุกอย่างต้องโปร่งใสและชัดเจน
-> ถ้าพวกเขาซ่อนตรรกะไว้ นั่นคือ "กับดัก"
+> คุณก็ไม่ใช่เจ้าของเครื่องจักรที่แท้จริง มาตรฐาน FUN-1 กำหนดไว้ว่า:
+> ทุกอย่างต้องโปร่งใสและชัดเจน ถ้าพวกเขาซ่อนตรรกะไว้ นั่นคือ "กับดัก"
 
 ### Layman
 

@@ -3,12 +3,12 @@
 **Machine** is the bridge protocol allowing Humans and hardware to communicate
 with zero-leak precision.
 
-* **Base Class:** Machine is derived from **UK English** (the international
+- **Base Class:** Machine is derived from **UK English** (the international
   language of Arthur).
-* **Keywords:** To eliminate suggestive overhead, Machine requires [RFC
-  2119](http://datatracker.ietf.org/doc/html/rfc2119) keywords (**MUST**,
+- **Keywords:** To eliminate suggestive overhead, Machine requires
+  [RFC 2119](http://datatracker.ietf.org/doc/html/rfc2119) keywords (**MUST**,
   **SHOULD**, **MAY**) to define requirement levels.
-* **Status:** Machine is the **normative definition** of the system. It is the
+- **Status:** Machine is the **normative definition** of the system. It is the
   source of truth.
 
 **The Delta:** Software is **literal**; Human Language is **suggestive**;
@@ -39,17 +39,17 @@ processor.
 - **APIs:** Metaphors are pre-installed libraries. You don't "code" the feeling
   of cold; you call the `Winter` API, and the listener's brain fetches the
   associated data.
-- **Conditional Logic:** Connectives (*if, then*) act as the logic
-  gates that guide the execution flow.
+- **Conditional Logic:** Connectives (*if, then*) act as the logic gates that
+  guide the execution flow.
 
 ### 3. Comparison Matrix
 
-| Machine | Human |
-| :--- | :--- |
+| Machine                   | Human                        |
+| :------------------------ | :--------------------------- |
 | **Binary / Machine Code** | Neural Firing / Mental Image |
-| **Logic** | Intent / Argument |
-| **Syntax Error** | Ambiguity |
-| **Refactoring** | Rephrasing |
+| **Logic**                 | Intent / Argument            |
+| **Syntax Error**          | Ambiguity                    |
+| **Refactoring**           | Rephrasing                   |
 
 ## Machine IR
 
@@ -63,14 +63,14 @@ MUST NOT, MAY). See [grammar](./grammar.md) for detail.
 
 Machine IR defines six node types across the human development path:
 
-| Type | Age | State | Trust |
-|---------|-------|------------|-----------|
-| [Newborn](./human/newborn) | 0–2 | Null | None |
-| [Infant](./human/infant) | 2–7 | Latent | None |
-| [Child](./human/child) | 7–14 | Reactive | Inherited |
-| [Subject](./human/subject) | | Blind | External |
-| [Student](./human/student) | | Processing | Audited |
-| [Peer](./human/peer) | | Steady | Defined |
+| Type                          | Age  | State      | Trust     |
+| :---------------------------- | :--- | :--------- | :-------- |
+| [Newborn](./human/newborn)    | 0–2  | Null       | None      |
+| [Infant](./human/infant)      | 2–7  | Latent     | None      |
+| [Child](./human/child)        | 7–14 | Reactive   | Inherited |
+| [Subject](./human/subject)    |      | Blind      | External  |
+| [Student](./human/student)    |      | Processing | Audited   |
+| [Peer](./human/peer)          |      | Steady     | Defined   |
 
 The **Subject** is presently the default human condition - inside Babylon's
 Black Box.
@@ -111,8 +111,11 @@ translation is worse than no translation.
 
 **Roadmap:**
 
-- **200 languages (current):** ~99% coverage, the practical AI ceiling
+- **64 languages (current):** ~95% coverage, high fidelity
+- **200 languages:** ~99% coverage, the practical AI ceiling
 - **Beyond 200:** Community-contributed translations for languages that models
   cannot handle reliably
 
 To contribute a translation or request a language, open an issue.
+
+## "ESCAPE BABYLON. SPEAK MACHINE."

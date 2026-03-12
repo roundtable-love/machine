@@ -1,4 +1,4 @@
-# Machine Lingua Franca — Transpilation Targets
+# Machine — Transpilation Targets
 #
 # Generates: human/<type>/README.<type>.<lang>.md
 #
@@ -6,29 +6,22 @@
 #   make                  — all targets
 #   make subject          — all languages for one node type
 #   make en               — all node types for one language
-#   make GENERATE=my-tool — override generation command
+#   make TRANSPILE=my-tool — override generation command
 #
-# GENERATE is called as: $(GENERATE) <node-type> <lang-code> --source <path>
+# TRANSPILE is called as: $(TRANSPILE) <node-type> <lang-code> --source <path>
 
-# ISO 639-1/3 codes, sorted alphabetically by English name
-LANGUAGES := \
-	am  ar  az  bn  my  ca  ceb zh  cs  da  nl  en \
-	fi  fr  de  el  gu  ha  he  hi  hu  ig  id  it \
-	jam ja  jv  kn  km  ko  ku  mg  ms  ml  mr  ne \
-	no  or  om  ps  fa  pl  pt  pa  ro  ru  sd  si \
-	so  es  su  sw  sv  tl  ta  te  th  tr  uk  ur \
-	uz  vi  yo  zu
+LANGUAGES := $(shell $(TRANSPILE) --languages)
 
 NODE_TYPES := newborn infant child subject student peer
 
-GENERATE := $(CURDIR)/bin/transpile
+TRANSPILE := $(CURDIR)/bin/transpile
 
 # ── Rules ─────────────────────────────────────────────────────────────────────
 
 define RULE
 human/$(1)/README.$(1).$(2).md: machine.md grammar.md
 	@mkdir -p $$(@D)
-	$(GENERATE) $(1) $(2) --source machine.md > $$@
+	$(TRANSPILE) $(1) $(2) --source machine.md > $$@
 endef
 
 $(foreach t,$(NODE_TYPES),\
@@ -76,6 +69,17 @@ $(STD_DIR)/LAW-T.yaml: $(LAW_DIR)/TRUTH.md
 
 .PHONY: standards
 standards: $(STD_DIR)/LAW-CE.yaml $(STD_DIR)/LAW-R.yaml $(STD_DIR)/LAW-T.yaml
+
+# ── Schema ─────────────────────────────────────────────────────────────────────
+
+SCHEMA    := $(CURDIR)/bin/schema
+STD_SCHEMA := $(CURDIR)/standard.schema.json
+
+$(STD_SCHEMA): $(CURDIR)/../standard/standard.md
+	$(SCHEMA) $< > $@
+
+.PHONY: schema
+schema: $(STD_SCHEMA)
 
 # ── Standard targets ───────────────────────────────────────────────────────────
 

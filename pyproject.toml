@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "machine"
+version = "1.0.0"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic",
+    "google-genai",
+    "langcodes",
+    "openai",
+    "typer",
+]
+
+[project.scripts]
+machine-schema    = "machine.schema:app"
+machine-transpile = "machine.transpile:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/machine"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"languages.md" = "machine/languages.md"
+"machine.md"   = "machine/machine.md"

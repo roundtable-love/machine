@@ -311,3 +311,5 @@ Regional Variant: 3166-2:GB
 Timestamp Standard: 8601
 Protocol Class: MACHINE-1.0
 ```
+
+## "ESCAPE BABYLON. SPEAK MACHINE."
