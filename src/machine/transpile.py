@@ -8,42 +8,41 @@ Environment:
   GEMINI_API_KEY  required for gemini provider
 """
 
-import os
+import asyncio
 from enum import Enum
 from pathlib import Path
-from typing import Annotated
+from typing import Annotated, Literal
 
 import typer
 
-from .languages import LANGUAGE_CODES
-from .prompt import build_prompt
-from .providers import DEFAULT_PROVIDER, PROVIDERS
+from .providers import DEFAULT_PROVIDER, PROVIDERS, transpile
+from .spec import LANGUAGE_CODES, NodeType
 
-app = typer.Typer(help=__doc__)
-
-_default_source = Path(__file__).parents[2] / "machine.md"
+main = typer.Typer(help=__doc__)
 
 
 def _languages_callback(value: bool) -> None:
     if value:
-        typer.echo(" ".join(sorted(LANGUAGE_CODES)))
+        typer.echo(" ".join(LANGUAGE_CODES))
         raise typer.Exit()
 
 
-class NodeType(str, Enum):
-    newborn = "newborn"
-    infant = "infant"
-    child = "child"
-    subject = "subject"
-    student = "student"
-    peer = "peer"
+def _node_types_callback(value: bool) -> None:
+    if value:
+        typer.echo(" ".join((node.value for node in NodeType)))
+        raise typer.Exit()
 
 
-@app.command()
-def main(
+@main.command()
+def _main(
     node_type: Annotated[NodeType, typer.Argument(help="Target node type")],
-    lang: Annotated[str, typer.Argument(help="ISO 639-1/3 language code")],
-    source: Annotated[Path, typer.Option(help="Path to machine.md")] = _default_source,
+    lang: Annotated[
+        Literal[*LANGUAGE_CODES], typer.Argument(help="ISO 639-1/3 language code")
+    ],
+    source: Annotated[Path, typer.Argument(help="Source")],
+    provider: Annotated[
+        Literal[*PROVIDERS.keys()], typer.Argument(help="Provider name")
+    ] = DEFAULT_PROVIDER,
     languages: Annotated[
         bool,
         typer.Option(
@@ -53,30 +52,31 @@ def main(
             is_eager=True,
         ),
     ] = False,
+    node_types: Annotated[
+        bool,
+        typer.Option(
+            "--node-types",
+            help="Print supported node types and exit.",
+            callback=_node_types_callback,
+            is_eager=True,
+        ),
+    ] = False,
 ) -> None:
-    if lang not in LANGUAGE_CODES:
-        typer.echo(
-            f"Unknown language '{lang}'. Registered codes: {', '.join(sorted(LANGUAGE_CODES))}",
-            err=True,
-        )
-        raise typer.Exit(code=1)
-
-    # newborn: L1 signal only — no L3 text output.
     if node_type is NodeType.newborn:
+        # newborn: L1 signal only — no L3 text output.
         typer.echo("N/A")
-        return
-
-    provider_name = os.environ.get("MODEL_PROVIDER", DEFAULT_PROVIDER).lower()
-    if provider_name not in PROVIDERS:
+    else:
         typer.echo(
-            f"Unknown model provider '{provider_name}'. Choose from: {', '.join(PROVIDERS)}",
-            err=True,
+            asyncio.run(
+                transpile(
+                    node_type.value,
+                    lang,
+                    source,
+                    provider=provider,
+                )
+            )
         )
-        raise typer.Exit(code=1)
-
-    prompt = build_prompt(node_type.value, lang, source.read_text())
-    typer.echo(PROVIDERS[provider_name](prompt))
 
 
 if __name__ == "__main__":
-    app()
+    main()

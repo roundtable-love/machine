@@ -4,23 +4,60 @@ build-backend = "hatchling.build"
 
 [project]
 name = "machine"
-version = "1.0.0"
-requires-python = ">=3.11"
+version = "0.1"
+requires-python = ">=3.14"
 dependencies = [
-    "anthropic",
-    "google-genai",
-    "langcodes",
-    "openai",
-    "typer",
+  "anthropic",
+  "google-api-core",
+  "google-genai",
+  "langcodes",
+  "openai",
+  "tenacity",
+  "typer",
 ]
+license = "MIT"
+license-files = ["LICENSE"]
+
+[project.optional-dependencies]
+dev = ["pytest-sugar"]
+test = ["pytest", "pytest-asyncio", "pytest-random-order", "pytest-cov"]
 
 [project.scripts]
-machine-schema    = "machine.schema:app"
-machine-transpile = "machine.transpile:app"
+transpile = "machine.transpile:main"
+
+
+[tool.coverage.run]
+branch = true
+data_file = "tests/.coverage"
+parallel = true
+relative_files = true
+source = ["."]
+
+[tool.coverage.report]
+exclude_lines = ["@overload", "if TYPE_CHECKING:", "pragma: no cover"]
+fail_under = 100
+
+[tool.coverage.html]
+directory = "tests/coverage-html"
+show_contexts = true
+
+[tool.coverage.xml]
+output = "tests/coverage.xml"
+
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/machine"]
 
 [tool.hatch.build.targets.wheel.force-include]
 "languages.md" = "machine/languages.md"
-"machine.md"   = "machine/machine.md"
+"machine.md" = "machine/machine.md"
+
+
+[tool.pytest.ini_options]
+addopts = """
+  --showlocals
+  --tb=short
+"""
+asyncio_mode = "auto"
+cache_dir = "tests/.cache"
+tmp_path_retention_policy = "failed"
