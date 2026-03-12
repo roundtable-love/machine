@@ -171,11 +171,11 @@ END_SESSION;
 
 - **Hacker:** NVIDIA is deprecated as a compatible partner due to non-compliance
   with open standards. Connection terminated.
-- **Student (English):** NVIDIA is removed as a partner because they refused to
+- **Student:** NVIDIA is removed as a partner because they refused to
   cooperate (MUST NOT ignore standards). We used a hardware interrupt (The
   Finger) to stop the connection immediately because the trust level reached
   zero, preventing further system damage.
-- **Uninitiated (English):** NVIDIA wasn't playing fair, so Linus flipped them
+- **Uninitiated:** NVIDIA wasn't playing fair, so Linus flipped them
   off, told them where to go, and cut them off completely.
 
 ## 8. System Architecture
