@@ -32,7 +32,7 @@
           transpile = {
             type = "app";
             program = lib.getExe' default "transpile";
-            meta.description = "Transpiler";
+            meta.description = "Transpiler: ";
           };
         in
         {
@@ -40,6 +40,11 @@
           apps = {
             default = transpile;
             inherit transpile;
+            compile = {
+              type = "app";
+              program = lib.getExe' default "compile";
+              meta.description = "Compiler: compile human expression to standard.";
+            };
           };
 
           packages = { inherit default; };

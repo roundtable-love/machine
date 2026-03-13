@@ -100,8 +100,8 @@ The **Peer** has achieved Architectural Sovereignty and can rewrite the physics.
 
 ## Language Coverage
 
-MACHINE-1.0 targets **200 languages** in its initial release, covering
-approximately 99% of the world's population by first or second language. The
+MACHINE-1.0 targets **64 languages** in its initial release, covering
+approximately 95% of the world's population by first or second language. The
 goal is universal human access.
 
 The ceiling is not ambition — it is model fidelity. Current AI models produce

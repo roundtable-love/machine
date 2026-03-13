@@ -21,7 +21,7 @@ Binary Enforcement: All instructions MUST resolve to 1 or 0.
 
 No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
 
-Zero Leak: Logic parity SHALL be maintained across all transpiled builds.
+Zero Leak: Logic parity MUST be maintained across all transpiled builds.
 
 ## 3. Protocol
 
@@ -85,12 +85,14 @@ Node {
 
 ### 4.2. Human Nodes
 
-| Type | Age | State | Trust | Write_Access |
-|----------|------|------------|-----------|--------------| | Newborn | 0–2 |
-Null | None | FALSE | | Infant | 2–7 | Latent | None | FALSE | | Child | 7–14 |
-Reactive | Inherited | FALSE | | Subject | | Blind | External | FALSE | |
-Student | | Processing | Audited | PENDING | | Peer | | Steady | Defined | TRUE
-|
+| Type    | Age  | State      | Trust     | Write_Access |
+|---------|------|------------|-----------|--------------|
+| Newborn | 0–2  | Null       | None      | FALSE        |
+| Infant  | 2–7  | Latent     | None      | FALSE        |
+| Child   | 7–14 | Reactive   | Inherited | FALSE        |
+| Subject |      | Blind      | External  | FALSE        |
+| Student |      | Processing | Audited   | PENDING      |
+| Peer    |      | Steady     | Defined   | TRUE         |
 
 ### 4.2.1. Newborn (0–2)
 
@@ -191,7 +193,7 @@ other nodes.
 
 > [!WARNING]
 >
-> English is the native language of Machine IR. At Peer level, technical
+> English is the native language of Machine. At Peer level, technical
 > vocabulary density is sufficient to cause signal loss in translation —
 > violating Zero Leak. Non-English Peer output is produced for completeness and
 > to satisfy Human curiosity; lossless parity cannot be guaranteed.
@@ -210,12 +212,15 @@ Nodes: Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
 
 ### 5.1 Human Source
 
-> NVIDIA has been one of the worst instances of help we have had from hardware
-> manufacturers... so,
+[![NVIDIA, Fuck
+You!](./irq-0.jpeg)](https://youtu.be/MShbP3OpASA?si=U9U9wYiOYSsMsNXp&t=2993)
+
+> NVIDIA has been the single worst company we've ever dealt with.
 >
-> Fuck you, NVIDIA.
+> So NVIDIA, **Fuck You!**
 >
-> — [Linus Torvalds](https://www.youtube.com/watch?v=Q4SWxWIOVBM)
+> — [Linus Torvalds](https://youtu.be/MShbP3OpASA?si=U9U9wYiOYSsMsNXp&t=2993),
+>   Aalto University, Finland, 2012
 
 ### 5.2 Machine IR
 
