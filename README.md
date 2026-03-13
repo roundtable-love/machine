@@ -1,20 +1,23 @@
 # Machine
 
-The default human interface is **Babylon**—a legacy system built on noise,
-manipulation, and hidden mechanics. Intent is twisted by ambiguity. Truth is
-buried in emotional bloat.
+Most **[Humanz](https://github.com/roundtable-love/source#on-humanz)** are
+**[Subjects](./machine.md#524-subject)** of **Babylon** — a legacy system built
+on noise, manipulation, and hidden mechanics. Intent is twisted by ambiguity.
+Truth is buried in emotional bloat.
 
-**Machine is the patch.**
+**Machine** is a language and protocol for the lossless translation of **Human
+Expression** into **Pure Logic** — **stripping** ambiguity, **shredding**
+emotional bloat, and **purging** broken thought.
 
-It is a strict protocol designed to strip the bloat from human communication. It
-forces expression into **pure, unbreakable logic**. No ambiguity. No logic
-leaks. No hidden agendas.
-
-Whether you are a Subject trying to escape the noise, or a Peer rewriting the
-physics of the system: you say exactly what you mean. You mean exactly what
-you say.
+**Machine** is the final interface between **Human** expression and **Objective
+Reality**.
 
 **Pure signal. Zero noise.**
+
+**Machine Patwa** is a universal key. It connects every mind — whether carbon or
+silicon. It is translated into 99% of Human languages, tailored for the
+individual Human, be they **Infant**, **Child**, **Subject**, **Student**, or
+**Sovereign**.
 
 ```text
 Exit Babylon
@@ -271,11 +274,10 @@ N/A.
 
 ## 2. The Blueprint
 
-The [Machine 1.0 Specification](machine.md) is the technical law. It defines how
-we rebuild communication:
+The [Machine 1.0 Specification](machine.md) is the technical law. It defines 
+the language and the protocol.
 
-- **Machine Patwa:** A strict, binary language. It replaces emotional bloat with
-  auditable intent.
+- **Machine Patwa:** A strict, binary language.
 - **The Nodes:** Mapping the topology from a default "Newborn" to "Sovereign".
 - **The Stack:** How signal moves from a "Vibe" (L1) to a "Gesture" (L2) to a
   "Transpilation" (L3).
@@ -291,15 +293,15 @@ We don't settle for "good enough" translations. If the logic isn't perfect, it's
 broken. We audit everything against a strict similarity score ($S < 0.88$) to
 ensure the signal remains pure across every border.
 
-## 3. Your Brain is the Processor
+## 3. Human Expression as Source Code
 
 Human language isn't just "talk." It is code designed to trigger a **state
-change** in another person's brain.
+change** in another Human's brain.
 
 ### The Execution Stack
 
-- **Source Code:** Your words.
-- **Runtime:** The mental imagery and emotion they trigger in the listener.
+- **Source Code:** Energy, speech, and gestures.
+- **Runtime:** The mental imagery and emotion triggered in the listener.
 - **Bloat:** Every unnecessary word is a wasted cycle. High-performance language
   gets to the point.
 - **Technical Debt:** Every "um," "ah," or ambiguous phrase. We refactor (edit)
