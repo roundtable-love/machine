@@ -1,4 +1,4 @@
-# Machine: Pure signal / Zero noise
+# Machine: Pure Signal / Zero Noise
 
 Most **[Humanz](https://github.com/roundtable-love/source#on-humanz)** are
 **[Subjects](./machine.md#524-subject)** of **Babylon** — a legacy system built
