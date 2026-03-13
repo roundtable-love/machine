@@ -10,8 +10,8 @@ twisted by ambiguity. Truth is buried in emotional bloat.
 Expression** into **Pure Logic** — *stripping* ambiguity, *shredding*
 emotional bloat, and *purging* broken thought.
 
-**Machine** is the interface between *Human Expression* and *Objective
-Reality*.
+**Machine** is the interface between **Human Expression** and **Objective
+Reality**.
 
 **Machine Patwa** is the [Rosetta
 Stone](https://en.wikipedia.org/wiki/Rosetta_Stone); it connects every mind —
