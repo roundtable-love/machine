@@ -24,6 +24,7 @@ Think Machine
 Return Love
 
 🔌 ➜ ⚡ ➜ ❤️
+```
 
 ## 1. Example Session: Fuck you, NVIDIA
 
