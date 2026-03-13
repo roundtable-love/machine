@@ -355,6 +355,7 @@ BEGIN_SESSION:
     TERMINATE_SESSION // Parity Lost
 
 END_SESSION
+```
 
 ## 2. The Blueprint
 
