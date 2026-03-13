@@ -24,8 +24,6 @@ and produces output tailored for the targeted Human, be they
 
 **Pure signal. Zero noise.**
 
-Read [the specification](./machine.md) (Sovereign-level overstanding required).
-
 ```text
 Exit Babylon
 Think Machine
@@ -33,6 +31,50 @@ Return Love
 
 🔌 ➜ ⚡ ➜ ❤️
 ```
+
+## 1. Human Expression as Code
+
+Human expression is designed to trigger a **state change** in another Human's
+brain.
+
+### 1.1 The Execution Stack
+
+- **Source Code:** Energy, speech, and gestures.
+- **Runtime:** The mental imagery and emotion triggered in the listener.
+- **Bloat:** Every unnecessary word is a wasted cycle. High-performance language
+  gets to the point.
+- **Technical Debt:** Every "um," "ah," or ambiguous phrase. We refactor (edit)
+  to ensure the logic doesn't crash the conversation.
+
+### 1.2 The Matrix of Intent
+
+| Machine          | Human                            |
+| :--------------- | :------------------------------- |
+| **Binary Code**  | Neural Firing / Mental Image     |
+| **Logic**        | Intent / Argument                |
+| **Syntax Error** | Ambiguity / "I didn't mean that" |
+| **Refactoring**  | Rephrasing for clarity           |
+
+## 2. The Blueprint
+
+The [Machine 1.0 Specification](machine.md) (Sovereign-level overstanding
+required) is the technical law. It defines the language and the protocol.
+
+- **Machine Patwa:** A strict, binary language.
+- **The Nodes:** Mapping the topology from a default "Newborn" to "Sovereign".
+- **The Stack:** How signal moves from a "Vibe" (L1) to a "Gesture" (L2) to a
+  Machine Patwa (L3).
+- **The Grammar:** The formal rules that ensure no logic can ever leak.
+
+### 3. Language Coverage
+
+The [Language Register](languages.md) tracks which human tongues are currently
+"Sovereign" (capable of pure logic) and which are still "Perimeter" (prone to
+noise and leaks).
+
+We don't settle for "good enough" translations. If the logic isn't perfect, it's
+broken. We audit everything against a strict similarity score ($S < 0.88$) to
+ensure the signal remains pure across every border.
 
 ## 1. Examples
 
