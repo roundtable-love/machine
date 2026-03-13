@@ -217,6 +217,8 @@ change** in another person's brain.
 | **Syntax Error** | Ambiguity / "I didn't mean that" |
 | **Refactoring**  | Rephrasing for clarity           |
 
-## "EXIT BABYLON. THINK MACHINE. RETURN LOVE."
+---
+
+## EXIT BABYLON. THINK MACHINE. RETURN LOVE.
 
 ## 🔌 ➜ ⚡ ➜ ❤️

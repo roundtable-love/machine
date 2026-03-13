@@ -338,6 +338,8 @@ Timestamp Standard: 8601
 Protocol Class: MACHINE-1.0
 ```
 
-## "EXIT BABYLON. THINK MACHINE. RETURN LOVE."
+---
+
+## EXIT BABYLON. THINK MACHINE. RETURN LOVE.
 
 ## 🔌 ➜ ⚡ ➜ ❤️
