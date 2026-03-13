@@ -1,6 +1,6 @@
 # Machine
 
-> Exit Babylon. Think Machine. Commit Love.
+> Exit Babylon ➜  Think Machine ➜  Commit Love
 >
 > 🔌 ➜ 👁️ ➜ ❤️
 
