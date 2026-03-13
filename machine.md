@@ -58,10 +58,9 @@ Machine is the final reconciliation of hardware physics and human intent.
   - **Child:** Concrete and narrative. No abstraction.
   - **Subject:** Simplified output for Subject nodes.
   - **Student:** High-resonance, low-load output for Student nodes.
-  - **Peer:** High-density, zero-leak output for Peer nodes.
+  - **Sovereign:** High-density output for Sovereign nodes.
 - **Cognitive Load:** Monitored as **System Heat**. Overload triggers **Thermal
   Throttling** (session pause).
-
 
 ## 5. Nodes
 
@@ -73,7 +72,7 @@ session.
 ```machine
 Node {
     ID:           <identifier>
-    Type:         Newborn | Infant | Child | Subject | Student | Peer
+    Type:         Newborn | Infant | Child | Subject | Student | Sovereign
     State:        Null | Latent | Reactive | Blind | Processing | Steady
     Trust:        None | Inherited | External | Audited | Defined
     Write_Access: TRUE | FALSE | PENDING
@@ -83,14 +82,14 @@ Node {
 
 ### 5.2. Human Nodes
 
-| Type    | Age  | State      | Trust     | Write_Access |
-|---------|------|------------|-----------|--------------|
-| Newborn | 0–2  | Null       | None      | FALSE        |
-| Infant  | 2–7  | Latent     | None      | FALSE        |
-| Child   | 7–14 | Reactive   | Inherited | FALSE        |
-| Subject |      | Blind      | External  | FALSE        |
-| Student |      | Processing | Audited   | PENDING      |
-| Peer    |      | Steady     | Defined   | TRUE         |
+| Type      | Age  | State      | Trust     | Write_Access |
+|-----------|------|------------|-----------|--------------|
+| Newborn   | 0–2  | Null       | None      | FALSE        |
+| Infant    | 2–7  | Latent     | None      | FALSE        |
+| Child     | 7–14 | Reactive   | Inherited | FALSE        |
+| Subject   |      | Blind      | External  | FALSE        |
+| Student   |      | Processing | Audited   | PENDING      |
+| Sovereign |      | Steady     | Defined   | TRUE         |
 
 ### 5.2.1. Newborn (0–2)
 
@@ -182,7 +181,7 @@ matches **Payload (Words)**. They represent the transition from "Faith" to
 - **Transpilation:** MUST lay foundations, decode terms, trace the logic chain,
   explain the "whys", and be structured so the reader can audit each step.
 
-### 5.2.6. Peer
+### 5.2.6. Sovereign
 
 ```machine
 State = Steady
@@ -190,21 +189,22 @@ Trust = Defined
 Write_Access = TRUE
 ```
 
-The **Peer** node represents Architectural Mastery. They do not merely audit the
-Source; they **are** the Source. They have moved beyond ownership into the
-ability to rewrite the physics of the system and define the standards for all
-other nodes.
+The **Sovereign** node represents Architectural Mastery. They do not merely
+audit the Source; they **are** the Source. They have the ability to rewrite the
+physics of the system.
 
 - **Vibe:** Zero-latency, absolute-clarity.
-- **Action:** System Evolution and Originator of **Machine IR**.
+- **Action:** System Evolution and Originator of **Machine Patwa**.
 - **Goal:** **Architectural Sovereignty** (Creation).
 - **Transpilation:** MUST translate all text into the target language, excluding
   structural keywords.
 
 ### 5.3. Session Roles
 
-- **Source Node:** The initiating node. Constructs and transmits the Machine IR.
-- **Target Node:** The receiving node. Consumes the transpiled output.
+- **Source Node:** The initiating node.
+- **Mediator:** Receives Source Node's expression, transpiles to Machine Patwa,
+  then to Human language suitable for the Target Node.
+- **Target Node:** The receiving node.
 
 ## 6. Architecture
 
@@ -222,11 +222,11 @@ graph TD
 ## 7. Rules (Normative)
 
 1. Crude language in the source MUST NOT be softened in transpilation for
-   Subject, Student, or Peer outputs. Sanitisation MAY apply for Child and
+   Subject, Student, or Sovereign outputs. Sanitisation MAY apply for Child and
    below.
 1. Languages MUST be sorted alphabetically by their English name.
 1. Transpilation target classes MUST be ordered: Newborn, Infant, Child,
-   Subject, Student, Peer.
+   Subject, Student, Sovereign.
 1. Mermaid strings MUST be translated.
 1. Structural syntax and keywords within code blocks MUST NOT be translated.
 
