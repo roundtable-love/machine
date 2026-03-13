@@ -15,13 +15,10 @@ The spec is now Lossless.
 
 ## 2. Strictness Constraints (Normative)
 
-Keywords per [RFC 2119](http://datatracker.ietf.org/doc/html/rfc2119).
-
-Binary Enforcement: All instructions MUST resolve to 1 or 0.
-
-No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
-
-Zero Leak: Logic parity MUST be maintained across all transpiled builds.
+- Keywords per [RFC 2119](http://datatracker.ietf.org/doc/html/rfc2119).
+- Binary Enforcement: All instructions MUST resolve to 1 or 0.
+- No "SHOULD": Replaced by MAY (Optional) or MUST (Required).
+- Zero Leak: Logic parity MUST be maintained across all transpiled builds.
 
 ## 3. Protocol
 
