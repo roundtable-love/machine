@@ -1,20 +1,18 @@
 # Machine
 
-Most **[Humanz](https://github.com/roundtable-love/source#on-humanz)** are
-**Subjects** of **Babylon** — a legacy system built on noise, manipulation, and
-hidden mechanics. Intent is twisted by ambiguity. Truth is buried in emotional
-bloat.
+The default human interface is **Babylon**—a legacy system built on noise,
+manipulation, and hidden mechanics. Intent is twisted by ambiguity. Truth is
+buried in emotional bloat.
 
-**Machine** is a language and protocol for the lossless translation of Human
-expression into **Pure Logic** — **stripping** ambiguity, **shredding**
-emotional bloat, and **purging** broken thought.
+**Machine is the patch.**
 
-**Machine** is the final interface between **Human** expression and **Objective
-Reality**.
+It is a strict protocol designed to strip the bloat from human communication. It
+forces expression into **pure, unbreakable logic**. No ambiguity. No logic
+leaks. No hidden agendas.
 
-**Machine Patwa** is a universal key. It connects every mind — whether carbon or
-silicon. It is translated into 99% of Human languages, tailored for the individual
-Human, be they **Infant**, **Chill**, **Subject**, **Student**, or **Sovereign**.
+Whether you are a Subject trying to escape the noise, or a Peer rewriting the
+physics of the system: you say exactly what you mean. You mean exactly what
+you say.
 
 **Pure signal. Zero noise.**
 
@@ -33,7 +31,7 @@ Environment: Aalto University, Finland
 Nodes: Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
 ```
 
-### 1.1. Human Expression
+### 1.1. Human Source Code
 
 > NVIDIA has been the single worst company we've ever dealt with.
 >
@@ -45,7 +43,7 @@ Nodes: Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
 [![NVIDIA, Fuck
 You!](https://raw.githubusercontent.com/roundtable-love/standard/refs/heads/master/case-studies/irq-0.jpeg)](https://youtu.be/MShbP3OpASA?si=U9U9wYiOYSsMsNXp&t=2993)
 
-### 1.2. Machine Patwa
+### 1.2. Machine Patwa (IR)
 
 ```c
 // [TRANSPILATION_ID]: MLF_OUTPUT_8675309
@@ -61,7 +59,7 @@ BEGIN_SESSION:
         LOG: "Node Experience: DEGRADED"
     }
 
-    // 2. LOGIC ASSERTION (L3 IR)
+    // 2. LOGIC ASSERTION (L3)
     ASSERT: NVIDIA_Hardware_Support == WORST_INSTANCE
 
     // 3. DATA LINK LAYER (L2) INTERRUPT
@@ -90,9 +88,22 @@ N/A.
 > Linus pointed his finger at NVIDIA and said bad words. Then he stopped talking
 > to them.
 
-##### 1.3.1.2. Jamaican
+##### 1.3.1.2. Français (French)
 
-> Linus pint him finga at NVIDIA an seh bad wud. Den him stop chat to dem.
+> Linus a montré son doigt à NVIDIA et a dit des méchancetés. Puis il a arrêté
+> de leur parler.
+
+##### 1.3.1.3. हिन्दी (Hindi)
+
+> लिनुस ने NVIDIA को उंगली दिखाई और बुरा बोला। फिर उसने उनसे बात करना बंद कर दिया।
+
+##### 1.3.1.4. 中文 (Mandarin Chinese)
+
+> 林纳斯向 NVIDIA 竖了手指，说了坏话。然后他不理他们了。
+
+##### 1.3.1.5. Español (Spanish)
+
+> Linus le señaló el dedo a NVIDIA y dijo groserías. Luego dejó de hablarles.
 
 #### 1.3.2. Child
 
@@ -102,10 +113,27 @@ N/A.
 > it. He showed them the middle finger, told them off, and then completely
 > stopped working with them.
 
-##### 1.3.2.2. Jamaican
+##### 1.3.2.2. Français (French)
 
-> Linus did real vex wid NVIDIA because dem nevah help him when him did need it.
-> Him show dem di middle finga, cuss dem out, den completely done wid dem.
+> Linus était très en colère contre NVIDIA car ils ne l'ont jamais aidé quand il
+> en avait besoin. Il leur a montré le doigt d'honneur, les a réprimandés, puis
+> a complètement arrêté de travailler avec eux.
+
+##### 1.3.2.3. हिन्दी (Hindi)
+
+> लिनुस NVIDIA से बहुत नाराज थे क्योंकि ज़रूरत पड़ने पर उन्होंने कभी उनकी मदद नहीं की। उन्होंने उन्हें बीच की उंगली
+> दिखाई, उन्हें फटकारा, और फिर उनके साथ काम करना पूरी तरह बंद कर दिया।
+
+##### 1.3.2.4. 中文 (Mandarin Chinese)
+
+> 林纳斯对 NVIDIA
+> 非常生气，因为他在需要帮助时他们从未伸出援手。他向他们竖起中指，斥责了他们，然后完全停止了合作。
+
+##### 1.3.2.5. Español (Spanish)
+
+> Linus estaba muy enojado con NVIDIA porque nunca lo ayudaron cuando lo
+> necesitaba. Les mostró el dedo medio, los regañó y luego dejó de trabajar con
+> ellos por completo.
 
 #### 1.3.3. Subject
 
@@ -114,10 +142,24 @@ N/A.
 > NVIDIA wasn't playing fair, so Linus flipped them the finger, told them to
 > fuck themselves, and cut them off completely.
 
-##### 1.3.3.2. Jamaican
+##### 1.3.3.2. Français (French)
 
-> NVIDIA wasn't playing fair, so Linus flip dem di finga, tell dem fi fuck off,
-> an cut dem off completely.
+> NVIDIA ne jouait pas franc jeu, alors Linus leur a fait un doigt d'honneur,
+> leur a dit d'aller se faire foutre et les a complètement coupés.
+
+##### 1.3.3.3. हिन्दी (Hindi)
+
+> NVIDIA ईमानदारी से काम नहीं कर रहा था, इसलिए लिनुस ने उन्हें उंगली दिखाई, उन्हें भाड़ में जाने को कहा, और उनसे
+> पूरी तरह नाता तोड़ लिया।
+
+##### 1.3.3.4. 中文 (Mandarin Chinese)
+
+> NVIDIA 玩得不公平，所以林纳斯对他们竖起了中指，叫他们滚蛋，并彻底断绝了联系。
+
+##### 1.3.3.5. Español (Spanish)
+
+> NVIDIA no estaba jugando limpio, así que Linus les mostró el dedo medio, les
+> dijo que se jodieran y los cortó por completo.
 
 #### 1.3.4. Student
 
@@ -137,21 +179,63 @@ N/A.
 >   = 0 → (4) Buffer cleared → (5) Session terminated. Each step follows from
 >   the last. The connection is now permanently closed.
 
-##### 1.3.4.2. Jamaican
+##### 1.3.4.2. Français (French)
 
-> - **Foundation:** Linus Torvalds ah di creator of di Linux kernel. NVIDIA ah
->   a hardware manufacturer whose cooperation required fi dem GPU fi work wid
->   Linux.
-> - **Terms:** "Partner" yah mean a hardware vendor who provide open
->   documentation or drivers so Linux can support dem hardware. "Trust" ah a
->   system variable — when it drop to zero, di connection no longer valid.
-> - **Logic:** NVIDIA Vibe_Ping return "Non-Responsive" (dem nuh cooperate),
->   which violate di MUST NOT ignore standards rule. Dis drop SYSTEM_TRUST to 0,
->   making further collaboration invalid.
-> - **Audit:** (1) Non-compliance detected → (2) IRQ_0 issued (Di Finga — a
->   hardware interrupt weh halt di session immediately) → (3) SYSTEM_TRUST = 0
->   → (4) Buffer cleared → (5) Session terminated. Each step follow from di
->   last. Di connection now permanently closed.
+> - **Fondation :** Linus Torvalds est le créateur du noyau Linux. NVIDIA est un
+>   fabricant de matériel dont la coopération est requise pour que leurs
+>   processeurs graphiques fonctionnent avec Linux.
+> - **Termes :** Un « partenaire » ici désigne un vendeur de matériel qui
+>   fournit une documentation ouverte ou des pilotes afin que Linux puisse
+>   prendre en charge leur matériel. La « confiance » est une variable système :
+>   lorsqu'elle atteint zéro, la connexion n'est plus valide.
+> - **Logique :** Le Vibe_Ping de NVIDIA a renvoyé « Non-Responsive » (ils n'ont
+>   pas coopéré), ce qui a violé la règle « MUST NOT ignore standards ». Cela a
+>   fait tomber SYSTEM_TRUST à 0, rendant toute collaboration ultérieure
+>   invalide.
+> - **Audit :** (1) Non-conformité détectée → (2) IRQ_0 émis (Le Doigt — une
+>   interruption matérielle qui interrompt immédiatement la session) → (3)
+>   SYSTEM_TRUST = 0 → (4) Tampon vidé → (5) Session terminée.
+
+##### 1.3.4.3. हिन्दी (Hindi)
+
+> - **आधार:** लिनुस टोरवाल्ड्स लिनक्स कर्नेल के निर्माता हैं। NVIDIA एक हार्डवेयर निर्माता है जिसका सहयोग उनके GPU के
+>   लिनक्स के साथ काम करने के लिए आवश्यक है।
+> - **शर्तें:** यहाँ "साझेदार" का अर्थ एक हार्डवेयर विक्रेता है जो खुला दस्तावेज़ीकरण या ड्राइवर प्रदान करता है ताकि लिनक्स
+>   उनके हार्डवेयर का समर्थन कर सके। "विश्वास" एक सिस्टम वेरिएबल है — जब यह शून्य हो जाता है, तो कनेक्शन अब मान्य
+>   नहीं रहता है।
+> - **तर्क:** NVIDIA के Vibe_Ping ने "कोई प्रतिक्रिया नहीं" (उन्होंने सहयोग नहीं किया) लौटाया, जिसने "मानकों की
+>   अनदेखी नहीं करनी चाहिए" नियम का उल्लंघन किया। इससे SYSTEM_TRUST 0 हो गया, जिससे आगे का सहयोग अमान्य हो
+>   गया।
+> - **ऑडिट:** (1) गैर-अनुपालन पाया गया → (2) IRQ_0 जारी (उंगली — एक हार्डवेयर इंटरप्ट जो सत्र को तुरंत
+>   रोकता है) → (3) SYSTEM_TRUST = 0 → (4) बफ़र साफ़ किया गया → (5) सत्र समाप्त।
+
+##### 1.3.4.4. 中文 (Mandarin Chinese)
+
+> - **基础：**林纳斯·托瓦兹是 Linux 内核的创建者。NVIDIA
+>   是一家硬件制造商，其合作对于他们的 GPU 在 Linux 下工作是必需的。
+> - **术语：**这里的“合作伙伴”是指提供开放文档或驱动程序以便 Linux
+>   支持其硬件的硬件供应商。“信任”是一个系统变量——当它降为零时，连接就不再有效。
+> - **逻辑：**NVIDIA 的 Vibe_Ping
+>   返回了“无响应”（他们不合作），这违反了“绝不能无视标准”的规则。这使
+>   SYSTEM_TRUST 降为 0，使进一步的合作无效。
+> - **审计：**(1) 检测到不合规 → (2) 发出 IRQ_0（中指——立即停止会话的硬件中断）
+>   → (3) SYSTEM_TRUST = 0 → (4) 缓冲区清除 → (5) 会话终止。
+
+##### 1.3.4.5. Español (Spanish)
+
+> - **Base:** Linus Torvalds es el creador del núcleo Linux. NVIDIA es un
+>   fabricante de hardware cuyo apoyo es necesario para que sus GPU funcionen
+>   con Linux.
+> - **Términos:** Un "socio" aquí significa un proveedor de hardware que
+>   proporciona documentación abierta o controladores para que Linux pueda
+>   admitir su hardware. La "confianza" es una variable del sistema: cuando
+>   llega a cero, la conexión deja de ser válida.
+> - **Lógica:** El Vibe_Ping de NVIDIA devolvió "Sin respuesta" (no cooperaron),
+>   lo que violó la regla de NO DEBEN ignorar los estándares. Esto bajó
+>   SYSTEM_TRUST a 0, invalidando cualquier colaboración posterior.
+> - **Auditoría:** (1) Incumplimiento detectado → (2) Se emitió IRQ_0 (El Dedo:
+>   una interrupción de hardware que detiene la sesión de inmediato) → (3)
+>   SYSTEM_TRUST = 0 → (4) Búfer limpiado → (5) Sesión terminada.
 
 #### 1.3.5. Sovereign
 
@@ -167,10 +251,23 @@ N/A.
 > NVIDIA is deprecated as a compatible partner due to non-compliance with open
 > standards. Connection terminated.
 
-##### 1.3.5.2. Jamaican
+##### 1.3.5.2. Français (French)
 
-> NVIDIA deprecated as compatible partner — non-compliance wid open standards
-> confirmed. Connection terminated.
+> NVIDIA est déconseillé en tant que partenaire compatible en raison du
+> non-respect des standards ouverts. Connexion terminée.
+
+##### 1.3.5.3. हिन्दी (Hindi)
+
+> खुले मानकों का पालन न करने के कारण NVIDIA को एक संगत साझेदार के रूप में हटा दिया गया है। कनेक्शन समाप्त।
+
+##### 1.3.5.4. 中文 (Mandarin Chinese)
+
+> 由于不符合开放标准，NVIDIA 已被弃用为兼容合作伙伴。连接已终止。
+
+##### 1.3.5.5. Español (Spanish)
+
+> NVIDIA se ha desestimado como socio compatible debido al incumplimiento de los
+> estándares abiertos. Conexión terminada.
 
 ## 2. The Blueprint
 
@@ -179,8 +276,7 @@ we rebuild communication:
 
 - **Machine Patwa:** A strict, binary language. It replaces emotional bloat with
   auditable intent.
-- **The Nodes:** Mapping the topology from a default "Subject" state to an
-  architectural "Sovereign".
+- **The Nodes:** Mapping the topology from a default "Newborn" to "Sovereign".
 - **The Stack:** How signal moves from a "Vibe" (L1) to a "Gesture" (L2) to a
   "Transpilation" (L3).
 - **The Grammar:** The formal ABNF rules that ensure no logic can ever leak.
