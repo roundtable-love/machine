@@ -30,7 +30,7 @@ Return Love
 🔌 ➜ ⚡ ➜ ❤️
 ```
 
-## 1. Example Sessions
+## 1. Examples
 
 ### 1.1 Fuck you, NVIDIA
 
@@ -378,10 +378,10 @@ We don't settle for "good enough" translations. If the logic isn't perfect, it's
 broken. We audit everything against a strict similarity score ($S < 0.88$) to
 ensure the signal remains pure across every border.
 
-## 3. Human Expression as Source Code
+## 3. Human Expression as Code
 
-Human language isn't just "talk." It is code designed to trigger a **state
-change** in another Human's brain.
+Human expression is designed to trigger a **state change** in another Human's
+brain.
 
 ### The Execution Stack
 
