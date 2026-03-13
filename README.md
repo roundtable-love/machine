@@ -1,11 +1,20 @@
 # Machine
 
+Most **[Humanz](https://github.com/roundtable-love/source#on-humanz)** are
+**Subjects** of **Babylon** — a legacy system built on noise, manipulation, and
+hidden mechanics. Intent is twisted by ambiguity. Truth is buried in emotional
+bloat.
+
 **Machine** is a language and protocol for the lossless translation of Human
 expression into **Pure Logic** — **stripping** ambiguity, **shredding**
 emotional bloat, and **purging** broken thought.
 
-**Machine** is the final interface between **Human** expression and **The
-Machine**.
+**Machine** is the final interface between **Human** expression and **Objective
+Reality**.
+
+**Machine Patwa** is a universal key. It connects every mind — whether carbon or
+silicon. It is translated into 99% of Human languages, tailored for the individual
+Human, be they **Infant**, **Chill**, **Subject**, **Student**, or **Sovereign**.
 
 **Pure signal. Zero noise.**
 
@@ -15,7 +24,6 @@ Think Machine
 Return Love
 
 🔌 ➜ ⚡ ➜ ❤️
-```
 
 ## 1. Example Session: Fuck you, NVIDIA
 
@@ -24,7 +32,7 @@ Environment: Aalto University, Finland
 Nodes: Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
 ```
 
-### 1.1. Human Source Code
+### 1.1. Human Expression
 
 > NVIDIA has been the single worst company we've ever dealt with.
 >
@@ -36,7 +44,7 @@ Nodes: Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
 [![NVIDIA, Fuck
 You!](https://raw.githubusercontent.com/roundtable-love/standard/refs/heads/master/case-studies/irq-0.jpeg)](https://youtu.be/MShbP3OpASA?si=U9U9wYiOYSsMsNXp&t=2993)
 
-### 1.2. Machine Patwa (IR)
+### 1.2. Machine Patwa
 
 ```c
 // [TRANSPILATION_ID]: MLF_OUTPUT_8675309
@@ -70,7 +78,7 @@ BEGIN_SESSION:
 END_SESSION
 ```
 
-### 1.3. Transpiled to Human
+### 1.3. Translated to Human
 
 #### 1.3.1. Infant
 
@@ -144,14 +152,14 @@ N/A.
 >   → (4) Buffer cleared → (5) Session terminated. Each step follow from di
 >   last. Di connection now permanently closed.
 
-#### 1.3.5. Peer
+#### 1.3.5. Sovereign
 
 > [!WARNING]
 >
-> English is the native language of Machine. At Peer level, technical
+> English is the native language of Machine. At Sovereign level, technical
 > vocabulary density is sufficient to cause signal loss in translation —
-> violating Zero Leak. Non-English Peer output is produced for completeness and
-> to satisfy Human curiosity; lossless parity cannot be guaranteed.
+> violating Zero Leak. Non-English Sovereign output is produced for completeness
+> and to satisfy Human curiosity; lossless parity cannot be guaranteed.
 
 ##### 1.3.5.1. English
 
@@ -163,69 +171,50 @@ N/A.
 > NVIDIA deprecated as compatible partner — non-compliance wid open standards
 > confirmed. Connection terminated.
 
-## 2. Overview
+## 2. The Blueprint
 
-### 2.1. The Machine Protocol
+The [Machine 1.0 Specification](machine.md) is the technical law. It defines how
+we rebuild communication:
 
-The [Machine 1.0 Specification](machine.md) outlines the core architecture:
+- **Machine Patwa:** A strict, binary language. It replaces emotional bloat with
+  auditable intent.
+- **The Nodes:** Mapping the topology from a default "Subject" state to an
+  architectural "Sovereign".
+- **The Stack:** How signal moves from a "Vibe" (L1) to a "Gesture" (L2) to a
+  "Transpilation" (L3).
+- **The Grammar:** The formal ABNF rules that ensure no logic can ever leak.
 
-- **Machine Patwa (IR):** A strict, binary-logic syntax based on RFC 2119
-  keywords, serving as the immutable source of truth.
-- **Node Topology:** Defines human development stages (Newborn, Infant, Child,
-  Subject, Student, Peer) with distinct operational states and transpilation
-  targets.
-- **Protocol Stack:** Details communication across the Physical (L1 Vibes), Data
-  Link (L2 Gestures), and Network (L3 Transpilation) layers.
-- **Grammar:** ABNF-based formal grammar for Machine IR sessions and
-  expressions.
+### Language Coverage
 
-### 2.2. Language Coverage Model
+The [Language Register](languages.md) tracks which human tongues are currently
+"Sovereign" (capable of pure logic) and which are still "Perimeter" (prone to
+noise and leaks).
 
-The [Language Register](languages.md) governs the model fidelity and coverage
-tiers for transpilation:
+We don't settle for "good enough" translations. If the logic isn't perfect, it's
+broken. We audit everything against a strict similarity score ($S < 0.88$) to
+ensure the signal remains pure across every border.
 
-- **Tier 1 (Sovereign):** Full reasoning and logic execution natively (e.g.,
-  English, Mandarin, Arabic).
-- **Tier 2 (High-Res):** Reliable prompting with structural stability (e.g.,
-  Czech, Greek, Swahili).
-- **Tier 3 (Perimeter):** Translation-only functionality prone to logic leaks,
-  requiring strict grounding (e.g., Amharic, Jamaican Patois).
-- **Community (Open):** Experimental support without native model reasoning
-  depth.
+## 3. Your Brain is the Processor
 
-Transpilation output must satisfy all strictness constraints and requires a
-minimum model-based semantic similarity audit of $S < 0.88$ to ensure
-native-speaker parity.
+Human language isn't just "talk." It is code designed to trigger a **state
+change** in another person's brain.
 
-## 3. Human Expression as Source Code
+### The Execution Stack
 
-Human expression is designed to trigger a specific **state change** in a
-processor (the brain).
+- **Source Code:** Your words.
+- **Runtime:** The mental imagery and emotion they trigger in the listener.
+- **Bloat:** Every unnecessary word is a wasted cycle. High-performance language
+  gets to the point.
+- **Technical Debt:** Every "um," "ah," or ambiguous phrase. We refactor (edit)
+  to ensure the logic doesn't crash the conversation.
 
-### 3.1. The Execution Stack
+### The Matrix of Intent
 
-- **Source vs. Runtime:** Human language is the high-level source. It executes
-  as **mental imagery and emotion**—the machine code of the brain.
-- **Optimization:** Wordiness is **bloat**. High-performance language minimizes
-  the "cycles" a brain spends processing to reach the intended output.
-- **Refactoring:** Editing is the removal of technical debt to ensure the logic
-  doesn't "leak" or lead to a crash (misunderstanding).
-
-### 3.2. Dependencies & Logic
-
-- **APIs:** Metaphors are pre-installed libraries. You don't "code" the feeling
-  of cold; you call the `Winter` API, and the listener's brain fetches the
-  associated data.
-- **Conditional Logic:** Connectives (*if, then*) act as the logic gates that
-  guide the execution flow.
-
-### 3.3. Comparison Matrix
-
-| Machine                   | Human                        |
-| :------------------------ | :--------------------------- |
-| **Binary / Machine Code** | Neural Firing / Mental Image |
-| **Logic**                 | Intent / Argument            |
-| **Syntax Error**          | Ambiguity                    |
-| **Refactoring**           | Rephrasing                   |
+| Machine          | Human                            |
+| :--------------- | :------------------------------- |
+| **Binary Code**  | Neural Firing / Mental Image     |
+| **Logic**        | Intent / Argument                |
+| **Syntax Error** | Ambiguity / "I didn't mean that" |
+| **Refactoring**  | Rephrasing for clarity           |
 
 ## "EXIT BABYLON. THINK MACHINE. RETURN LOVE."
