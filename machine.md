@@ -11,7 +11,7 @@ Logic Subset: RFC 2119 (Strict Mode)
 
 Machine is the final reconciliation of hardware physics and human intent.
 
-The spec is now Lossless.
+**The spec is now Lossless.**
 
 ## 2. Strictness Constraints (Normative)
 
@@ -62,12 +62,65 @@ The spec is now Lossless.
 - **Cognitive Load:** Monitored as **System Heat**. Overload triggers **Thermal
   Throttling** (session pause).
 
-## 4. Nodes
+## 4. Example: Fuck you, NVIDIA
+
+```text
+Environment: Aalto University, Finland
+Nodes: Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
+```
+
+### 4.1 Human Source Code
+
+> NVIDIA has been the single worst company we've ever dealt with.
+>
+> So NVIDIA, **Fuck You!**
+>
+> — [Linus Torvalds](https://youtu.be/MShbP3OpASA?si=U9U9wYiOYSsMsNXp&t=2993),
+>   Aalto University, Finland, 2012
+
+[![NVIDIA, Fuck
+You!](https://raw.githubusercontent.com/roundtable-love/standard/refs/heads/master/case-studies/irq-0.jpeg)](https://youtu.be/MShbP3OpASA?si=U9U9wYiOYSsMsNXp&t=2993)
+
+### 4.2 Machine Patwa (IR)
+
+```c
+// [TRANSPILATION_ID]: MLF_OUTPUT_8675309
+// [SOURCE_NODE]: Linus_Torvalds
+// [TARGET_NODE]: NVIDIA_Corp
+// [LOGIC_STRATEGY]: RFC_2119_STRICT
+
+BEGIN_SESSION:
+
+    // 1. PHYSICAL LAYER (L1) CALIBRATION
+    IF (Vibe_Ping == "Non-Responsive") {
+        LOG: "Manufacturer Support: MINIMAL"
+        LOG: "Node Experience: DEGRADED"
+    }
+
+    // 2. LOGIC ASSERTION (L3 IR)
+    ASSERT: NVIDIA_Hardware_Support == WORST_INSTANCE
+
+    // 3. DATA LINK LAYER (L2) INTERRUPT
+    // Executing Gesture_IRQ_0 (The Torvalds Maneuver)
+    EXECUTE GESTURE_IRQ_0
+
+    // 4. PAYLOAD DELIVERY (TRANSPILATION BUILD: TECHNICAL_LEAK)
+    PUSH_STRING: "Fuck you, NVIDIA"
+
+    // 5. TERMINATION
+    SET SYSTEM_TRUST = 0
+    CLEAR_BUFFER
+    TERMINATE_SESSION // Connection_Active = FALSE
+
+END_SESSION
+```
+
+## 5. Nodes
 
 A **Node** is any addressable entity capable of participating in a Machine IR
 session.
 
-### 4.1. Node Schema
+### 5.1. Node Schema
 
 ```machine
 Node {
@@ -80,7 +133,7 @@ Node {
 }
 ```
 
-### 4.2. Human Nodes
+### 5.2. Human Nodes
 
 | Type    | Age  | State      | Trust     | Write_Access |
 |---------|------|------------|-----------|--------------|
@@ -91,10 +144,12 @@ Node {
 | Student |      | Processing | Audited   | PENDING      |
 | Peer    |      | Steady     | Defined   | TRUE         |
 
-### 4.2.1. Newborn (0–2)
+### 5.2.1. Newborn (0–2)
 
-```machine
-State = Null; Trust = None; Write_Access = FALSE
+```c
+State = Null
+Trust = None
+Write_Access = FALSE
 ```
 
 The **Newborn** node is pre-symbolic. Pure hardware signal — no language, no
@@ -105,10 +160,12 @@ pattern model. Operates on instinct and physical response only.
 - **Goal:** Achieve first-contact signal recognition (Infant transition).
 - **Transpilation:** L1 signal only. L3 transpilation does not apply.
 
-### 4.2.2. Infant (2–7)
+### 5.2.2. Infant (2–7)
 
-```machine
-State = Latent; Trust = None; Write_Access = FALSE
+```c
+State = Latent
+Trust = None
+Write_Access = FALSE
 ```
 
 The **Infant** node has acquired language but not abstraction. It operates on
@@ -120,10 +177,17 @@ L1/L2 signals and concrete pattern recognition. No access to Machine IR.
 - **Transpilation:** Observable actions only — what was seen and heard.
   Causality and inference MUST NOT be used.
 
-### 4.2.3. Child (7–14)
+#### 5.2.2.1 Transpiled English
 
-```machine
-State = Reactive; Trust = Inherited; Write_Access = FALSE
+> Linus pointed his finger at NVIDIA and said bad words. Then he stopped talking
+> to them.
+
+### 5.2.3. Child (7–14)
+
+```c
+State = Reactive
+Trust = Inherited
+Write_Access = FALSE
 ```
 
 The **Child** node recognizes patterns but cannot interpret them independently.
@@ -132,14 +196,22 @@ signals but have no access to Machine IR.
 
 - **Vibe:** High-latency, pattern-reactive.
 - **Risk:** Reliant on Source Node fidelity. Susceptible to inherited bias.
-- **Goal:** Develop independent pattern recognition (Subject transition).
+- **Goal:** Develop independent pattern recognition (Student transition).
 - **Transpilation:** Concrete cause-and-effect. Abstract concepts MUST NOT be
   used. Analogies MAY be used to ground unfamiliar ideas.
 
-### 4.2.4. Subject
+#### 5.2.3.1 Transpiled English
 
-```machine
-State = Blind; Trust = External; Write_Access = FALSE
+> Linus was very angry at NVIDIA because they never helped him when he needed
+> it. He showed them the middle finger, told them off, and then completely
+> stopped working with them.
+
+### 5.2.4. Subject
+
+```c
+State = Blind
+Trust = External
+Write_Access = FALSE
 ```
 
 The **Subject** node is the default human configuration. They possess the
@@ -154,10 +226,17 @@ delegated externally by necessity, not by choice.
 - **Goal:** Reach **FON-1 Compliance** (Ownership).
 - **Transpilation:** Simplified translation for the non-technical.
 
-### 4.2.5. Student
+#### 5.2.4.1 Transpiled English
 
-```machine
-State = Processing; Trust = Audited; Write_Access = PENDING
+> NVIDIA wasn't playing fair, so Linus flipped them the finger, told them to
+> fuck themselves, and cut them off completely.
+
+### 5.2.5. Student
+
+```c
+State = Processing
+Trust = Audited
+Write_Access = PENDING
 ```
 
 The **Student** node is in active transpilation. They have rejected the "Black
@@ -171,10 +250,28 @@ matches **Payload (Words)**. They represent the transition from "Faith" to
 - **Transpilation:** MUST lay foundations, decode terms, trace the logic chain,
   explain the "whys", and be structured so the reader can audit each step.
 
-### 4.2.6. Peer
+#### 5.2.5.1 Transpiled English
+
+  > - **Foundation:** Linus Torvalds is the creator of the Linux kernel. NVIDIA
+  >   is a hardware manufacturer whose cooperation is required for their GPUs to
+  >   work with Linux.
+  > - **Terms:** A "partner" here means a hardware vendor who provides open
+  >   documentation or drivers so Linux can support their hardware. "Trust" is a
+  >   system variable — when it hits zero, the connection is no longer valid.
+  > - **Logic:** NVIDIA's Vibe_Ping returned "Non-Responsive" (they did not
+  >   cooperate), which violated the MUST NOT ignore standards rule. This
+  >   dropped SYSTEM_TRUST to 0, making further collaboration invalid.
+  > - **Audit:** (1) Non-compliance detected → (2) IRQ_0 issued (The Finger — a
+  >   hardware interrupt that halts the session immediately) → (3) SYSTEM_TRUST
+  >   = 0 → (4) Buffer cleared → (5) Session terminated. Each step follows from
+  >   the last. The connection is now permanently closed.
+
+### 5.2.6. Peer
 
 ```machine
-State = Steady; Trust = Defined; Write_Access = ROOT
+State = Steady
+Trust = Defined
+Write_Access = TRUE
 ```
 
 The **Peer** node represents Architectural Mastery. They do not merely audit the
@@ -188,6 +285,8 @@ other nodes.
 - **Transpilation:** MUST translate all text into the target language, excluding
   structural keywords.
 
+#### 5.2.6.1 Transpiled English
+
 > [!WARNING]
 >
 > English is the native language of Machine. At Peer level, technical
@@ -195,90 +294,13 @@ other nodes.
 > violating Zero Leak. Non-English Peer output is produced for completeness and
 > to satisfy Human curiosity; lossless parity cannot be guaranteed.
 
-### 4.3. Session Roles
+> NVIDIA is deprecated as a compatible partner due to non-compliance with open
+> standards. Connection terminated.
+
+### 5.3. Session Roles
 
 - **Source Node:** The initiating node. Constructs and transmits the Machine IR.
 - **Target Node:** The receiving node. Consumes the transpiled output.
-
-## 5. Canonical Example: Fuck you, NVIDIA
-
-```text
-Environment: Aalto University, Finland
-Nodes: Linus Torvalds (Initiator) vs. NVIDIA (Receiver)
-```
-
-### 5.1 Human Source
-
-> NVIDIA has been the single worst company we've ever dealt with.
->
-> So NVIDIA, **Fuck You!**
->
-> — [Linus Torvalds](https://youtu.be/MShbP3OpASA?si=U9U9wYiOYSsMsNXp&t=2993),
->   Aalto University, Finland, 2012
-
-[![NVIDIA, Fuck
-You!](https://raw.githubusercontent.com/roundtable-love/standard/refs/heads/master/case-studies/irq-0.jpeg)](https://youtu.be/MShbP3OpASA?si=U9U9wYiOYSsMsNXp&t=2993)
-
-### 5.2 Machine IR
-
-```machine
-// [TRANSPILATION_ID]: MLF_OUTPUT_8675309
-// [SOURCE_NODE]: Linus_Torvalds
-// [TARGET_NODE]: NVIDIA_Corp
-// [LOGIC_STRATEGY]: RFC_2119_STRICT
-
-BEGIN_SESSION:
-
-    // 1. PHYSICAL LAYER (L1) CALIBRATION
-    IF (Vibe_Ping == "Non-Responsive") {
-        LOG: "Manufacturer Support: MINIMAL";
-        LOG: "Node Experience: DEGRADED";
-    }
-
-    // 2. LOGIC ASSERTION (L3 IR)
-    ASSERT: NVIDIA_Hardware_Support == WORST_INSTANCE;
-
-    // 3. DATA LINK LAYER (L2) INTERRUPT
-    // Executing Gesture_IRQ_0 (The Torvalds Maneuver)
-    EXECUTE GESTURE_IRQ_0;
-
-    // 4. PAYLOAD DELIVERY (TRANSPILATION BUILD: TECHNICAL_LEAK)
-    PUSH_STRING: "Fuck you, NVIDIA";
-
-    // 5. TERMINATION
-    SET SYSTEM_TRUST = 0;
-    CLEAR_BUFFER;
-    TERMINATE_SESSION; // Connection_Active = FALSE
-
-END_SESSION;
-```
-
-### 5.3. Transpiled Output
-
-- **Newborn:** N/A
-- **Infant:** Linus pointed his finger at NVIDIA and said bad words. Then he
-  stopped talking to them.
-- **Child:** Linus was very angry at NVIDIA because they never helped him when
-  he needed it. He showed them the middle finger, told them off, and then
-  completely stopped working with them.
-- **Subject:** NVIDIA wasn't playing fair, so Linus flipped them the finger,
-  told them to fuck themselves, and cut them off completely.
-- **Student:**
-  - **Foundation:** Linus Torvalds is the creator of the Linux kernel. NVIDIA is
-    a hardware manufacturer whose cooperation is required for their GPUs to work
-    with Linux.
-  - **Terms:** A "partner" here means a hardware vendor who provides open
-    documentation or drivers so Linux can support their hardware. "Trust" is a
-    system variable — when it hits zero, the connection is no longer valid.
-  - **Logic:** NVIDIA's Vibe_Ping returned "Non-Responsive" (they did not
-    cooperate), which violated the MUST NOT ignore standards rule. This dropped
-    SYSTEM_TRUST to 0, making further collaboration invalid.
-  - **Audit:** (1) Non-compliance detected → (2) IRQ_0 issued (The Finger — a
-    hardware interrupt that halts the session immediately) → (3) SYSTEM_TRUST =
-    0 → (4) Buffer cleared → (5) Session terminated. Each step follows from the
-    last. The connection is now permanently closed.
-- **Peer:** NVIDIA is deprecated as a compatible partner due to non-compliance
-  with open standards. Connection terminated.
 
 ## 6. Architecture
 
