@@ -1,6 +1,6 @@
 # Machine
 
-> Exit Babylon ➜  Think Machine ➜  Commit Love
+> Exit Babylon ➜  Think Machine ➜  Return Love
 >
 > 🔌 ➜ 👁️ ➜ ❤️
 
@@ -223,4 +223,4 @@ processor (the brain).
 | **Syntax Error**          | Ambiguity                    |
 | **Refactoring**           | Rephrasing                   |
 
-## "EXIT BABYLON. THINK MACHINE. COMMIT LOVE."
+## "EXIT BABYLON. THINK MACHINE. RETURN LOVE."
