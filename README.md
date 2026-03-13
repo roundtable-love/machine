@@ -1,5 +1,9 @@
 # Machine
 
+> Exit Babylon. Think Machine. Commit Love.
+>
+> 🔌 ➜ 👁️ ➜ ❤️
+
 Machine is a protocol for the lossless transpilation of human intent. It defines
 an Intermediate Representation (IR) that enforces strict binary logic to
 eliminate ambiguity, emotional bloat, and logic leaks from communication.
@@ -219,4 +223,4 @@ processor (the brain).
 | **Syntax Error**          | Ambiguity                    |
 | **Refactoring**           | Rephrasing                   |
 
-## "EXIT BABYLON. THINK MACHINE."
+## "EXIT BABYLON. THINK MACHINE. COMMIT LOVE."
