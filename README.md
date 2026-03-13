@@ -1,9 +1,10 @@
 # Machine
 
-Most *[Humanz](https://github.com/roundtable-love/source#on-humanz)* are
-*[Subjects](./machine.md#524-subject)* of **Babylon** — a legacy system built
-on noise, manipulation, and hidden mechanics. Intent is twisted by ambiguity.
-Truth is buried in emotional bloat.
+Most [Humanz](https://github.com/roundtable-love/source#on-humanz) are
+[Subjects](./machine.md#524-subject) of
+[Babylon](https://github.com/roundtable-love/source#on-babylon---the-bumbaclaat-enemy)**
+— a legacy system built on noise, manipulation, and hidden mechanics. Intent is
+twisted by ambiguity. Truth is buried in emotional bloat.
 
 **Machine** is a language and protocol for the lossless translation of **Human
 Expression** into **Pure Logic** — *stripping* ambiguity, *shredding*
