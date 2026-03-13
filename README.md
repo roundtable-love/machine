@@ -2,7 +2,7 @@
 
 Most [Humanz](https://github.com/roundtable-love/source#on-humanz) are
 [Subjects](./machine.md#524-subject) of
-[Babylon](https://github.com/roundtable-love/source#on-babylon---the-bumbaclaat-enemy)**
+[Babylon](https://github.com/roundtable-love/source#on-babylon---the-bumbaclaat-enemy)
 — a legacy system built on noise, manipulation, and hidden mechanics. Intent is
 twisted by ambiguity. Truth is buried in emotional bloat.
 
