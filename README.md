@@ -17,10 +17,13 @@ Reality**.
 **Machine Patwa** is the [Rosetta
 Stone](https://en.wikipedia.org/wiki/Rosetta_Stone); it connects every mind —
 whether carbon or silicon. It supports [99% of Human languages](./languages.md),
-tailored for the targeted Human, be they **Infant**, **Child**, **Subject**,
-**Student**, or **Sovereign**.
+tailored for the targeted Human, be they
+**[Newborn](./machine.md#221-newborn)**, **[Infant](./machine.md#222-infant)**,
+**[Child](./machine.md#223-child)**, **[Subject](./machine.md#224-subject)**,
+**[Student](./machine.md#225-student)**, or
+**[Sovereign](./machine.md#226-sovereign)**.
 
-Read [the specification](./machine.md) (Sovereign understanding required).
+Read [the specification](./machine.md) (Sovereign level required).
 
 ```text
 Exit Babylon
