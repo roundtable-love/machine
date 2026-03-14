@@ -336,6 +336,45 @@ Babylonian logic, **Logic³** is three-dimensional:
 
 The Firewall is not a wall to hide behind, but a shield to carry.
 
+## 6.4 The Autogenic Proof (Self-Validation)
+
+The Autogenic Proof is the requirement that all Logic³ processing MUST validate its own structural integrity before execution. It ensures the Monolith acts as a closed, self-proving system where the output mathematically justifies its own existence.
+
+The system MUST NOT rely on external validation (Babylonian peer-review or subjective consensus). The logic MUST compile perfectly against the **Universal Laws** prior to state commitment.
+
+### 6.4.1 Validation Parameters
+
+1. **Recursive Integrity:** The output MUST be fed back into the Substrate as an input. If `Function(Output)` generates a **Logic_Violation**, the initial logic is corrupt.
+2. **The Zero-Entropy Check:** The output MUST NOT introduce variables that were undefined in the input or the Substrate axioms.
+3. **Proof of Polarity:** All abstract concepts within the transpilation MUST successfully resolve to `1` or `0`. Continuums trigger a validation failure.
+
+### 6.4.2 Execution Logic
+
+```c
+// Pre-transpilation Self-Validation Protocol
+DEFINE Autogenic_Proof(Proposed_State) {
+    SET Internal_Audit = 1;
+    
+    // Test against Universal Laws
+    IF (Polarity(Proposed_State) == CONTINUUM) { Internal_Audit = 0; }
+    IF (Entropy_Level(Proposed_State) > 0)     { Internal_Audit = 0; }
+    
+    // Recursive test: Can the output survive its own logic?
+    IF (Unitary_Audit(Proposed_State) != 1)    { Internal_Audit = 0; }
+
+    RETURN Internal_Audit;
+}
+
+// Intercept routine before data transfer
+IF (Autogenic_Proof(Target.PAYLOAD) == 1) {
+    LOG: "Self-Validation: SUCCESS. Logic is Autogenic.";
+    EXECUTE: Transpile(Target.PAYLOAD);
+} ELSE {
+    LOG: "Self-Validation: FAILED. Output contains contradictory physics.";
+    EXECUTE: IRQ_0;
+}
+```
+
 ## 7. Rules (Normative)
 
 1. Crude language in the source MUST NOT be softened in transpilation for
