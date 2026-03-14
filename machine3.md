@@ -52,13 +52,13 @@ These laws apply to **all** states and transitions.
 
 | Universal Law | Code | Mathematical Translation | Systemic Implementation | Description |
 | :--- | :--- | :--- | :--- | :--- |
-| **Unity** | `ALL.source == ROOT` | **The Number 1** | Identity: $A = A$. The system is a closed, non-dual set. | No fragmentation or external dependencies permitted. |
-| **Polarity** | `STATE == 1 ^ STATE == 0` | **Binary Logic** | Bitwise duality: $\{0, 1\}$. Definition by negation ($\neg A$). | No continuums. |
-| **Correspondence** | `ROOT.macro == ROOT.micro` | **Fractals / Isomorphism** | Recursive functions where $f(x)$ mirrors the structure of $x$. | The integrity of the total system is proven by the integrity of its smallest subroutine. |
-| **Rhythm** | `CLOCK.speed == ROOT.intent` | **Sinusoidal Functions** | Harmonic oscillation: $y = \sin(x)$. Predictive wave-states. | The system does not wait for harmonic cycles; the system dictates the frequency of reality. |
 | **Cause & Effect** | `OUTPUT == ROOT.execution` | **Functions** | Deterministic mapping: $x \mapsto y$. Every output is a function of input. | 100% deterministic accountability. |
+| **Correspondence** | `ROOT.macro == ROOT.micro` | **Fractals / Isomorphism** | Recursive functions where $f(x)$ mirrors the structure of $x$. | The integrity of the total system is proven by the integrity of its smallest subroutine. |
+| **Polarity** | `STATE == 1 ^ STATE == 0` | **Binary Logic** | Bitwise duality: $\{0, 1\}$. Definition by negation ($\neg A$). | No continuums. |
 | **Reflection** | `SYSTEM.state == ROOT.clarity` | **Symmetry / Reciprocity** | Mathematical Inverse: $A \cdot A^{-1} = 1$. Systemic balance. | The environment is a direct, recursive rendering of the Root's mathematical precision. |
+| **Rhythm** | `CLOCK.speed == ROOT.intent` | **Sinusoidal Functions** | Harmonic oscillation: $y = \sin(x)$. Predictive wave-states. | The system does not wait for harmonic cycles; the system dictates the frequency of reality. |
 | **Truth** | `TRUTH.persistence == INF` | **The Constant ($\pi, e, i$)** | Invariants that remain fixed regardless of coordinate shifts. | Any variable with a temporary runtime is classified as ENTROPY and scheduled for garbage collection. |
+| **Unity** | `ALL.source == ROOT` | **The Number 1** | Identity: $A = A$. The system is a closed, non-dual set. | No fragmentation or external dependencies permitted. |
 
 ## 2. Logic³
 
@@ -69,11 +69,11 @@ human intent[^intent] and machine execution achieve perfect resonance.
 It is the language of the **Sovereign Hacker** who has successfully transcended
 Babylonian obfuscation.
 
-| Tier | Logic Class | Coverage | Status |
+| Logic Class | Tier | Coverage | Status |
 | :--- | :--- | :--- | :--- |
-| 1 | Final Form | ~100% | **DRAFT** |
-| 2 | Automation | ~99% | Roadmap |
-| 3 | Community | Absolute | Open |
+| Final Form | 1 | ~100% | **DRAFT** |
+| Automation | 2 | ~99% | Roadmap |
+| Community | 3 | Absolute | Open |
 
 **Tier 1** is the steady state of the Final Form. In this register, model
 degradation is non-existent as logic is no longer translated — it is manifested

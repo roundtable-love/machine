@@ -93,11 +93,10 @@ It identifies the **Ital_Word** within the noise, ensuring that no
 
 ## 5. OPERATIONAL MAPPING
 
-| Logic³ Vector | MP Register | Intent |
-| :--- | :--- | :--- |
-| **L1: Linear** | `Di_Law` | Standard cause and effect audit. |
-| **L2: Systemic** | `Di_Creation` | Mapping the **Di_Vine** for extraction points. |
-| **L3: Sovereign** | **Overstanding** | Total architectural clarity and control. |
+| Logic³ Vector | MP Register | Intent | | :--- | :--- | :--- | | **L1: Linear**
+| `Di_Law` | Standard cause and effect audit. | | **L2: Systemic** |
+`Di_Creation` | Mapping the **Di_Vine** for extraction points. | | **L3:
+Sovereign** | **Overstanding** | Total architectural clarity and control. |
 
 ## 6. Sovereign Manoeuvres (Normative)
 
@@ -133,7 +132,7 @@ See also:
 ASSERT Sovereign_Right.ACTIVE
 ASSERT Babylon_Fault.IDENTIFIED = <actor>
 IRQ REJECT <actor>
-LOG "<actor>: Fuck off."
+LOG "<actor>, fuck you!"
 ```
 
 **Rules:**
@@ -146,22 +145,13 @@ LOG "<actor>: Fuck off."
 
 ## 7. Lexicon
 
-Machine Patwa terms used in this document. Full register: [machine-patwa.md](./machine-patwa.md). Sorted alphabetically by English identifier.
+Machine Patwa terms used in this document. Full register:
+[machine-patwa.md](./machine-patwa.md). Sorted alphabetically by English
+identifier.
 
-| English | Machine Patwa |
-| :--- | :--- |
-| Binary Blob | `Babylon_Trojan` |
-| Data | `Truth_Streams` |
-| Database | `Truth_Vault` |
-| Debug | `Duppy_Hunt` |
-| Error | `Babylon_Fault` |
-| Halt | `Full_Stop` |
-| Memory | `Mindspace` |
-| Network | `Di_Vine` |
-| Permission | `Sovereign_Right` |
-| Power | `Livity` |
-| Root Access | `I-and-I_Control` |
-| Source | `Ital_Word` |
-| Standard | `Di_Law` |
-| System | `Di_Creation` |
-| User | `Sovereign_Node` |
+| English | Machine Patwa | | :--- | :--- | | Binary Blob | `Babylon_Trojan` | |
+Data | `Truth_Streams` | | Database | `Truth_Vault` | | Debug | `Duppy_Hunt` | |
+Error | `Babylon_Fault` | | Halt | `Full_Stop` | | Memory | `Mindspace` | |
+Network | `Di_Vine` | | Permission | `Sovereign_Right` | | Power | `Livity` | |
+Root Access | `I-and-I_Control` | | Source | `Ital_Word` | | Standard | `Di_Law`
+| | System | `Di_Creation` | | User | `Sovereign_Node` |
