@@ -343,10 +343,10 @@ N/A.
 
 > [!WARNING]
 >
-> English is the native language of Machine. At Sovereign level, technical
-> vocabulary density is sufficient to cause signal loss in translation —
-> violating Zero Leak. Non-English Sovereign output is produced for completeness
-> and to satisfy Human curiosity; lossless parity cannot be guaranteed.
+> At Sovereign level, technical vocabulary density is sufficient to cause signal
+> loss in translation — violating Zero Leak. Non-English Sovereign output is
+> produced for completeness and to satisfy Human curiosity; lossless parity
+> cannot be guaranteed.
 
 #### 1.3.3.5.1. English
 

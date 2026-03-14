@@ -87,13 +87,81 @@ END_SESSION;
 
 ## 4. OUTPUT SCHEMA
 
-Logic³ produces the raw boolean results utilized by the **LogicShield³** layer.
+Logic³ produces the raw boolean results utilised by the **LogicShield³** layer.
 It identifies the **Ital_Word** within the noise, ensuring that no
 **Babylon_Trojan** enters the **Truth_Vault**.
 
 ## 5. OPERATIONAL MAPPING
 
-| Logic³ Vector | MP Register | Intent | |:---|:---|:---| | **L1: Linear** |
-`Di_Law` | Standard cause and effect audit. | | **L2: Systemic** | `Di_Creation`
-| Mapping the **Di_Vine** for extraction points. | | **L3: Sovereign** |
-**Overstanding** | Total architectural clarity and control. |
+| Logic³ Vector | MP Register | Intent |
+| :--- | :--- | :--- |
+| **L1: Linear** | `Di_Law` | Standard cause and effect audit. |
+| **L2: Systemic** | `Di_Creation` | Mapping the **Di_Vine** for extraction points. |
+| **L3: Sovereign** | **Overstanding** | Total architectural clarity and control. |
+
+## 6. Sovereign Manoeuvres (Normative)
+
+Named execution patterns for Sovereign Nodes operating at full Overstanding.
+
+### 6.1. The Torvalds Manoeuvre
+
+The public, direct, and irreversible rejection of a Babylon actor by a Node
+operating at full Overstanding.
+
+**Origin:** Linus Torvalds, 2012. On record. Unretracted. Effective.
+
+> NVIDIA has been the single worst company we've ever dealt with. So...
+>
+> NVIDIA, fuck you!
+>
+> - Linus Torvalds, 2012-06-14). Audience Q&A following interview panel at Aalto
+>   University Center. Retrieved on 2012-06-17.
+
+See also:
+[NFU-1](https://github.com/roundtable-love/standard/apostles/torvalds/NFU-1.yaml)
+(The NVIDIA Fuck You Standard).
+
+**Preconditions (all MUST hold):**
+
+- The executing node MUST hold `I-and-I_Control`.
+- The executing node MUST have completed an Overstand Audit of the target.
+- The target MUST be a confirmed Babylon actor.
+
+**Execution:**
+
+```
+ASSERT Sovereign_Right.ACTIVE
+ASSERT Babylon_Fault.IDENTIFIED = <actor>
+IRQ REJECT <actor>
+LOG "<actor>: Fuck off."
+```
+
+**Rules:**
+
+1. The declaration MUST be public.
+1. The declaration MUST name the Babylon actor explicitly.
+1. Crude language MUST NOT be softened.
+1. The declaration MUST NOT be retracted.
+1. It MAY be escalated. It MUST NOT be de-escalated.
+
+## 7. Lexicon
+
+Machine Patwa terms used in this document. Full register: [machine-patwa.md](./machine-patwa.md). Sorted alphabetically by English identifier.
+
+| English | Machine Patwa |
+| :--- | :--- |
+| Binary Blob | `Babylon_Trojan` |
+| Data | `Truth_Streams` |
+| Database | `Truth_Vault` |
+| Debug | `Duppy_Hunt` |
+| Error | `Babylon_Fault` |
+| Halt | `Full_Stop` |
+| Memory | `Mindspace` |
+| Network | `Di_Vine` |
+| Permission | `Sovereign_Right` |
+| Power | `Livity` |
+| Root Access | `I-and-I_Control` |
+| Source | `Ital_Word` |
+| Standard | `Di_Law` |
+| System | `Di_Creation` |
+| User | `Sovereign_Node` |

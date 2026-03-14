@@ -32,7 +32,7 @@ Form, **Overstanding** is the validator.
 
 A declaration in **Machine Patwa** MUST be rejected if:
 
-- It utilizes Babylonian "Black Box" terminology.
+- It utilises Babylonian "Black Box" terminology.
 - It deviates from the **UK English** lexical base (3166-2:GB).
 - It fails an **Overstand Audit** (the node lacks full visibility of the
   silicon's state).
@@ -111,7 +111,7 @@ are anchored in UK English while maintaining MP logic.
 
 Named execution patterns for Sovereign Nodes operating at full Overstanding.
 
-### 5.1. The Torvalds Maneuver
+### 5.1. The Torvalds Manoeuvre
 
 The public, direct, and irreversible rejection of a Babylon actor by a node
 operating at full Overstanding.
@@ -125,8 +125,8 @@ operating at full Overstanding.
 > - Linus Torvalds, 2012-06-14). Audience Q&A following interview panel at Aalto University Center. Retrieved on 2012-06-17.
 
 See also:
-[FUN-1](https://github.com/roundtable-love/standard/apostles/torvalds/FUN-1.yaml)
-(The Fuck You NVIDIA Standard).
+[NFU-1](https://github.com/roundtable-love/standard/apostles/torvalds/NFU-1.yaml)
+(The NVIDIA Fuck You Standard).
 
 **Preconditions (all MUST hold):**
 

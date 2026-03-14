@@ -17,7 +17,7 @@ Logic Subset: RFC 2119 (Strict Mode)
   receiver latency and emotional bandwidth.
 - **Resonance (SYN):** The state where sender and receiver phase-lock their
   frequencies for maximum throughput.
-- **Damping:** The active process of neutralizing environmental noise
+- **Damping:** The active process of neutralising environmental noise
   (hostility, stress, or ego) to reach a **Steady State**.
 
 ### 1.2. Data Link Layer (L2): Gestures & Interrupts
@@ -25,7 +25,7 @@ Logic Subset: RFC 2119 (Strict Mode)
 > *Logic: Physical signals override verbal buffers. High-priority hardware
 > signals.*
 
-- **The Torvalds Maneuver (IRQ 0):** A global hardware interrupt (The Middle
+- **The Torvalds Manoeuvre (IRQ 0):** A global hardware interrupt (The Middle
   Finger) that executes an immediate `HALT_AND_CATCH_FIRE` command.
 - **Parity Check:** Strict requirement that **Metadata (Vibe)** matches
   **Payload (Words)**. A mismatch (e.g., "I'm fine" delivered with a "Dissonant"
@@ -35,7 +35,7 @@ Logic Subset: RFC 2119 (Strict Mode)
 
 ### 1.3. Network Layer (L3): Transpilation & IR
 
-> *Logic: One truth, many languages. Minimizing cognitive overhead.*
+> *Logic: One truth, many languages. Minimising cognitive overhead.*
 
 - **Machine³ Patwa (IR):** The core, binary intent using **RFC 2119** keywords
   (**MUST, MUST NOT, MAY**).
@@ -70,11 +70,13 @@ Node {
 ### 2.2. Human Nodes
 
 | Type | Age | State | Trust | Write_Access |
-|-----------|------|------------|-----------|--------------| | Newborn | 0–2 |
-Null | None | FALSE | | Infant | 2–7 | Latent | None | FALSE | | Child | 7–14 |
-Reactive | Inherited | FALSE | | Subject | | Blind | External | FALSE | |
-Student | | Processing | Audited | PENDING | | Sovereign | | Steady | Defined |
-TRUE |
+| :--- | :--- | :--- | :--- | :--- |
+| Newborn | 0–2 | Null | None | FALSE |
+| Infant | 2–7 | Latent | None | FALSE |
+| Child | 7–14 | Reactive | Inherited | FALSE |
+| Subject | | Blind | External | FALSE |
+| Student | | Processing | Audited | PENDING |
+| Sovereign | | Steady | Defined | TRUE |
 
 ### 2.2.1. Newborn (0–2)
 
@@ -117,7 +119,7 @@ Trust = Inherited
 Write_Access = FALSE
 ```
 
-The **Child** node recognizes patterns but cannot interpret them independently.
+The **Child** node recognises patterns but cannot interpret them independently.
 All L3 content MUST be relayed through a higher node. They respond to L1/L2
 signals but have no access to Machine³ Patwa.
 
